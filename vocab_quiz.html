@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>英単語クイズ | 神奈川県高校入試対策</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0f0e17;
+    --surface: #1a1828;
+    --card: #221f35;
+    --border: #2e2b45;
+    --text: #fffffe;
+    --sub: #a7a9be;
+    --accent1: #ff8906;
+    --accent2: #f25f4c;
+    --accent3: #e53170;
+    --correct: #3da35d;
+    --wrong: #e53170;
+    --gold: #ffd700;
+    --silver: #c0c0c0;
+    --bronze: #cd7f32;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ===== STAR BACKGROUND ===== */
+  .stars {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+    z-index: 0;
+    background:
+      radial-gradient(ellipse at 20% 50%, rgba(255,137,6,0.05) 0%, transparent 60%),
+      radial-gradient(ellipse at 80% 20%, rgba(229,49,112,0.05) 0%, transparent 60%);
+  }
+
+  /* ===== LAYOUT ===== */
+  #app {
+    position: relative;
+    z-index: 1;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 16px;
+    min-height: 100vh;
+  }
+
+  /* ===== HEADER ===== */
+  .header {
+    text-align: center;
+    padding: 24px 0 16px;
+  }
+  .header h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    background: linear-gradient(135deg, var(--accent1), var(--accent3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: -0.5px;
+  }
+  .header p {
+    color: var(--sub);
+    font-size: 0.8rem;
+    margin-top: 4px;
+  }
+
+  /* ===== SCREENS ===== */
+  .screen { display: none; }
+  .screen.active { display: block; }
+
+  /* ===== LEVEL SELECT ===== */
+  .level-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-top: 16px;
+  }
+
+  .level-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 18px 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+  }
+  .level-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 4px; height: 100%;
+    border-radius: 4px 0 0 4px;
+  }
+  .level-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent1);
+    box-shadow: 0 8px 24px rgba(255,137,6,0.15);
+  }
+  .level-card:active { transform: translateY(0); }
+
+  .level-num {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 2.2rem;
+    line-height: 1;
+  }
+  .level-name {
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-top: 4px;
+    color: var(--text);
+  }
+  .level-desc {
+    font-size: 0.72rem;
+    color: var(--sub);
+    margin-top: 2px;
+  }
+  .level-count {
+    font-size: 0.7rem;
+    color: var(--sub);
+    margin-top: 6px;
+  }
+  .level-stars {
+    position: absolute;
+    top: 14px; right: 14px;
+    font-size: 0.8rem;
+  }
+
+  /* level colors */
+  .lv1::before { background: #4fc3f7; }
+  .lv1 .level-num { color: #4fc3f7; }
+  .lv2::before { background: #81c784; }
+  .lv2 .level-num { color: #81c784; }
+  .lv3::before { background: #aed581; }
+  .lv3 .level-num { color: #aed581; }
+  .lv4::before { background: #fff176; }
+  .lv4 .level-num { color: #fff176; }
+  .lv5::before { background: #ffd54f; }
+  .lv5 .level-num { color: #ffd54f; }
+  .lv6::before { background: #ffb74d; }
+  .lv6 .level-num { color: #ffb74d; }
+  .lv7::before { background: #ff8a65; }
+  .lv7 .level-num { color: #ff8a65; }
+  .lv8::before { background: #f06292; }
+  .lv8 .level-num { color: #f06292; }
+  .lv9::before { background: #ce93d8; }
+  .lv9 .level-num { color: #ce93d8; }
+  .lv10::before { background: linear-gradient(180deg, var(--gold), var(--accent1)); }
+  .lv10 .level-num {
+    background: linear-gradient(135deg, var(--gold), var(--accent1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .badge-new {
+    background: var(--accent3);
+    color: white;
+    font-size: 0.6rem;
+    font-weight: 700;
+    padding: 1px 6px;
+    border-radius: 99px;
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+
+  /* ===== QUIZ SCREEN ===== */
+  .quiz-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  .back-btn {
+    background: var(--card);
+    border: 1px solid var(--border);
+    color: var(--sub);
+    width: 36px; height: 36px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.2s;
+    flex-shrink: 0;
+  }
+  .back-btn:hover { color: var(--text); border-color: var(--accent1); }
+
+  .progress-wrap {
+    flex: 1;
+  }
+  .progress-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: var(--sub);
+    margin-bottom: 5px;
+  }
+  .progress-bar {
+    height: 6px;
+    background: var(--border);
+    border-radius: 99px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent1), var(--accent3));
+    border-radius: 99px;
+    transition: width 0.4s ease;
+  }
+
+  .score-badge {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 4px 12px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    color: var(--accent1);
+    white-space: nowrap;
+  }
+
+  /* ===== QUESTION CARD ===== */
+  .question-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 28px 24px 24px;
+    margin-bottom: 16px;
+    position: relative;
+    min-height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .q-type-tag {
+    position: absolute;
+    top: 14px; right: 14px;
+    font-size: 0.65rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 99px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .tag-word { background: rgba(77,195,247,0.15); color: #4fc3f7; }
+  .tag-phrase { background: rgba(240,98,146,0.15); color: #f06292; }
+
+  .q-label {
+    font-size: 0.72rem;
+    color: var(--sub);
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+  }
+  .q-word {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 2.2rem;
+    color: var(--text);
+    line-height: 1.1;
+    word-break: break-word;
+  }
+  .q-context {
+    font-size: 0.8rem;
+    color: var(--sub);
+    margin-top: 8px;
+    font-style: italic;
+    line-height: 1.5;
+  }
+
+  /* ===== OPTIONS ===== */
+  .options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  .opt-btn {
+    background: var(--card);
+    border: 1.5px solid var(--border);
+    color: var(--text);
+    border-radius: 14px;
+    padding: 14px 10px;
+    font-size: 0.88rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    cursor: pointer;
+    transition: all 0.18s;
+    text-align: center;
+    line-height: 1.4;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .opt-btn:hover:not(:disabled) {
+    border-color: var(--accent1);
+    background: rgba(255,137,6,0.08);
+    transform: translateY(-1px);
+  }
+  .opt-btn:active:not(:disabled) { transform: translateY(0); }
+  .opt-btn.correct {
+    border-color: var(--correct);
+    background: rgba(61,163,93,0.18);
+    color: #7ee8a2;
+    font-weight: 700;
+  }
+  .opt-btn.wrong {
+    border-color: var(--wrong);
+    background: rgba(229,49,112,0.15);
+    color: #ff6b9d;
+  }
+  .opt-btn:disabled { cursor: default; }
+
+  /* ===== RESULT TOAST ===== */
+  .result-toast {
+    border-radius: 14px;
+    padding: 14px 18px;
+    margin-bottom: 14px;
+    display: none;
+    align-items: flex-start;
+    gap: 12px;
+    animation: slideUp 0.2s ease;
+  }
+  @keyframes slideUp {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .result-toast.show { display: flex; }
+  .result-toast.correct-toast {
+    background: rgba(61,163,93,0.12);
+    border: 1px solid rgba(61,163,93,0.3);
+  }
+  .result-toast.wrong-toast {
+    background: rgba(229,49,112,0.1);
+    border: 1px solid rgba(229,49,112,0.3);
+  }
+  .toast-icon { font-size: 1.4rem; flex-shrink: 0; }
+  .toast-text {}
+  .toast-main { font-weight: 700; font-size: 0.9rem; }
+  .toast-sub { font-size: 0.78rem; color: var(--sub); margin-top: 2px; }
+  .toast-answer { font-size: 0.8rem; margin-top: 4px; }
+  .toast-answer span { color: var(--accent1); font-weight: 700; }
+
+  .next-btn {
+    width: 100%;
+    background: linear-gradient(135deg, var(--accent1), var(--accent2));
+    border: none;
+    color: white;
+    border-radius: 14px;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Noto Sans JP', sans-serif;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: none;
+  }
+  .next-btn.show { display: block; }
+  .next-btn:hover { opacity: 0.9; transform: translateY(-1px); }
+  .next-btn:active { transform: translateY(0); }
+
+  /* ===== RESULT SCREEN ===== */
+  .result-screen {
+    text-align: center;
+    padding: 20px 0;
+  }
+  .result-emoji {
+    font-size: 4rem;
+    margin-bottom: 12px;
+    animation: bounce 0.5s ease;
+  }
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  .result-title {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 1.6rem;
+    margin-bottom: 6px;
+  }
+  .result-score {
+    font-size: 3.5rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    background: linear-gradient(135deg, var(--accent1), var(--accent3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1;
+    margin: 16px 0 8px;
+  }
+  .result-detail {
+    color: var(--sub);
+    font-size: 0.85rem;
+    margin-bottom: 24px;
+  }
+  .result-msg {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 16px 20px;
+    font-size: 0.88rem;
+    line-height: 1.7;
+    color: var(--sub);
+    margin-bottom: 24px;
+    text-align: left;
+  }
+  .result-msg strong { color: var(--text); }
+
+  .result-btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .retry-btn, .home-btn {
+    padding: 15px;
+    border-radius: 14px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  .retry-btn {
+    background: linear-gradient(135deg, var(--accent1), var(--accent2));
+    border: none;
+    color: white;
+  }
+  .retry-btn:hover { opacity: 0.9; }
+  .home-btn {
+    background: var(--card);
+    border: 1.5px solid var(--border);
+    color: var(--text);
+  }
+  .home-btn:hover { border-color: var(--accent1); }
+
+  /* ===== WRONG LIST ===== */
+  .wrong-list-section {
+    margin-top: 24px;
+    text-align: left;
+  }
+  .wrong-list-title {
+    font-size: 0.8rem;
+    color: var(--sub);
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  .wrong-item {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 12px 14px;
+    margin-bottom: 8px;
+    font-size: 0.82rem;
+    line-height: 1.6;
+  }
+  .wi-word { font-weight: 700; color: var(--text); font-size: 0.95rem; }
+  .wi-meaning { color: var(--accent1); }
+  .wi-miss { color: var(--sub); font-size: 0.75rem; }
+
+  /* ===== SECTION TITLE ===== */
+  .section-title {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--sub);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    margin-top: 8px;
+  }
+
+  /* ===== CONFETTI ===== */
+  .confetti-wrap {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+    z-index: 999;
+  }
+  .confetti-piece {
+    position: absolute;
+    top: -10px;
+    width: 8px; height: 8px;
+    border-radius: 2px;
+    animation: fall linear forwards;
+  }
+  @keyframes fall {
+    to { transform: translateY(110vh) rotate(720deg); opacity: 0; }
+  }
+
+  /* ===== SHIMMER EFFECT ===== */
+  .lv10 {
+    background: linear-gradient(135deg, #1a1828, #221f35);
+    border-color: rgba(255,215,0,0.3);
+  }
+  .lv10:hover {
+    border-color: var(--gold);
+    box-shadow: 0 8px 24px rgba(255,215,0,0.2);
+  }
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 400px) {
+    .level-grid { grid-template-columns: repeat(2, 1fr); }
+    .options { grid-template-columns: 1fr 1fr; }
+    .q-word { font-size: 1.8rem; }
+  }
+</style>
+</head>
+<body>
+<div class="stars"></div>
+<div id="app">
+  <div class="header">
+    <h1>🎯 英単語クイズ</h1>
+    <p>神奈川県公立高校入試 対策アプリ</p>
+  </div>
+
+  <!-- LEVEL SELECT SCREEN -->
+  <div id="screen-home" class="screen active">
+    <p class="section-title">レベルを選ぼう</p>
+    <div class="level-grid" id="levelGrid"></div>
+  </div>
+
+  <!-- QUIZ SCREEN -->
+  <div id="screen-quiz" class="screen">
+    <div class="quiz-header">
+      <button class="back-btn" onclick="goHome()">←</button>
+      <div class="progress-wrap">
+        <div class="progress-info">
+          <span id="qNum">1 / 10</span>
+          <span id="levelLabel">Lv.1</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progressFill" style="width:0%"></div>
+        </div>
+      </div>
+      <div class="score-badge" id="scoreBadge">0点</div>
+    </div>
+
+    <div class="question-card" id="questionCard">
+      <span class="q-type-tag" id="qTypeTag"></span>
+      <div class="q-label">日本語の意味は？</div>
+      <div class="q-word" id="qWord"></div>
+      <div class="q-context" id="qContext"></div>
+    </div>
+
+    <div class="options" id="optionsWrap"></div>
+
+    <div class="result-toast" id="resultToast">
+      <div class="toast-icon" id="toastIcon"></div>
+      <div class="toast-text">
+        <div class="toast-main" id="toastMain"></div>
+        <div class="toast-sub" id="toastSub"></div>
+        <div class="toast-answer" id="toastAnswer"></div>
+      </div>
+    </div>
+
+    <button class="next-btn" id="nextBtn" onclick="nextQuestion()">次の問題へ →</button>
+  </div>
+
+  <!-- RESULT SCREEN -->
+  <div id="screen-result" class="screen">
+    <div class="result-screen">
+      <div class="result-emoji" id="resultEmoji"></div>
+      <div class="result-title" id="resultTitle"></div>
+      <div class="result-score" id="resultScore"></div>
+      <div class="result-detail" id="resultDetail"></div>
+      <div class="result-msg" id="resultMsg"></div>
+      <div class="result-btns">
+        <button class="retry-btn" onclick="retryLevel()">もう一度 🔄</button>
+        <button class="home-btn" onclick="goHome()">ホームへ 🏠</button>
+      </div>
+      <div class="wrong-list-section" id="wrongListSection"></div>
+    </div>
+  </div>
+</div>
+
+<div class="confetti-wrap" id="confettiWrap"></div>
+
+<script>
+// ============================================================
+// VOCABULARY DATA - 神奈川県高校入試 過去問から抽出
+// ============================================================
+const VOCAB = {
+  1: {
+    name: "超入門",
+    desc: "小学4〜5年レベル",
+    color: "#4fc3f7",
+    words: [
+      { word: "animal", meaning: "動物", context: "We can see many animals in this zoo!" },
+      { word: "family", meaning: "家族", context: "I went fishing with my family in the U.S." },
+      { word: "friend", meaning: "友達", context: "Her friend Kate came to help her." },
+      { word: "school", meaning: "学校", context: "I am a student at Kamome High School." },
+      { word: "food", meaning: "食べ物", context: "She told him to bring food back to their homes." },
+      { word: "water", meaning: "水", context: "We just need about 105L of water." },
+      { word: "picture", meaning: "写真・絵", context: "I am taking pictures during the school trip." },
+      { word: "book", meaning: "本", context: "I want to read more books to improve my Japanese." },
+      { word: "time", meaning: "時間", context: "I don't have time to use the school library." },
+      { word: "home", meaning: "家", context: "Students must not take food back to their homes." },
+      { word: "color", meaning: "色", context: "Great! What color are they?" },
+      { word: "morning", meaning: "朝", context: "We will be at the library at 4 p.m. on that morning." },
+      { word: "night", meaning: "夜", context: "It will be really dark after 7:00 p.m." },
+      { word: "day", meaning: "日・昼間", context: "On the first day, you gave me a chance." },
+      { word: "place", meaning: "場所", context: "What's your favorite place in Kamome City?" },
+      { word: "trip", meaning: "旅行", context: "It'll be my first trip to the Philippines." },
+      { word: "game", meaning: "試合・ゲーム", context: "The soccer game you're watching on TV looks exciting." },
+      { word: "class", meaning: "クラス・授業", context: "Send me the e-mail with your name and class." },
+      { word: "door", meaning: "ドア", context: "It stopped in front of my neighbor's door." },
+      { word: "house", meaning: "家・住宅", context: "She lives alone in a house." },
+    ]
+  },
+  2: {
+    name: "小学入門",
+    desc: "小学6年レベル",
+    color: "#81c784",
+    words: [
+      { word: "question", meaning: "質問", context: "I have three questions about this program." },
+      { word: "answer", meaning: "答え", context: "I asked them questions and got answers from them." },
+      { word: "snack", meaning: "軽食・おやつ", context: "I've already bought some snacks and chicken." },
+      { word: "drink", meaning: "飲み物", context: "There are a lot of drinks in my house." },
+      { word: "fruit", meaning: "果物", context: "All right, then I'll bring some fruit." },
+      { word: "shirt", meaning: "シャツ", context: "You bought a blue shirt." },
+      { word: "ticket", meaning: "チケット", context: "Don't forget to bring your ticket!" },
+      { word: "camera", meaning: "カメラ", context: "I'll bring my camera with me." },
+      { word: "umbrella", meaning: "傘", context: "It's going to rain, so we'll need an umbrella." },
+      { word: "uniform", meaning: "制服", context: "Wear your school uniform on both days." },
+      { word: "library", meaning: "図書館", context: "Let's meet in the school library at 4 p.m." },
+      { word: "lunch", meaning: "昼食", context: "Bring your lunch, a notebook, and pens." },
+      { word: "music", meaning: "音楽", context: "We can read books, listen to music in the cafe." },
+      { word: "summer", meaning: "夏", context: "Do you have any plans for summer vacation?" },
+      { word: "winter", meaning: "冬", context: "It is not cold today in winter." },
+      { word: "lake", meaning: "湖", context: "I took them at Lake Biwa." },
+      { word: "beach", meaning: "海岸・ビーチ", context: "Let's enjoy some sports on the beach." },
+      { word: "city", meaning: "都市・市", context: "A new station will be built in Kamome City." },
+      { word: "park", meaning: "公園", context: "I'm going to the cherry blossom festival at Kamome Park." },
+      { word: "bus", meaning: "バス", context: "Does this bus take me to the city library?" },
+    ]
+  },
+  3: {
+    name: "基礎固め",
+    desc: "中学1年レベル",
+    color: "#aed581",
+    words: [
+      { word: "experience", meaning: "経験", context: "It was a great experience and I learned a lot." },
+      { word: "culture", meaning: "文化", context: "He knows so much about Japanese culture." },
+      { word: "temple", meaning: "寺・神社", context: "He knows so much about Japanese culture, such as temples." },
+      { word: "speech", meaning: "スピーチ", context: "Could you help me with my English speech?" },
+      { word: "member", meaning: "メンバー・部員", context: "I joined an online event as a staff member." },
+      { word: "plan", meaning: "計画", context: "We need to choose our presentation topic." },
+      { word: "idea", meaning: "アイデア・考え", context: "Do you have any ideas to solve it?" },
+      { word: "problem", meaning: "問題", context: "Our town has a garbage problem." },
+      { word: "reason", meaning: "理由", context: "Later, my parents told me the reason." },
+      { word: "chance", meaning: "機会・チャンス", context: "You gave me a chance to talk with your engineers." },
+      { word: "opinion", meaning: "意見", context: "I really enjoyed listening to other people's unique opinions." },
+      { word: "event", meaning: "イベント", context: "I joined an online event for fans around the world." },
+      { word: "letter", meaning: "手紙・文字", context: "She sent a thank-you letter to Mr. Anderson." },
+      { word: "message", meaning: "メッセージ", context: "What is the most important message from Mr. Cuomo?" },
+      { word: "table", meaning: "テーブル", context: "We need to remember to put them back there." },
+      { word: "chair", meaning: "椅子", context: "We should return the chairs to their original places." },
+      { word: "window", meaning: "窓", context: "That house over there with small windows was built a hundred years ago." },
+      { word: "science", meaning: "科学", context: "You can learn about a really cold world in the science museum." },
+      { word: "history", meaning: "歴史", context: "You can learn Japanese history from this book." },
+      { word: "festival", meaning: "お祭り", context: "Would you like to go to the festival with me on Saturday?" },
+    ]
+  },
+  4: {
+    name: "中級入り口",
+    desc: "中学2年前半レベル",
+    color: "#fff176",
+    words: [
+      { word: "improve", meaning: "向上させる", context: "I want to improve my English, especially my speaking skills." },
+      { word: "environment", meaning: "環境", context: "What do you do for the environment?" },
+      { word: "careful", meaning: "注意深い・気をつけて", context: "Be careful when you ride your bike on the street." },
+      { word: "miss", meaning: "恋しく思う", context: "Sometimes I missed my family in Japan." },
+      { word: "proud", meaning: "誇りに思う", context: "I got the first prize in the English speech contest! I'm so proud." },
+      { word: "interested", meaning: "興味がある", context: "That soccer game you're watching on TV looks interested." },
+      { word: "exciting", meaning: "わくわくする", context: "That soccer game you're watching on TV looks exciting." },
+      { word: "develop", meaning: "発展させる・開発する", context: "What happened after the Internet was developed?" },
+      { word: "statue", meaning: "像・彫像", context: "I saw a popular statue made by a famous Japanese artist." },
+      { word: "neighbor", meaning: "隣人", context: "It stopped in front of my neighbor's door." },
+      { word: "successful", meaning: "成功した", context: "Kamome Computer became a very successful computer company." },
+      { word: "hurt", meaning: "傷つける", context: "Your words may hurt someone's feelings." },
+      { word: "collect", meaning: "集める", context: "Your company collected hints from these fans." },
+      { word: "movement", meaning: "動き", context: "The result was good because its movements were clear and powerful." },
+      { word: "result", meaning: "結果", context: "I really want to know the result of the basketball game." },
+      { word: "forget", meaning: "忘れる", context: "I will never forget that day." },
+      { word: "prefer", meaning: "〜の方が好き", context: "I prefer reading short stories because I can finish quickly." },
+      { word: "solve", meaning: "解決する", context: "Do you have any ideas to solve it?" },
+      { word: "bright", meaning: "明るい", context: "Oh, the stars are so bright and beautiful!" },
+      { word: "bitter", meaning: "苦い・苦しい", context: "1. bitter   2. bright   3. poor   4. terrible" },
+    ]
+  },
+  5: {
+    name: "中学中級",
+    desc: "中学2年後半レベル",
+    color: "#ffd54f",
+    words: [
+      { word: "presentation", meaning: "発表・プレゼン", context: "We are talking about our presentation next week." },
+      { word: "technology", meaning: "技術・テクノロジー", context: "So many skills and new technologies were needed to make good cameras." },
+      { word: "percentage", meaning: "割合・パーセント", context: "This graph also shows the percentage of redelivery." },
+      { word: "community", meaning: "地域社会", context: "Do you talk about your problems to someone in your local community?" },
+      { word: "communicate", meaning: "コミュニケーションを取る", context: "Students will also communicate with people from all over the world." },
+      { word: "recommend", meaning: "推薦する・勧める", context: "Are there any good places you recommend?" },
+      { word: "ancient", meaning: "古代の・古い", context: "That house over there was built a hundred years ago." },
+      { word: "necessary", meaning: "必要な", context: "Making good cameras needs a lot of skills and new technologies." },
+      { word: "original", meaning: "オリジナルの・独自の", context: "Make an original Japanese cup at a local house in the village." },
+      { word: "tourist", meaning: "観光客", context: "We talked about services for tourists from foreign countries." },
+      { word: "traditional", meaning: "伝統的な", context: "Learn traditional local dances at the tourist center." },
+      { word: "unique", meaning: "独自の・ユニークな", context: "We think more tourists will visit the shopping street if we give them unique cultural experiences." },
+      { word: "local", meaning: "地元の", context: "The staff members are local people living near our school." },
+      { word: "support", meaning: "支援する", context: "I think companies in Japan should create more services which support elderly people." },
+      { word: "reduce", meaning: "減らす", context: "We need to think about how to reduce the number of redeliveries." },
+      { word: "introduce", meaning: "紹介する", context: "You introduced new cameras to the fans." },
+      { word: "realize", meaning: "気づく", context: "At that time, I realized it was a delivery robot." },
+      { word: "surprised", meaning: "驚いた", context: "I was surprised to know so many skills were needed." },
+      { word: "effective", meaning: "効果的な", context: "There are still easy and effective things that we can do now." },
+      { word: "situation", meaning: "状況", context: "So, we want to find some ways to improve this situation." },
+    ]
+  },
+  6: {
+    name: "中学上級",
+    desc: "中学3年前半レベル",
+    color: "#ffb74d",
+    words: [
+      { word: "infrastructure", meaning: "インフラ・社会基盤", context: "Today, I will talk about green infrastructure." },
+      { word: "nutrition", meaning: "栄養", context: "Solutions to the problem of unstable access to nutrition." },
+      { word: "protein", meaning: "タンパク質", context: "More Japanese people may not get enough protein from meat." },
+      { word: "agriculture", meaning: "農業", context: "You know a lot about these agricultural topics." },
+      { word: "delivery", meaning: "配達", context: "At that time, I realized it was a delivery robot." },
+      { word: "generation", meaning: "世代", context: "The voting rate of people in their sixties was always above 60%." },
+      { word: "election", meaning: "選挙", context: "Graph 2 shows the voting rate in the national elections." },
+      { word: "voting", meaning: "投票（すること）", context: "Students from three schools will talk about voting." },
+      { word: "government", meaning: "政府", context: "I think our government should use more money for young people." },
+      { word: "discussion", meaning: "議論", context: "We are talking about our discussion event next week." },
+      { word: "publish", meaning: "出版する・公表する", context: "The book written by a famous writer was published last year." },
+      { word: "complicated", meaning: "複雑な", context: "Young people don't know how the system works." },
+      { word: "convince", meaning: "納得させる", context: "She asked Jiro why paying a fine wasn't as good as other ideas." },
+      { word: "gather", meaning: "集める・集まる", context: "It became easier for people to gather many kinds of information quickly." },
+      { word: "import", meaning: "輸入する", context: "Japan imports animal feed for chickens, cows, and pigs." },
+      { word: "export", meaning: "輸出する", context: "Japan imports almost all of its corn from other countries." },
+      { word: "drought", meaning: "干ばつ", context: "Because of several world events, the price of animal feed has become higher." },
+      { word: "flooding", meaning: "洪水", context: "Flooding didn't happen quickly because rain water stayed in the ground." },
+      { word: "concrete", meaning: "コンクリート", context: "This area is now covered with concrete." },
+      { word: "earthquake", meaning: "地震", context: "We need to think about how to protect cities during heavy rain." },
+    ]
+  },
+  7: {
+    name: "受験準備",
+    desc: "中学3年後半レベル",
+    color: "#ff8a65",
+    words: [
+      { word: "take action", meaning: "行動を起こす", context: "You should take action to create your future.", type: "phrase" },
+      { word: "look for", meaning: "〜を探す", context: "I wanted to take a rest and started to look for a good place.", type: "phrase" },
+      { word: "go fishing", meaning: "釣りに行く", context: "I always went fishing with my family in the U.S.", type: "phrase" },
+      { word: "pick up", meaning: "拾う・迎えに行く", context: "We can pick up garbage on the streets every weekend.", type: "phrase" },
+      { word: "find out", meaning: "見つけ出す・調べる", context: "I want to find out what young people in other countries think.", type: "phrase" },
+      { word: "make sure", meaning: "確認する・確かめる", context: "Make sure you turn off the lights before you left home.", type: "phrase" },
+      { word: "at first", meaning: "最初は", context: "At first, I liked this idea because I wanted to try something new.", type: "phrase" },
+      { word: "in fact", meaning: "実際のところ", context: "In fact, these days, the number of delivery staff is getting smaller.", type: "phrase" },
+      { word: "instead of", meaning: "〜の代わりに", context: "Instead, the government should make voting fun.", type: "phrase" },
+      { word: "be afraid of", meaning: "〜を恐れる", context: "We are afraid of losing the shops on Kamome Shopping Street.", type: "phrase" },
+      { word: "communicate", meaning: "伝え合う", context: "Doing things together created a strong friendship." },
+      { word: "respect", meaning: "尊重する・尊敬する", context: "I learned how much they respected the Maori people." },
+      { word: "friendship", meaning: "友情・友好", context: "Doing things together created a strong friendship." },
+      { word: "ceremony", meaning: "式典・儀式", context: "I met my classmates at the ceremony hall." },
+      { word: "indigenous", meaning: "先住民の", context: "They are the indigenous people of New Zealand." },
+      { word: "abroad", meaning: "海外に", context: "Did you enjoy studying abroad during the summer vacation?" },
+      { word: "motivation", meaning: "動機・やる気", context: "I want more Japanese students to become interested in studying abroad." },
+      { word: "survey", meaning: "調査", context: "Last month, she conducted a survey about this system." },
+      { word: "convenient", meaning: "便利な", context: "Ask a delivery person to deliver your package to a convenience store." },
+      { word: "significant", meaning: "重要な・著しい", context: "This is a big problem for them." },
+    ]
+  },
+  8: {
+    name: "入試直前",
+    desc: "神奈川入試レベルA",
+    color: "#f06292",
+    words: [
+      { word: "carry out", meaning: "実行する・運ぶ", context: "Help delivery staff carry packages.", type: "phrase" },
+      { word: "go through", meaning: "経験する・通り抜ける", context: "By doing these things, I hope the number of visitors will go up.", type: "phrase" },
+      { word: "get rid of", meaning: "〜を取り除く", context: "We need to think about how to solve the problems.", type: "phrase" },
+      { word: "as well as", meaning: "〜と同様に・〜に加えて", context: "You should get information from SNS as well as blogs.", type: "phrase" },
+      { word: "on the other hand", meaning: "一方では", context: "However, there are still problems with delivery robots.", type: "phrase" },
+      { word: "take part in", meaning: "〜に参加する", context: "She has taken part in the speech contest with Sam.", type: "phrase" },
+      { word: "come up with", meaning: "〜を思いつく", context: "She got the idea while she was talking with her friends.", type: "phrase" },
+      { word: "be used to", meaning: "〜に慣れている", context: "The robot was used to deliver packages in the apartment building.", type: "phrase" },
+      { word: "contribute", meaning: "貢献する", context: "By doing these things, we hope the number of people visiting will go up." },
+      { word: "unstable", meaning: "不安定な", context: "Solutions to the problem of unstable access to nutrition." },
+      { word: "recommendation", meaning: "推薦・おすすめ", context: "This system can recommend e-books to us." },
+      { word: "investigate", meaning: "調査する", context: "I checked websites about services for elderly people." },
+      { word: "productive", meaning: "生産的な", context: "Though the things we can do may be small, it is important to try." },
+      { word: "nutritionist", meaning: "栄養士", context: "The staff members on the truck in my plan will be nutritionists!" },
+      { word: "annual", meaning: "年間の・毎年の", context: "The number of delivered packages went up from 2017 to 2023." },
+      { word: "statistics", meaning: "統計・データ", context: "In 2023, about 5 billion packages were delivered." },
+      { word: "shortage", meaning: "不足", context: "There are not enough people who deliver all those things to customers." },
+      { word: "alternative", meaning: "代替案・別の選択肢", context: "Soy meat is not the only answer. We should still try to look for other solutions." },
+      { word: "perspective", meaning: "見方・視点", context: "It helped me find new ways of thinking." },
+      { word: "sustainable", meaning: "持続可能な", context: "Green infrastructure is the key to improving our lives." },
+    ]
+  },
+  9: {
+    name: "入試本番",
+    desc: "神奈川入試レベルB",
+    color: "#ce93d8",
+    words: [
+      { word: "set ~ for", meaning: "〜を…に設定する", context: "Set the delivery date and time, and be at home.", type: "phrase" },
+      { word: "even though", meaning: "〜にもかかわらず", context: "Though the things we can do may be small, it is important to think.", type: "phrase" },
+      { word: "in addition to", meaning: "〜に加えて", context: "Green infrastructure is built in the city or near the city.", type: "phrase" },
+      { word: "put ~ into practice", meaning: "〜を実践する", context: "By talking to the staff members, I learned it was important to share.", type: "phrase" },
+      { word: "on behalf of", meaning: "〜を代表して", context: "The staff members are local people living near our school.", type: "phrase" },
+      { word: "regardless of", meaning: "〜に関わらず", context: "People become more active in cities by spending time in green areas.", type: "phrase" },
+      { word: "be aware of", meaning: "〜を意識する・知っている", context: "I realized that your company collected hints from these fans.", type: "phrase" },
+      { word: "make the most of", meaning: "〜を最大限に活用する", context: "Some problems will be solved by using technology.", type: "phrase" },
+      { word: "commitment", meaning: "責任・取り組み", context: "Please remember these three rules to keep everyone safe." },
+      { word: "biodiversity", meaning: "生物多様性", context: "Forests are important for koalas, so let's try to protect the environment for animals." },
+      { word: "implement", meaning: "実施する・実行する", context: "After talking with others, Aoi started to learn about political issues." },
+      { word: "collaborate", meaning: "協力する・共同作業する", context: "Shop owners will teach cultural classes with the students of our school." },
+      { word: "initiative", meaning: "取り組み・イニシアチブ", context: "I want to start my green infrastructure movement here." },
+      { word: "simultaneously", meaning: "同時に", context: "Tourists will learn about Japanese culture, and students will also communicate." },
+      { word: "comprehensive", meaning: "包括的な", context: "I think companies in Japan should create more services which support elderly people." },
+      { word: "controversy", meaning: "論争・議論", context: "Some students may not agree to use generative AI for studying." },
+      { word: "phenomenon", meaning: "現象", context: "I know students have different opinions about this topic." },
+      { word: "innovation", meaning: "革新・イノベーション", context: "Delivery robots were developed to improve delivery staff's difficult working conditions." },
+      { word: "interpretation", meaning: "解釈", context: "We learned how to have a good discussion from her." },
+      { word: "consequence", meaning: "結果・影響", context: "Though the things we can do may be small, it is important to think." },
+    ]
+  },
+  10: {
+    name: "神奈川入試",
+    desc: "入試本番・最高難度",
+    color: "#ffd700",
+    words: [
+      { word: "set the delivery date and time", meaning: "配達の日時を指定する", context: "First, set the delivery date and time, and be at home to receive your package.", type: "phrase" },
+      { word: "go around by themselves", meaning: "自分たちで動き回る", context: "There are three delivery robots and they go around by themselves in my apartment building.", type: "phrase" },
+      { word: "aging of shop owners", meaning: "店主の高齢化", context: "41.1% of the shop owners think the aging of shop owners is another problem.", type: "phrase" },
+      { word: "video-sharing sites", meaning: "動画共有サイト", context: "I talked about sharing information by using SNS, blogs, and video-sharing sites.", type: "phrase" },
+      { word: "take action to create", meaning: "〜を作るために行動する", context: "You should take action to create your future.", type: "phrase" },
+      { word: "have difficulty ~ing", meaning: "〜するのに苦労する", context: "It's hard for some elderly people to carry things they have bought.", type: "phrase" },
+      { word: "unstable access to nutrition", meaning: "栄養への不安定なアクセス", context: "Solutions to the problem of unstable access to nutrition.", type: "phrase" },
+      { word: "redelivery", meaning: "再配達", context: "This graph also shows the percentage of redelivery." },
+      { word: "mock election", meaning: "模擬選挙", context: "Our school had a mock election last year, and I learned a lot." },
+      { word: "generative AI", meaning: "生成AI", context: "I think we should use generative AI for our movie." },
+      { word: "e-book borrowing system", meaning: "電子書籍の貸し出しシステム", context: "Last year, her school started the e-book borrowing system in the school library.", type: "phrase" },
+      { word: "green infrastructure", meaning: "グリーンインフラ", context: "Today, I will talk about green infrastructure.", type: "phrase" },
+      { word: "self-driving bus", meaning: "自動運転バス", context: "Our town will have a self-driving bus next month.", type: "phrase" },
+      { word: "Singapore Green Plan 2030", meaning: "シンガポール緑化計画2030", context: "I will introduce the Singapore Green Plan 2030." },
+      { word: "identify a problem", meaning: "問題を明らかにする", context: "You identified a problem, tried to find a solution, and then thought a lot about it.", type: "phrase" },
+      { word: "percentage of redelivery", meaning: "再配達の割合", context: "This graph also shows the percentage of redelivery.", type: "phrase" },
+      { word: "raise the voting rate", meaning: "投票率を上げる", context: "What should the government do to raise the voting rate of young people?", type: "phrase" },
+      { word: "working conditions", meaning: "労働条件・職場環境", context: "Delivery robots were developed to improve delivery staff's difficult working conditions.", type: "phrase" },
+      { word: "shopping street", meaning: "商店街", context: "It's about the way to make Kamome Shopping Street lively again.", type: "phrase" },
+      { word: "self-confidence", meaning: "自信", context: "Also, I didn't have much self-confidence in myself.", type: "phrase" },
+    ]
+  }
+};
+
+// ============================================================
+// QUIZ STATE
+// ============================================================
+let currentLevel = null;
+let questions = [];
+let currentQ = 0;
+let score = 0;
+let answered = false;
+let wrongList = [];
+
+// ============================================================
+// INIT - BUILD LEVEL CARDS
+// ============================================================
+function init() {
+  const grid = document.getElementById('levelGrid');
+  grid.innerHTML = '';
+  
+  const emojis = ['⭐','🌱','📗','📘','📒','🔥','💪','🎯','🚀','👑'];
+  const starLabels = ['★','★★','★★★','★★★','★★★★','★★★★','★★★★★','★★★★★','★★★★★','🏆'];
+
+  for (let lv = 1; lv <= 10; lv++) {
+    const d = VOCAB[lv];
+    const card = document.createElement('div');
+    card.className = `level-card lv${lv}`;
+    card.onclick = () => startLevel(lv);
+    
+    const isNew = lv >= 8;
+    card.innerHTML = `
+      <div class="level-stars">${starLabels[lv-1]}</div>
+      <div class="level-num">${emojis[lv-1]}</div>
+      <div class="level-name">Lv.${lv} ${d.name}${isNew ? '<span class="badge-new">NEW</span>' : ''}</div>
+      <div class="level-desc">${d.desc}</div>
+      <div class="level-count">${d.words.length}問収録</div>
+    `;
+    grid.appendChild(card);
+  }
+}
+
+// ============================================================
+// START LEVEL
+// ============================================================
+function startLevel(lv) {
+  currentLevel = lv;
+  wrongList = [];
+  
+  const allWords = [...VOCAB[lv].words];
+  // shuffle and pick 10
+  const shuffled = allWords.sort(() => Math.random() - 0.5).slice(0, 10);
+  questions = shuffled;
+  currentQ = 0;
+  score = 0;
+  answered = false;
+
+  document.getElementById('screen-home').classList.remove('active');
+  document.getElementById('screen-result').classList.remove('active');
+  document.getElementById('screen-quiz').classList.add('active');
+
+  renderQuestion();
+}
+
+// ============================================================
+// RENDER QUESTION
+// ============================================================
+function renderQuestion() {
+  if (currentQ >= questions.length) {
+    showResult();
+    return;
+  }
+
+  answered = false;
+  const q = questions[currentQ];
+  const total = questions.length;
+
+  // header
+  document.getElementById('qNum').textContent = `${currentQ + 1} / ${total}`;
+  document.getElementById('levelLabel').textContent = `Lv.${currentLevel}`;
+  document.getElementById('scoreBadge').textContent = `${score}点`;
+  document.getElementById('progressFill').style.width = `${(currentQ / total) * 100}%`;
+
+  // question
+  const isPhrase = q.type === 'phrase';
+  const tag = document.getElementById('qTypeTag');
+  tag.className = `q-type-tag ${isPhrase ? 'tag-phrase' : 'tag-word'}`;
+  tag.textContent = isPhrase ? '熟語' : '単語';
+
+  document.getElementById('qWord').textContent = q.word;
+  document.getElementById('qContext').textContent = q.context ? `例: ${q.context}` : '';
+
+  // options - generate wrong answers from same level
+  const allWords = VOCAB[currentLevel].words;
+  const wrongOptions = allWords
+    .filter(w => w.meaning !== q.meaning)
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 3)
+    .map(w => w.meaning);
+
+  const options = [q.meaning, ...wrongOptions].sort(() => Math.random() - 0.5);
+
+  const wrap = document.getElementById('optionsWrap');
+  wrap.innerHTML = '';
+  options.forEach(opt => {
+    const btn = document.createElement('button');
+    btn.className = 'opt-btn';
+    btn.textContent = opt;
+    btn.onclick = () => checkAnswer(btn, opt, q.meaning);
+    wrap.appendChild(btn);
+  });
+
+  // hide toast and next
+  const toast = document.getElementById('resultToast');
+  toast.className = 'result-toast';
+  document.getElementById('nextBtn').className = 'next-btn';
+}
+
+// ============================================================
+// CHECK ANSWER
+// ============================================================
+function checkAnswer(btn, selected, correct) {
+  if (answered) return;
+  answered = true;
+
+  const isCorrect = selected === correct;
+  const q = questions[currentQ];
+
+  // style buttons
+  const allBtns = document.querySelectorAll('.opt-btn');
+  allBtns.forEach(b => {
+    b.disabled = true;
+    if (b.textContent === correct) b.classList.add('correct');
+  });
+  if (!isCorrect) {
+    btn.classList.add('wrong');
+    wrongList.push(q);
+  } else {
+    score += 10;
+  }
+
+  // toast
+  const toast = document.getElementById('resultToast');
+  if (isCorrect) {
+    toast.className = 'result-toast correct-toast show';
+    document.getElementById('toastIcon').textContent = '✅';
+    document.getElementById('toastMain').textContent = '正解！';
+    const msgs = ['すごい！', 'その調子！', 'バッチリ！', 'よく覚えてた！', 'ナイス！'];
+    document.getElementById('toastSub').textContent = msgs[Math.floor(Math.random() * msgs.length)];
+    document.getElementById('toastAnswer').innerHTML = '';
+  } else {
+    toast.className = 'result-toast wrong-toast show';
+    document.getElementById('toastIcon').textContent = '❌';
+    document.getElementById('toastMain').textContent = '残念...';
+    document.getElementById('toastSub').textContent = 'あとで復習しよう';
+    document.getElementById('toastAnswer').innerHTML = `正解: <span>${correct}</span>`;
+  }
+
+  // next btn
+  const nextBtn = document.getElementById('nextBtn');
+  if (currentQ + 1 >= questions.length) {
+    nextBtn.textContent = '結果を見る 🎉';
+  } else {
+    nextBtn.textContent = '次の問題へ →';
+  }
+  nextBtn.className = 'next-btn show';
+}
+
+// ============================================================
+// NEXT QUESTION
+// ============================================================
+function nextQuestion() {
+  currentQ++;
+  renderQuestion();
+}
+
+// ============================================================
+// SHOW RESULT
+// ============================================================
+function showResult() {
+  document.getElementById('screen-quiz').classList.remove('active');
+  document.getElementById('screen-result').classList.add('active');
+
+  const pct = (score / 100) * 100;
+  
+  let emoji, title, msg;
+  if (score === 100) {
+    emoji = '🏆';
+    title = '完璧！パーフェクト！';
+    msg = `<strong>全問正解おめでとう！</strong><br>Lv.${currentLevel}の単語はバッチリです。次のレベルに挑戦してみよう！`;
+    launchConfetti();
+  } else if (score >= 80) {
+    emoji = '🎉';
+    title = 'すごい！よくできました！';
+    msg = `<strong>80点以上！</strong>とても良い結果です。あと少しで完璧。間違えた単語を復習してみよう。`;
+  } else if (score >= 60) {
+    emoji = '😊';
+    title = 'まずまず！もう少し！';
+    msg = `<strong>合格ライン突破！</strong>ただし入試本番では確実に取りたい。間違えた単語をしっかり覚えよう。`;
+  } else if (score >= 40) {
+    emoji = '😅';
+    title = 'もう少し練習しよう！';
+    msg = `<strong>まだ課題があります。</strong>焦らず下のレベルから確認するか、もう一度このレベルに挑戦しよう。`;
+  } else {
+    emoji = '💪';
+    title = 'ドンマイ！繰り返そう！';
+    msg = `<strong>この単語たちを覚えれば確実に点数アップ。</strong>下のリストで間違えた単語をチェックして、もう一度チャレンジしよう！`;
+  }
+
+  document.getElementById('resultEmoji').textContent = emoji;
+  document.getElementById('resultTitle').textContent = title;
+  document.getElementById('resultScore').textContent = `${score}点`;
+  document.getElementById('resultDetail').textContent = `${questions.length}問中 ${score/10}問正解`;
+  document.getElementById('resultMsg').innerHTML = msg;
+
+  // wrong list
+  const wrongSection = document.getElementById('wrongListSection');
+  if (wrongList.length > 0) {
+    let html = `<div class="wrong-list-title">❌ 間違えた単語（${wrongList.length}個）</div>`;
+    wrongList.forEach((w, i) => {
+      html += `
+        <div class="wrong-item">
+          <div class="wi-word">${w.word}</div>
+          <div class="wi-meaning">→ ${w.meaning}</div>
+          ${w.context ? `<div class="wi-miss">${w.context}</div>` : ''}
+        </div>
+      `;
+    });
+    wrongSection.innerHTML = html;
+  } else {
+    wrongSection.innerHTML = '';
+  }
+}
+
+// ============================================================
+// NAVIGATION
+// ============================================================
+function goHome() {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById('screen-home').classList.add('active');
+}
+
+function retryLevel() {
+  startLevel(currentLevel);
+}
+
+// ============================================================
+// CONFETTI
+// ============================================================
+function launchConfetti() {
+  const wrap = document.getElementById('confettiWrap');
+  wrap.innerHTML = '';
+  const colors = ['#ff8906','#f25f4c','#e53170','#ffd700','#4fc3f7','#81c784'];
+  
+  for (let i = 0; i < 60; i++) {
+    const piece = document.createElement('div');
+    piece.className = 'confetti-piece';
+    piece.style.left = `${Math.random() * 100}%`;
+    piece.style.background = colors[Math.floor(Math.random() * colors.length)];
+    piece.style.animationDuration = `${1.5 + Math.random() * 2}s`;
+    piece.style.animationDelay = `${Math.random() * 0.5}s`;
+    piece.style.transform = `rotate(${Math.random() * 360}deg)`;
+    wrap.appendChild(piece);
+    setTimeout(() => piece.remove(), 3500);
+  }
+}
+
+// ============================================================
+// START
+// ============================================================
+init();
+</script>
+</body>
+</html>
