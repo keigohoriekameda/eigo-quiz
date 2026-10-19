@@ -5,13 +5,30 @@
 <header><div class="row"><h1>英単語2500マスター</h1><span class="tag">開発プレビュー</span></div><p class="muted">神奈川県公立高校入試対策｜小学生Pre 700 ＋ 中学・受験 1800</p></header>
 <div class="note small">現在は出題品質を確認するための<strong>校正用20問</strong>を収録しています。正式な2500語、共通ID、ガチャ、Discord通知は未接続です。ここでの合格は正式なレベルクリアやガチャ付与にはなりません。</div>
 <section class="panel" id="home"><h2>学習ステージ</h2><div class="stage"><div><strong>Pre 小学生編</strong><span>700語・7段階（準備中）</span></div><div><strong>Main 中学・受験編</strong><span>1800語・10段階（準備中）</span></div></div>
-<h3>先行テスト：入試重要動詞20問</h3><p class="muted small">4択の誤答は各問題に個別設定。20問中18問以上で90％合格です。順番は毎回変わります。</p><div class="row"><span id="last"></span><span class="small muted">保存先：この端末のブラウザのみ</span></div><button class="primary full" id="start">20問に挑戦</button><button class="full" id="review" disabled>前回の間違いを復習</button></section>
+<h3>先行テスト：入試重要動詞20問</h3><p id="dataStatus" class="small muted">問題データを読み込み中…</p><p class="muted small">4択の誤答は各問題に個別設定。20問中18問以上で90％合格です。順番は毎回変わります。</p><div class="row"><span id="last"></span><span class="small muted">保存先：この端末のブラウザのみ</span></div><button class="primary full" id="start" disabled>20問に挑戦</button><button class="full" id="review" disabled>前回の間違いを復習</button></section>
 <section class="panel hidden" id="quiz"><div class="row"><span id="counter">1/20</span><span id="correctCount">0問正解</span></div><div class="bar"><div id="fill" class="fill"></div></div><div class="word" id="word"></div><div class="example" id="example"></div><p>最も適切な日本語の意味を選んでください。</p><div id="choices" class="buttons"></div><div id="feedback" class="choice-feedback" aria-live="polite"></div><button id="next" class="primary full hidden">次の問題へ</button></section>
 <section class="panel hidden" id="results"><h2>学習結果</h2><p id="outcome" class="result"></p><p id="summary"></p><div id="misses"></div><button id="retry" class="primary full">もう一度挑戦</button><button id="tohome" class="full">ホームに戻る</button></section>
 </main><script>
-const RAW=[["avoid","避ける",["防ぐ","許可する","達成する"],"We should avoid wasting food.","avoid + -ing で「〜することを避ける」。"],["prevent","防ぐ",["避ける","許可する","改善する"],"A helmet can prevent injuries.","prevent は望ましくない出来事が起こるのを防ぐ。"],["improve","改善する",["増加する","維持する","説明する"],"We need to improve our English.","能力や状況をより良くすること。"],["increase","増加する",["減少する","維持する","比較する"],"The number of visitors increased.","数・量が増えること。"],["reduce","減らす",["増やす","保つ","交換する"],"We must reduce plastic waste.","数量を減らすこと。"],["provide","提供する",["要求する","借りる","受け取る"],"The school provides free lunches.","必要なものを供給すること。"],["require","必要とする",["提供する","許可する","拒否する"],"This job requires special skills.","require は条件として必要とすること。"],["allow","許可する",["禁止する","依頼する","提案する"],"My parents allow me to go out.","allow + 人 + to do に注意。"],["suggest","提案する",["命令する","拒否する","約束する"],"She suggested a new idea.","考えや案を提示すること。"],["compare","比較する",["結論づける","説明する","区別する"],"Compare these two pictures.","複数のものを比べること。"],["explain","説明する",["予測する","主張する","比較する"],"Please explain your answer.","内容や理由を分かるように述べること。"],["discover","発見する",["発明する","調査する","確認する"],"They discovered a new species.","既に存在したものを見つけること。"],["develop","発展させる",["維持する","制限する","交換する"],"They developed a new system.","技術・能力などを発展させること。"],["protect","守る",["攻撃する","交換する","捕まえる"],"We must protect the environment.","危害や損傷から守ること。"],["support","支援する",["反対する","依存する","要求する"],"Many people support the project.","助ける・支援すること。"],["prepare","準備する",["片づける","確認する","整理する"],"We must prepare for the test.","prepare for で「〜に備える」。"],["continue","続ける",["中断する","始める","繰り返す"],"Please continue reading.","動作を続けること。"],["consider","よく考える",["決定する","推測する","記憶する"],"Consider all the options.","判断前に慎重に考えること。"],["recognize","認識する",["思い出す","紹介する","誤解する"],"I recognized his voice.","見たり聞いたりして分かること。"],["expect","予期する",["希望する","疑う","説明する"],"We expect rain tomorrow.","起こると予想すること。"]];
-const BANK=RAW.map((d,i)=>({id:"pilot-"+String(i+1).padStart(3,"0"),word:d[0],answer:d[1],wrong:d[2],example:d[3],explanation:d[4]}));
-const KEY="eigo2500-pilot-v1";let items=[],index=0,correct=0,missed=[],locked=false,reviewMode=false;
+let BANK=[];
+async function loadBank(){
+  const response=await fetch('./data/pilot-reviewed.json',{cache:'no-store'});
+  if(!response.ok)throw new Error('問題データを取得できません ('+response.status+')');
+  const items=await response.json();
+  if(!Array.isArray(items)||items.length===0)throw new Error('問題データが空です');
+  const ids=new Set();
+  for(const item of items){
+    if(!item.id||ids.has(item.id)||item.review_status!=='approved'||!Array.isArray(item.distractors_ja)||item.distractors_ja.length!==3)
+      throw new Error('問題データの整合性エラー: '+(item.id||'IDなし'));
+    const options=[item.meaning_ja,...item.distractors_ja].map(v=>String(v).trim());
+    if(new Set(options).size!==4||options.some(v=>!v))throw new Error('選択肢エラー: '+item.id);
+    ids.add(item.id);
+  }
+  BANK=items.map(item=>({id:item.id,word:item.lemma,answer:item.meaning_ja,wrong:item.distractors_ja,example:item.context_en,explanation:item.explanation_ja}));
+  el('start').disabled=false;
+  el('dataStatus').textContent='校正用 '+BANK.length+'問を読み込みました';
+  showHome();
+}
+const KEY="eigo2500-pilot-v2";let items=[],index=0,correct=0,missed=[],locked=false,reviewMode=false;
 const el=id=>document.getElementById(id);
 function shuffle(input){let a=[...input];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 function screen(id){for(let x of ["home","quiz","results"])el(x).classList.toggle("hidden",x!==id);}
@@ -24,5 +41,5 @@ function answer(o,b,q){if(locked)return;locked=true;const ok=o===q.answer;if(ok)
 function finish(){screen("results");const score=Math.round(100*correct/items.length);const pass=score>=90;el("outcome").textContent=score+"％ — "+(pass?"90％達成":"再挑戦");el("summary").textContent=correct+"/"+items.length+"問正解。"+(reviewMode?"復習テストです。":"20問中18問以上で合格。")+" ※正式なレベル進捗・ガチャには反映されません。";
 el("misses").replaceChildren();if(missed.length){const t=document.createElement("h3");t.textContent="間違えた単語";el("misses").append(t);for(const id of missed){const q=BANK.find(x=>x.id===id),p=document.createElement("p");p.textContent=q.word+" — "+q.answer;el("misses").append(p);}}
 try{localStorage.setItem(KEY,JSON.stringify({score:correct,total:items.length,missed,date:new Date().toISOString()}));}catch{}}
-el("start").onclick=()=>start(false);el("review").onclick=()=>start(true);el("next").onclick=()=>{index++;render()};el("retry").onclick=()=>start(reviewMode);el("tohome").onclick=showHome;showHome();
+el("start").onclick=()=>start(false);el("review").onclick=()=>start(true);el("next").onclick=()=>{index++;render()};el("retry").onclick=()=>start(reviewMode);el("tohome").onclick=showHome;loadBank().catch(error=>{el("dataStatus").textContent="読み込みに失敗しました: "+error.message+"。GitHub Pages等のWebサーバーから開いてください。";el("start").disabled=true;});
 </script></body></html>
