@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>英単語2500マスター | Pre Lv.1</title>
+<style>
+:root{font-family:system-ui,"Noto Sans JP",sans-serif;color-scheme:dark;background:#101827;color:#f4f7ff}
+*{box-sizing:border-box}body{margin:0}main{max-width:720px;margin:auto;padding:18px 16px 50px}
+h1{font-size:1.65rem}.muted{color:#b4c2dc}.panel{background:#1c2a43;border:1px solid #3c5273;border-radius:14px;padding:20px;margin:14px 0}
+button{font:inherit;cursor:pointer;background:#264c7b;color:white;border:1px solid #6686b2;border-radius:12px;padding:14px}
+button:disabled{opacity:.65;cursor:default}button.correct{background:#126247;border-color:#32ba93}button.wrong{background:#853148;border-color:#e17e91}
+.full{width:100%;margin:7px 0}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.note{border-left:4px solid #f3ae5d;background:#372d33;border-radius:7px;padding:12px}.hidden{display:none}.stat{font-size:.9rem;color:#b4d9fa}
+.big{font-size:2rem;font-weight:800;margin:18px 0}.bar{background:#344157;height:10px;overflow:hidden;border-radius:10px}.fill{background:#54b7ab;width:0;height:100%}
+#feedback{min-height:46px;margin:14px 0}.units button{text-align:left}.units small{display:block;color:#bfd2ec;margin-top:4px}
+@media(max-width:440px){.grid{grid-template-columns:1fr}}
+</style></head><body><main><header><h1>英単語2500マスター</h1><p class="muted">Pre Lv.1 ｜小学生編・基礎100語</p></header>
+<div class="note">開発・内容校正用のプレビューです。100語と選択肢は草案で、校閲完了前です。進捗はこのブラウザだけに保存され、ID・ガチャ・Discordとは連携しません。</div>
+<section id="home" class="panel"><h2>5単元 × 20語</h2><p id="loadStatus" class="muted">問題データ読み込み中…</p>
+<p id="progress" class="stat"></p><div class="grid units" id="units"></div><button id="reset" class="full" style="margin-top:20px">この端末の練習履歴をリセット</button></section>
+<section id="quiz" class="panel hidden"><p id="position"></p><div class="bar"><div class="fill" id="fill"></div></div><div id="word" class="big"></div>
+<p>日本語の意味を選んでください。</p><div id="choices" class="grid"></div><div id="feedback" aria-live="polite"></div>
+<button id="next" class="full hidden">次の問題へ</button><button id="quit" class="full">学習を中断して戻る</button></section>
+<section id="result" class="panel hidden"><h2>結果</h2><p id="score" class="big"></p><p id="outcome"></p><div id="missed"></div><button id="again" class="full">同じ単元に再挑戦</button><button id="back" class="full">単元選択に戻る</button></section>
+<script>
+const el=id=>document.getElementById(id);
+const KEY="eigo2500-pre-lv1-practice-v1";
+const TITLES=["数（1～20）","曜日・月・日付","色・大きさ・気持ち","家族・学校","動物・食べ物"];
+let bank=[],questions=[],unit=1,idx=0,correct=0,misses=[],locked=false;
+function read(){try{return JSON.parse(localStorage.getItem(KEY))||{passed:[],attempts:{}}}catch{return {passed:[],attempts:{}}}}
+function write(p){try{localStorage.setItem(KEY,JSON.stringify(p))}catch{}}
+function view(s){for(const n of ["home","quiz","result"])el(n).classList.toggle("hidden",n!==s)}
+function shuffle(arr){let a=[...arr];for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function home(){view("home");const p=read();el("progress").textContent="練習合格済み "+p.passed.length+" / 5単元（90％以上）";const wrap=el("units");wrap.replaceChildren();
+ for(let i=1;i<=5;i++){const b=document.createElement("button");const title=document.createElement("span");title.textContent="単元"+i+"："+TITLES[i-1];const detail=document.createElement("small");detail.textContent=(p.passed.includes(i)?"練習合格済み ✓":"未合格")+" ／ "+(p.attempts[i]===undefined?"未受験":"前回 "+p.attempts[i]+"％");b.append(title,detail);b.onclick=()=>start(i);wrap.append(b);}
+}
+function start(n){unit=n;questions=shuffle(bank.filter(x=>x.level===1&&x.unit===n));if(questions.length!==20){el("loadStatus").textContent="この単元は20問揃っていません。";return}idx=0;correct=0;misses=[];view("quiz");render()}
+function render(){if(idx===questions.length)return finish();locked=false;const q=questions[idx];el("position").textContent="単元"+unit+"・"+(idx+1)+"/20　正解 "+correct+"問";el("fill").style.width=(idx*5)+"%";el("word").textContent=q.lemma;el("feedback").textContent="";el("next").classList.add("hidden");const wrap=el("choices");wrap.replaceChildren();
+ for(const v of shuffle([q.meaning_ja,...q.distractors_ja])){const b=document.createElement("button");b.textContent=v;b.onclick=()=>answer(b,v,q);wrap.append(b)}}
+function answer(b,value,q){if(locked)return;locked=true;const ok=value===q.meaning_ja;if(ok)correct++;else misses.push(q);
+ for(const child of el("choices").children){child.disabled=true;if(child.textContent===q.meaning_ja)child.classList.add("correct")}
+ if(!ok)b.classList.add("wrong");el("feedback").textContent=(ok?"正解！ ":"正解は「"+q.meaning_ja+"」。")+q.explanation_ja;el("next").textContent=idx===19?"結果を見る":"次の問題へ";el("next").classList.remove("hidden");}
+function finish(){view("result");const pct=correct*5;const passed=pct>=90;el("score").textContent=pct+"%（"+correct+"/20）";el("outcome").textContent=passed?"練習合格（90％以上）。正式なガチャ権は発生しません。":"不合格。18問以上の正解で練習合格です。";
+const p=read();p.attempts[unit]=pct;if(passed&&!p.passed.includes(unit))p.passed.push(unit);write(p);
+const wrap=el("missed");wrap.replaceChildren();if(misses.length){const heading=document.createElement("h3");heading.textContent="復習する単語";wrap.append(heading);for(const q of misses){const row=document.createElement("p");row.textContent=q.lemma+" → "+q.meaning_ja;wrap.append(row)}}}
+async function load(){try{const r=await fetch("./data/pre-lv1-draft.json",{cache:"no-store"});if(!r.ok)throw Error("HTTP "+r.status);const arr=await r.json();if(!Array.isArray(arr)||arr.length!==100)throw Error("100問が揃っていません");
+const ids=new Set();for(const q of arr){const options=[q.meaning_ja,...(q.distractors_ja||[])];if(!q.id||ids.has(q.id)||q.stage!=="PRE"||q.level!==1||q.unit<1||q.unit>5||options.length!==4||new Set(options).size!==4)throw Error("問題形式エラー: "+q.id);ids.add(q.id)}
+bank=arr;el("loadStatus").textContent="100語を読み込みました（校閲前）。";home()}catch(e){el("loadStatus").textContent="読み込み失敗："+e.message+"。Webサーバーで開いてください。"}}
+el("next").onclick=()=>{idx++;render()};el("quit").onclick=home;el("again").onclick=()=>start(unit);el("back").onclick=home;
+el("reset").onclick=()=>{if(confirm("このブラウザのPre Lv.1練習履歴を消去しますか？")){localStorage.removeItem(KEY);home()}};
+load();
+</script></main></body></html>
