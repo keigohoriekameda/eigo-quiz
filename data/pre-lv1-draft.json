@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "PRE-L1-001",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 1,
+    "lemma": "one",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "1",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "2",
+      "4",
+      "8"
+    ],
+    "explanation_ja": "one は「1」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-002",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 1,
+    "lemma": "two",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "2",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "3",
+      "5",
+      "9"
+    ],
+    "explanation_ja": "two は「2」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-003",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 1,
+    "lemma": "three",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "3",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "4",
+      "6",
+      "10"
+    ],
+    "explanation_ja": "three は「3」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-004",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 1,
+    "lemma": "four",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "4",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "5",
+      "7",
+      "11"
+    ],
+    "explanation_ja": "four は「4」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-005",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 1,
+    "lemma": "five",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "5",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "6",
+      "8",
+      "12"
+    ],
+    "explanation_ja": "five は「5」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-006",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 1,
+    "lemma": "six",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "6",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "7",
+      "9",
+      "13"
+    ],
+    "explanation_ja": "six は「6」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-007",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 1,
+    "lemma": "seven",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "7",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "8",
+      "10",
+      "14"
+    ],
+    "explanation_ja": "seven は「7」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-008",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 1,
+    "lemma": "eight",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "8",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "9",
+      "11",
+      "15"
+    ],
+    "explanation_ja": "eight は「8」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-009",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 1,
+    "lemma": "nine",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "9",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "10",
+      "12",
+      "16"
+    ],
+    "explanation_ja": "nine は「9」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-010",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 1,
+    "lemma": "ten",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "10",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "11",
+      "13",
+      "17"
+    ],
+    "explanation_ja": "ten は「10」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-011",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 1,
+    "lemma": "eleven",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "11",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "12",
+      "14",
+      "18"
+    ],
+    "explanation_ja": "eleven は「11」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-012",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 1,
+    "lemma": "twelve",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "12",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "13",
+      "15",
+      "19"
+    ],
+    "explanation_ja": "twelve は「12」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-013",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 1,
+    "lemma": "thirteen",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "13",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "14",
+      "16",
+      "20"
+    ],
+    "explanation_ja": "thirteen は「13」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-014",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 1,
+    "lemma": "fourteen",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "14",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "15",
+      "17",
+      "1"
+    ],
+    "explanation_ja": "fourteen は「14」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-015",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 1,
+    "lemma": "fifteen",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "15",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "16",
+      "18",
+      "2"
+    ],
+    "explanation_ja": "fifteen は「15」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-016",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 1,
+    "lemma": "sixteen",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "16",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "17",
+      "19",
+      "3"
+    ],
+    "explanation_ja": "sixteen は「16」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-017",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 1,
+    "lemma": "seventeen",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "17",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "18",
+      "20",
+      "4"
+    ],
+    "explanation_ja": "seventeen は「17」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-018",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 1,
+    "lemma": "eighteen",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "18",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "19",
+      "1",
+      "5"
+    ],
+    "explanation_ja": "eighteen は「18」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-019",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 1,
+    "lemma": "nineteen",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "19",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "20",
+      "2",
+      "6"
+    ],
+    "explanation_ja": "nineteen は「19」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-020",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 1,
+    "lemma": "twenty",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "20",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "1",
+      "3",
+      "7"
+    ],
+    "explanation_ja": "twenty は「20」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-021",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 2,
+    "lemma": "Monday",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "月曜日",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "火曜日",
+      "木曜日",
+      "1月"
+    ],
+    "explanation_ja": "Monday は「月曜日」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-022",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 2,
+    "lemma": "Tuesday",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "火曜日",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "水曜日",
+      "金曜日",
+      "2月"
+    ],
+    "explanation_ja": "Tuesday は「火曜日」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-023",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 2,
+    "lemma": "Wednesday",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "水曜日",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "木曜日",
+      "土曜日",
+      "3月"
+    ],
+    "explanation_ja": "Wednesday は「水曜日」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-024",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 2,
+    "lemma": "Thursday",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "木曜日",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "金曜日",
+      "日曜日",
+      "4月"
+    ],
+    "explanation_ja": "Thursday は「木曜日」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-025",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 2,
+    "lemma": "Friday",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "金曜日",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "土曜日",
+      "1月",
+      "5月"
+    ],
+    "explanation_ja": "Friday は「金曜日」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-026",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 2,
+    "lemma": "Saturday",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "土曜日",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "日曜日",
+      "2月",
+      "6月"
+    ],
+    "explanation_ja": "Saturday は「土曜日」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-027",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 2,
+    "lemma": "Sunday",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "日曜日",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "1月",
+      "3月",
+      "7月"
+    ],
+    "explanation_ja": "Sunday は「日曜日」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-028",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 2,
+    "lemma": "January",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "1月",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "2月",
+      "4月",
+      "8月"
+    ],
+    "explanation_ja": "January は「1月」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-029",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 2,
+    "lemma": "February",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "2月",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "3月",
+      "5月",
+      "9月"
+    ],
+    "explanation_ja": "February は「2月」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-030",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 2,
+    "lemma": "March",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "3月",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "4月",
+      "6月",
+      "10月"
+    ],
+    "explanation_ja": "March は「3月」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-031",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 2,
+    "lemma": "April",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "4月",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "5月",
+      "7月",
+      "11月"
+    ],
+    "explanation_ja": "April は「4月」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-032",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 2,
+    "lemma": "May",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "5月",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "6月",
+      "8月",
+      "12月"
+    ],
+    "explanation_ja": "May は「5月」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-033",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 2,
+    "lemma": "June",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "6月",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "7月",
+      "9月",
+      "今日"
+    ],
+    "explanation_ja": "June は「6月」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-034",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 2,
+    "lemma": "July",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "7月",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "8月",
+      "10月",
+      "月曜日"
+    ],
+    "explanation_ja": "July は「7月」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-035",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 2,
+    "lemma": "August",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "8月",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "9月",
+      "11月",
+      "火曜日"
+    ],
+    "explanation_ja": "August は「8月」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-036",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 2,
+    "lemma": "September",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "9月",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "10月",
+      "12月",
+      "水曜日"
+    ],
+    "explanation_ja": "September は「9月」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-037",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 2,
+    "lemma": "October",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "10月",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "11月",
+      "今日",
+      "木曜日"
+    ],
+    "explanation_ja": "October は「10月」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-038",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 2,
+    "lemma": "November",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "11月",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "12月",
+      "月曜日",
+      "金曜日"
+    ],
+    "explanation_ja": "November は「11月」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-039",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 2,
+    "lemma": "December",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "12月",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "今日",
+      "火曜日",
+      "土曜日"
+    ],
+    "explanation_ja": "December は「12月」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-040",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 2,
+    "lemma": "today",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "今日",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "月曜日",
+      "水曜日",
+      "日曜日"
+    ],
+    "explanation_ja": "today は「今日」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-041",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 3,
+    "lemma": "red",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "赤",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "青",
+      "緑",
+      "ピンク"
+    ],
+    "explanation_ja": "red は「赤」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-042",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 3,
+    "lemma": "blue",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "青",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "黄色",
+      "黒",
+      "オレンジ色"
+    ],
+    "explanation_ja": "blue は「青」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-043",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 3,
+    "lemma": "yellow",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "黄色",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "緑",
+      "白",
+      "紫"
+    ],
+    "explanation_ja": "yellow は「黄色」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-044",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 3,
+    "lemma": "green",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "緑",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "黒",
+      "茶色",
+      "大きい"
+    ],
+    "explanation_ja": "green は「緑」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-045",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 3,
+    "lemma": "black",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "黒",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "白",
+      "ピンク",
+      "小さい"
+    ],
+    "explanation_ja": "black は「黒」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-046",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 3,
+    "lemma": "white",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "白",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "茶色",
+      "オレンジ色",
+      "長い"
+    ],
+    "explanation_ja": "white は「白」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-047",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 3,
+    "lemma": "brown",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "茶色",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ピンク",
+      "紫",
+      "短い"
+    ],
+    "explanation_ja": "brown は「茶色」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-048",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 3,
+    "lemma": "pink",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "ピンク",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "オレンジ色",
+      "大きい",
+      "新しい"
+    ],
+    "explanation_ja": "pink は「ピンク」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-049",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 3,
+    "lemma": "orange",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "オレンジ色",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "紫",
+      "小さい",
+      "古い"
+    ],
+    "explanation_ja": "orange は「オレンジ色」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-050",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 3,
+    "lemma": "purple",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "紫",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "大きい",
+      "長い",
+      "暑い・熱い"
+    ],
+    "explanation_ja": "purple は「紫」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-051",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 3,
+    "lemma": "big",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "大きい",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "小さい",
+      "短い",
+      "寒い・冷たい"
+    ],
+    "explanation_ja": "big は「大きい」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-052",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 3,
+    "lemma": "small",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "小さい",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "長い",
+      "新しい",
+      "うれしい"
+    ],
+    "explanation_ja": "small は「小さい」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-053",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 3,
+    "lemma": "long",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "長い",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "短い",
+      "古い",
+      "悲しい"
+    ],
+    "explanation_ja": "long は「長い」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-054",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 3,
+    "lemma": "short",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "短い",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "新しい",
+      "暑い・熱い",
+      "赤"
+    ],
+    "explanation_ja": "short は「短い」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-055",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 3,
+    "lemma": "new",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "新しい",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "古い",
+      "寒い・冷たい",
+      "青"
+    ],
+    "explanation_ja": "new は「新しい」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-056",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 3,
+    "lemma": "old",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "古い",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "暑い・熱い",
+      "うれしい",
+      "黄色"
+    ],
+    "explanation_ja": "old は「古い」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-057",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 3,
+    "lemma": "hot",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "暑い・熱い",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "寒い・冷たい",
+      "悲しい",
+      "緑"
+    ],
+    "explanation_ja": "hot は「暑い・熱い」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-058",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 3,
+    "lemma": "cold",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "寒い・冷たい",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "うれしい",
+      "赤",
+      "黒"
+    ],
+    "explanation_ja": "cold は「寒い・冷たい」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-059",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 3,
+    "lemma": "happy",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "うれしい",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "悲しい",
+      "青",
+      "白"
+    ],
+    "explanation_ja": "happy は「うれしい」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-060",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 3,
+    "lemma": "sad",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "悲しい",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "赤",
+      "黄色",
+      "茶色"
+    ],
+    "explanation_ja": "sad は「悲しい」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-061",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 4,
+    "lemma": "mother",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "母",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "父",
+      "姉・妹",
+      "友達"
+    ],
+    "explanation_ja": "mother は「母」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-062",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 4,
+    "lemma": "father",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "父",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "兄・弟",
+      "祖母",
+      "先生"
+    ],
+    "explanation_ja": "father は「父」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-063",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 4,
+    "lemma": "brother",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "兄・弟",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "姉・妹",
+      "祖父",
+      "生徒"
+    ],
+    "explanation_ja": "brother は「兄・弟」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-064",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 4,
+    "lemma": "sister",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "姉・妹",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "祖母",
+      "家族",
+      "学校"
+    ],
+    "explanation_ja": "sister は「姉・妹」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-065",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 4,
+    "lemma": "grandmother",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "祖母",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "祖父",
+      "友達",
+      "教室"
+    ],
+    "explanation_ja": "grandmother は「祖母」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-066",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 4,
+    "lemma": "grandfather",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "祖父",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "家族",
+      "先生",
+      "机"
+    ],
+    "explanation_ja": "grandfather は「祖父」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-067",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 4,
+    "lemma": "family",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "家族",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "友達",
+      "生徒",
+      "いす"
+    ],
+    "explanation_ja": "family は「家族」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-068",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 4,
+    "lemma": "friend",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "友達",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "先生",
+      "学校",
+      "本"
+    ],
+    "explanation_ja": "friend は「友達」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-069",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 4,
+    "lemma": "teacher",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "先生",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "生徒",
+      "教室",
+      "ノート"
+    ],
+    "explanation_ja": "teacher は「先生」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-070",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 4,
+    "lemma": "student",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "生徒",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "学校",
+      "机",
+      "鉛筆"
+    ],
+    "explanation_ja": "student は「生徒」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-071",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 4,
+    "lemma": "school",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "学校",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "教室",
+      "いす",
+      "消しゴム"
+    ],
+    "explanation_ja": "school は「学校」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-072",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 4,
+    "lemma": "classroom",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "教室",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "机",
+      "本",
+      "定規"
+    ],
+    "explanation_ja": "classroom は「教室」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-073",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 4,
+    "lemma": "desk",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "机",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "いす",
+      "ノート",
+      "かばん"
+    ],
+    "explanation_ja": "desk は「机」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-074",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 4,
+    "lemma": "chair",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "いす",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "本",
+      "鉛筆",
+      "母"
+    ],
+    "explanation_ja": "chair は「いす」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-075",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 4,
+    "lemma": "book",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "本",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ノート",
+      "消しゴム",
+      "父"
+    ],
+    "explanation_ja": "book は「本」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-076",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 4,
+    "lemma": "notebook",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "ノート",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "鉛筆",
+      "定規",
+      "兄・弟"
+    ],
+    "explanation_ja": "notebook は「ノート」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-077",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 4,
+    "lemma": "pencil",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "鉛筆",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "消しゴム",
+      "かばん",
+      "姉・妹"
+    ],
+    "explanation_ja": "pencil は「鉛筆」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-078",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 4,
+    "lemma": "eraser",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "消しゴム",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "定規",
+      "母",
+      "祖母"
+    ],
+    "explanation_ja": "eraser は「消しゴム」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-079",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 4,
+    "lemma": "ruler",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "定規",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "かばん",
+      "父",
+      "祖父"
+    ],
+    "explanation_ja": "ruler は「定規」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-080",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 4,
+    "lemma": "bag",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "かばん",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "母",
+      "兄・弟",
+      "家族"
+    ],
+    "explanation_ja": "bag は「かばん」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-081",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 5,
+    "lemma": "dog",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "犬",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "猫",
+      "魚",
+      "豚"
+    ],
+    "explanation_ja": "dog は「犬」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-082",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 5,
+    "lemma": "cat",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "猫",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "鳥",
+      "ウサギ",
+      "ライオン"
+    ],
+    "explanation_ja": "cat は「猫」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-083",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 5,
+    "lemma": "bird",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "鳥",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "魚",
+      "馬",
+      "象"
+    ],
+    "explanation_ja": "bird は「鳥」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-084",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 5,
+    "lemma": "fish",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "魚",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ウサギ",
+      "牛",
+      "りんご"
+    ],
+    "explanation_ja": "fish は「魚」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-085",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 5,
+    "lemma": "rabbit",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "ウサギ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "馬",
+      "豚",
+      "バナナ"
+    ],
+    "explanation_ja": "rabbit は「ウサギ」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-086",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 5,
+    "lemma": "horse",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "馬",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "牛",
+      "ライオン",
+      "ぶどう"
+    ],
+    "explanation_ja": "horse は「馬」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-087",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 5,
+    "lemma": "cow",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "牛",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "豚",
+      "象",
+      "桃"
+    ],
+    "explanation_ja": "cow は「牛」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-088",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 5,
+    "lemma": "pig",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "豚",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ライオン",
+      "りんご",
+      "ご飯・米"
+    ],
+    "explanation_ja": "pig は「豚」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-089",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 5,
+    "lemma": "lion",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "ライオン",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "象",
+      "バナナ",
+      "パン"
+    ],
+    "explanation_ja": "lion は「ライオン」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-090",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 5,
+    "lemma": "elephant",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "象",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "りんご",
+      "ぶどう",
+      "牛乳"
+    ],
+    "explanation_ja": "elephant は「象」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-091",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 5,
+    "lemma": "apple",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "りんご",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "バナナ",
+      "桃",
+      "水"
+    ],
+    "explanation_ja": "apple は「りんご」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-092",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 5,
+    "lemma": "banana",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "バナナ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ぶどう",
+      "ご飯・米",
+      "卵"
+    ],
+    "explanation_ja": "banana は「バナナ」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-093",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 5,
+    "lemma": "grape",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "ぶどう",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "桃",
+      "パン",
+      "チーズ"
+    ],
+    "explanation_ja": "grape は「ぶどう」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-094",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 5,
+    "lemma": "peach",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "桃",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ご飯・米",
+      "牛乳",
+      "犬"
+    ],
+    "explanation_ja": "peach は「桃」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-095",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 5,
+    "lemma": "rice",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "ご飯・米",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "パン",
+      "水",
+      "猫"
+    ],
+    "explanation_ja": "rice は「ご飯・米」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-096",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 5,
+    "lemma": "bread",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "パン",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "牛乳",
+      "卵",
+      "鳥"
+    ],
+    "explanation_ja": "bread は「パン」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-097",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 5,
+    "lemma": "milk",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "牛乳",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "水",
+      "チーズ",
+      "魚"
+    ],
+    "explanation_ja": "milk は「牛乳」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-098",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 5,
+    "lemma": "water",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "水",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "卵",
+      "犬",
+      "ウサギ"
+    ],
+    "explanation_ja": "water は「水」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-099",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 5,
+    "lemma": "egg",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "卵",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "チーズ",
+      "猫",
+      "馬"
+    ],
+    "explanation_ja": "egg は「卵」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L1-100",
+    "stage": "PRE",
+    "level": 1,
+    "unit": 5,
+    "lemma": "cheese",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "チーズ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "犬",
+      "鳥",
+      "牛"
+    ],
+    "explanation_ja": "cheese は「チーズ」という意味です。",
+    "source_tag": "original-pre-l1",
+    "review_status": "draft"
+  }
+]
