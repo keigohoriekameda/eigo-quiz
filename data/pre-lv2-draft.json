@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "PRE-L2-001",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 1,
+    "lemma": "head",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "頭",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "髪",
+      "鼻",
+      "足"
+    ],
+    "explanation_ja": "head は「頭」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-002",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 1,
+    "lemma": "hair",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "髪",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "顔",
+      "口",
+      "指"
+    ],
+    "explanation_ja": "hair は「髪」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-003",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 1,
+    "lemma": "face",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "顔",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "目",
+      "歯",
+      "肩"
+    ],
+    "explanation_ja": "face は「顔」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-004",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 1,
+    "lemma": "eye",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "目",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "耳",
+      "手",
+      "ひざ"
+    ],
+    "explanation_ja": "eye は「目」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-005",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 1,
+    "lemma": "ear",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "耳",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "鼻",
+      "腕",
+      "首"
+    ],
+    "explanation_ja": "ear は「耳」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-006",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 1,
+    "lemma": "nose",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "鼻",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "口",
+      "脚",
+      "背中"
+    ],
+    "explanation_ja": "nose は「鼻」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-007",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 1,
+    "lemma": "mouth",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "口",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "歯",
+      "足",
+      "お腹"
+    ],
+    "explanation_ja": "mouth は「口」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-008",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 1,
+    "lemma": "tooth",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "歯",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "手",
+      "指",
+      "心臓"
+    ],
+    "explanation_ja": "tooth は「歯」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-009",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 1,
+    "lemma": "hand",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "手",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "腕",
+      "肩",
+      "体"
+    ],
+    "explanation_ja": "hand は「手」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-010",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 1,
+    "lemma": "arm",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "腕",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "脚",
+      "ひざ",
+      "頭"
+    ],
+    "explanation_ja": "arm は「腕」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-011",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 1,
+    "lemma": "leg",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "脚",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "足",
+      "首",
+      "髪"
+    ],
+    "explanation_ja": "leg は「脚」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-012",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 1,
+    "lemma": "foot",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "足",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "指",
+      "背中",
+      "顔"
+    ],
+    "explanation_ja": "foot は「足」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-013",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 1,
+    "lemma": "finger",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "指",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "肩",
+      "お腹",
+      "目"
+    ],
+    "explanation_ja": "finger は「指」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-014",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 1,
+    "lemma": "shoulder",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "肩",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ひざ",
+      "心臓",
+      "耳"
+    ],
+    "explanation_ja": "shoulder は「肩」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-015",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 1,
+    "lemma": "knee",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "ひざ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "首",
+      "体",
+      "鼻"
+    ],
+    "explanation_ja": "knee は「ひざ」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-016",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 1,
+    "lemma": "neck",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "首",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "背中",
+      "頭",
+      "口"
+    ],
+    "explanation_ja": "neck は「首」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-017",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 1,
+    "lemma": "back",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "背中",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "お腹",
+      "髪",
+      "歯"
+    ],
+    "explanation_ja": "back は「背中」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-018",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 1,
+    "lemma": "stomach",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "お腹",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "心臓",
+      "顔",
+      "手"
+    ],
+    "explanation_ja": "stomach は「お腹」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-019",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 1,
+    "lemma": "heart",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "心臓",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "体",
+      "目",
+      "腕"
+    ],
+    "explanation_ja": "heart は「心臓」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-020",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 1,
+    "lemma": "body",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "体",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "頭",
+      "耳",
+      "脚"
+    ],
+    "explanation_ja": "body は「体」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-021",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 2,
+    "lemma": "run",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "走る",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "歩く",
+      "踊る",
+      "飲む"
+    ],
+    "explanation_ja": "run は「走る」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-022",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 2,
+    "lemma": "walk",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "歩く",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "跳ぶ",
+      "読む",
+      "眠る"
+    ],
+    "explanation_ja": "walk は「歩く」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-023",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 2,
+    "lemma": "jump",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "跳ぶ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "泳ぐ",
+      "書く",
+      "目を覚ます"
+    ],
+    "explanation_ja": "jump は「跳ぶ」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-024",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 2,
+    "lemma": "swim",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "泳ぐ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "歌う",
+      "聞く",
+      "座る"
+    ],
+    "explanation_ja": "swim は「泳ぐ」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-025",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 2,
+    "lemma": "sing",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "歌う",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "踊る",
+      "話す",
+      "立つ"
+    ],
+    "explanation_ja": "sing は「歌う」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-026",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 2,
+    "lemma": "dance",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "踊る",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "読む",
+      "食べる",
+      "開ける"
+    ],
+    "explanation_ja": "dance は「踊る」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-027",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 2,
+    "lemma": "read",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "読む",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "書く",
+      "飲む",
+      "閉める"
+    ],
+    "explanation_ja": "read は「読む」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-028",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 2,
+    "lemma": "write",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "書く",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "聞く",
+      "眠る",
+      "買う"
+    ],
+    "explanation_ja": "write は「書く」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-029",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 2,
+    "lemma": "listen",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "聞く",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "話す",
+      "目を覚ます",
+      "売る"
+    ],
+    "explanation_ja": "listen は「聞く」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-030",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 2,
+    "lemma": "speak",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "話す",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "食べる",
+      "座る",
+      "走る"
+    ],
+    "explanation_ja": "speak は「話す」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-031",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 2,
+    "lemma": "eat",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "食べる",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "飲む",
+      "立つ",
+      "歩く"
+    ],
+    "explanation_ja": "eat は「食べる」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-032",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 2,
+    "lemma": "drink",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "飲む",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "眠る",
+      "開ける",
+      "跳ぶ"
+    ],
+    "explanation_ja": "drink は「飲む」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-033",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 2,
+    "lemma": "sleep",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "眠る",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "目を覚ます",
+      "閉める",
+      "泳ぐ"
+    ],
+    "explanation_ja": "sleep は「眠る」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-034",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 2,
+    "lemma": "wake",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "目を覚ます",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "座る",
+      "買う",
+      "歌う"
+    ],
+    "explanation_ja": "wake は「目を覚ます」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-035",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 2,
+    "lemma": "sit",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "座る",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "立つ",
+      "売る",
+      "踊る"
+    ],
+    "explanation_ja": "sit は「座る」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-036",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 2,
+    "lemma": "stand",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "立つ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "開ける",
+      "走る",
+      "読む"
+    ],
+    "explanation_ja": "stand は「立つ」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-037",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 2,
+    "lemma": "open",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "開ける",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "閉める",
+      "歩く",
+      "書く"
+    ],
+    "explanation_ja": "open は「開ける」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-038",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 2,
+    "lemma": "close",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "閉める",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "買う",
+      "跳ぶ",
+      "聞く"
+    ],
+    "explanation_ja": "close は「閉める」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-039",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 2,
+    "lemma": "buy",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "買う",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "売る",
+      "泳ぐ",
+      "話す"
+    ],
+    "explanation_ja": "buy は「買う」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-040",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 2,
+    "lemma": "sell",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "売る",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "走る",
+      "歌う",
+      "食べる"
+    ],
+    "explanation_ja": "sell は「売る」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-041",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 3,
+    "lemma": "morning",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "朝",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "午後",
+      "明日",
+      "秒"
+    ],
+    "explanation_ja": "morning は「朝」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-042",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 3,
+    "lemma": "afternoon",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "午後",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "夕方",
+      "週",
+      "春"
+    ],
+    "explanation_ja": "afternoon は「午後」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-043",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 3,
+    "lemma": "evening",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "夕方",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "夜",
+      "月（期間）",
+      "夏"
+    ],
+    "explanation_ja": "evening は「夕方」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-044",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 3,
+    "lemma": "night",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "夜",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "昨日",
+      "年",
+      "秋"
+    ],
+    "explanation_ja": "night は「夜」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-045",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 3,
+    "lemma": "yesterday",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "昨日",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "明日",
+      "時間（60分）",
+      "冬"
+    ],
+    "explanation_ja": "yesterday は「昨日」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-046",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 3,
+    "lemma": "tomorrow",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "明日",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "週",
+      "分",
+      "晴れた"
+    ],
+    "explanation_ja": "tomorrow は「明日」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-047",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 3,
+    "lemma": "week",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "週",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "月（期間）",
+      "秒",
+      "雨の"
+    ],
+    "explanation_ja": "week は「週」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-048",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 3,
+    "lemma": "month",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "月（期間）",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "年",
+      "春",
+      "曇りの"
+    ],
+    "explanation_ja": "month は「月（期間）」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-049",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 3,
+    "lemma": "year",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "年",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "時間（60分）",
+      "夏",
+      "雪の"
+    ],
+    "explanation_ja": "year は「年」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-050",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 3,
+    "lemma": "hour",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "時間（60分）",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "分",
+      "秋",
+      "朝"
+    ],
+    "explanation_ja": "hour は「時間（60分）」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-051",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 3,
+    "lemma": "minute",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "分",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "秒",
+      "冬",
+      "午後"
+    ],
+    "explanation_ja": "minute は「分」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-052",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 3,
+    "lemma": "second",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "秒",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "春",
+      "晴れた",
+      "夕方"
+    ],
+    "explanation_ja": "second は「秒」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-053",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 3,
+    "lemma": "spring",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "春",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "夏",
+      "雨の",
+      "夜"
+    ],
+    "explanation_ja": "spring は「春」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-054",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 3,
+    "lemma": "summer",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "夏",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "秋",
+      "曇りの",
+      "昨日"
+    ],
+    "explanation_ja": "summer は「夏」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-055",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 3,
+    "lemma": "autumn",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "秋",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "冬",
+      "雪の",
+      "明日"
+    ],
+    "explanation_ja": "autumn は「秋」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-056",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 3,
+    "lemma": "winter",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "冬",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "晴れた",
+      "朝",
+      "週"
+    ],
+    "explanation_ja": "winter は「冬」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-057",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 3,
+    "lemma": "sunny",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "晴れた",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "雨の",
+      "午後",
+      "月（期間）"
+    ],
+    "explanation_ja": "sunny は「晴れた」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-058",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 3,
+    "lemma": "rainy",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "雨の",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "曇りの",
+      "夕方",
+      "年"
+    ],
+    "explanation_ja": "rainy は「雨の」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-059",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 3,
+    "lemma": "cloudy",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "曇りの",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "雪の",
+      "夜",
+      "時間（60分）"
+    ],
+    "explanation_ja": "cloudy は「曇りの」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-060",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 3,
+    "lemma": "snowy",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "雪の",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "朝",
+      "昨日",
+      "分"
+    ],
+    "explanation_ja": "snowy は「雪の」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-061",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 4,
+    "lemma": "house",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "家",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "部屋",
+      "庭",
+      "レストラン"
+    ],
+    "explanation_ja": "house は「家」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-062",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 4,
+    "lemma": "room",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "部屋",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "台所",
+      "公園",
+      "博物館"
+    ],
+    "explanation_ja": "room は「部屋」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-063",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 4,
+    "lemma": "kitchen",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "台所",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "浴室",
+      "図書館",
+      "動物園"
+    ],
+    "explanation_ja": "kitchen は「台所」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-064",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 4,
+    "lemma": "bathroom",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "浴室",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "寝室",
+      "病院",
+      "都市"
+    ],
+    "explanation_ja": "bathroom は「浴室」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-065",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 4,
+    "lemma": "bedroom",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "寝室",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "庭",
+      "駅",
+      "町"
+    ],
+    "explanation_ja": "bedroom は「寝室」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-066",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 4,
+    "lemma": "garden",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "庭",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "公園",
+      "店",
+      "通り"
+    ],
+    "explanation_ja": "garden は「庭」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-067",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 4,
+    "lemma": "park",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "公園",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "図書館",
+      "レストラン",
+      "橋"
+    ],
+    "explanation_ja": "park は「公園」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-068",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 4,
+    "lemma": "library",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "図書館",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "病院",
+      "博物館",
+      "川"
+    ],
+    "explanation_ja": "library は「図書館」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-069",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 4,
+    "lemma": "hospital",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "病院",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "駅",
+      "動物園",
+      "山"
+    ],
+    "explanation_ja": "hospital は「病院」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-070",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 4,
+    "lemma": "station",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "駅",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "店",
+      "都市",
+      "家"
+    ],
+    "explanation_ja": "station は「駅」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-071",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 4,
+    "lemma": "store",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "店",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "レストラン",
+      "町",
+      "部屋"
+    ],
+    "explanation_ja": "store は「店」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-072",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 4,
+    "lemma": "restaurant",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "レストラン",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "博物館",
+      "通り",
+      "台所"
+    ],
+    "explanation_ja": "restaurant は「レストラン」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-073",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 4,
+    "lemma": "museum",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "博物館",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "動物園",
+      "橋",
+      "浴室"
+    ],
+    "explanation_ja": "museum は「博物館」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-074",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 4,
+    "lemma": "zoo",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "動物園",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "都市",
+      "川",
+      "寝室"
+    ],
+    "explanation_ja": "zoo は「動物園」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-075",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 4,
+    "lemma": "city",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "都市",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "町",
+      "山",
+      "庭"
+    ],
+    "explanation_ja": "city は「都市」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-076",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 4,
+    "lemma": "town",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "町",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "通り",
+      "家",
+      "公園"
+    ],
+    "explanation_ja": "town は「町」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-077",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 4,
+    "lemma": "street",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "通り",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "橋",
+      "部屋",
+      "図書館"
+    ],
+    "explanation_ja": "street は「通り」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-078",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 4,
+    "lemma": "bridge",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "橋",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "川",
+      "台所",
+      "病院"
+    ],
+    "explanation_ja": "bridge は「橋」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-079",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 4,
+    "lemma": "river",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "川",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "山",
+      "浴室",
+      "駅"
+    ],
+    "explanation_ja": "river は「川」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-080",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 4,
+    "lemma": "mountain",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "山",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "家",
+      "寝室",
+      "店"
+    ],
+    "explanation_ja": "mountain は「山」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-081",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 5,
+    "lemma": "soccer",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "サッカー",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "野球",
+      "バドミントン",
+      "ピアノ"
+    ],
+    "explanation_ja": "soccer は「サッカー」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-082",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 5,
+    "lemma": "baseball",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "野球",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "バスケットボール",
+      "卓球",
+      "ギター"
+    ],
+    "explanation_ja": "baseball は「野球」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-083",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 5,
+    "lemma": "basketball",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "バスケットボール",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "テニス",
+      "ゴルフ",
+      "バイオリン"
+    ],
+    "explanation_ja": "basketball は「バスケットボール」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-084",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 5,
+    "lemma": "tennis",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "テニス",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "バレーボール",
+      "スキー",
+      "太鼓"
+    ],
+    "explanation_ja": "tennis は「テニス」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-085",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 5,
+    "lemma": "volleyball",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "バレーボール",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "バドミントン",
+      "スケート",
+      "歌"
+    ],
+    "explanation_ja": "volleyball は「バレーボール」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-086",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 5,
+    "lemma": "badminton",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "バドミントン",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "卓球",
+      "音楽",
+      "映画"
+    ],
+    "explanation_ja": "badminton は「バドミントン」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-087",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 5,
+    "lemma": "table tennis",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "卓球",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ゴルフ",
+      "ピアノ",
+      "絵・写真"
+    ],
+    "explanation_ja": "table tennis は「卓球」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-088",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 5,
+    "lemma": "golf",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "ゴルフ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "スキー",
+      "ギター",
+      "カメラ"
+    ],
+    "explanation_ja": "golf は「ゴルフ」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-089",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 5,
+    "lemma": "skiing",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "スキー",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "スケート",
+      "バイオリン",
+      "コンピューター"
+    ],
+    "explanation_ja": "skiing は「スキー」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-090",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 5,
+    "lemma": "skating",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "スケート",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "音楽",
+      "太鼓",
+      "サッカー"
+    ],
+    "explanation_ja": "skating は「スケート」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-091",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 5,
+    "lemma": "music",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "音楽",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ピアノ",
+      "歌",
+      "野球"
+    ],
+    "explanation_ja": "music は「音楽」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-092",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 5,
+    "lemma": "piano",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "ピアノ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ギター",
+      "映画",
+      "バスケットボール"
+    ],
+    "explanation_ja": "piano は「ピアノ」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-093",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 5,
+    "lemma": "guitar",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "ギター",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "バイオリン",
+      "絵・写真",
+      "テニス"
+    ],
+    "explanation_ja": "guitar は「ギター」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-094",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 5,
+    "lemma": "violin",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "バイオリン",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "太鼓",
+      "カメラ",
+      "バレーボール"
+    ],
+    "explanation_ja": "violin は「バイオリン」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-095",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 5,
+    "lemma": "drum",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "太鼓",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "歌",
+      "コンピューター",
+      "バドミントン"
+    ],
+    "explanation_ja": "drum は「太鼓」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-096",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 5,
+    "lemma": "song",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "歌",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "映画",
+      "サッカー",
+      "卓球"
+    ],
+    "explanation_ja": "song は「歌」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-097",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 5,
+    "lemma": "movie",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "映画",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "絵・写真",
+      "野球",
+      "ゴルフ"
+    ],
+    "explanation_ja": "movie は「映画」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-098",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 5,
+    "lemma": "picture",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "絵・写真",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "カメラ",
+      "バスケットボール",
+      "スキー"
+    ],
+    "explanation_ja": "picture は「絵・写真」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-099",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 5,
+    "lemma": "camera",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "カメラ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "コンピューター",
+      "テニス",
+      "スケート"
+    ],
+    "explanation_ja": "camera は「カメラ」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  },
+  {
+    "id": "PRE-L2-100",
+    "stage": "PRE",
+    "level": 2,
+    "unit": 5,
+    "lemma": "computer",
+    "unit_type": "word",
+    "part_of_speech": "vocabulary",
+    "meaning_ja": "コンピューター",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "サッカー",
+      "バレーボール",
+      "音楽"
+    ],
+    "explanation_ja": "computer は「コンピューター」という意味です。",
+    "source_tag": "original-pre-l2",
+    "review_status": "draft"
+  }
+]
