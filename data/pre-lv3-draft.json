@@ -1124,7 +1124,7 @@
     "stage": "PRE",
     "level": 3,
     "unit": 3,
-    "lemma": "watch",
+    "lemma": "wristwatch",
     "unit_type": "word",
     "part_of_speech": "unspecified",
     "meaning_ja": "腕時計",
@@ -1135,7 +1135,7 @@
       "コート",
       "靴"
     ],
-    "explanation_ja": "watch (noun) は「腕時計」という意味です。",
+    "explanation_ja": "wristwatch は「腕時計」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft"
   },
