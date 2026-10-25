@@ -1284,7 +1284,7 @@
     "stage": "PRE",
     "level": 6,
     "unit": 4,
-    "lemma": "cold",
+    "lemma": "common cold",
     "unit_type": "word",
     "part_of_speech": "unspecified",
     "meaning_ja": "風邪",
@@ -1295,7 +1295,7 @@
       "エネルギー",
       "呼吸"
     ],
-    "explanation_ja": "cold (noun) は「風邪」という意味です。",
+    "explanation_ja": "common cold は「風邪」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft"
   },
