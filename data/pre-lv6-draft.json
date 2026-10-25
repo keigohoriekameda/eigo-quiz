@@ -12,12 +12,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "教える",
-      "説明する",
-      "決める"
+      "覚えている",
+      "理解する"
     ],
     "explanation_ja": "learn は「学ぶ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
   },
   {
     "id": "PRE-L6-002",
@@ -31,13 +32,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "勉強する",
-      "描写する",
-      "計画する"
+      "学ぶ",
+      "伝える",
+      "説明する"
     ],
     "explanation_ja": "teach は「教える」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
   },
   {
     "id": "PRE-L6-003",
@@ -57,7 +59,8 @@
     ],
     "explanation_ja": "study は「勉強する」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-004",
@@ -71,13 +74,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
+      "思い出す",
       "忘れる",
-      "尋ねる",
-      "確認する"
+      "考える"
     ],
     "explanation_ja": "remember は「覚えている」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
   },
   {
     "id": "PRE-L6-005",
@@ -97,7 +101,8 @@
     ],
     "explanation_ja": "forget は「忘れる」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-006",
@@ -117,7 +122,8 @@
     ],
     "explanation_ja": "understand は「理解する」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-007",
@@ -132,12 +138,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "描写する",
-      "選ぶ",
-      "発音する"
+      "尋ねる",
+      "答える"
     ],
     "explanation_ja": "explain は「説明する」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
   },
   {
     "id": "PRE-L6-008",
@@ -157,7 +164,8 @@
     ],
     "explanation_ja": "describe は「描写する」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-009",
@@ -177,7 +185,8 @@
     ],
     "explanation_ja": "discuss は「話し合う」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-010",
@@ -197,7 +206,8 @@
     ],
     "explanation_ja": "ask は「尋ねる」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-011",
@@ -217,7 +227,8 @@
     ],
     "explanation_ja": "reply は「返事する」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-012",
@@ -237,7 +248,8 @@
     ],
     "explanation_ja": "repeat は「繰り返す」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-013",
@@ -257,7 +269,8 @@
     ],
     "explanation_ja": "choose は「選ぶ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-014",
@@ -271,13 +284,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "計画する",
-      "発音する",
-      "説明する"
+      "考える",
+      "選ぶ",
+      "計画する"
     ],
     "explanation_ja": "decide は「決める」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
   },
   {
     "id": "PRE-L6-015",
@@ -297,7 +311,8 @@
     ],
     "explanation_ja": "plan は「計画する」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-016",
@@ -317,7 +332,8 @@
     ],
     "explanation_ja": "try は「試す」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-017",
@@ -337,7 +353,8 @@
     ],
     "explanation_ja": "check は「確認する」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-018",
@@ -357,7 +374,8 @@
     ],
     "explanation_ja": "correct は「訂正する」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-019",
@@ -377,7 +395,8 @@
     ],
     "explanation_ja": "spell は「つづる」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-020",
@@ -397,7 +416,8 @@
     ],
     "explanation_ja": "pronounce は「発音する」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-021",
@@ -417,7 +437,8 @@
     ],
     "explanation_ja": "job は「仕事」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-022",
@@ -437,7 +458,8 @@
     ],
     "explanation_ja": "work は「労働」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-023",
@@ -457,7 +479,8 @@
     ],
     "explanation_ja": "worker は「働く人」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-024",
@@ -477,7 +500,8 @@
     ],
     "explanation_ja": "doctor は「医師」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-025",
@@ -497,7 +521,8 @@
     ],
     "explanation_ja": "nurse は「看護師」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-026",
@@ -517,7 +542,8 @@
     ],
     "explanation_ja": "dentist は「歯科医」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-027",
@@ -537,7 +563,8 @@
     ],
     "explanation_ja": "police officer は「警察官」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-028",
@@ -557,7 +584,8 @@
     ],
     "explanation_ja": "firefighter は「消防士」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-029",
@@ -577,7 +605,8 @@
     ],
     "explanation_ja": "farmer は「農家」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-030",
@@ -597,7 +626,8 @@
     ],
     "explanation_ja": "chef は「料理人」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-031",
@@ -617,7 +647,8 @@
     ],
     "explanation_ja": "pilot は「操縦士」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-032",
@@ -637,7 +668,8 @@
     ],
     "explanation_ja": "artist は「芸術家」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-033",
@@ -657,7 +689,8 @@
     ],
     "explanation_ja": "scientist は「科学者」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-034",
@@ -677,7 +710,8 @@
     ],
     "explanation_ja": "engineer は「技術者」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-035",
@@ -697,7 +731,8 @@
     ],
     "explanation_ja": "actor は「俳優」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-036",
@@ -717,7 +752,8 @@
     ],
     "explanation_ja": "singer は「歌手」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-037",
@@ -737,7 +773,8 @@
     ],
     "explanation_ja": "writer は「作家」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-038",
@@ -757,7 +794,8 @@
     ],
     "explanation_ja": "researcher は「研究者」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-039",
@@ -777,7 +815,8 @@
     ],
     "explanation_ja": "volunteer は「ボランティア」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-040",
@@ -797,7 +836,8 @@
     ],
     "explanation_ja": "leader は「指導者」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-041",
@@ -817,7 +857,8 @@
     ],
     "explanation_ja": "money は「お金」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-042",
@@ -837,7 +878,8 @@
     ],
     "explanation_ja": "coin は「硬貨」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-043",
@@ -857,7 +899,8 @@
     ],
     "explanation_ja": "bill は「紙幣」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-044",
@@ -877,7 +920,8 @@
     ],
     "explanation_ja": "price は「価格」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-045",
@@ -897,7 +941,8 @@
     ],
     "explanation_ja": "cost は「費用」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-046",
@@ -917,7 +962,8 @@
     ],
     "explanation_ja": "change は「お釣り」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-047",
@@ -937,7 +983,8 @@
     ],
     "explanation_ja": "receipt は「領収書」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-048",
@@ -957,7 +1004,8 @@
     ],
     "explanation_ja": "sale は「販売」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-049",
@@ -977,7 +1025,8 @@
     ],
     "explanation_ja": "discount は「割引」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-050",
@@ -997,7 +1046,8 @@
     ],
     "explanation_ja": "shopping は「買い物」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-051",
@@ -1017,7 +1067,8 @@
     ],
     "explanation_ja": "customer は「客」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-052",
@@ -1037,7 +1088,8 @@
     ],
     "explanation_ja": "product は「商品」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-053",
@@ -1057,7 +1109,8 @@
     ],
     "explanation_ja": "market は「市場」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-054",
@@ -1077,7 +1130,8 @@
     ],
     "explanation_ja": "service は「サービス」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-055",
@@ -1097,7 +1151,8 @@
     ],
     "explanation_ja": "gift は「贈り物」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-056",
@@ -1117,7 +1172,8 @@
     ],
     "explanation_ja": "card は「カード」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-057",
@@ -1137,7 +1193,8 @@
     ],
     "explanation_ja": "account は「口座」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-058",
@@ -1157,7 +1214,8 @@
     ],
     "explanation_ja": "payment は「支払い」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-059",
@@ -1177,7 +1235,8 @@
     ],
     "explanation_ja": "cash は「現金」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-060",
@@ -1197,7 +1256,8 @@
     ],
     "explanation_ja": "budget は「予算」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-061",
@@ -1217,7 +1277,8 @@
     ],
     "explanation_ja": "health は「健康」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-062",
@@ -1237,7 +1298,8 @@
     ],
     "explanation_ja": "illness は「病気」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-063",
@@ -1257,7 +1319,8 @@
     ],
     "explanation_ja": "fever は「熱」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-064",
@@ -1277,7 +1340,8 @@
     ],
     "explanation_ja": "cough は「せき」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-065",
@@ -1297,7 +1361,8 @@
     ],
     "explanation_ja": "common cold は「風邪」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-066",
@@ -1317,7 +1382,8 @@
     ],
     "explanation_ja": "pain は「痛み」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-067",
@@ -1337,7 +1403,8 @@
     ],
     "explanation_ja": "medicine は「薬」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-068",
@@ -1357,7 +1424,8 @@
     ],
     "explanation_ja": "mask は「マスク」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-069",
@@ -1377,7 +1445,8 @@
     ],
     "explanation_ja": "exercise は「運動」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-070",
@@ -1397,7 +1466,8 @@
     ],
     "explanation_ja": "rest は「休息」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-071",
@@ -1417,7 +1487,8 @@
     ],
     "explanation_ja": "energy は「エネルギー」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-072",
@@ -1437,7 +1508,8 @@
     ],
     "explanation_ja": "vitamin は「ビタミン」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-073",
@@ -1457,7 +1529,8 @@
     ],
     "explanation_ja": "bone は「骨」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-074",
@@ -1477,7 +1550,8 @@
     ],
     "explanation_ja": "muscle は「筋肉」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-075",
@@ -1497,7 +1571,8 @@
     ],
     "explanation_ja": "blood は「血液」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-076",
@@ -1517,7 +1592,8 @@
     ],
     "explanation_ja": "skin は「皮膚」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-077",
@@ -1537,7 +1613,8 @@
     ],
     "explanation_ja": "brain は「脳」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-078",
@@ -1557,7 +1634,8 @@
     ],
     "explanation_ja": "breath は「呼吸」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-079",
@@ -1577,7 +1655,8 @@
     ],
     "explanation_ja": "smile は「ほほえみ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-080",
@@ -1597,7 +1676,8 @@
     ],
     "explanation_ja": "tear は「涙」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-081",
@@ -1617,7 +1697,8 @@
     ],
     "explanation_ja": "internet は「インターネット」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-082",
@@ -1637,7 +1718,8 @@
     ],
     "explanation_ja": "website は「ウェブサイト」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-083",
@@ -1657,7 +1739,8 @@
     ],
     "explanation_ja": "email は「電子メール」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-084",
@@ -1677,7 +1760,8 @@
     ],
     "explanation_ja": "message は「メッセージ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-085",
@@ -1697,7 +1781,8 @@
     ],
     "explanation_ja": "phone は「電話」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-086",
@@ -1717,7 +1802,8 @@
     ],
     "explanation_ja": "smartphone は「スマートフォン」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-087",
@@ -1737,7 +1823,8 @@
     ],
     "explanation_ja": "screen は「画面」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-088",
@@ -1757,7 +1844,8 @@
     ],
     "explanation_ja": "keyboard は「キーボード」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-089",
@@ -1777,7 +1865,8 @@
     ],
     "explanation_ja": "mouse は「マウス」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-090",
@@ -1797,7 +1886,8 @@
     ],
     "explanation_ja": "printer は「プリンター」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-091",
@@ -1817,7 +1907,8 @@
     ],
     "explanation_ja": "photo は「写真」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-092",
@@ -1837,7 +1928,8 @@
     ],
     "explanation_ja": "video は「動画」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-093",
@@ -1857,7 +1949,8 @@
     ],
     "explanation_ja": "game console は「ゲーム機」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-094",
@@ -1877,7 +1970,8 @@
     ],
     "explanation_ja": "password は「パスワード」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-095",
@@ -1897,7 +1991,8 @@
     ],
     "explanation_ja": "application は「アプリ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-096",
@@ -1917,7 +2012,8 @@
     ],
     "explanation_ja": "download は「ダウンロード」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-097",
@@ -1937,7 +2033,8 @@
     ],
     "explanation_ja": "upload は「アップロード」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-098",
@@ -1957,7 +2054,8 @@
     ],
     "explanation_ja": "online は「オンライン」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-099",
@@ -1977,7 +2075,8 @@
     ],
     "explanation_ja": "robot は「ロボット」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L6-100",
@@ -1997,6 +2096,7 @@
     ],
     "explanation_ja": "technology は「技術」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   }
 ]
