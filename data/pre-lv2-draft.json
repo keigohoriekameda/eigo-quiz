@@ -17,7 +17,8 @@
     ],
     "explanation_ja": "head は「頭」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-002",
@@ -37,7 +38,8 @@
     ],
     "explanation_ja": "hair は「髪」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-003",
@@ -57,7 +59,8 @@
     ],
     "explanation_ja": "face は「顔」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-004",
@@ -77,7 +80,8 @@
     ],
     "explanation_ja": "eye は「目」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-005",
@@ -97,7 +101,8 @@
     ],
     "explanation_ja": "ear は「耳」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-006",
@@ -117,7 +122,8 @@
     ],
     "explanation_ja": "nose は「鼻」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-007",
@@ -137,7 +143,8 @@
     ],
     "explanation_ja": "mouth は「口」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-008",
@@ -157,7 +164,8 @@
     ],
     "explanation_ja": "tooth は「歯」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-009",
@@ -177,7 +185,8 @@
     ],
     "explanation_ja": "hand は「手」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-010",
@@ -197,7 +206,8 @@
     ],
     "explanation_ja": "arm は「腕」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-011",
@@ -217,7 +227,8 @@
     ],
     "explanation_ja": "leg は「脚」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-012",
@@ -237,7 +248,8 @@
     ],
     "explanation_ja": "foot は「足」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-013",
@@ -257,7 +269,8 @@
     ],
     "explanation_ja": "finger は「指」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-014",
@@ -277,7 +290,8 @@
     ],
     "explanation_ja": "shoulder は「肩」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-015",
@@ -297,7 +311,8 @@
     ],
     "explanation_ja": "knee は「ひざ」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-016",
@@ -317,7 +332,8 @@
     ],
     "explanation_ja": "neck は「首」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-017",
@@ -337,7 +353,8 @@
     ],
     "explanation_ja": "back は「背中」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-018",
@@ -357,7 +374,8 @@
     ],
     "explanation_ja": "stomach は「お腹」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-019",
@@ -377,7 +395,8 @@
     ],
     "explanation_ja": "heart は「心臓」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-020",
@@ -397,7 +416,8 @@
     ],
     "explanation_ja": "body は「体」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-021",
@@ -412,12 +432,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "歩く",
-      "踊る",
-      "飲む"
+      "跳ぶ",
+      "泳ぐ"
     ],
     "explanation_ja": "run は「走る」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
   },
   {
     "id": "PRE-L2-022",
@@ -431,13 +452,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
+      "走る",
       "跳ぶ",
-      "読む",
-      "眠る"
+      "踊る"
     ],
     "explanation_ja": "walk は「歩く」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
   },
   {
     "id": "PRE-L2-023",
@@ -457,7 +479,8 @@
     ],
     "explanation_ja": "jump は「跳ぶ」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-024",
@@ -477,7 +500,8 @@
     ],
     "explanation_ja": "swim は「泳ぐ」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-025",
@@ -497,7 +521,8 @@
     ],
     "explanation_ja": "sing は「歌う」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-026",
@@ -517,7 +542,8 @@
     ],
     "explanation_ja": "dance は「踊る」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-027",
@@ -537,7 +563,8 @@
     ],
     "explanation_ja": "read は「読む」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-028",
@@ -557,7 +584,8 @@
     ],
     "explanation_ja": "write は「書く」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-029",
@@ -572,12 +600,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "話す",
-      "目を覚ます",
-      "売る"
+      "聞こえる",
+      "歌う"
     ],
     "explanation_ja": "listen は「聞く」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
   },
   {
     "id": "PRE-L2-030",
@@ -591,13 +620,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "食べる",
-      "座る",
-      "走る"
+      "聞く",
+      "書く",
+      "読む"
     ],
     "explanation_ja": "speak は「話す」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
   },
   {
     "id": "PRE-L2-031",
@@ -617,7 +647,8 @@
     ],
     "explanation_ja": "eat は「食べる」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-032",
@@ -637,7 +668,8 @@
     ],
     "explanation_ja": "drink は「飲む」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-033",
@@ -657,7 +689,8 @@
     ],
     "explanation_ja": "sleep は「眠る」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-034",
@@ -677,7 +710,8 @@
     ],
     "explanation_ja": "wake は「目を覚ます」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-035",
@@ -697,7 +731,8 @@
     ],
     "explanation_ja": "sit は「座る」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-036",
@@ -717,7 +752,8 @@
     ],
     "explanation_ja": "stand は「立つ」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-037",
@@ -737,7 +773,8 @@
     ],
     "explanation_ja": "open は「開ける」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-038",
@@ -757,7 +794,8 @@
     ],
     "explanation_ja": "close は「閉める」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-039",
@@ -777,7 +815,8 @@
     ],
     "explanation_ja": "buy は「買う」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-040",
@@ -797,7 +836,8 @@
     ],
     "explanation_ja": "sell は「売る」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-041",
@@ -817,7 +857,8 @@
     ],
     "explanation_ja": "morning は「朝」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-042",
@@ -837,7 +878,8 @@
     ],
     "explanation_ja": "afternoon は「午後」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-043",
@@ -857,7 +899,8 @@
     ],
     "explanation_ja": "evening は「夕方」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-044",
@@ -877,7 +920,8 @@
     ],
     "explanation_ja": "night は「夜」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-045",
@@ -897,7 +941,8 @@
     ],
     "explanation_ja": "yesterday は「昨日」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-046",
@@ -917,7 +962,8 @@
     ],
     "explanation_ja": "tomorrow は「明日」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-047",
@@ -937,7 +983,8 @@
     ],
     "explanation_ja": "week は「週」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-048",
@@ -957,7 +1004,8 @@
     ],
     "explanation_ja": "month は「月（期間）」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-049",
@@ -977,7 +1025,8 @@
     ],
     "explanation_ja": "year は「年」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-050",
@@ -997,7 +1046,8 @@
     ],
     "explanation_ja": "hour は「時間（60分）」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-051",
@@ -1017,7 +1067,8 @@
     ],
     "explanation_ja": "minute は「分」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-052",
@@ -1037,7 +1088,8 @@
     ],
     "explanation_ja": "second は「秒」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-053",
@@ -1057,7 +1109,8 @@
     ],
     "explanation_ja": "spring は「春」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-054",
@@ -1077,7 +1130,8 @@
     ],
     "explanation_ja": "summer は「夏」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-055",
@@ -1097,7 +1151,8 @@
     ],
     "explanation_ja": "autumn は「秋」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-056",
@@ -1117,7 +1172,8 @@
     ],
     "explanation_ja": "winter は「冬」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-057",
@@ -1137,7 +1193,8 @@
     ],
     "explanation_ja": "sunny は「晴れた」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-058",
@@ -1157,7 +1214,8 @@
     ],
     "explanation_ja": "rainy は「雨の」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-059",
@@ -1177,7 +1235,8 @@
     ],
     "explanation_ja": "cloudy は「曇りの」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-060",
@@ -1197,7 +1256,8 @@
     ],
     "explanation_ja": "snowy は「雪の」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-061",
@@ -1217,7 +1277,8 @@
     ],
     "explanation_ja": "house は「家」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-062",
@@ -1237,7 +1298,8 @@
     ],
     "explanation_ja": "room は「部屋」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-063",
@@ -1257,7 +1319,8 @@
     ],
     "explanation_ja": "kitchen は「台所」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-064",
@@ -1277,7 +1340,8 @@
     ],
     "explanation_ja": "bathroom は「浴室」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-065",
@@ -1297,7 +1361,8 @@
     ],
     "explanation_ja": "bedroom は「寝室」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-066",
@@ -1317,7 +1382,8 @@
     ],
     "explanation_ja": "garden は「庭」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-067",
@@ -1337,7 +1403,8 @@
     ],
     "explanation_ja": "park は「公園」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-068",
@@ -1357,7 +1424,8 @@
     ],
     "explanation_ja": "library は「図書館」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-069",
@@ -1377,7 +1445,8 @@
     ],
     "explanation_ja": "hospital は「病院」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-070",
@@ -1397,7 +1466,8 @@
     ],
     "explanation_ja": "station は「駅」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-071",
@@ -1417,7 +1487,8 @@
     ],
     "explanation_ja": "store は「店」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-072",
@@ -1437,7 +1508,8 @@
     ],
     "explanation_ja": "restaurant は「レストラン」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-073",
@@ -1457,7 +1529,8 @@
     ],
     "explanation_ja": "museum は「博物館」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-074",
@@ -1477,7 +1550,8 @@
     ],
     "explanation_ja": "zoo は「動物園」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-075",
@@ -1497,7 +1571,8 @@
     ],
     "explanation_ja": "city は「都市」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-076",
@@ -1517,7 +1592,8 @@
     ],
     "explanation_ja": "town は「町」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-077",
@@ -1537,7 +1613,8 @@
     ],
     "explanation_ja": "street は「通り」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-078",
@@ -1557,7 +1634,8 @@
     ],
     "explanation_ja": "bridge は「橋」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-079",
@@ -1577,7 +1655,8 @@
     ],
     "explanation_ja": "river は「川」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-080",
@@ -1597,7 +1676,8 @@
     ],
     "explanation_ja": "mountain は「山」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-081",
@@ -1617,7 +1697,8 @@
     ],
     "explanation_ja": "soccer は「サッカー」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-082",
@@ -1637,7 +1718,8 @@
     ],
     "explanation_ja": "baseball は「野球」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-083",
@@ -1657,7 +1739,8 @@
     ],
     "explanation_ja": "basketball は「バスケットボール」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-084",
@@ -1677,7 +1760,8 @@
     ],
     "explanation_ja": "tennis は「テニス」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-085",
@@ -1697,7 +1781,8 @@
     ],
     "explanation_ja": "volleyball は「バレーボール」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-086",
@@ -1717,7 +1802,8 @@
     ],
     "explanation_ja": "badminton は「バドミントン」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-087",
@@ -1737,7 +1823,8 @@
     ],
     "explanation_ja": "table tennis は「卓球」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-088",
@@ -1757,7 +1844,8 @@
     ],
     "explanation_ja": "golf は「ゴルフ」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-089",
@@ -1777,7 +1865,8 @@
     ],
     "explanation_ja": "skiing は「スキー」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-090",
@@ -1797,7 +1886,8 @@
     ],
     "explanation_ja": "skating は「スケート」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-091",
@@ -1817,7 +1907,8 @@
     ],
     "explanation_ja": "music は「音楽」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-092",
@@ -1837,7 +1928,8 @@
     ],
     "explanation_ja": "piano は「ピアノ」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-093",
@@ -1857,7 +1949,8 @@
     ],
     "explanation_ja": "guitar は「ギター」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-094",
@@ -1877,7 +1970,8 @@
     ],
     "explanation_ja": "violin は「バイオリン」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-095",
@@ -1897,7 +1991,8 @@
     ],
     "explanation_ja": "drum は「太鼓」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-096",
@@ -1917,7 +2012,8 @@
     ],
     "explanation_ja": "song は「歌」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-097",
@@ -1937,7 +2033,8 @@
     ],
     "explanation_ja": "movie は「映画」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-098",
@@ -1957,7 +2054,8 @@
     ],
     "explanation_ja": "picture は「絵・写真」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-099",
@@ -1977,7 +2075,8 @@
     ],
     "explanation_ja": "camera は「カメラ」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L2-100",
@@ -1997,6 +2096,7 @@
     ],
     "explanation_ja": "computer は「コンピューター」という意味です。",
     "source_tag": "original-pre-l2",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   }
 ]
