@@ -11,13 +11,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "行う",
-      "持ってくる",
-      "聞こえる"
+      "修理する",
+      "選ぶ",
+      "使う"
     ],
     "explanation_ja": "make は「作る」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
   },
   {
     "id": "PRE-L3-002",
@@ -31,13 +32,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "持っている",
-      "送る",
-      "知っている"
+      "作る",
+      "見る",
+      "運ぶ"
     ],
     "explanation_ja": "do は「行う」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
   },
   {
     "id": "PRE-L3-003",
@@ -51,13 +53,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "手に入れる",
-      "見せる",
-      "考える"
+      "借りる",
+      "与える",
+      "買う"
     ],
     "explanation_ja": "have は「持っている」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
   },
   {
     "id": "PRE-L3-004",
@@ -71,13 +74,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "与える",
-      "見つける",
-      "感じる"
+      "手放す",
+      "渡す",
+      "探す"
     ],
     "explanation_ja": "get は「手に入れる」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
   },
   {
     "id": "PRE-L3-005",
@@ -97,7 +101,8 @@
     ],
     "explanation_ja": "give は「与える」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-006",
@@ -117,7 +122,8 @@
     ],
     "explanation_ja": "take は「取る」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-007",
@@ -137,7 +143,8 @@
     ],
     "explanation_ja": "bring は「持ってくる」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-008",
@@ -157,7 +164,8 @@
     ],
     "explanation_ja": "send は「送る」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-009",
@@ -177,7 +185,8 @@
     ],
     "explanation_ja": "show は「見せる」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-010",
@@ -197,7 +206,8 @@
     ],
     "explanation_ja": "find は「見つける」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-011",
@@ -211,13 +221,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "じっと見る",
-      "感じる",
-      "手に入れる"
+      "見つける",
+      "見せる",
+      "見守る"
     ],
     "explanation_ja": "look は「見る」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
   },
   {
     "id": "PRE-L3-012",
@@ -232,12 +243,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "見える",
-      "欲しい",
-      "与える"
+      "見せる",
+      "探す"
     ],
     "explanation_ja": "watch は「じっと見る」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
   },
   {
     "id": "PRE-L3-013",
@@ -257,7 +269,8 @@
     ],
     "explanation_ja": "see は「見える」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-014",
@@ -271,13 +284,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "知っている",
-      "好きである",
-      "持ってくる"
+      "話す",
+      "聞く",
+      "見つける"
     ],
     "explanation_ja": "hear は「聞こえる」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
   },
   {
     "id": "PRE-L3-015",
@@ -297,7 +311,8 @@
     ],
     "explanation_ja": "know は「知っている」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-016",
@@ -317,7 +332,8 @@
     ],
     "explanation_ja": "think は「考える」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-017",
@@ -337,7 +353,8 @@
     ],
     "explanation_ja": "feel は「感じる」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-018",
@@ -357,7 +374,8 @@
     ],
     "explanation_ja": "want は「欲しい」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-019",
@@ -377,7 +395,8 @@
     ],
     "explanation_ja": "need は「必要とする」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-020",
@@ -397,7 +416,8 @@
     ],
     "explanation_ja": "like は「好きである」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-021",
@@ -417,7 +437,8 @@
     ],
     "explanation_ja": "cook は「料理する」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-022",
@@ -437,7 +458,8 @@
     ],
     "explanation_ja": "wash は「洗う」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-023",
@@ -457,7 +479,8 @@
     ],
     "explanation_ja": "clean は「掃除する」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-024",
@@ -477,7 +500,8 @@
     ],
     "explanation_ja": "help は「助ける」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-025",
@@ -497,7 +521,8 @@
     ],
     "explanation_ja": "carry は「運ぶ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-026",
@@ -517,7 +542,8 @@
     ],
     "explanation_ja": "use は「使う」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-027",
@@ -537,7 +563,8 @@
     ],
     "explanation_ja": "put は「置く」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-028",
@@ -557,7 +584,8 @@
     ],
     "explanation_ja": "keep は「保つ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-029",
@@ -577,7 +605,8 @@
     ],
     "explanation_ja": "cut は「切る」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-030",
@@ -597,7 +626,8 @@
     ],
     "explanation_ja": "draw は「描く」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-031",
@@ -617,7 +647,8 @@
     ],
     "explanation_ja": "paint は「色を塗る」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-032",
@@ -637,7 +668,8 @@
     ],
     "explanation_ja": "build は「建てる」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-033",
@@ -657,7 +689,8 @@
     ],
     "explanation_ja": "move は「動く」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-034",
@@ -677,7 +710,8 @@
     ],
     "explanation_ja": "stop は「止まる」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-035",
@@ -697,7 +731,8 @@
     ],
     "explanation_ja": "start は「始める」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-036",
@@ -717,7 +752,8 @@
     ],
     "explanation_ja": "finish は「終える」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-037",
@@ -737,7 +773,8 @@
     ],
     "explanation_ja": "wait は「待つ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-038",
@@ -757,7 +794,8 @@
     ],
     "explanation_ja": "meet は「会う」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-039",
@@ -777,7 +815,8 @@
     ],
     "explanation_ja": "visit は「訪れる」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-040",
@@ -797,7 +836,8 @@
     ],
     "explanation_ja": "stay は「滞在する」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-041",
@@ -817,7 +857,8 @@
     ],
     "explanation_ja": "shirt は「シャツ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-042",
@@ -837,7 +878,8 @@
     ],
     "explanation_ja": "T-shirt は「Tシャツ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-043",
@@ -857,7 +899,8 @@
     ],
     "explanation_ja": "coat は「コート」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-044",
@@ -877,7 +920,8 @@
     ],
     "explanation_ja": "jacket は「上着」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-045",
@@ -897,7 +941,8 @@
     ],
     "explanation_ja": "sweater は「セーター」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-046",
@@ -917,7 +962,8 @@
     ],
     "explanation_ja": "dress は「ワンピース」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-047",
@@ -937,7 +983,8 @@
     ],
     "explanation_ja": "skirt は「スカート」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-048",
@@ -957,7 +1004,8 @@
     ],
     "explanation_ja": "pants は「ズボン」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-049",
@@ -977,7 +1025,8 @@
     ],
     "explanation_ja": "jeans は「ジーンズ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-050",
@@ -997,7 +1046,8 @@
     ],
     "explanation_ja": "shoes は「靴」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-051",
@@ -1017,7 +1067,8 @@
     ],
     "explanation_ja": "socks は「靴下」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-052",
@@ -1037,7 +1088,8 @@
     ],
     "explanation_ja": "hat は「帽子」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-053",
@@ -1057,7 +1109,8 @@
     ],
     "explanation_ja": "cap は「キャップ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-054",
@@ -1077,7 +1130,8 @@
     ],
     "explanation_ja": "gloves は「手袋」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-055",
@@ -1097,7 +1151,8 @@
     ],
     "explanation_ja": "scarf は「マフラー」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-056",
@@ -1117,7 +1172,8 @@
     ],
     "explanation_ja": "umbrella は「傘」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-057",
@@ -1137,7 +1193,8 @@
     ],
     "explanation_ja": "wristwatch は「腕時計」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-058",
@@ -1157,7 +1214,8 @@
     ],
     "explanation_ja": "wallet は「財布」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-059",
@@ -1177,7 +1235,8 @@
     ],
     "explanation_ja": "glasses は「眼鏡」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-060",
@@ -1197,7 +1256,8 @@
     ],
     "explanation_ja": "uniform は「制服」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-061",
@@ -1217,7 +1277,8 @@
     ],
     "explanation_ja": "breakfast は「朝食」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-062",
@@ -1237,7 +1298,8 @@
     ],
     "explanation_ja": "lunch は「昼食」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-063",
@@ -1257,7 +1319,8 @@
     ],
     "explanation_ja": "dinner は「夕食」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-064",
@@ -1277,7 +1340,8 @@
     ],
     "explanation_ja": "meat は「肉」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-065",
@@ -1297,7 +1361,8 @@
     ],
     "explanation_ja": "chicken は「鶏肉」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-066",
@@ -1317,7 +1382,8 @@
     ],
     "explanation_ja": "pork は「豚肉」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-067",
@@ -1337,7 +1403,8 @@
     ],
     "explanation_ja": "beef は「牛肉」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-068",
@@ -1357,7 +1424,8 @@
     ],
     "explanation_ja": "salad は「サラダ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-069",
@@ -1377,7 +1445,8 @@
     ],
     "explanation_ja": "soup は「スープ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-070",
@@ -1397,7 +1466,8 @@
     ],
     "explanation_ja": "sandwich は「サンドイッチ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-071",
@@ -1417,7 +1487,8 @@
     ],
     "explanation_ja": "pizza は「ピザ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-072",
@@ -1437,7 +1508,8 @@
     ],
     "explanation_ja": "potato は「ジャガイモ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-073",
@@ -1457,7 +1529,8 @@
     ],
     "explanation_ja": "tomato は「トマト」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-074",
@@ -1477,7 +1550,8 @@
     ],
     "explanation_ja": "carrot は「ニンジン」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-075",
@@ -1497,7 +1571,8 @@
     ],
     "explanation_ja": "onion は「タマネギ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-076",
@@ -1517,7 +1592,8 @@
     ],
     "explanation_ja": "cabbage は「キャベツ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-077",
@@ -1537,7 +1613,8 @@
     ],
     "explanation_ja": "corn は「トウモロコシ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-078",
@@ -1557,7 +1634,8 @@
     ],
     "explanation_ja": "strawberry は「イチゴ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-079",
@@ -1577,7 +1655,8 @@
     ],
     "explanation_ja": "lemon は「レモン」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-080",
@@ -1597,7 +1676,8 @@
     ],
     "explanation_ja": "juice は「ジュース」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-081",
@@ -1617,7 +1697,8 @@
     ],
     "explanation_ja": "English は「英語」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-082",
@@ -1637,7 +1718,8 @@
     ],
     "explanation_ja": "Japanese は「国語」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-083",
@@ -1657,7 +1739,8 @@
     ],
     "explanation_ja": "math は「算数・数学」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-084",
@@ -1677,7 +1760,8 @@
     ],
     "explanation_ja": "science は「理科」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-085",
@@ -1697,7 +1781,8 @@
     ],
     "explanation_ja": "history は「歴史」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-086",
@@ -1717,7 +1802,8 @@
     ],
     "explanation_ja": "geography は「地理」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-087",
@@ -1737,7 +1823,8 @@
     ],
     "explanation_ja": "art は「美術」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-088",
@@ -1757,7 +1844,8 @@
     ],
     "explanation_ja": "PE は「体育」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-089",
@@ -1777,7 +1865,8 @@
     ],
     "explanation_ja": "subject は「教科」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-090",
@@ -1797,7 +1886,8 @@
     ],
     "explanation_ja": "homework は「宿題」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-091",
@@ -1817,7 +1907,8 @@
     ],
     "explanation_ja": "test は「テスト」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-092",
@@ -1837,7 +1928,8 @@
     ],
     "explanation_ja": "question は「質問」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-093",
@@ -1857,7 +1949,8 @@
     ],
     "explanation_ja": "answer は「答え」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-094",
@@ -1877,7 +1970,8 @@
     ],
     "explanation_ja": "page は「ページ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-095",
@@ -1897,7 +1991,8 @@
     ],
     "explanation_ja": "lesson は「授業」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-096",
@@ -1917,7 +2012,8 @@
     ],
     "explanation_ja": "practice は「練習」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-097",
@@ -1937,7 +2033,8 @@
     ],
     "explanation_ja": "home は「家」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-098",
@@ -1957,7 +2054,8 @@
     ],
     "explanation_ja": "homework book は「宿題帳」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-099",
@@ -1977,7 +2075,8 @@
     ],
     "explanation_ja": "dictionary は「辞書」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L3-100",
@@ -1997,6 +2096,7 @@
     ],
     "explanation_ja": "calendar は「カレンダー」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   }
 ]
