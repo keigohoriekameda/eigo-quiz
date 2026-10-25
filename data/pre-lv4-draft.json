@@ -17,7 +17,8 @@
     ],
     "explanation_ja": "sea は「海」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-002",
@@ -37,7 +38,8 @@
     ],
     "explanation_ja": "ocean は「大洋」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-003",
@@ -57,7 +59,8 @@
     ],
     "explanation_ja": "lake は「湖」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-004",
@@ -77,7 +80,8 @@
     ],
     "explanation_ja": "pond は「池」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-005",
@@ -97,7 +101,8 @@
     ],
     "explanation_ja": "beach は「浜辺」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-006",
@@ -117,7 +122,8 @@
     ],
     "explanation_ja": "island は「島」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-007",
@@ -137,7 +143,8 @@
     ],
     "explanation_ja": "forest は「森林」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-008",
@@ -157,7 +164,8 @@
     ],
     "explanation_ja": "tree は「木」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-009",
@@ -177,7 +185,8 @@
     ],
     "explanation_ja": "flower は「花」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-010",
@@ -197,7 +206,8 @@
     ],
     "explanation_ja": "grass は「草」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-011",
@@ -217,7 +227,8 @@
     ],
     "explanation_ja": "leaf は「葉」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-012",
@@ -237,7 +248,8 @@
     ],
     "explanation_ja": "root は「根」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-013",
@@ -257,7 +269,8 @@
     ],
     "explanation_ja": "branch は「枝」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-014",
@@ -277,7 +290,8 @@
     ],
     "explanation_ja": "sky は「空」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-015",
@@ -297,7 +311,8 @@
     ],
     "explanation_ja": "cloud は「雲」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-016",
@@ -317,7 +332,8 @@
     ],
     "explanation_ja": "rain は「雨」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-017",
@@ -337,7 +353,8 @@
     ],
     "explanation_ja": "snow は「雪」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-018",
@@ -357,7 +374,8 @@
     ],
     "explanation_ja": "wind は「風」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-019",
@@ -377,7 +395,8 @@
     ],
     "explanation_ja": "storm は「嵐」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-020",
@@ -397,7 +416,8 @@
     ],
     "explanation_ja": "weather は「天気」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-021",
@@ -417,7 +437,8 @@
     ],
     "explanation_ja": "bear は「クマ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-022",
@@ -437,7 +458,8 @@
     ],
     "explanation_ja": "tiger は「トラ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-023",
@@ -457,7 +479,8 @@
     ],
     "explanation_ja": "monkey は「サル」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-024",
@@ -477,7 +500,8 @@
     ],
     "explanation_ja": "giraffe は「キリン」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-025",
@@ -497,7 +521,8 @@
     ],
     "explanation_ja": "panda は「パンダ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-026",
@@ -517,7 +542,8 @@
     ],
     "explanation_ja": "sheep は「羊」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-027",
@@ -537,7 +563,8 @@
     ],
     "explanation_ja": "goat は「ヤギ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-028",
@@ -557,7 +584,8 @@
     ],
     "explanation_ja": "chick は「ひよこ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-029",
@@ -577,7 +605,8 @@
     ],
     "explanation_ja": "duck は「アヒル」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-030",
@@ -597,7 +626,8 @@
     ],
     "explanation_ja": "whale は「クジラ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-031",
@@ -617,7 +647,8 @@
     ],
     "explanation_ja": "dolphin は「イルカ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-032",
@@ -637,7 +668,8 @@
     ],
     "explanation_ja": "shark は「サメ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-033",
@@ -657,7 +689,8 @@
     ],
     "explanation_ja": "penguin は「ペンギン」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-034",
@@ -677,7 +710,8 @@
     ],
     "explanation_ja": "butterfly は「チョウ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-035",
@@ -697,7 +731,8 @@
     ],
     "explanation_ja": "bee は「ハチ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-036",
@@ -717,7 +752,8 @@
     ],
     "explanation_ja": "ant は「アリ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-037",
@@ -737,7 +773,8 @@
     ],
     "explanation_ja": "spider は「クモ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-038",
@@ -757,7 +794,8 @@
     ],
     "explanation_ja": "frog は「カエル」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-039",
@@ -777,7 +815,8 @@
     ],
     "explanation_ja": "turtle は「カメ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-040",
@@ -797,7 +836,8 @@
     ],
     "explanation_ja": "snake は「ヘビ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-041",
@@ -817,7 +857,8 @@
     ],
     "explanation_ja": "car は「自動車」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-042",
@@ -837,7 +878,8 @@
     ],
     "explanation_ja": "bus は「バス」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-043",
@@ -857,7 +899,8 @@
     ],
     "explanation_ja": "train は「列車」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-044",
@@ -877,7 +920,8 @@
     ],
     "explanation_ja": "subway は「地下鉄」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-045",
@@ -897,7 +941,8 @@
     ],
     "explanation_ja": "taxi は「タクシー」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-046",
@@ -917,7 +962,8 @@
     ],
     "explanation_ja": "bicycle は「自転車」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-047",
@@ -937,7 +983,8 @@
     ],
     "explanation_ja": "bike は「バイク」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-048",
@@ -957,7 +1004,8 @@
     ],
     "explanation_ja": "airplane は「飛行機」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-049",
@@ -977,7 +1025,8 @@
     ],
     "explanation_ja": "ship は「船」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-050",
@@ -997,7 +1046,8 @@
     ],
     "explanation_ja": "boat は「ボート」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-051",
@@ -1017,7 +1067,8 @@
     ],
     "explanation_ja": "truck は「トラック」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-052",
@@ -1037,7 +1088,8 @@
     ],
     "explanation_ja": "helicopter は「ヘリコプター」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-053",
@@ -1057,7 +1109,8 @@
     ],
     "explanation_ja": "traffic は「交通」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-054",
@@ -1077,7 +1130,8 @@
     ],
     "explanation_ja": "road は「道路」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-055",
@@ -1097,7 +1151,8 @@
     ],
     "explanation_ja": "airport は「空港」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-056",
@@ -1117,7 +1172,8 @@
     ],
     "explanation_ja": "port は「港」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-057",
@@ -1137,7 +1193,8 @@
     ],
     "explanation_ja": "platform は「ホーム」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-058",
@@ -1157,7 +1214,8 @@
     ],
     "explanation_ja": "ticket は「切符」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-059",
@@ -1177,7 +1235,8 @@
     ],
     "explanation_ja": "driver は「運転手」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-060",
@@ -1197,7 +1256,8 @@
     ],
     "explanation_ja": "passenger は「乗客」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-061",
@@ -1217,7 +1277,8 @@
     ],
     "explanation_ja": "Japan は「日本」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-062",
@@ -1237,7 +1298,8 @@
     ],
     "explanation_ja": "China は「中国」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-063",
@@ -1257,7 +1319,8 @@
     ],
     "explanation_ja": "Korea は「韓国」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-064",
@@ -1277,7 +1340,8 @@
     ],
     "explanation_ja": "India は「インド」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-065",
@@ -1297,7 +1361,8 @@
     ],
     "explanation_ja": "Australia は「オーストラリア」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-066",
@@ -1317,7 +1382,8 @@
     ],
     "explanation_ja": "Canada は「カナダ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-067",
@@ -1337,7 +1403,8 @@
     ],
     "explanation_ja": "America は「アメリカ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-068",
@@ -1357,7 +1424,8 @@
     ],
     "explanation_ja": "England は「イングランド」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-069",
@@ -1377,7 +1445,8 @@
     ],
     "explanation_ja": "France は「フランス」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-070",
@@ -1397,7 +1466,8 @@
     ],
     "explanation_ja": "Germany は「ドイツ」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-071",
@@ -1417,7 +1487,8 @@
     ],
     "explanation_ja": "Italy は「イタリア」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-072",
@@ -1437,7 +1508,8 @@
     ],
     "explanation_ja": "Spain は「スペイン」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-073",
@@ -1457,7 +1529,8 @@
     ],
     "explanation_ja": "Brazil は「ブラジル」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-074",
@@ -1477,7 +1550,8 @@
     ],
     "explanation_ja": "Egypt は「エジプト」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-075",
@@ -1497,7 +1571,8 @@
     ],
     "explanation_ja": "country は「国」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-076",
@@ -1517,7 +1592,8 @@
     ],
     "explanation_ja": "language は「言語」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-077",
@@ -1537,7 +1613,8 @@
     ],
     "explanation_ja": "culture は「文化」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-078",
@@ -1557,7 +1634,8 @@
     ],
     "explanation_ja": "festival は「祭り」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-079",
@@ -1577,7 +1655,8 @@
     ],
     "explanation_ja": "tradition は「伝統」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-080",
@@ -1597,7 +1676,8 @@
     ],
     "explanation_ja": "world は「世界」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-081",
@@ -1617,7 +1697,8 @@
     ],
     "explanation_ja": "bank は「銀行」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-082",
@@ -1637,7 +1718,8 @@
     ],
     "explanation_ja": "post office は「郵便局」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-083",
@@ -1657,7 +1739,8 @@
     ],
     "explanation_ja": "police station は「警察署」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-084",
@@ -1677,7 +1760,8 @@
     ],
     "explanation_ja": "fire station は「消防署」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-085",
@@ -1697,7 +1781,8 @@
     ],
     "explanation_ja": "city hall は「市役所」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-086",
@@ -1717,7 +1802,8 @@
     ],
     "explanation_ja": "bookstore は「書店」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-087",
@@ -1737,7 +1823,8 @@
     ],
     "explanation_ja": "supermarket は「スーパーマーケット」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-088",
@@ -1757,7 +1844,8 @@
     ],
     "explanation_ja": "department store は「百貨店」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-089",
@@ -1777,7 +1865,8 @@
     ],
     "explanation_ja": "shopping mall は「ショッピングモール」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-090",
@@ -1797,7 +1886,8 @@
     ],
     "explanation_ja": "bakery は「パン屋」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-091",
@@ -1817,7 +1907,8 @@
     ],
     "explanation_ja": "pharmacy は「薬局」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-092",
@@ -1837,7 +1928,8 @@
     ],
     "explanation_ja": "clinic は「診療所」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-093",
@@ -1857,7 +1949,8 @@
     ],
     "explanation_ja": "hotel は「ホテル」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-094",
@@ -1877,7 +1970,8 @@
     ],
     "explanation_ja": "temple は「寺」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-095",
@@ -1897,7 +1991,8 @@
     ],
     "explanation_ja": "shrine は「神社」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-096",
@@ -1917,7 +2012,8 @@
     ],
     "explanation_ja": "church は「教会」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-097",
@@ -1937,7 +2033,8 @@
     ],
     "explanation_ja": "castle は「城」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-098",
@@ -1957,7 +2054,8 @@
     ],
     "explanation_ja": "farm は「農場」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-099",
@@ -1977,7 +2075,8 @@
     ],
     "explanation_ja": "factory は「工場」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L4-100",
@@ -1997,6 +2096,7 @@
     ],
     "explanation_ja": "office は「事務所」という意味です。",
     "source_tag": "original-pre-draft",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   }
 ]
