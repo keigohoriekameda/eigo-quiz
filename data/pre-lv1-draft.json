@@ -17,7 +17,8 @@
     ],
     "explanation_ja": "one は「1」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-002",
@@ -37,7 +38,8 @@
     ],
     "explanation_ja": "two は「2」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-003",
@@ -57,7 +59,8 @@
     ],
     "explanation_ja": "three は「3」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-004",
@@ -77,7 +80,8 @@
     ],
     "explanation_ja": "four は「4」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-005",
@@ -97,7 +101,8 @@
     ],
     "explanation_ja": "five は「5」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-006",
@@ -117,7 +122,8 @@
     ],
     "explanation_ja": "six は「6」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-007",
@@ -137,7 +143,8 @@
     ],
     "explanation_ja": "seven は「7」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-008",
@@ -157,7 +164,8 @@
     ],
     "explanation_ja": "eight は「8」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-009",
@@ -177,7 +185,8 @@
     ],
     "explanation_ja": "nine は「9」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-010",
@@ -197,7 +206,8 @@
     ],
     "explanation_ja": "ten は「10」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-011",
@@ -217,7 +227,8 @@
     ],
     "explanation_ja": "eleven は「11」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-012",
@@ -237,7 +248,8 @@
     ],
     "explanation_ja": "twelve は「12」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-013",
@@ -257,7 +269,8 @@
     ],
     "explanation_ja": "thirteen は「13」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-014",
@@ -277,7 +290,8 @@
     ],
     "explanation_ja": "fourteen は「14」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-015",
@@ -297,7 +311,8 @@
     ],
     "explanation_ja": "fifteen は「15」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-016",
@@ -317,7 +332,8 @@
     ],
     "explanation_ja": "sixteen は「16」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-017",
@@ -337,7 +353,8 @@
     ],
     "explanation_ja": "seventeen は「17」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-018",
@@ -357,7 +374,8 @@
     ],
     "explanation_ja": "eighteen は「18」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-019",
@@ -377,7 +395,8 @@
     ],
     "explanation_ja": "nineteen は「19」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-020",
@@ -397,7 +416,8 @@
     ],
     "explanation_ja": "twenty は「20」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-021",
@@ -417,7 +437,8 @@
     ],
     "explanation_ja": "Monday は「月曜日」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-022",
@@ -437,7 +458,8 @@
     ],
     "explanation_ja": "Tuesday は「火曜日」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-023",
@@ -457,7 +479,8 @@
     ],
     "explanation_ja": "Wednesday は「水曜日」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-024",
@@ -477,7 +500,8 @@
     ],
     "explanation_ja": "Thursday は「木曜日」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-025",
@@ -497,7 +521,8 @@
     ],
     "explanation_ja": "Friday は「金曜日」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-026",
@@ -517,7 +542,8 @@
     ],
     "explanation_ja": "Saturday は「土曜日」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-027",
@@ -537,7 +563,8 @@
     ],
     "explanation_ja": "Sunday は「日曜日」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-028",
@@ -557,7 +584,8 @@
     ],
     "explanation_ja": "January は「1月」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-029",
@@ -577,7 +605,8 @@
     ],
     "explanation_ja": "February は「2月」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-030",
@@ -597,7 +626,8 @@
     ],
     "explanation_ja": "March は「3月」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-031",
@@ -617,7 +647,8 @@
     ],
     "explanation_ja": "April は「4月」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-032",
@@ -637,7 +668,8 @@
     ],
     "explanation_ja": "May は「5月」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-033",
@@ -657,7 +689,8 @@
     ],
     "explanation_ja": "June は「6月」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-034",
@@ -677,7 +710,8 @@
     ],
     "explanation_ja": "July は「7月」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-035",
@@ -697,7 +731,8 @@
     ],
     "explanation_ja": "August は「8月」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-036",
@@ -717,7 +752,8 @@
     ],
     "explanation_ja": "September は「9月」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-037",
@@ -737,7 +773,8 @@
     ],
     "explanation_ja": "October は「10月」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-038",
@@ -757,7 +794,8 @@
     ],
     "explanation_ja": "November は「11月」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-039",
@@ -777,7 +815,8 @@
     ],
     "explanation_ja": "December は「12月」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-040",
@@ -797,7 +836,8 @@
     ],
     "explanation_ja": "today は「今日」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-041",
@@ -817,7 +857,8 @@
     ],
     "explanation_ja": "red は「赤」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-042",
@@ -837,7 +878,8 @@
     ],
     "explanation_ja": "blue は「青」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-043",
@@ -857,7 +899,8 @@
     ],
     "explanation_ja": "yellow は「黄色」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-044",
@@ -877,7 +920,8 @@
     ],
     "explanation_ja": "green は「緑」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-045",
@@ -897,7 +941,8 @@
     ],
     "explanation_ja": "black は「黒」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-046",
@@ -917,7 +962,8 @@
     ],
     "explanation_ja": "white は「白」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-047",
@@ -937,7 +983,8 @@
     ],
     "explanation_ja": "brown は「茶色」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-048",
@@ -957,7 +1004,8 @@
     ],
     "explanation_ja": "pink は「ピンク」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-049",
@@ -977,7 +1025,8 @@
     ],
     "explanation_ja": "orange は「オレンジ色」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-050",
@@ -997,7 +1046,8 @@
     ],
     "explanation_ja": "purple は「紫」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-051",
@@ -1017,7 +1067,8 @@
     ],
     "explanation_ja": "big は「大きい」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-052",
@@ -1037,7 +1088,8 @@
     ],
     "explanation_ja": "small は「小さい」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-053",
@@ -1057,7 +1109,8 @@
     ],
     "explanation_ja": "long は「長い」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-054",
@@ -1077,7 +1130,8 @@
     ],
     "explanation_ja": "short は「短い」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-055",
@@ -1097,7 +1151,8 @@
     ],
     "explanation_ja": "new は「新しい」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-056",
@@ -1117,7 +1172,8 @@
     ],
     "explanation_ja": "old は「古い」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-057",
@@ -1137,7 +1193,8 @@
     ],
     "explanation_ja": "hot は「暑い・熱い」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-058",
@@ -1157,7 +1214,8 @@
     ],
     "explanation_ja": "cold は「寒い・冷たい」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-059",
@@ -1177,7 +1235,8 @@
     ],
     "explanation_ja": "happy は「うれしい」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-060",
@@ -1197,7 +1256,8 @@
     ],
     "explanation_ja": "sad は「悲しい」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-061",
@@ -1217,7 +1277,8 @@
     ],
     "explanation_ja": "mother は「母」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-062",
@@ -1237,7 +1298,8 @@
     ],
     "explanation_ja": "father は「父」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-063",
@@ -1257,7 +1319,8 @@
     ],
     "explanation_ja": "brother は「兄・弟」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-064",
@@ -1277,7 +1340,8 @@
     ],
     "explanation_ja": "sister は「姉・妹」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-065",
@@ -1297,7 +1361,8 @@
     ],
     "explanation_ja": "grandmother は「祖母」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-066",
@@ -1317,7 +1382,8 @@
     ],
     "explanation_ja": "grandfather は「祖父」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-067",
@@ -1337,7 +1403,8 @@
     ],
     "explanation_ja": "family は「家族」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-068",
@@ -1357,7 +1424,8 @@
     ],
     "explanation_ja": "friend は「友達」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-069",
@@ -1377,7 +1445,8 @@
     ],
     "explanation_ja": "teacher は「先生」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-070",
@@ -1397,7 +1466,8 @@
     ],
     "explanation_ja": "student は「生徒」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-071",
@@ -1417,7 +1487,8 @@
     ],
     "explanation_ja": "school は「学校」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-072",
@@ -1437,7 +1508,8 @@
     ],
     "explanation_ja": "classroom は「教室」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-073",
@@ -1457,7 +1529,8 @@
     ],
     "explanation_ja": "desk は「机」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-074",
@@ -1477,7 +1550,8 @@
     ],
     "explanation_ja": "chair は「いす」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-075",
@@ -1497,7 +1571,8 @@
     ],
     "explanation_ja": "book は「本」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-076",
@@ -1517,7 +1592,8 @@
     ],
     "explanation_ja": "notebook は「ノート」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-077",
@@ -1537,7 +1613,8 @@
     ],
     "explanation_ja": "pencil は「鉛筆」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-078",
@@ -1557,7 +1634,8 @@
     ],
     "explanation_ja": "eraser は「消しゴム」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-079",
@@ -1577,7 +1655,8 @@
     ],
     "explanation_ja": "ruler は「定規」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-080",
@@ -1597,7 +1676,8 @@
     ],
     "explanation_ja": "bag は「かばん」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-081",
@@ -1617,7 +1697,8 @@
     ],
     "explanation_ja": "dog は「犬」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-082",
@@ -1637,7 +1718,8 @@
     ],
     "explanation_ja": "cat は「猫」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-083",
@@ -1657,7 +1739,8 @@
     ],
     "explanation_ja": "bird は「鳥」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-084",
@@ -1677,7 +1760,8 @@
     ],
     "explanation_ja": "fish は「魚」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-085",
@@ -1697,7 +1781,8 @@
     ],
     "explanation_ja": "rabbit は「ウサギ」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-086",
@@ -1717,7 +1802,8 @@
     ],
     "explanation_ja": "horse は「馬」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-087",
@@ -1737,7 +1823,8 @@
     ],
     "explanation_ja": "cow は「牛」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-088",
@@ -1757,7 +1844,8 @@
     ],
     "explanation_ja": "pig は「豚」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-089",
@@ -1777,7 +1865,8 @@
     ],
     "explanation_ja": "lion は「ライオン」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-090",
@@ -1797,7 +1886,8 @@
     ],
     "explanation_ja": "elephant は「象」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-091",
@@ -1817,7 +1907,8 @@
     ],
     "explanation_ja": "apple は「りんご」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-092",
@@ -1837,7 +1928,8 @@
     ],
     "explanation_ja": "banana は「バナナ」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-093",
@@ -1857,7 +1949,8 @@
     ],
     "explanation_ja": "grape は「ぶどう」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-094",
@@ -1877,7 +1970,8 @@
     ],
     "explanation_ja": "peach は「桃」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-095",
@@ -1897,7 +1991,8 @@
     ],
     "explanation_ja": "rice は「ご飯・米」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-096",
@@ -1917,7 +2012,8 @@
     ],
     "explanation_ja": "bread は「パン」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-097",
@@ -1937,7 +2033,8 @@
     ],
     "explanation_ja": "milk は「牛乳」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-098",
@@ -1957,7 +2054,8 @@
     ],
     "explanation_ja": "water は「水」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-099",
@@ -1977,7 +2075,8 @@
     ],
     "explanation_ja": "egg は「卵」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   },
   {
     "id": "PRE-L1-100",
@@ -1997,6 +2096,7 @@
     ],
     "explanation_ja": "cheese は「チーズ」という意味です。",
     "source_tag": "original-pre-l1",
-    "review_status": "draft"
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit"
   }
 ]
