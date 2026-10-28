@@ -102,7 +102,10 @@
     "explanation_ja": "example は「例」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-006",
@@ -123,7 +126,10 @@
     "explanation_ja": "information は「情報」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-007",
@@ -144,7 +150,10 @@
     "explanation_ja": "knowledge は「知識」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-008",
@@ -207,7 +216,10 @@
     "explanation_ja": "advice は「助言」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-011",
@@ -228,7 +240,10 @@
     "explanation_ja": "choice は「選択」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-012",
@@ -249,7 +264,10 @@
     "explanation_ja": "decision は「決定」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-013",
@@ -270,7 +288,10 @@
     "explanation_ja": "chance は「機会」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-014",
@@ -291,7 +312,10 @@
     "explanation_ja": "challenge は「挑戦」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-015",
@@ -312,7 +336,10 @@
     "explanation_ja": "goal は「目標」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-016",
@@ -333,7 +360,10 @@
     "explanation_ja": "dream は「夢」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-017",
@@ -354,7 +384,10 @@
     "explanation_ja": "hope は「希望」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-018",
@@ -375,7 +408,10 @@
     "explanation_ja": "future は「未来」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-019",
@@ -396,7 +432,10 @@
     "explanation_ja": "past は「過去」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-020",
@@ -417,7 +456,10 @@
     "explanation_ja": "present は「現在」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-021",
@@ -438,7 +480,10 @@
     "explanation_ja": "love は「愛」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-022",
@@ -459,7 +504,10 @@
     "explanation_ja": "friendship は「友情」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-023",
@@ -480,7 +528,10 @@
     "explanation_ja": "trust は「信頼」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-024",
@@ -501,7 +552,10 @@
     "explanation_ja": "respect は「尊敬」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-025",
@@ -522,7 +576,10 @@
     "explanation_ja": "peace は「平和」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-026",
@@ -543,7 +600,10 @@
     "explanation_ja": "freedom は「自由」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-027",
@@ -564,7 +624,10 @@
     "explanation_ja": "courage は「勇気」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-028",
@@ -585,7 +648,10 @@
     "explanation_ja": "effort は「努力」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-029",
@@ -606,7 +672,10 @@
     "explanation_ja": "success は「成功」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-030",
@@ -627,7 +696,10 @@
     "explanation_ja": "failure は「失敗」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-031",
@@ -648,7 +720,10 @@
     "explanation_ja": "happiness は「幸福」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-032",
@@ -669,7 +744,10 @@
     "explanation_ja": "sadness は「悲しみ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-033",
@@ -690,7 +768,10 @@
     "explanation_ja": "anger は「怒り」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-034",
@@ -711,7 +792,10 @@
     "explanation_ja": "fear は「恐れ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-035",
@@ -732,7 +816,10 @@
     "explanation_ja": "kindness は「親切」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-036",
@@ -753,7 +840,10 @@
     "explanation_ja": "honesty は「正直さ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-037",
@@ -774,7 +864,10 @@
     "explanation_ja": "patience は「忍耐」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-038",
@@ -795,7 +888,10 @@
     "explanation_ja": "confidence は「自信」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-039",
@@ -816,7 +912,10 @@
     "explanation_ja": "teamwork は「協力」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-040",
@@ -837,7 +936,10 @@
     "explanation_ja": "relationship は「関係」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-041",
@@ -858,7 +960,10 @@
     "explanation_ja": "earth は「地球」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-042",
@@ -879,7 +984,10 @@
     "explanation_ja": "environment は「環境」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-043",
@@ -900,7 +1008,10 @@
     "explanation_ja": "nature は「自然」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-044",
@@ -921,7 +1032,10 @@
     "explanation_ja": "resource は「資源」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-045",
@@ -942,7 +1056,10 @@
     "explanation_ja": "pollution は「汚染」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-046",
@@ -963,7 +1080,10 @@
     "explanation_ja": "garbage は「ごみ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-047",
@@ -984,7 +1104,10 @@
     "explanation_ja": "trash は「ごみくず」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-048",
@@ -1005,7 +1128,10 @@
     "explanation_ja": "recycling は「再利用」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-049",
@@ -1026,7 +1152,10 @@
     "explanation_ja": "waste は「無駄」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-050",
@@ -1047,7 +1176,10 @@
     "explanation_ja": "plastic は「プラスチック」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-051",
@@ -1068,7 +1200,10 @@
     "explanation_ja": "paper は「紙」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-052",
@@ -1089,7 +1224,10 @@
     "explanation_ja": "metal は「金属」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-053",
@@ -1110,7 +1248,10 @@
     "explanation_ja": "wood は「木材」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-054",
@@ -1131,7 +1272,10 @@
     "explanation_ja": "glass は「ガラス」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-055",
@@ -1152,7 +1296,10 @@
     "explanation_ja": "electricity は「電気」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-056",
@@ -1173,7 +1320,10 @@
     "explanation_ja": "solar は「太陽の」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-057",
@@ -1194,7 +1344,10 @@
     "explanation_ja": "temperature は「温度」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-058",
@@ -1215,7 +1368,10 @@
     "explanation_ja": "climate は「気候」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-059",
@@ -1236,7 +1392,10 @@
     "explanation_ja": "disaster は「災害」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-060",
@@ -1257,7 +1416,10 @@
     "explanation_ja": "earthquake は「地震」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-061",
@@ -1278,7 +1440,10 @@
     "explanation_ja": "event は「行事」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-062",
@@ -1299,7 +1464,10 @@
     "explanation_ja": "meeting は「会議」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-063",
@@ -1320,7 +1488,10 @@
     "explanation_ja": "party は「パーティー」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-064",
@@ -1341,7 +1512,10 @@
     "explanation_ja": "concert は「演奏会」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-065",
@@ -1362,7 +1536,10 @@
     "explanation_ja": "competition は「競争」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-066",
@@ -1383,7 +1560,10 @@
     "explanation_ja": "match は「試合」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-067",
@@ -1404,7 +1584,10 @@
     "explanation_ja": "ceremony は「式」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-068",
@@ -1425,7 +1608,10 @@
     "explanation_ja": "invitation は「招待」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-069",
@@ -1446,7 +1632,10 @@
     "explanation_ja": "celebration は「お祝い」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-070",
@@ -1467,7 +1656,10 @@
     "explanation_ja": "travel は「旅行」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-071",
@@ -1488,7 +1680,10 @@
     "explanation_ja": "journey は「旅」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-072",
@@ -1509,7 +1704,10 @@
     "explanation_ja": "adventure は「冒険」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-073",
@@ -1530,7 +1728,10 @@
     "explanation_ja": "accident は「事故」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-074",
@@ -1551,7 +1752,10 @@
     "explanation_ja": "mistake は「間違い」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-075",
@@ -1572,7 +1776,10 @@
     "explanation_ja": "surprise は「驚き」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-076",
@@ -1593,7 +1800,10 @@
     "explanation_ja": "news は「ニュース」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-077",
@@ -1614,7 +1824,10 @@
     "explanation_ja": "report は「報告」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-078",
@@ -1635,7 +1848,10 @@
     "explanation_ja": "speech は「演説」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-079",
@@ -1656,7 +1872,10 @@
     "explanation_ja": "interview は「面接」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-080",
@@ -1677,7 +1896,10 @@
     "explanation_ja": "project は「企画」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-081",
@@ -1740,7 +1962,10 @@
     "explanation_ja": "save は「節約する」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-084",
@@ -1845,7 +2070,10 @@
     "explanation_ja": "join は「参加する」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-089",
@@ -1887,7 +2115,10 @@
     "explanation_ja": "disagree は「反対する」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-091",
@@ -1908,7 +2139,10 @@
     "explanation_ja": "believe は「信じる」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-092",
@@ -1929,7 +2163,10 @@
     "explanation_ja": "expect は「予期する」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-093",
@@ -1971,7 +2208,10 @@
     "explanation_ja": "support は「支援する」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-095",
@@ -2013,7 +2253,10 @@
     "explanation_ja": "create は「創造する」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-097",
@@ -2055,7 +2298,10 @@
     "explanation_ja": "continue は「続ける」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-099",
@@ -2076,7 +2322,10 @@
     "explanation_ja": "prepare は「準備する」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L7-100",
