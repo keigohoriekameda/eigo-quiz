@@ -39,7 +39,10 @@
     "explanation_ja": "pretty は「かわいい」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-003",
@@ -60,7 +63,10 @@
     "explanation_ja": "handsome は「ハンサムな」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-004",
@@ -81,7 +87,10 @@
     "explanation_ja": "cute は「かわいらしい」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-005",
@@ -123,7 +132,10 @@
     "explanation_ja": "brave は「勇敢な」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-007",
@@ -144,7 +156,10 @@
     "explanation_ja": "smart は「頭のよい」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-008",
@@ -165,7 +180,10 @@
     "explanation_ja": "clever は「賢い」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-009",
@@ -207,7 +225,10 @@
     "explanation_ja": "weak は「弱い」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-011",
@@ -249,7 +270,10 @@
     "explanation_ja": "light は「軽い」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-013",
@@ -270,7 +294,10 @@
     "explanation_ja": "fast は「速い」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-014",
@@ -291,7 +318,10 @@
     "explanation_ja": "slow は「遅い」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-015",
@@ -354,7 +384,10 @@
     "explanation_ja": "young は「若い」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-018",
@@ -375,7 +408,10 @@
     "explanation_ja": "rich は「裕福な」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-019",
@@ -396,7 +432,10 @@
     "explanation_ja": "poor は「貧しい」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-020",
@@ -417,7 +456,10 @@
     "explanation_ja": "famous は「有名な」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-021",
@@ -438,7 +480,10 @@
     "explanation_ja": "angry は「怒った」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-022",
@@ -459,7 +504,10 @@
     "explanation_ja": "excited は「わくわくした」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-023",
@@ -480,7 +528,10 @@
     "explanation_ja": "surprised は「驚いた」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-024",
@@ -501,7 +552,10 @@
     "explanation_ja": "tired は「疲れた」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-025",
@@ -522,7 +576,10 @@
     "explanation_ja": "hungry は「空腹の」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-026",
@@ -543,7 +600,10 @@
     "explanation_ja": "thirsty は「のどが渇いた」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-027",
@@ -564,7 +624,10 @@
     "explanation_ja": "healthy は「健康な」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-028",
@@ -585,7 +648,10 @@
     "explanation_ja": "sick は「病気の」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-029",
@@ -606,7 +672,10 @@
     "explanation_ja": "busy は「忙しい」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-030",
@@ -627,7 +696,10 @@
     "explanation_ja": "free は「暇な」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-031",
@@ -648,7 +720,10 @@
     "explanation_ja": "ready は「準備ができた」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-032",
@@ -669,7 +744,10 @@
     "explanation_ja": "safe は「安全な」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-033",
@@ -690,7 +768,10 @@
     "explanation_ja": "dangerous は「危険な」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-034",
@@ -711,7 +792,10 @@
     "explanation_ja": "afraid は「恐れている」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-035",
@@ -732,7 +816,10 @@
     "explanation_ja": "lonely は「寂しい」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-036",
@@ -753,7 +840,10 @@
     "explanation_ja": "nervous は「緊張した」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-037",
@@ -774,7 +864,10 @@
     "explanation_ja": "proud は「誇りに思う」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-038",
@@ -795,7 +888,10 @@
     "explanation_ja": "shy は「内気な」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-039",
@@ -816,7 +912,10 @@
     "explanation_ja": "interested は「興味がある」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-040",
@@ -837,7 +936,10 @@
     "explanation_ja": "bored は「退屈した」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-041",
@@ -942,7 +1044,10 @@
     "explanation_ja": "all は「すべての」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-046",
@@ -963,7 +1068,10 @@
     "explanation_ja": "some は「いくつかの」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-047",
@@ -984,7 +1092,10 @@
     "explanation_ja": "any は「何かの」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-048",
@@ -1005,7 +1116,10 @@
     "explanation_ja": "each は「それぞれの」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-049",
@@ -1026,7 +1140,10 @@
     "explanation_ja": "every は「どの〜も」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-050",
@@ -1047,7 +1164,10 @@
     "explanation_ja": "another は「もう一つの」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-051",
@@ -1068,7 +1188,10 @@
     "explanation_ja": "other は「ほかの」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-052",
@@ -1089,7 +1212,10 @@
     "explanation_ja": "same は「同じ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-053",
@@ -1110,7 +1236,10 @@
     "explanation_ja": "different は「異なる」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-054",
@@ -1131,7 +1260,10 @@
     "explanation_ja": "enough は「十分な」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-055",
@@ -1152,7 +1284,10 @@
     "explanation_ja": "more は「より多くの」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-056",
@@ -1173,7 +1308,10 @@
     "explanation_ja": "most は「最も多くの」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-057",
@@ -1194,7 +1332,10 @@
     "explanation_ja": "less は「より少ない」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-058",
@@ -1215,7 +1356,10 @@
     "explanation_ja": "least は「最も少ない」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-059",
@@ -1236,7 +1380,10 @@
     "explanation_ja": "whole は「全体の」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-060",
@@ -1257,7 +1404,10 @@
     "explanation_ja": "half は「半分の」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-061",
@@ -1278,7 +1428,10 @@
     "explanation_ja": "left は「左」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-062",
@@ -1299,7 +1452,10 @@
     "explanation_ja": "right は「右」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-063",
@@ -1320,7 +1476,10 @@
     "explanation_ja": "up は「上へ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-064",
@@ -1341,7 +1500,10 @@
     "explanation_ja": "down は「下へ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-065",
@@ -1362,7 +1524,10 @@
     "explanation_ja": "front は「前」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-066",
@@ -1383,7 +1548,10 @@
     "explanation_ja": "behind は「後ろに」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-067",
@@ -1404,7 +1572,10 @@
     "explanation_ja": "above は「上方に」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-068",
@@ -1425,7 +1596,10 @@
     "explanation_ja": "below は「下方に」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-069",
@@ -1446,7 +1620,10 @@
     "explanation_ja": "inside は「内側に」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-070",
@@ -1467,7 +1644,10 @@
     "explanation_ja": "outside は「外側に」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-071",
@@ -1488,7 +1668,10 @@
     "explanation_ja": "near は「近くに」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-072",
@@ -1509,7 +1692,10 @@
     "explanation_ja": "far は「遠くに」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-073",
@@ -1530,7 +1716,10 @@
     "explanation_ja": "next は「次の」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-074",
@@ -1572,7 +1761,10 @@
     "explanation_ja": "around は「周りに」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-076",
@@ -1593,7 +1785,10 @@
     "explanation_ja": "across は「横切って」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-077",
@@ -1614,7 +1809,10 @@
     "explanation_ja": "along は「〜に沿って」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-078",
@@ -1635,7 +1833,10 @@
     "explanation_ja": "through は「通り抜けて」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-079",
@@ -1656,7 +1857,10 @@
     "explanation_ja": "toward は「〜の方へ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-080",
@@ -1677,7 +1881,10 @@
     "explanation_ja": "opposite は「向かい側の」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-081",
@@ -1698,7 +1905,10 @@
     "explanation_ja": "always は「いつも」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-082",
@@ -1719,7 +1929,10 @@
     "explanation_ja": "usually は「ふつう」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-083",
@@ -1740,7 +1953,10 @@
     "explanation_ja": "often は「しばしば」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-084",
@@ -1761,7 +1977,10 @@
     "explanation_ja": "sometimes は「ときどき」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-085",
@@ -1782,7 +2001,10 @@
     "explanation_ja": "never は「決して〜ない」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-086",
@@ -1803,7 +2025,10 @@
     "explanation_ja": "already は「すでに」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-087",
@@ -1824,7 +2049,10 @@
     "explanation_ja": "still は「まだ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-088",
@@ -1845,7 +2073,10 @@
     "explanation_ja": "soon は「まもなく」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-089",
@@ -1866,7 +2097,10 @@
     "explanation_ja": "again は「再び」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-090",
@@ -1887,7 +2121,10 @@
     "explanation_ja": "once は「一度」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-091",
@@ -1908,7 +2145,10 @@
     "explanation_ja": "twice は「二度」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-092",
@@ -1929,7 +2169,10 @@
     "explanation_ja": "first は「最初に」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-093",
@@ -1950,7 +2193,10 @@
     "explanation_ja": "last は「最後の」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-094",
@@ -1971,7 +2217,10 @@
     "explanation_ja": "before は「〜の前に」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-095",
@@ -1992,7 +2241,10 @@
     "explanation_ja": "after は「〜の後に」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-096",
@@ -2013,7 +2265,10 @@
     "explanation_ja": "until は「〜まで」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-097",
@@ -2034,7 +2289,10 @@
     "explanation_ja": "since は「〜以来」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-098",
@@ -2055,7 +2313,10 @@
     "explanation_ja": "during は「〜の間」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-099",
@@ -2076,7 +2337,10 @@
     "explanation_ja": "while は「〜する間」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   },
   {
     "id": "PRE-L5-100",
@@ -2097,6 +2361,9 @@
     "explanation_ja": "finally は「ついに」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit"
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
   }
 ]
