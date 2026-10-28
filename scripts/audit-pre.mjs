@@ -17,5 +17,6 @@ if(new Set(ids).size!==ids.length)errors.push('Duplicate question IDs');
 if(new Set(lemmas).size!==lemmas.length)errors.push('Duplicate headwords');
 const manual=all.filter(x=>x.distractor_method==='manual-semantic-candidate').length;
 const automatic=all.filter(x=>x.distractor_method==='automatic-within-unit').length;
-console.log(JSON.stringify({total:all.length,manual_candidates:manual,automatic_candidates:automatic,editorially_approved:all.filter(x=>x.review_status==='approved').length,issues:errors},null,2));
+const reviewNeeded=all.filter(x=>x.quality_flags?.includes('requires_semantic_distractor_review')).length;
+console.log(JSON.stringify({total:all.length,manual_candidates:manual,automatic_candidates:automatic,requiring_semantic_review:reviewNeeded,editorially_approved:all.filter(x=>x.review_status==='approved').length,issues:errors},null,2));
 if(errors.length)process.exitCode=1;
