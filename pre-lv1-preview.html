@@ -15,7 +15,7 @@ button:disabled{opacity:.65;cursor:default}button.correct{background:#126247;bor
 </style></head><body><main><header><h1>英単語2500マスター</h1><p class="muted">Pre Lv.1〜7 ｜小学生編・基礎700語</p></header>
 <div class="note">開発・内容校正用のプレビューです。700語と選択肢は草案で、校閲完了前です。進捗はこのブラウザだけに保存され、ID・ガチャ・Discordとは連携しません。</div>
 <section id="home" class="panel"><h2>35単元 × 20語</h2><p id="loadStatus" class="muted">問題データ読み込み中…</p>
-<p id="progress" class="stat"></p><div class="grid units" id="units"></div><button id="reset" class="full" style="margin-top:20px">この端末の練習履歴をリセット</button></section>
+<p id="progress" class="stat"></p><div id="milestones" class="note" aria-live="polite"></div><div class="grid units" id="units"></div><button id="reset" class="full" style="margin-top:20px">この端末の練習履歴をリセット</button></section>
 <section id="quiz" class="panel hidden"><p id="position"></p><div class="bar"><div class="fill" id="fill"></div></div><div id="word" class="big"></div>
 <p>日本語の意味を選んでください。</p><div id="choices" class="grid"></div><div id="feedback" aria-live="polite"></div>
 <button id="next" class="full hidden">次の問題へ</button><button id="quit" class="full">学習を中断して戻る</button></section>
@@ -29,9 +29,19 @@ function read(){try{return JSON.parse(localStorage.getItem(KEY))||{passed:[],att
 function write(p){try{localStorage.setItem(KEY,JSON.stringify(p))}catch{}}
 function view(s){for(const n of ["home","quiz","result"])el(n).classList.toggle("hidden",n!==s)}
 function shuffle(arr){let a=[...arr];for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
-function home(){view("home");const p=read();el("progress").textContent="練習合格済み "+p.passed.length+" / 35単元（90％以上）。"+(p.passed.length===35?"全700語の練習達成！ガチャ付与は未接続です。":"ガチャの獲得・350語判定は未接続です。");const wrap=el("units");wrap.replaceChildren();
-for(let lv=1;lv<=7;lv++){const heading=document.createElement("h3");heading.textContent="Pre Lv."+lv+"（100語）";heading.style.gridColumn="1/-1";wrap.append(heading);
- for(let u=1;u<=5;u++){const key=lv+"-"+u;const b=document.createElement("button"),title=document.createElement("span");title.textContent="単元"+u+"："+TITLES[lv-1][u-1];const detail=document.createElement("small");detail.textContent=(p.passed.includes(key)?"練習合格済み ✓":"未合格")+" ／ "+(p.attempts[key]===undefined?"未受験":"前回 "+p.attempts[key]+"％");b.append(title,detail);b.onclick=()=>start(lv,u);wrap.append(b);}}}
+function milestoneStatus(progress){
+ const valid=new Set(Array.from({length:7},(_,i)=>Array.from({length:5},(_,j)=>(i+1)+"-"+(j+1))).flat());
+ const passed=[...new Set((progress.passed||[]).filter(x=>valid.has(x)))];
+ const completed=passed.length*20;
+ return {completed,half:completed>=350,all:completed===700};
+}
+function home(){view("home");const p=read();const ms=milestoneStatus(p);
+ el("progress").textContent="練習合格済み "+(ms.completed/20)+" / 35単元（"+ms.completed+" / 700語相当、90％以上）";
+ el("milestones").textContent="【報酬条件のプレビュー】350語到達 "+(ms.half?"達成":"未達成")+" ／ 700語達成 "+(ms.all?"達成":"未達成")+"。正式なガチャ権・Discord通知は発生しません。";
+ const wrap=el("units");wrap.replaceChildren();
+ for(let lv=1;lv<=7;lv++){const heading=document.createElement("h3");heading.textContent="Pre Lv."+lv+"（100語）";heading.style.gridColumn="1/-1";wrap.append(heading);
+ for(let u=1;u<=5;u++){const key=lv+"-"+u;const b=document.createElement("button"),title=document.createElement("span");title.textContent="単元"+u+"："+TITLES[lv-1][u-1];const detail=document.createElement("small");detail.textContent=(p.passed.includes(key)?"練習合格済み ✓":"未合格")+" ／ "+(p.attempts[key]===undefined?"未受験":"前回 "+p.attempts[key]+"％");b.append(title,detail);b.onclick=()=>start(lv,u);wrap.append(b);}}
+}
 function start(lv,u){level=lv;unit=u;questions=shuffle(bank.filter(x=>x.level===lv&&x.unit===u));if(questions.length!==20){el("loadStatus").textContent="この単元は20問揃っていません。";return}idx=0;correct=0;misses=[];view("quiz");render();}
 function render(){if(idx===questions.length)return finish();locked=false;const q=questions[idx];el("position").textContent="Pre Lv."+level+" 単元"+unit+"・"+(idx+1)+"/20　正解 "+correct+"問";el("fill").style.width=(idx*5)+"%";el("word").textContent=q.lemma;el("feedback").textContent="";el("next").classList.add("hidden");const wrap=el("choices");wrap.replaceChildren();
  for(const v of shuffle([q.meaning_ja,...q.distractors_ja])){const b=document.createElement("button");b.textContent=v;b.onclick=()=>answer(b,v,q);wrap.append(b)}}
@@ -39,7 +49,7 @@ function answer(b,value,q){if(locked)return;locked=true;const ok=value===q.meani
  for(const child of el("choices").children){child.disabled=true;if(child.textContent===q.meaning_ja)child.classList.add("correct")}
  if(!ok)b.classList.add("wrong");el("feedback").textContent=(ok?"正解！ ":"正解は「"+q.meaning_ja+"」。")+q.explanation_ja;el("next").textContent=idx===19?"結果を見る":"次の問題へ";el("next").classList.remove("hidden");}
 function finish(){view("result");const pct=correct*5;const passed=pct>=90;el("score").textContent=pct+"%（"+correct+"/20）";el("outcome").textContent=passed?"練習合格（90％以上）。正式なガチャ権は発生しません。":"不合格。18問以上の正解で練習合格です。";
-const p=read();const key=level+"-"+unit;p.attempts[key]=pct;if(passed&&!p.passed.includes(key))p.passed.push(key);write(p);
+const p=read();const key=level+"-"+unit;p.attempts[key]=pct;if(passed&&!p.passed.includes(key))p.passed.push(key);write(p);const m=milestoneStatus(p);if(passed&&(m.half||m.all))el("outcome").textContent+=" 達成条件プレビュー："+(m.all?"700語完了":"350語以上到達")+"（報酬未付与）。";
 const wrap=el("missed");wrap.replaceChildren();if(misses.length){const heading=document.createElement("h3");heading.textContent="復習する単語";wrap.append(heading);for(const q of misses){const row=document.createElement("p");row.textContent=q.lemma+" → "+q.meaning_ja;wrap.append(row)}}}
 async function load(){try{
 const files=Array.from({length:7},(_,i)=>"./data/pre-lv"+(i+1)+"-draft.json");
