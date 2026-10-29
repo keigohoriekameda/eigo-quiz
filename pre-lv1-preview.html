@@ -20,7 +20,8 @@ button:disabled{opacity:.65;cursor:default}button.correct{background:#126247;bor
 <p>日本語の意味を選んでください。</p><div id="choices" class="grid"></div><div id="feedback" aria-live="polite"></div>
 <button id="next" class="full hidden">次の問題へ</button><button id="quit" class="full">学習を中断して戻る</button></section>
 <section id="result" class="panel hidden"><h2>結果</h2><p id="score" class="big"></p><p id="outcome"></p><div id="missed"></div><button id="again" class="full">同じ単元に再挑戦</button><button id="back" class="full">単元選択に戻る</button></section>
-<script>
+<script type="module">
+import {computePreMilestones} from './src/pre-milestones.mjs';
 const el=id=>document.getElementById(id);
 const KEY="eigo2500-pre-700-practice-v3";
 const TITLES=[["数（1～20）","曜日・月・日付","色・大きさ・気持ち","家族・学校","動物・食べ物"],["体の部分","動作・行動","時間・季節・天気","家・町・自然","スポーツ・音楽・趣味"],["日常の動詞","家事と生活","衣服と持ち物","食事と食材","教科と学用品"],["自然と地形","生き物と昆虫","乗り物と交通","国と文化","場所と施設"],["形容詞・性質","状態と感情","比較と数量","方向と位置","時間・頻度"],["学びとコミュニケーション","社会と仕事","暮らしとお金","身体と健康","デジタル生活"],["抽象名詞・考え","気持ちと人間関係","環境と地球","出来事と行動","入試につながる動詞"]];
@@ -30,10 +31,8 @@ function write(p){try{localStorage.setItem(KEY,JSON.stringify(p))}catch{}}
 function view(s){for(const n of ["home","quiz","result"])el(n).classList.toggle("hidden",n!==s)}
 function shuffle(arr){let a=[...arr];for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 function milestoneStatus(progress){
- const valid=new Set(Array.from({length:7},(_,i)=>Array.from({length:5},(_,j)=>(i+1)+"-"+(j+1))).flat());
- const passed=[...new Set((progress.passed||[]).filter(x=>valid.has(x)))];
- const completed=passed.length*20;
- return {completed,half:completed>=350,all:completed===700};
+ const status=computePreMilestones(progress.passed);
+ return {completed:status.creditedWords,half:status.halfReached,all:status.allReached};
 }
 function home(){view("home");const p=read();const ms=milestoneStatus(p);
  el("progress").textContent="練習合格済み "+(ms.completed/20)+" / 35単元（"+ms.completed+" / 700語相当、90％以上）";
