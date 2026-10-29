@@ -1,0 +1,2387 @@
+[
+  {
+    "id": "PRE-L6-001",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 1,
+    "lemma": "learn",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "学ぶ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "教える",
+      "覚えている",
+      "理解する"
+    ],
+    "explanation_ja": "learn は「学ぶ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L6-002",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 1,
+    "lemma": "teach",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "教える",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "学ぶ",
+      "伝える",
+      "説明する"
+    ],
+    "explanation_ja": "teach は「教える」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L6-003",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 1,
+    "lemma": "study",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "勉強する",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "覚えている",
+      "話し合う",
+      "試す"
+    ],
+    "explanation_ja": "study は「勉強する」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-004",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 1,
+    "lemma": "remember",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "覚えている",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "思い出す",
+      "忘れる",
+      "考える"
+    ],
+    "explanation_ja": "remember は「覚えている」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L6-005",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 1,
+    "lemma": "forget",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "忘れる",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "理解する",
+      "返事する",
+      "訂正する"
+    ],
+    "explanation_ja": "forget は「忘れる」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-006",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 1,
+    "lemma": "understand",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "理解する",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "説明する",
+      "繰り返す",
+      "つづる"
+    ],
+    "explanation_ja": "understand は「理解する」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-007",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 1,
+    "lemma": "explain",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "説明する",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "描写する",
+      "尋ねる",
+      "答える"
+    ],
+    "explanation_ja": "explain は「説明する」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L6-008",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 1,
+    "lemma": "describe",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "描写する",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "話し合う",
+      "決める",
+      "学ぶ"
+    ],
+    "explanation_ja": "describe は「描写する」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-009",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 1,
+    "lemma": "discuss",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "話し合う",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "尋ねる",
+      "計画する",
+      "教える"
+    ],
+    "explanation_ja": "discuss は「話し合う」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-010",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 1,
+    "lemma": "ask",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "尋ねる",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "返事する",
+      "試す",
+      "勉強する"
+    ],
+    "explanation_ja": "ask は「尋ねる」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-011",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 1,
+    "lemma": "reply",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "返事する",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "繰り返す",
+      "確認する",
+      "覚えている"
+    ],
+    "explanation_ja": "reply は「返事する」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-012",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 1,
+    "lemma": "repeat",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "繰り返す",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "選ぶ",
+      "訂正する",
+      "忘れる"
+    ],
+    "explanation_ja": "repeat は「繰り返す」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-013",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 1,
+    "lemma": "choose",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "選ぶ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "決める",
+      "つづる",
+      "理解する"
+    ],
+    "explanation_ja": "choose は「選ぶ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-014",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 1,
+    "lemma": "decide",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "決める",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "考える",
+      "選ぶ",
+      "計画する"
+    ],
+    "explanation_ja": "decide は「決める」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L6-015",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 1,
+    "lemma": "plan",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "計画する",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "試す",
+      "学ぶ",
+      "描写する"
+    ],
+    "explanation_ja": "plan は「計画する」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-016",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 1,
+    "lemma": "try",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "試す",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "確認する",
+      "教える",
+      "話し合う"
+    ],
+    "explanation_ja": "try は「試す」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-017",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 1,
+    "lemma": "check",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "確認する",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "訂正する",
+      "勉強する",
+      "尋ねる"
+    ],
+    "explanation_ja": "check は「確認する」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-018",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 1,
+    "lemma": "correct",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "訂正する",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "つづる",
+      "覚えている",
+      "返事する"
+    ],
+    "explanation_ja": "correct は「訂正する」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-019",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 1,
+    "lemma": "spell",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "つづる",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "発音する",
+      "忘れる",
+      "繰り返す"
+    ],
+    "explanation_ja": "spell は「つづる」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-020",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 1,
+    "lemma": "pronounce",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "発音する",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "学ぶ",
+      "理解する",
+      "選ぶ"
+    ],
+    "explanation_ja": "pronounce は「発音する」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-021",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 2,
+    "lemma": "job",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "仕事",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "労働",
+      "警察官",
+      "技術者"
+    ],
+    "explanation_ja": "job は「仕事」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-022",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 2,
+    "lemma": "work",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "労働",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "働く人",
+      "消防士",
+      "俳優"
+    ],
+    "explanation_ja": "work は「労働」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-023",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 2,
+    "lemma": "worker",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "働く人",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "医師",
+      "農家",
+      "歌手"
+    ],
+    "explanation_ja": "worker は「働く人」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-024",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 2,
+    "lemma": "doctor",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "医師",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "看護師",
+      "料理人",
+      "作家"
+    ],
+    "explanation_ja": "doctor は「医師」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-025",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 2,
+    "lemma": "nurse",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "看護師",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "歯科医",
+      "操縦士",
+      "研究者"
+    ],
+    "explanation_ja": "nurse は「看護師」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-026",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 2,
+    "lemma": "dentist",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "歯科医",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "警察官",
+      "芸術家",
+      "ボランティア"
+    ],
+    "explanation_ja": "dentist は「歯科医」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-027",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 2,
+    "lemma": "police officer",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "警察官",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "消防士",
+      "科学者",
+      "指導者"
+    ],
+    "explanation_ja": "police officer は「警察官」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-028",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 2,
+    "lemma": "firefighter",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "消防士",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "農家",
+      "技術者",
+      "仕事"
+    ],
+    "explanation_ja": "firefighter は「消防士」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-029",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 2,
+    "lemma": "farmer",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "農家",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "料理人",
+      "俳優",
+      "労働"
+    ],
+    "explanation_ja": "farmer は「農家」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-030",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 2,
+    "lemma": "chef",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "料理人",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "操縦士",
+      "歌手",
+      "働く人"
+    ],
+    "explanation_ja": "chef は「料理人」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-031",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 2,
+    "lemma": "pilot",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "操縦士",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "芸術家",
+      "作家",
+      "医師"
+    ],
+    "explanation_ja": "pilot は「操縦士」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-032",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 2,
+    "lemma": "artist",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "芸術家",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "科学者",
+      "研究者",
+      "看護師"
+    ],
+    "explanation_ja": "artist は「芸術家」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-033",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 2,
+    "lemma": "scientist",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "科学者",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "技術者",
+      "ボランティア",
+      "歯科医"
+    ],
+    "explanation_ja": "scientist は「科学者」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-034",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 2,
+    "lemma": "engineer",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "技術者",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "俳優",
+      "指導者",
+      "警察官"
+    ],
+    "explanation_ja": "engineer は「技術者」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-035",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 2,
+    "lemma": "actor",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "俳優",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "歌手",
+      "仕事",
+      "消防士"
+    ],
+    "explanation_ja": "actor は「俳優」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-036",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 2,
+    "lemma": "singer",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "歌手",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "作家",
+      "労働",
+      "農家"
+    ],
+    "explanation_ja": "singer は「歌手」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-037",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 2,
+    "lemma": "writer",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "作家",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "研究者",
+      "働く人",
+      "料理人"
+    ],
+    "explanation_ja": "writer は「作家」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-038",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 2,
+    "lemma": "researcher",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "研究者",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ボランティア",
+      "医師",
+      "操縦士"
+    ],
+    "explanation_ja": "researcher は「研究者」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-039",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 2,
+    "lemma": "volunteer",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ボランティア",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "指導者",
+      "看護師",
+      "芸術家"
+    ],
+    "explanation_ja": "volunteer は「ボランティア」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-040",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 2,
+    "lemma": "leader",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "指導者",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "仕事",
+      "歯科医",
+      "科学者"
+    ],
+    "explanation_ja": "leader は「指導者」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-041",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 3,
+    "lemma": "money",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "お金",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "硬貨",
+      "領収書",
+      "サービス"
+    ],
+    "explanation_ja": "money は「お金」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-042",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 3,
+    "lemma": "coin",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "硬貨",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "紙幣",
+      "販売",
+      "贈り物"
+    ],
+    "explanation_ja": "coin は「硬貨」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-043",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 3,
+    "lemma": "bill",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "紙幣",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "価格",
+      "割引",
+      "カード"
+    ],
+    "explanation_ja": "bill は「紙幣」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-044",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 3,
+    "lemma": "price",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "価格",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "費用",
+      "買い物",
+      "口座"
+    ],
+    "explanation_ja": "price は「価格」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-045",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 3,
+    "lemma": "cost",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "費用",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "お釣り",
+      "客",
+      "支払い"
+    ],
+    "explanation_ja": "cost は「費用」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-046",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 3,
+    "lemma": "change",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "お釣り",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "領収書",
+      "商品",
+      "現金"
+    ],
+    "explanation_ja": "change は「お釣り」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-047",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 3,
+    "lemma": "receipt",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "領収書",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "販売",
+      "市場",
+      "予算"
+    ],
+    "explanation_ja": "receipt は「領収書」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-048",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 3,
+    "lemma": "sale",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "販売",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "割引",
+      "サービス",
+      "お金"
+    ],
+    "explanation_ja": "sale は「販売」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-049",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 3,
+    "lemma": "discount",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "割引",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "買い物",
+      "贈り物",
+      "硬貨"
+    ],
+    "explanation_ja": "discount は「割引」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-050",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 3,
+    "lemma": "shopping",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "買い物",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "客",
+      "カード",
+      "紙幣"
+    ],
+    "explanation_ja": "shopping は「買い物」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-051",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 3,
+    "lemma": "customer",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "客",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "商品",
+      "口座",
+      "価格"
+    ],
+    "explanation_ja": "customer は「客」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-052",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 3,
+    "lemma": "product",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "商品",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "市場",
+      "支払い",
+      "費用"
+    ],
+    "explanation_ja": "product は「商品」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-053",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 3,
+    "lemma": "market",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "市場",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "サービス",
+      "現金",
+      "お釣り"
+    ],
+    "explanation_ja": "market は「市場」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-054",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 3,
+    "lemma": "service",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "サービス",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "贈り物",
+      "予算",
+      "領収書"
+    ],
+    "explanation_ja": "service は「サービス」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-055",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 3,
+    "lemma": "gift",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "贈り物",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "カード",
+      "お金",
+      "販売"
+    ],
+    "explanation_ja": "gift は「贈り物」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-056",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 3,
+    "lemma": "card",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "カード",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "口座",
+      "硬貨",
+      "割引"
+    ],
+    "explanation_ja": "card は「カード」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-057",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 3,
+    "lemma": "account",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "口座",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "支払い",
+      "紙幣",
+      "買い物"
+    ],
+    "explanation_ja": "account は「口座」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-058",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 3,
+    "lemma": "payment",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "支払い",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "現金",
+      "価格",
+      "客"
+    ],
+    "explanation_ja": "payment は「支払い」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-059",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 3,
+    "lemma": "cash",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "現金",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "予算",
+      "費用",
+      "商品"
+    ],
+    "explanation_ja": "cash は「現金」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-060",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 3,
+    "lemma": "budget",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "予算",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "お金",
+      "お釣り",
+      "市場"
+    ],
+    "explanation_ja": "budget は「予算」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-061",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 4,
+    "lemma": "health",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "健康",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "病気",
+      "薬",
+      "筋肉"
+    ],
+    "explanation_ja": "health は「健康」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-062",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 4,
+    "lemma": "illness",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "病気",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "熱",
+      "マスク",
+      "血液"
+    ],
+    "explanation_ja": "illness は「病気」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-063",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 4,
+    "lemma": "fever",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "熱",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "せき",
+      "運動",
+      "皮膚"
+    ],
+    "explanation_ja": "fever は「熱」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-064",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 4,
+    "lemma": "cough",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "せき",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "風邪",
+      "休息",
+      "脳"
+    ],
+    "explanation_ja": "cough は「せき」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-065",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 4,
+    "lemma": "common cold",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "風邪",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "痛み",
+      "エネルギー",
+      "呼吸"
+    ],
+    "explanation_ja": "common cold は「風邪」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-066",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 4,
+    "lemma": "pain",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "痛み",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "薬",
+      "ビタミン",
+      "ほほえみ"
+    ],
+    "explanation_ja": "pain は「痛み」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-067",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 4,
+    "lemma": "medicine",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "薬",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "マスク",
+      "骨",
+      "涙"
+    ],
+    "explanation_ja": "medicine は「薬」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-068",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 4,
+    "lemma": "mask",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "マスク",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "運動",
+      "筋肉",
+      "健康"
+    ],
+    "explanation_ja": "mask は「マスク」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-069",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 4,
+    "lemma": "exercise",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "運動",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "休息",
+      "血液",
+      "病気"
+    ],
+    "explanation_ja": "exercise は「運動」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-070",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 4,
+    "lemma": "rest",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "休息",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "エネルギー",
+      "皮膚",
+      "熱"
+    ],
+    "explanation_ja": "rest は「休息」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-071",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 4,
+    "lemma": "energy",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "エネルギー",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ビタミン",
+      "脳",
+      "せき"
+    ],
+    "explanation_ja": "energy は「エネルギー」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-072",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 4,
+    "lemma": "vitamin",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ビタミン",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "骨",
+      "呼吸",
+      "風邪"
+    ],
+    "explanation_ja": "vitamin は「ビタミン」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-073",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 4,
+    "lemma": "bone",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "骨",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "筋肉",
+      "ほほえみ",
+      "痛み"
+    ],
+    "explanation_ja": "bone は「骨」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-074",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 4,
+    "lemma": "muscle",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "筋肉",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "血液",
+      "涙",
+      "薬"
+    ],
+    "explanation_ja": "muscle は「筋肉」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-075",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 4,
+    "lemma": "blood",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "血液",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "皮膚",
+      "健康",
+      "マスク"
+    ],
+    "explanation_ja": "blood は「血液」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-076",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 4,
+    "lemma": "skin",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "皮膚",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "脳",
+      "病気",
+      "運動"
+    ],
+    "explanation_ja": "skin は「皮膚」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-077",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 4,
+    "lemma": "brain",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "脳",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "呼吸",
+      "熱",
+      "休息"
+    ],
+    "explanation_ja": "brain は「脳」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-078",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 4,
+    "lemma": "breath",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "呼吸",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ほほえみ",
+      "せき",
+      "エネルギー"
+    ],
+    "explanation_ja": "breath は「呼吸」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-079",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 4,
+    "lemma": "smile",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ほほえみ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "涙",
+      "風邪",
+      "ビタミン"
+    ],
+    "explanation_ja": "smile は「ほほえみ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-080",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 4,
+    "lemma": "tear",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "涙",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "健康",
+      "痛み",
+      "骨"
+    ],
+    "explanation_ja": "tear は「涙」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-081",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 5,
+    "lemma": "internet",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "インターネット",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ウェブサイト",
+      "画面",
+      "パスワード"
+    ],
+    "explanation_ja": "internet は「インターネット」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-082",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 5,
+    "lemma": "website",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ウェブサイト",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "電子メール",
+      "キーボード",
+      "アプリ"
+    ],
+    "explanation_ja": "website は「ウェブサイト」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-083",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 5,
+    "lemma": "email",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "電子メール",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "メッセージ",
+      "マウス",
+      "ダウンロード"
+    ],
+    "explanation_ja": "email は「電子メール」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-084",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 5,
+    "lemma": "message",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "メッセージ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "電話",
+      "プリンター",
+      "アップロード"
+    ],
+    "explanation_ja": "message は「メッセージ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-085",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 5,
+    "lemma": "phone",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "電話",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "スマートフォン",
+      "写真",
+      "オンライン"
+    ],
+    "explanation_ja": "phone は「電話」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-086",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 5,
+    "lemma": "smartphone",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "スマートフォン",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "画面",
+      "動画",
+      "ロボット"
+    ],
+    "explanation_ja": "smartphone は「スマートフォン」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-087",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 5,
+    "lemma": "screen",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "画面",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "キーボード",
+      "ゲーム機",
+      "技術"
+    ],
+    "explanation_ja": "screen は「画面」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-088",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 5,
+    "lemma": "keyboard",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "キーボード",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "マウス",
+      "パスワード",
+      "インターネット"
+    ],
+    "explanation_ja": "keyboard は「キーボード」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-089",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 5,
+    "lemma": "mouse",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "マウス",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "プリンター",
+      "アプリ",
+      "ウェブサイト"
+    ],
+    "explanation_ja": "mouse は「マウス」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-090",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 5,
+    "lemma": "printer",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "プリンター",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "写真",
+      "ダウンロード",
+      "電子メール"
+    ],
+    "explanation_ja": "printer は「プリンター」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-091",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 5,
+    "lemma": "photo",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "写真",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "動画",
+      "アップロード",
+      "メッセージ"
+    ],
+    "explanation_ja": "photo は「写真」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-092",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 5,
+    "lemma": "video",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "動画",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ゲーム機",
+      "オンライン",
+      "電話"
+    ],
+    "explanation_ja": "video は「動画」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-093",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 5,
+    "lemma": "game console",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ゲーム機",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "パスワード",
+      "ロボット",
+      "スマートフォン"
+    ],
+    "explanation_ja": "game console は「ゲーム機」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-094",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 5,
+    "lemma": "password",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "パスワード",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "アプリ",
+      "技術",
+      "画面"
+    ],
+    "explanation_ja": "password は「パスワード」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-095",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 5,
+    "lemma": "application",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "アプリ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ダウンロード",
+      "インターネット",
+      "キーボード"
+    ],
+    "explanation_ja": "application は「アプリ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-096",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 5,
+    "lemma": "download",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ダウンロード",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "アップロード",
+      "ウェブサイト",
+      "マウス"
+    ],
+    "explanation_ja": "download は「ダウンロード」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-097",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 5,
+    "lemma": "upload",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "アップロード",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "オンライン",
+      "電子メール",
+      "プリンター"
+    ],
+    "explanation_ja": "upload は「アップロード」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-098",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 5,
+    "lemma": "online",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "オンライン",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ロボット",
+      "メッセージ",
+      "写真"
+    ],
+    "explanation_ja": "online は「オンライン」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-099",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 5,
+    "lemma": "robot",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ロボット",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "技術",
+      "電話",
+      "動画"
+    ],
+    "explanation_ja": "robot は「ロボット」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L6-100",
+    "stage": "PRE",
+    "level": 6,
+    "unit": 5,
+    "lemma": "technology",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "技術",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "インターネット",
+      "スマートフォン",
+      "ゲーム機"
+    ],
+    "explanation_ja": "technology は「技術」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  }
+]

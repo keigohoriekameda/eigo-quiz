@@ -1,0 +1,2351 @@
+[
+  {
+    "id": "PRE-L7-001",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 1,
+    "lemma": "idea",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "考え",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "意見",
+      "計画",
+      "理由"
+    ],
+    "explanation_ja": "idea は「考え」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L7-002",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 1,
+    "lemma": "reason",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "理由",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "原因",
+      "結果",
+      "方法"
+    ],
+    "explanation_ja": "reason は「理由」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L7-003",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 1,
+    "lemma": "problem",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "問題",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "質問",
+      "課題",
+      "結果"
+    ],
+    "explanation_ja": "problem は「問題」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L7-004",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 1,
+    "lemma": "solution",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "解決策",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "原因",
+      "提案",
+      "疑問"
+    ],
+    "explanation_ja": "solution は「解決策」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L7-005",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 1,
+    "lemma": "example",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "例",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "情報",
+      "選択",
+      "未来"
+    ],
+    "explanation_ja": "example は「例」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-006",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 1,
+    "lemma": "information",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "情報",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "知識",
+      "決定",
+      "過去"
+    ],
+    "explanation_ja": "information は「情報」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-007",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 1,
+    "lemma": "knowledge",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "知識",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "経験",
+      "機会",
+      "現在"
+    ],
+    "explanation_ja": "knowledge は「知識」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-008",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 1,
+    "lemma": "experience",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "経験",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "知識",
+      "実験",
+      "感想"
+    ],
+    "explanation_ja": "experience は「経験」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L7-009",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 1,
+    "lemma": "opinion",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "意見",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "事実",
+      "知識",
+      "助言"
+    ],
+    "explanation_ja": "opinion は「意見」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L7-010",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 1,
+    "lemma": "advice",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "助言",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "選択",
+      "夢",
+      "問題"
+    ],
+    "explanation_ja": "advice は「助言」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-011",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 1,
+    "lemma": "choice",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "選択",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "決定",
+      "希望",
+      "解決策"
+    ],
+    "explanation_ja": "choice は「選択」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-012",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 1,
+    "lemma": "decision",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "決定",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "機会",
+      "未来",
+      "例"
+    ],
+    "explanation_ja": "decision は「決定」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-013",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 1,
+    "lemma": "chance",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "機会",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "挑戦",
+      "過去",
+      "情報"
+    ],
+    "explanation_ja": "chance は「機会」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-014",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 1,
+    "lemma": "challenge",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "挑戦",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "目標",
+      "現在",
+      "知識"
+    ],
+    "explanation_ja": "challenge は「挑戦」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-015",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 1,
+    "lemma": "goal",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "目標",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "夢",
+      "考え",
+      "経験"
+    ],
+    "explanation_ja": "goal は「目標」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-016",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 1,
+    "lemma": "dream",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "夢",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "希望",
+      "理由",
+      "意見"
+    ],
+    "explanation_ja": "dream は「夢」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-017",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 1,
+    "lemma": "hope",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "希望",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "未来",
+      "問題",
+      "助言"
+    ],
+    "explanation_ja": "hope は「希望」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-018",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 1,
+    "lemma": "future",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "未来",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "過去",
+      "解決策",
+      "選択"
+    ],
+    "explanation_ja": "future は「未来」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-019",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 1,
+    "lemma": "past",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "過去",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "現在",
+      "例",
+      "決定"
+    ],
+    "explanation_ja": "past は「過去」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-020",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 1,
+    "lemma": "present",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "現在",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "考え",
+      "情報",
+      "機会"
+    ],
+    "explanation_ja": "present は「現在」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-021",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 2,
+    "lemma": "love",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "愛",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "友情",
+      "勇気",
+      "恐れ"
+    ],
+    "explanation_ja": "love は「愛」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-022",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 2,
+    "lemma": "friendship",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "友情",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "信頼",
+      "努力",
+      "親切"
+    ],
+    "explanation_ja": "friendship は「友情」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-023",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 2,
+    "lemma": "trust",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "信頼",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "尊敬",
+      "成功",
+      "正直さ"
+    ],
+    "explanation_ja": "trust は「信頼」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-024",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 2,
+    "lemma": "respect",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "尊敬",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "平和",
+      "失敗",
+      "忍耐"
+    ],
+    "explanation_ja": "respect は「尊敬」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-025",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 2,
+    "lemma": "peace",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "平和",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "自由",
+      "幸福",
+      "自信"
+    ],
+    "explanation_ja": "peace は「平和」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-026",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 2,
+    "lemma": "freedom",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "自由",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "勇気",
+      "悲しみ",
+      "協力"
+    ],
+    "explanation_ja": "freedom は「自由」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-027",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 2,
+    "lemma": "courage",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "勇気",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "努力",
+      "怒り",
+      "関係"
+    ],
+    "explanation_ja": "courage は「勇気」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-028",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 2,
+    "lemma": "effort",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "努力",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "成功",
+      "恐れ",
+      "愛"
+    ],
+    "explanation_ja": "effort は「努力」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-029",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 2,
+    "lemma": "success",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "成功",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "失敗",
+      "親切",
+      "友情"
+    ],
+    "explanation_ja": "success は「成功」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-030",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 2,
+    "lemma": "failure",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "失敗",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "幸福",
+      "正直さ",
+      "信頼"
+    ],
+    "explanation_ja": "failure は「失敗」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-031",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 2,
+    "lemma": "happiness",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "幸福",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "悲しみ",
+      "忍耐",
+      "尊敬"
+    ],
+    "explanation_ja": "happiness は「幸福」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-032",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 2,
+    "lemma": "sadness",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "悲しみ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "怒り",
+      "自信",
+      "平和"
+    ],
+    "explanation_ja": "sadness は「悲しみ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-033",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 2,
+    "lemma": "anger",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "怒り",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "恐れ",
+      "協力",
+      "自由"
+    ],
+    "explanation_ja": "anger は「怒り」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-034",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 2,
+    "lemma": "fear",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "恐れ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "親切",
+      "関係",
+      "勇気"
+    ],
+    "explanation_ja": "fear は「恐れ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-035",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 2,
+    "lemma": "kindness",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "親切",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "正直さ",
+      "愛",
+      "努力"
+    ],
+    "explanation_ja": "kindness は「親切」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-036",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 2,
+    "lemma": "honesty",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "正直さ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "忍耐",
+      "友情",
+      "成功"
+    ],
+    "explanation_ja": "honesty は「正直さ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-037",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 2,
+    "lemma": "patience",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "忍耐",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "自信",
+      "信頼",
+      "失敗"
+    ],
+    "explanation_ja": "patience は「忍耐」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-038",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 2,
+    "lemma": "confidence",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "自信",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "協力",
+      "尊敬",
+      "幸福"
+    ],
+    "explanation_ja": "confidence は「自信」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-039",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 2,
+    "lemma": "teamwork",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "協力",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "関係",
+      "平和",
+      "悲しみ"
+    ],
+    "explanation_ja": "teamwork は「協力」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-040",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 2,
+    "lemma": "relationship",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "関係",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "愛",
+      "自由",
+      "怒り"
+    ],
+    "explanation_ja": "relationship は「関係」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-041",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 3,
+    "lemma": "earth",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "地球",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "環境",
+      "ごみくず",
+      "ガラス"
+    ],
+    "explanation_ja": "earth は「地球」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-042",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 3,
+    "lemma": "environment",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "環境",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "自然",
+      "再利用",
+      "電気"
+    ],
+    "explanation_ja": "environment は「環境」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-043",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 3,
+    "lemma": "nature",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "自然",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "資源",
+      "無駄",
+      "太陽の"
+    ],
+    "explanation_ja": "nature は「自然」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-044",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 3,
+    "lemma": "resource",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "資源",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "汚染",
+      "プラスチック",
+      "温度"
+    ],
+    "explanation_ja": "resource は「資源」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-045",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 3,
+    "lemma": "pollution",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "汚染",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ごみ",
+      "紙",
+      "気候"
+    ],
+    "explanation_ja": "pollution は「汚染」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-046",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 3,
+    "lemma": "garbage",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ごみ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ごみくず",
+      "金属",
+      "災害"
+    ],
+    "explanation_ja": "garbage は「ごみ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-047",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 3,
+    "lemma": "trash",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ごみくず",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "再利用",
+      "木材",
+      "地震"
+    ],
+    "explanation_ja": "trash は「ごみくず」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-048",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 3,
+    "lemma": "recycling",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "再利用",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "無駄",
+      "ガラス",
+      "地球"
+    ],
+    "explanation_ja": "recycling は「再利用」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-049",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 3,
+    "lemma": "waste",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "無駄",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "プラスチック",
+      "電気",
+      "環境"
+    ],
+    "explanation_ja": "waste は「無駄」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-050",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 3,
+    "lemma": "plastic",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "プラスチック",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "紙",
+      "太陽の",
+      "自然"
+    ],
+    "explanation_ja": "plastic は「プラスチック」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-051",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 3,
+    "lemma": "paper",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "紙",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "金属",
+      "温度",
+      "資源"
+    ],
+    "explanation_ja": "paper は「紙」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-052",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 3,
+    "lemma": "metal",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "金属",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "木材",
+      "気候",
+      "汚染"
+    ],
+    "explanation_ja": "metal は「金属」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-053",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 3,
+    "lemma": "wood",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "木材",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ガラス",
+      "災害",
+      "ごみ"
+    ],
+    "explanation_ja": "wood は「木材」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-054",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 3,
+    "lemma": "glass",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ガラス",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "電気",
+      "地震",
+      "ごみくず"
+    ],
+    "explanation_ja": "glass は「ガラス」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-055",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 3,
+    "lemma": "electricity",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "電気",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "太陽の",
+      "地球",
+      "再利用"
+    ],
+    "explanation_ja": "electricity は「電気」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-056",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 3,
+    "lemma": "solar",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "太陽の",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "温度",
+      "環境",
+      "無駄"
+    ],
+    "explanation_ja": "solar は「太陽の」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-057",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 3,
+    "lemma": "temperature",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "温度",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "気候",
+      "自然",
+      "プラスチック"
+    ],
+    "explanation_ja": "temperature は「温度」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-058",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 3,
+    "lemma": "climate",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "気候",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "災害",
+      "資源",
+      "紙"
+    ],
+    "explanation_ja": "climate は「気候」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-059",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 3,
+    "lemma": "disaster",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "災害",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "地震",
+      "汚染",
+      "金属"
+    ],
+    "explanation_ja": "disaster は「災害」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-060",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 3,
+    "lemma": "earthquake",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "地震",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "地球",
+      "ごみ",
+      "木材"
+    ],
+    "explanation_ja": "earthquake は「地震」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-061",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 4,
+    "lemma": "event",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "行事",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "会議",
+      "式",
+      "間違い"
+    ],
+    "explanation_ja": "event は「行事」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-062",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 4,
+    "lemma": "meeting",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "会議",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "パーティー",
+      "招待",
+      "驚き"
+    ],
+    "explanation_ja": "meeting は「会議」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-063",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 4,
+    "lemma": "party",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "パーティー",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "演奏会",
+      "お祝い",
+      "ニュース"
+    ],
+    "explanation_ja": "party は「パーティー」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-064",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 4,
+    "lemma": "concert",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "演奏会",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "競争",
+      "旅行",
+      "報告"
+    ],
+    "explanation_ja": "concert は「演奏会」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-065",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 4,
+    "lemma": "competition",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "競争",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "試合",
+      "旅",
+      "演説"
+    ],
+    "explanation_ja": "competition は「競争」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-066",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 4,
+    "lemma": "match",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "試合",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "式",
+      "冒険",
+      "面接"
+    ],
+    "explanation_ja": "match は「試合」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-067",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 4,
+    "lemma": "ceremony",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "式",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "招待",
+      "事故",
+      "企画"
+    ],
+    "explanation_ja": "ceremony は「式」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-068",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 4,
+    "lemma": "invitation",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "招待",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "お祝い",
+      "間違い",
+      "行事"
+    ],
+    "explanation_ja": "invitation は「招待」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-069",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 4,
+    "lemma": "celebration",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "お祝い",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "旅行",
+      "驚き",
+      "会議"
+    ],
+    "explanation_ja": "celebration は「お祝い」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-070",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 4,
+    "lemma": "travel",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "旅行",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "旅",
+      "ニュース",
+      "パーティー"
+    ],
+    "explanation_ja": "travel は「旅行」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-071",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 4,
+    "lemma": "journey",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "旅",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "冒険",
+      "報告",
+      "演奏会"
+    ],
+    "explanation_ja": "journey は「旅」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-072",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 4,
+    "lemma": "adventure",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "冒険",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "事故",
+      "演説",
+      "競争"
+    ],
+    "explanation_ja": "adventure は「冒険」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-073",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 4,
+    "lemma": "accident",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "事故",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "間違い",
+      "面接",
+      "試合"
+    ],
+    "explanation_ja": "accident は「事故」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-074",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 4,
+    "lemma": "mistake",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "間違い",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "驚き",
+      "企画",
+      "式"
+    ],
+    "explanation_ja": "mistake は「間違い」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-075",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 4,
+    "lemma": "surprise",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "驚き",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ニュース",
+      "行事",
+      "招待"
+    ],
+    "explanation_ja": "surprise は「驚き」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-076",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 4,
+    "lemma": "news",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ニュース",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "報告",
+      "会議",
+      "お祝い"
+    ],
+    "explanation_ja": "news は「ニュース」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-077",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 4,
+    "lemma": "report",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "報告",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "演説",
+      "パーティー",
+      "旅行"
+    ],
+    "explanation_ja": "report は「報告」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-078",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 4,
+    "lemma": "speech",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "演説",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "面接",
+      "演奏会",
+      "旅"
+    ],
+    "explanation_ja": "speech は「演説」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-079",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 4,
+    "lemma": "interview",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "面接",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "企画",
+      "競争",
+      "冒険"
+    ],
+    "explanation_ja": "interview は「面接」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-080",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 4,
+    "lemma": "project",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "企画",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "行事",
+      "試合",
+      "事故"
+    ],
+    "explanation_ja": "project は「企画」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-081",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 5,
+    "lemma": "improve",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "改善する",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "維持する",
+      "増加する",
+      "修理する"
+    ],
+    "explanation_ja": "improve は「改善する」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L7-082",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 5,
+    "lemma": "protect",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "守る",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "守らせる",
+      "救う",
+      "隠す"
+    ],
+    "explanation_ja": "protect は「守る」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L7-083",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 5,
+    "lemma": "save",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "節約する",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "減らす",
+      "賛成する",
+      "創造する"
+    ],
+    "explanation_ja": "save は「節約する」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-084",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 5,
+    "lemma": "reduce",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "減らす",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "増やす",
+      "取り除く",
+      "節約する"
+    ],
+    "explanation_ja": "reduce は「減らす」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L7-085",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 5,
+    "lemma": "increase",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "増やす",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "減らす",
+      "繰り返す",
+      "蓄える"
+    ],
+    "explanation_ja": "increase は「増やす」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L7-086",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 5,
+    "lemma": "collect",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "集める",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "分ける",
+      "配る",
+      "捨てる"
+    ],
+    "explanation_ja": "collect は「集める」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L7-087",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 5,
+    "lemma": "share",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "共有する",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "集める",
+      "貸す",
+      "交換する"
+    ],
+    "explanation_ja": "share は「共有する」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L7-088",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 5,
+    "lemma": "join",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "参加する",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "賛成する",
+      "支援する",
+      "改善する"
+    ],
+    "explanation_ja": "join は「参加する」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-089",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 5,
+    "lemma": "agree",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "賛成する",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "認める",
+      "反対する",
+      "提案する"
+    ],
+    "explanation_ja": "agree は「賛成する」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L7-090",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 5,
+    "lemma": "disagree",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "反対する",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "信じる",
+      "創造する",
+      "節約する"
+    ],
+    "explanation_ja": "disagree は「反対する」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-091",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 5,
+    "lemma": "believe",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "信じる",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "予期する",
+      "発展させる",
+      "減らす"
+    ],
+    "explanation_ja": "believe は「信じる」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-092",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 5,
+    "lemma": "expect",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "予期する",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "提案する",
+      "続ける",
+      "増やす"
+    ],
+    "explanation_ja": "expect は「予期する」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-093",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 5,
+    "lemma": "suggest",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "提案する",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "要求する",
+      "命令する",
+      "予測する"
+    ],
+    "explanation_ja": "suggest は「提案する」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L7-094",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 5,
+    "lemma": "support",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "支援する",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "比較する",
+      "発見する",
+      "共有する"
+    ],
+    "explanation_ja": "support は「支援する」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-095",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 5,
+    "lemma": "compare",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "比較する",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "説明する",
+      "区別する",
+      "一致させる"
+    ],
+    "explanation_ja": "compare は「比較する」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L7-096",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 5,
+    "lemma": "create",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "創造する",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "発展させる",
+      "守る",
+      "賛成する"
+    ],
+    "explanation_ja": "create は「創造する」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-097",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 5,
+    "lemma": "develop",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "発展させる",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "発見する",
+      "創造する",
+      "維持する"
+    ],
+    "explanation_ja": "develop は「発展させる」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L7-098",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 5,
+    "lemma": "continue",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "続ける",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "準備する",
+      "減らす",
+      "信じる"
+    ],
+    "explanation_ja": "continue は「続ける」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-099",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 5,
+    "lemma": "prepare",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "準備する",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "発見する",
+      "増やす",
+      "予期する"
+    ],
+    "explanation_ja": "prepare は「準備する」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L7-100",
+    "stage": "PRE",
+    "level": 7,
+    "unit": 5,
+    "lemma": "discover",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "発見する",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "発明する",
+      "確認する",
+      "探す"
+    ],
+    "explanation_ja": "discover は「発見する」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  }
+]

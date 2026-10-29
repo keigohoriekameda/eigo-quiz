@@ -1,0 +1,2369 @@
+[
+  {
+    "id": "PRE-L5-001",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 1,
+    "lemma": "beautiful",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "美しい",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "かわいい",
+      "格好よい",
+      "親切な"
+    ],
+    "explanation_ja": "beautiful は「美しい」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L5-002",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 1,
+    "lemma": "pretty",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "かわいい",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ハンサムな",
+      "賢い",
+      "早い"
+    ],
+    "explanation_ja": "pretty は「かわいい」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-003",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 1,
+    "lemma": "handsome",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ハンサムな",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "かわいらしい",
+      "強い",
+      "遅れた"
+    ],
+    "explanation_ja": "handsome は「ハンサムな」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-004",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 1,
+    "lemma": "cute",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "かわいらしい",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "親切な",
+      "弱い",
+      "若い"
+    ],
+    "explanation_ja": "cute は「かわいらしい」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-005",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 1,
+    "lemma": "kind",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "親切な",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "勇敢な",
+      "賢い",
+      "正直な"
+    ],
+    "explanation_ja": "kind は「親切な」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L5-006",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 1,
+    "lemma": "brave",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "勇敢な",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "頭のよい",
+      "軽い",
+      "貧しい"
+    ],
+    "explanation_ja": "brave は「勇敢な」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-007",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 1,
+    "lemma": "smart",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "頭のよい",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "賢い",
+      "速い",
+      "有名な"
+    ],
+    "explanation_ja": "smart は「頭のよい」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-008",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 1,
+    "lemma": "clever",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "賢い",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "強い",
+      "遅い",
+      "美しい"
+    ],
+    "explanation_ja": "clever は「賢い」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-009",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 1,
+    "lemma": "strong",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "強い",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "健康な",
+      "勇敢な",
+      "丈夫な"
+    ],
+    "explanation_ja": "strong は「強い」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L5-010",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 1,
+    "lemma": "weak",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "弱い",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "重い",
+      "遅れた",
+      "ハンサムな"
+    ],
+    "explanation_ja": "weak は「弱い」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-011",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 1,
+    "lemma": "heavy",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "重い",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "大きい",
+      "長い",
+      "厚い"
+    ],
+    "explanation_ja": "heavy は「重い」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L5-012",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 1,
+    "lemma": "light",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "軽い",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "速い",
+      "裕福な",
+      "親切な"
+    ],
+    "explanation_ja": "light は「軽い」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-013",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 1,
+    "lemma": "fast",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "速い",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "遅い",
+      "貧しい",
+      "勇敢な"
+    ],
+    "explanation_ja": "fast は「速い」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-014",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 1,
+    "lemma": "slow",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "遅い",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "早い",
+      "有名な",
+      "頭のよい"
+    ],
+    "explanation_ja": "slow は「遅い」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-015",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 1,
+    "lemma": "early",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "早い",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "速い",
+      "遅い",
+      "新しい"
+    ],
+    "explanation_ja": "early は「早い」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L5-016",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 1,
+    "lemma": "late",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "遅れた",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "遅い（速度）",
+      "古い",
+      "早い"
+    ],
+    "explanation_ja": "late は「遅れた」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L5-017",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 1,
+    "lemma": "young",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "若い",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "裕福な",
+      "ハンサムな",
+      "弱い"
+    ],
+    "explanation_ja": "young は「若い」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-018",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 1,
+    "lemma": "rich",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "裕福な",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "貧しい",
+      "かわいらしい",
+      "重い"
+    ],
+    "explanation_ja": "rich は「裕福な」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-019",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 1,
+    "lemma": "poor",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "貧しい",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "有名な",
+      "親切な",
+      "軽い"
+    ],
+    "explanation_ja": "poor は「貧しい」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-020",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 1,
+    "lemma": "famous",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "有名な",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "美しい",
+      "勇敢な",
+      "速い"
+    ],
+    "explanation_ja": "famous は「有名な」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-021",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 2,
+    "lemma": "angry",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "怒った",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "わくわくした",
+      "健康な",
+      "恐れている"
+    ],
+    "explanation_ja": "angry は「怒った」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-022",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 2,
+    "lemma": "excited",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "わくわくした",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "驚いた",
+      "病気の",
+      "寂しい"
+    ],
+    "explanation_ja": "excited は「わくわくした」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-023",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 2,
+    "lemma": "surprised",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "驚いた",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "疲れた",
+      "忙しい",
+      "緊張した"
+    ],
+    "explanation_ja": "surprised は「驚いた」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-024",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 2,
+    "lemma": "tired",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "疲れた",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "空腹の",
+      "暇な",
+      "誇りに思う"
+    ],
+    "explanation_ja": "tired は「疲れた」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-025",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 2,
+    "lemma": "hungry",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "空腹の",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "のどが渇いた",
+      "準備ができた",
+      "内気な"
+    ],
+    "explanation_ja": "hungry は「空腹の」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-026",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 2,
+    "lemma": "thirsty",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "のどが渇いた",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "健康な",
+      "安全な",
+      "興味がある"
+    ],
+    "explanation_ja": "thirsty は「のどが渇いた」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-027",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 2,
+    "lemma": "healthy",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "健康な",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "病気の",
+      "危険な",
+      "退屈した"
+    ],
+    "explanation_ja": "healthy は「健康な」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-028",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 2,
+    "lemma": "sick",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "病気の",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "忙しい",
+      "恐れている",
+      "怒った"
+    ],
+    "explanation_ja": "sick は「病気の」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-029",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 2,
+    "lemma": "busy",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "忙しい",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "暇な",
+      "寂しい",
+      "わくわくした"
+    ],
+    "explanation_ja": "busy は「忙しい」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-030",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 2,
+    "lemma": "free",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "暇な",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "準備ができた",
+      "緊張した",
+      "驚いた"
+    ],
+    "explanation_ja": "free は「暇な」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-031",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 2,
+    "lemma": "ready",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "準備ができた",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "安全な",
+      "誇りに思う",
+      "疲れた"
+    ],
+    "explanation_ja": "ready は「準備ができた」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-032",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 2,
+    "lemma": "safe",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "安全な",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "危険な",
+      "内気な",
+      "空腹の"
+    ],
+    "explanation_ja": "safe は「安全な」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-033",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 2,
+    "lemma": "dangerous",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "危険な",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "恐れている",
+      "興味がある",
+      "のどが渇いた"
+    ],
+    "explanation_ja": "dangerous は「危険な」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-034",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 2,
+    "lemma": "afraid",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "恐れている",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "寂しい",
+      "退屈した",
+      "健康な"
+    ],
+    "explanation_ja": "afraid は「恐れている」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-035",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 2,
+    "lemma": "lonely",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "寂しい",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "緊張した",
+      "怒った",
+      "病気の"
+    ],
+    "explanation_ja": "lonely は「寂しい」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-036",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 2,
+    "lemma": "nervous",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "緊張した",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "誇りに思う",
+      "わくわくした",
+      "忙しい"
+    ],
+    "explanation_ja": "nervous は「緊張した」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-037",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 2,
+    "lemma": "proud",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "誇りに思う",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "内気な",
+      "驚いた",
+      "暇な"
+    ],
+    "explanation_ja": "proud は「誇りに思う」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-038",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 2,
+    "lemma": "shy",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "内気な",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "興味がある",
+      "疲れた",
+      "準備ができた"
+    ],
+    "explanation_ja": "shy は「内気な」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-039",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 2,
+    "lemma": "interested",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "興味がある",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "退屈した",
+      "空腹の",
+      "安全な"
+    ],
+    "explanation_ja": "interested は「興味がある」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-040",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 2,
+    "lemma": "bored",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "退屈した",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "怒った",
+      "のどが渇いた",
+      "危険な"
+    ],
+    "explanation_ja": "bored は「退屈した」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-041",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 3,
+    "lemma": "many",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "数が多い",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "量が多い",
+      "数が少ない",
+      "すべての"
+    ],
+    "explanation_ja": "many は「数が多い」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L5-042",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 3,
+    "lemma": "much",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "量が多い",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "数が多い",
+      "量が少ない",
+      "十分な"
+    ],
+    "explanation_ja": "much は「量が多い」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L5-043",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 3,
+    "lemma": "few",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "数が少ない",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "量が少ない",
+      "数が多い",
+      "全体の"
+    ],
+    "explanation_ja": "few は「数が少ない」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L5-044",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 3,
+    "lemma": "little",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "量が少ない",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "数が少ない",
+      "量が多い",
+      "半分の"
+    ],
+    "explanation_ja": "little は「量が少ない」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L5-045",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 3,
+    "lemma": "all",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "すべての",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "いくつかの",
+      "ほかの",
+      "最も少ない"
+    ],
+    "explanation_ja": "all は「すべての」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-046",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 3,
+    "lemma": "some",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "いくつかの",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "何かの",
+      "同じ",
+      "全体の"
+    ],
+    "explanation_ja": "some は「いくつかの」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-047",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 3,
+    "lemma": "any",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "何かの",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "それぞれの",
+      "異なる",
+      "半分の"
+    ],
+    "explanation_ja": "any は「何かの」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-048",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 3,
+    "lemma": "each",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "それぞれの",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "どの〜も",
+      "十分な",
+      "数が多い"
+    ],
+    "explanation_ja": "each は「それぞれの」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-049",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 3,
+    "lemma": "every",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "どの〜も",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "もう一つの",
+      "より多くの",
+      "量が多い"
+    ],
+    "explanation_ja": "every は「どの〜も」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-050",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 3,
+    "lemma": "another",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "もう一つの",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ほかの",
+      "最も多くの",
+      "数が少ない"
+    ],
+    "explanation_ja": "another は「もう一つの」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-051",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 3,
+    "lemma": "other",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ほかの",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "同じ",
+      "より少ない",
+      "量が少ない"
+    ],
+    "explanation_ja": "other は「ほかの」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-052",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 3,
+    "lemma": "same",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "同じ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "異なる",
+      "最も少ない",
+      "すべての"
+    ],
+    "explanation_ja": "same は「同じ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-053",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 3,
+    "lemma": "different",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "異なる",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "十分な",
+      "全体の",
+      "いくつかの"
+    ],
+    "explanation_ja": "different は「異なる」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-054",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 3,
+    "lemma": "enough",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "十分な",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "より多くの",
+      "半分の",
+      "何かの"
+    ],
+    "explanation_ja": "enough は「十分な」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-055",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 3,
+    "lemma": "more",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "より多くの",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "最も多くの",
+      "数が多い",
+      "それぞれの"
+    ],
+    "explanation_ja": "more は「より多くの」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-056",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 3,
+    "lemma": "most",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "最も多くの",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "より少ない",
+      "量が多い",
+      "どの〜も"
+    ],
+    "explanation_ja": "most は「最も多くの」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-057",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 3,
+    "lemma": "less",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "より少ない",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "最も少ない",
+      "数が少ない",
+      "もう一つの"
+    ],
+    "explanation_ja": "less は「より少ない」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-058",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 3,
+    "lemma": "least",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "最も少ない",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "全体の",
+      "量が少ない",
+      "ほかの"
+    ],
+    "explanation_ja": "least は「最も少ない」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-059",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 3,
+    "lemma": "whole",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "全体の",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "半分の",
+      "すべての",
+      "同じ"
+    ],
+    "explanation_ja": "whole は「全体の」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-060",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 3,
+    "lemma": "half",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "半分の",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "数が多い",
+      "いくつかの",
+      "異なる"
+    ],
+    "explanation_ja": "half は「半分の」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-061",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 4,
+    "lemma": "left",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "左",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "右",
+      "上方に",
+      "〜の間に"
+    ],
+    "explanation_ja": "left は「左」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-062",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 4,
+    "lemma": "right",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "右",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "上へ",
+      "下方に",
+      "周りに"
+    ],
+    "explanation_ja": "right は「右」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-063",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 4,
+    "lemma": "up",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "上へ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "下へ",
+      "内側に",
+      "横切って"
+    ],
+    "explanation_ja": "up は「上へ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-064",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 4,
+    "lemma": "down",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "下へ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "前",
+      "外側に",
+      "〜に沿って"
+    ],
+    "explanation_ja": "down は「下へ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-065",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 4,
+    "lemma": "front",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "前",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "後ろに",
+      "近くに",
+      "通り抜けて"
+    ],
+    "explanation_ja": "front は「前」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-066",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 4,
+    "lemma": "behind",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "後ろに",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "上方に",
+      "遠くに",
+      "〜の方へ"
+    ],
+    "explanation_ja": "behind は「後ろに」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-067",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 4,
+    "lemma": "above",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "上方に",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "下方に",
+      "次の",
+      "向かい側の"
+    ],
+    "explanation_ja": "above は「上方に」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-068",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 4,
+    "lemma": "below",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "下方に",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "内側に",
+      "〜の間に",
+      "左"
+    ],
+    "explanation_ja": "below は「下方に」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-069",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 4,
+    "lemma": "inside",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "内側に",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "外側に",
+      "周りに",
+      "右"
+    ],
+    "explanation_ja": "inside は「内側に」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-070",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 4,
+    "lemma": "outside",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "外側に",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "近くに",
+      "横切って",
+      "上へ"
+    ],
+    "explanation_ja": "outside は「外側に」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-071",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 4,
+    "lemma": "near",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "近くに",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "遠くに",
+      "〜に沿って",
+      "下へ"
+    ],
+    "explanation_ja": "near は「近くに」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-072",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 4,
+    "lemma": "far",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "遠くに",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "次の",
+      "通り抜けて",
+      "前"
+    ],
+    "explanation_ja": "far は「遠くに」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-073",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 4,
+    "lemma": "next",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "次の",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "〜の間に",
+      "〜の方へ",
+      "後ろに"
+    ],
+    "explanation_ja": "next は「次の」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-074",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 4,
+    "lemma": "between",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "〜の間に",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "〜の周りに",
+      "〜の向かいに",
+      "〜を通って"
+    ],
+    "explanation_ja": "between は「〜の間に」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L5-075",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 4,
+    "lemma": "around",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "周りに",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "横切って",
+      "左",
+      "下方に"
+    ],
+    "explanation_ja": "around は「周りに」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-076",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 4,
+    "lemma": "across",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "横切って",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "〜に沿って",
+      "右",
+      "内側に"
+    ],
+    "explanation_ja": "across は「横切って」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-077",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 4,
+    "lemma": "along",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "〜に沿って",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "通り抜けて",
+      "上へ",
+      "外側に"
+    ],
+    "explanation_ja": "along は「〜に沿って」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-078",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 4,
+    "lemma": "through",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "通り抜けて",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "〜の方へ",
+      "下へ",
+      "近くに"
+    ],
+    "explanation_ja": "through は「通り抜けて」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-079",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 4,
+    "lemma": "toward",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "〜の方へ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "向かい側の",
+      "前",
+      "遠くに"
+    ],
+    "explanation_ja": "toward は「〜の方へ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-080",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 4,
+    "lemma": "opposite",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "向かい側の",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "左",
+      "後ろに",
+      "次の"
+    ],
+    "explanation_ja": "opposite は「向かい側の」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-081",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 5,
+    "lemma": "always",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "いつも",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ふつう",
+      "まだ",
+      "〜の前に"
+    ],
+    "explanation_ja": "always は「いつも」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-082",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 5,
+    "lemma": "usually",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ふつう",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "しばしば",
+      "まもなく",
+      "〜の後に"
+    ],
+    "explanation_ja": "usually は「ふつう」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-083",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 5,
+    "lemma": "often",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "しばしば",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ときどき",
+      "再び",
+      "〜まで"
+    ],
+    "explanation_ja": "often は「しばしば」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-084",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 5,
+    "lemma": "sometimes",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ときどき",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "決して〜ない",
+      "一度",
+      "〜以来"
+    ],
+    "explanation_ja": "sometimes は「ときどき」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-085",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 5,
+    "lemma": "never",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "決して〜ない",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "すでに",
+      "二度",
+      "〜の間"
+    ],
+    "explanation_ja": "never は「決して〜ない」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-086",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 5,
+    "lemma": "already",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "すでに",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "まだ",
+      "最初に",
+      "〜する間"
+    ],
+    "explanation_ja": "already は「すでに」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-087",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 5,
+    "lemma": "still",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "まだ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "まもなく",
+      "最後の",
+      "ついに"
+    ],
+    "explanation_ja": "still は「まだ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-088",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 5,
+    "lemma": "soon",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "まもなく",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "再び",
+      "〜の前に",
+      "いつも"
+    ],
+    "explanation_ja": "soon は「まもなく」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-089",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 5,
+    "lemma": "again",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "再び",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "一度",
+      "〜の後に",
+      "ふつう"
+    ],
+    "explanation_ja": "again は「再び」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-090",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 5,
+    "lemma": "once",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "一度",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "二度",
+      "〜まで",
+      "しばしば"
+    ],
+    "explanation_ja": "once は「一度」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-091",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 5,
+    "lemma": "twice",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "二度",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "最初に",
+      "〜以来",
+      "ときどき"
+    ],
+    "explanation_ja": "twice は「二度」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-092",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 5,
+    "lemma": "first",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "最初に",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "最後の",
+      "〜の間",
+      "決して〜ない"
+    ],
+    "explanation_ja": "first は「最初に」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-093",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 5,
+    "lemma": "last",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "最後の",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "〜の前に",
+      "〜する間",
+      "すでに"
+    ],
+    "explanation_ja": "last は「最後の」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-094",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 5,
+    "lemma": "before",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "〜の前に",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "〜の後に",
+      "ついに",
+      "まだ"
+    ],
+    "explanation_ja": "before は「〜の前に」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-095",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 5,
+    "lemma": "after",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "〜の後に",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "〜まで",
+      "いつも",
+      "まもなく"
+    ],
+    "explanation_ja": "after は「〜の後に」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-096",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 5,
+    "lemma": "until",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "〜まで",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "〜以来",
+      "ふつう",
+      "再び"
+    ],
+    "explanation_ja": "until は「〜まで」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-097",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 5,
+    "lemma": "since",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "〜以来",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "〜の間",
+      "しばしば",
+      "一度"
+    ],
+    "explanation_ja": "since は「〜以来」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-098",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 5,
+    "lemma": "during",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "〜の間",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "〜する間",
+      "ときどき",
+      "二度"
+    ],
+    "explanation_ja": "during は「〜の間」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-099",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 5,
+    "lemma": "while",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "〜する間",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ついに",
+      "決して〜ない",
+      "最初に"
+    ],
+    "explanation_ja": "while は「〜する間」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L5-100",
+    "stage": "PRE",
+    "level": 5,
+    "unit": 5,
+    "lemma": "finally",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ついに",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "いつも",
+      "すでに",
+      "最後の"
+    ],
+    "explanation_ja": "finally は「ついに」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  }
+]

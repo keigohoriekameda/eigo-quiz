@@ -1,0 +1,2390 @@
+[
+  {
+    "id": "PRE-L4-001",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 1,
+    "lemma": "sea",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "海",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "大洋",
+      "湖",
+      "川"
+    ],
+    "explanation_ja": "sea は「海」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L4-002",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 1,
+    "lemma": "ocean",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "大洋",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "海",
+      "湖",
+      "池"
+    ],
+    "explanation_ja": "ocean は「大洋」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L4-003",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 1,
+    "lemma": "lake",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "湖",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "池",
+      "花",
+      "雨"
+    ],
+    "explanation_ja": "lake は「湖」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-004",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 1,
+    "lemma": "pond",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "池",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "浜辺",
+      "草",
+      "雪"
+    ],
+    "explanation_ja": "pond は「池」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-005",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 1,
+    "lemma": "beach",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "浜辺",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "島",
+      "葉",
+      "風"
+    ],
+    "explanation_ja": "beach は「浜辺」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-006",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 1,
+    "lemma": "island",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "島",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "森林",
+      "根",
+      "嵐"
+    ],
+    "explanation_ja": "island は「島」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-007",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 1,
+    "lemma": "forest",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "森林",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "木",
+      "枝",
+      "天気"
+    ],
+    "explanation_ja": "forest は「森林」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-008",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 1,
+    "lemma": "tree",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "木",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "花",
+      "空",
+      "海"
+    ],
+    "explanation_ja": "tree は「木」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-009",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 1,
+    "lemma": "flower",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "花",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "草",
+      "雲",
+      "大洋"
+    ],
+    "explanation_ja": "flower は「花」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-010",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 1,
+    "lemma": "grass",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "草",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "葉",
+      "雨",
+      "湖"
+    ],
+    "explanation_ja": "grass は「草」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-011",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 1,
+    "lemma": "leaf",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "葉",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "根",
+      "雪",
+      "池"
+    ],
+    "explanation_ja": "leaf は「葉」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-012",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 1,
+    "lemma": "root",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "根",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "枝",
+      "風",
+      "浜辺"
+    ],
+    "explanation_ja": "root は「根」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-013",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 1,
+    "lemma": "branch",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "枝",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "空",
+      "嵐",
+      "島"
+    ],
+    "explanation_ja": "branch は「枝」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-014",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 1,
+    "lemma": "sky",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "空",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "雲",
+      "天気",
+      "森林"
+    ],
+    "explanation_ja": "sky は「空」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-015",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 1,
+    "lemma": "cloud",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "雲",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "雨",
+      "海",
+      "木"
+    ],
+    "explanation_ja": "cloud は「雲」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-016",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 1,
+    "lemma": "rain",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "雨",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "雪",
+      "大洋",
+      "花"
+    ],
+    "explanation_ja": "rain は「雨」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-017",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 1,
+    "lemma": "snow",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "雪",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "風",
+      "湖",
+      "草"
+    ],
+    "explanation_ja": "snow は「雪」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-018",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 1,
+    "lemma": "wind",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "風",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "嵐",
+      "池",
+      "葉"
+    ],
+    "explanation_ja": "wind は「風」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-019",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 1,
+    "lemma": "storm",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "嵐",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "天気",
+      "浜辺",
+      "根"
+    ],
+    "explanation_ja": "storm は「嵐」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-020",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 1,
+    "lemma": "weather",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "天気",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "海",
+      "島",
+      "枝"
+    ],
+    "explanation_ja": "weather は「天気」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-021",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 2,
+    "lemma": "bear",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "クマ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "トラ",
+      "ヤギ",
+      "チョウ"
+    ],
+    "explanation_ja": "bear は「クマ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-022",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 2,
+    "lemma": "tiger",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "トラ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "サル",
+      "ひよこ",
+      "ハチ"
+    ],
+    "explanation_ja": "tiger は「トラ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-023",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 2,
+    "lemma": "monkey",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "サル",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "キリン",
+      "アヒル",
+      "アリ"
+    ],
+    "explanation_ja": "monkey は「サル」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-024",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 2,
+    "lemma": "giraffe",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "キリン",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "パンダ",
+      "クジラ",
+      "クモ"
+    ],
+    "explanation_ja": "giraffe は「キリン」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-025",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 2,
+    "lemma": "panda",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "パンダ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "羊",
+      "イルカ",
+      "カエル"
+    ],
+    "explanation_ja": "panda は「パンダ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-026",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 2,
+    "lemma": "sheep",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "羊",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ヤギ",
+      "サメ",
+      "カメ"
+    ],
+    "explanation_ja": "sheep は「羊」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-027",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 2,
+    "lemma": "goat",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ヤギ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ひよこ",
+      "ペンギン",
+      "ヘビ"
+    ],
+    "explanation_ja": "goat は「ヤギ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-028",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 2,
+    "lemma": "chick",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ひよこ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "アヒル",
+      "チョウ",
+      "クマ"
+    ],
+    "explanation_ja": "chick は「ひよこ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-029",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 2,
+    "lemma": "duck",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "アヒル",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "クジラ",
+      "ハチ",
+      "トラ"
+    ],
+    "explanation_ja": "duck は「アヒル」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-030",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 2,
+    "lemma": "whale",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "クジラ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "イルカ",
+      "アリ",
+      "サル"
+    ],
+    "explanation_ja": "whale は「クジラ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-031",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 2,
+    "lemma": "dolphin",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "イルカ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "サメ",
+      "クモ",
+      "キリン"
+    ],
+    "explanation_ja": "dolphin は「イルカ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-032",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 2,
+    "lemma": "shark",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "サメ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ペンギン",
+      "カエル",
+      "パンダ"
+    ],
+    "explanation_ja": "shark は「サメ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-033",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 2,
+    "lemma": "penguin",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ペンギン",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "チョウ",
+      "カメ",
+      "羊"
+    ],
+    "explanation_ja": "penguin は「ペンギン」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-034",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 2,
+    "lemma": "butterfly",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "チョウ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ハチ",
+      "ヘビ",
+      "ヤギ"
+    ],
+    "explanation_ja": "butterfly は「チョウ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-035",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 2,
+    "lemma": "bee",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ハチ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "アリ",
+      "クマ",
+      "ひよこ"
+    ],
+    "explanation_ja": "bee は「ハチ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-036",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 2,
+    "lemma": "ant",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "アリ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "クモ",
+      "トラ",
+      "アヒル"
+    ],
+    "explanation_ja": "ant は「アリ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-037",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 2,
+    "lemma": "spider",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "クモ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "カエル",
+      "サル",
+      "クジラ"
+    ],
+    "explanation_ja": "spider は「クモ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-038",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 2,
+    "lemma": "frog",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "カエル",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "カメ",
+      "キリン",
+      "イルカ"
+    ],
+    "explanation_ja": "frog は「カエル」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-039",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 2,
+    "lemma": "turtle",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "カメ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ヘビ",
+      "パンダ",
+      "サメ"
+    ],
+    "explanation_ja": "turtle は「カメ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-040",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 2,
+    "lemma": "snake",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ヘビ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "クマ",
+      "羊",
+      "ペンギン"
+    ],
+    "explanation_ja": "snake は「ヘビ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-041",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 3,
+    "lemma": "car",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "自動車",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "バス",
+      "タクシー",
+      "トラック"
+    ],
+    "explanation_ja": "car は「自動車」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L4-042",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 3,
+    "lemma": "bus",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "バス",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "列車",
+      "飛行機",
+      "空港"
+    ],
+    "explanation_ja": "bus は「バス」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-043",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 3,
+    "lemma": "train",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "列車",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "地下鉄",
+      "バス",
+      "路面電車"
+    ],
+    "explanation_ja": "train は「列車」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "manual-semantic-candidate"
+  },
+  {
+    "id": "PRE-L4-044",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 3,
+    "lemma": "subway",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "地下鉄",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "タクシー",
+      "ボート",
+      "ホーム"
+    ],
+    "explanation_ja": "subway は「地下鉄」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-045",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 3,
+    "lemma": "taxi",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "タクシー",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "自転車",
+      "トラック",
+      "切符"
+    ],
+    "explanation_ja": "taxi は「タクシー」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-046",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 3,
+    "lemma": "bicycle",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "自転車",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "バイク",
+      "ヘリコプター",
+      "運転手"
+    ],
+    "explanation_ja": "bicycle は「自転車」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-047",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 3,
+    "lemma": "bike",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "バイク",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "飛行機",
+      "交通",
+      "乗客"
+    ],
+    "explanation_ja": "bike は「バイク」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-048",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 3,
+    "lemma": "airplane",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "飛行機",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "船",
+      "道路",
+      "自動車"
+    ],
+    "explanation_ja": "airplane は「飛行機」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-049",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 3,
+    "lemma": "ship",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "船",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ボート",
+      "空港",
+      "バス"
+    ],
+    "explanation_ja": "ship は「船」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-050",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 3,
+    "lemma": "boat",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ボート",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "トラック",
+      "港",
+      "列車"
+    ],
+    "explanation_ja": "boat は「ボート」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-051",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 3,
+    "lemma": "truck",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "トラック",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ヘリコプター",
+      "ホーム",
+      "地下鉄"
+    ],
+    "explanation_ja": "truck は「トラック」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-052",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 3,
+    "lemma": "helicopter",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ヘリコプター",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "交通",
+      "切符",
+      "タクシー"
+    ],
+    "explanation_ja": "helicopter は「ヘリコプター」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-053",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 3,
+    "lemma": "traffic",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "交通",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "道路",
+      "運転手",
+      "自転車"
+    ],
+    "explanation_ja": "traffic は「交通」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-054",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 3,
+    "lemma": "road",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "道路",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "空港",
+      "乗客",
+      "バイク"
+    ],
+    "explanation_ja": "road は「道路」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-055",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 3,
+    "lemma": "airport",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "空港",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "港",
+      "自動車",
+      "飛行機"
+    ],
+    "explanation_ja": "airport は「空港」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-056",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 3,
+    "lemma": "port",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "港",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ホーム",
+      "バス",
+      "船"
+    ],
+    "explanation_ja": "port は「港」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-057",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 3,
+    "lemma": "platform",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ホーム",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "切符",
+      "列車",
+      "ボート"
+    ],
+    "explanation_ja": "platform は「ホーム」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-058",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 3,
+    "lemma": "ticket",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "切符",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "運転手",
+      "地下鉄",
+      "トラック"
+    ],
+    "explanation_ja": "ticket は「切符」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-059",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 3,
+    "lemma": "driver",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "運転手",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "乗客",
+      "タクシー",
+      "ヘリコプター"
+    ],
+    "explanation_ja": "driver は「運転手」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-060",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 3,
+    "lemma": "passenger",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "乗客",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "自動車",
+      "自転車",
+      "交通"
+    ],
+    "explanation_ja": "passenger は「乗客」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-061",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 4,
+    "lemma": "Japan",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "日本",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "中国",
+      "アメリカ",
+      "エジプト"
+    ],
+    "explanation_ja": "Japan は「日本」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-062",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 4,
+    "lemma": "China",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "中国",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "韓国",
+      "イングランド",
+      "国"
+    ],
+    "explanation_ja": "China は「中国」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-063",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 4,
+    "lemma": "Korea",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "韓国",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "インド",
+      "フランス",
+      "言語"
+    ],
+    "explanation_ja": "Korea は「韓国」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-064",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 4,
+    "lemma": "India",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "インド",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "オーストラリア",
+      "ドイツ",
+      "文化"
+    ],
+    "explanation_ja": "India は「インド」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-065",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 4,
+    "lemma": "Australia",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "オーストラリア",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "カナダ",
+      "イタリア",
+      "祭り"
+    ],
+    "explanation_ja": "Australia は「オーストラリア」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-066",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 4,
+    "lemma": "Canada",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "カナダ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "アメリカ",
+      "スペイン",
+      "伝統"
+    ],
+    "explanation_ja": "Canada は「カナダ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-067",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 4,
+    "lemma": "America",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "アメリカ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "イングランド",
+      "ブラジル",
+      "世界"
+    ],
+    "explanation_ja": "America は「アメリカ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-068",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 4,
+    "lemma": "England",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "イングランド",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "フランス",
+      "エジプト",
+      "日本"
+    ],
+    "explanation_ja": "England は「イングランド」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-069",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 4,
+    "lemma": "France",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "フランス",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ドイツ",
+      "国",
+      "中国"
+    ],
+    "explanation_ja": "France は「フランス」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-070",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 4,
+    "lemma": "Germany",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ドイツ",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "イタリア",
+      "言語",
+      "韓国"
+    ],
+    "explanation_ja": "Germany は「ドイツ」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-071",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 4,
+    "lemma": "Italy",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "イタリア",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "スペイン",
+      "文化",
+      "インド"
+    ],
+    "explanation_ja": "Italy は「イタリア」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-072",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 4,
+    "lemma": "Spain",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "スペイン",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ブラジル",
+      "祭り",
+      "オーストラリア"
+    ],
+    "explanation_ja": "Spain は「スペイン」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-073",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 4,
+    "lemma": "Brazil",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ブラジル",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "エジプト",
+      "伝統",
+      "カナダ"
+    ],
+    "explanation_ja": "Brazil は「ブラジル」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-074",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 4,
+    "lemma": "Egypt",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "エジプト",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "国",
+      "世界",
+      "アメリカ"
+    ],
+    "explanation_ja": "Egypt は「エジプト」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-075",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 4,
+    "lemma": "country",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "国",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "言語",
+      "日本",
+      "イングランド"
+    ],
+    "explanation_ja": "country は「国」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-076",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 4,
+    "lemma": "language",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "言語",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "文化",
+      "中国",
+      "フランス"
+    ],
+    "explanation_ja": "language は「言語」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-077",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 4,
+    "lemma": "culture",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "文化",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "祭り",
+      "韓国",
+      "ドイツ"
+    ],
+    "explanation_ja": "culture は「文化」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-078",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 4,
+    "lemma": "festival",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "祭り",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "伝統",
+      "インド",
+      "イタリア"
+    ],
+    "explanation_ja": "festival は「祭り」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-079",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 4,
+    "lemma": "tradition",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "伝統",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "世界",
+      "オーストラリア",
+      "スペイン"
+    ],
+    "explanation_ja": "tradition は「伝統」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-080",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 4,
+    "lemma": "world",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "世界",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "日本",
+      "カナダ",
+      "ブラジル"
+    ],
+    "explanation_ja": "world は「世界」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-081",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 5,
+    "lemma": "bank",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "銀行",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "郵便局",
+      "スーパーマーケット",
+      "寺"
+    ],
+    "explanation_ja": "bank は「銀行」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-082",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 5,
+    "lemma": "post office",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "郵便局",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "警察署",
+      "百貨店",
+      "神社"
+    ],
+    "explanation_ja": "post office は「郵便局」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-083",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 5,
+    "lemma": "police station",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "警察署",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "消防署",
+      "ショッピングモール",
+      "教会"
+    ],
+    "explanation_ja": "police station は「警察署」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-084",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 5,
+    "lemma": "fire station",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "消防署",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "市役所",
+      "パン屋",
+      "城"
+    ],
+    "explanation_ja": "fire station は「消防署」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-085",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 5,
+    "lemma": "city hall",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "市役所",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "書店",
+      "薬局",
+      "農場"
+    ],
+    "explanation_ja": "city hall は「市役所」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-086",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 5,
+    "lemma": "bookstore",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "書店",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "スーパーマーケット",
+      "診療所",
+      "工場"
+    ],
+    "explanation_ja": "bookstore は「書店」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-087",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 5,
+    "lemma": "supermarket",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "スーパーマーケット",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "百貨店",
+      "ホテル",
+      "事務所"
+    ],
+    "explanation_ja": "supermarket は「スーパーマーケット」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-088",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 5,
+    "lemma": "department store",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "百貨店",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ショッピングモール",
+      "寺",
+      "銀行"
+    ],
+    "explanation_ja": "department store は「百貨店」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-089",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 5,
+    "lemma": "shopping mall",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ショッピングモール",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "パン屋",
+      "神社",
+      "郵便局"
+    ],
+    "explanation_ja": "shopping mall は「ショッピングモール」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-090",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 5,
+    "lemma": "bakery",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "パン屋",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "薬局",
+      "教会",
+      "警察署"
+    ],
+    "explanation_ja": "bakery は「パン屋」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-091",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 5,
+    "lemma": "pharmacy",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "薬局",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "診療所",
+      "城",
+      "消防署"
+    ],
+    "explanation_ja": "pharmacy は「薬局」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-092",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 5,
+    "lemma": "clinic",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "診療所",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "ホテル",
+      "農場",
+      "市役所"
+    ],
+    "explanation_ja": "clinic は「診療所」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-093",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 5,
+    "lemma": "hotel",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "ホテル",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "寺",
+      "工場",
+      "書店"
+    ],
+    "explanation_ja": "hotel は「ホテル」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-094",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 5,
+    "lemma": "temple",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "寺",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "神社",
+      "事務所",
+      "スーパーマーケット"
+    ],
+    "explanation_ja": "temple は「寺」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-095",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 5,
+    "lemma": "shrine",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "神社",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "教会",
+      "銀行",
+      "百貨店"
+    ],
+    "explanation_ja": "shrine は「神社」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-096",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 5,
+    "lemma": "church",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "教会",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "城",
+      "郵便局",
+      "ショッピングモール"
+    ],
+    "explanation_ja": "church は「教会」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-097",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 5,
+    "lemma": "castle",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "城",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "農場",
+      "警察署",
+      "パン屋"
+    ],
+    "explanation_ja": "castle は「城」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-098",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 5,
+    "lemma": "farm",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "農場",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "工場",
+      "消防署",
+      "薬局"
+    ],
+    "explanation_ja": "farm は「農場」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-099",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 5,
+    "lemma": "factory",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "工場",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "事務所",
+      "市役所",
+      "診療所"
+    ],
+    "explanation_ja": "factory は「工場」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  },
+  {
+    "id": "PRE-L4-100",
+    "stage": "PRE",
+    "level": 4,
+    "unit": 5,
+    "lemma": "office",
+    "unit_type": "word",
+    "part_of_speech": "unspecified",
+    "meaning_ja": "事務所",
+    "context_en": "",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "銀行",
+      "書店",
+      "ホテル"
+    ],
+    "explanation_ja": "office は「事務所」という意味です。",
+    "source_tag": "original-pre-draft",
+    "review_status": "draft",
+    "distractor_method": "automatic-within-unit",
+    "quality_flags": [
+      "requires_semantic_distractor_review"
+    ]
+  }
+]
