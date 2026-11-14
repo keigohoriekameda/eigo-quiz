@@ -11,7 +11,7 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "大洋",
+      "池",
       "湖",
       "川"
     ],
@@ -32,7 +32,7 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "海",
+      "浜辺",
       "湖",
       "池"
     ],
