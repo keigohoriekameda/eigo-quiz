@@ -15,6 +15,21 @@ for(let level=1;level<=7;level++){
 const ids=all.map(x=>x.id), lemmas=all.map(x=>x.lemma.toLowerCase());
 if(new Set(ids).size!==ids.length)errors.push('Duplicate question IDs');
 if(new Set(lemmas).size!==lemmas.length)errors.push('Duplicate headwords');
+// A small, high-confidence guard against answer choices that are both valid Japanese meanings.
+// Expand after editorial review; this list is deliberately not a general synonym dictionary.
+const equivalentMeanings = [
+ ['海','大洋'],
+ ['頭のよい','賢い'],
+ ['ごみ','ごみくず'],
+ ['早い','速い']
+];
+for(const r of all){
+ for(const choices of equivalentMeanings){
+  if(choices.includes(r.meaning_ja) && r.distractors_ja.some(x=>choices.includes(x))){
+   errors.push(`${r.id}: ambiguous answer and distractor (${choices.join(' / ')})`);
+  }
+ }
+}
 const manual=all.filter(x=>x.distractor_method==='manual-semantic-candidate').length;
 const automatic=all.filter(x=>x.distractor_method==='automatic-within-unit').length;
 const reviewNeeded=all.filter(x=>x.quality_flags?.includes('requires_semantic_distractor_review')).length;
