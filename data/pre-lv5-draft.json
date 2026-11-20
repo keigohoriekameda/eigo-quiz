@@ -1507,18 +1507,18 @@
     "lemma": "left",
     "unit_type": "word",
     "part_of_speech": "adverb",
-    "meaning_ja": "左",
-    "context_en": "",
+    "meaning_ja": "左へ",
+    "context_en": "Turn left at the next street.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "右",
-      "下へ",
-      "上へ"
+      "右へ",
+      "上へ",
+      "下へ"
     ],
-    "explanation_ja": "left は「左」という意味です。",
+    "explanation_ja": "left は方向を指して「左へ」。Turn left で「左に曲がる」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1532,18 +1532,18 @@
     "lemma": "right",
     "unit_type": "word",
     "part_of_speech": "adverb",
-    "meaning_ja": "右",
-    "context_en": "",
+    "meaning_ja": "右へ",
+    "context_en": "Turn right at the corner.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
+      "左へ",
       "上へ",
-      "左",
       "下へ"
     ],
-    "explanation_ja": "right は「右」という意味です。",
+    "explanation_ja": "right は方向を指して「右へ」。Turn right で「右に曲がる」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1606,19 +1606,19 @@
     "unit": 4,
     "lemma": "front",
     "unit_type": "word",
-    "part_of_speech": "preposition",
-    "meaning_ja": "前",
-    "context_en": "",
+    "part_of_speech": "adverb",
+    "meaning_ja": "前に",
+    "context_en": "The bus is in front of the school.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "後ろに",
-      "遠くに",
-      "上方に"
+      "上方に",
+      "下方に"
     ],
-    "explanation_ja": "front は「前」という意味です。",
+    "explanation_ja": "front は「前」。in front of で「〜の前に」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1811,14 +1811,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "〜の間に",
-      "向かい側の",
-      "周りに"
+      "前の",
+      "最後の",
+      "最初の"
     ],
-    "explanation_ja": "next は「次の」という意味です。",
+    "explanation_ja": "next は「次の」。next week なら「来週」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2461,14 +2461,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ついに",
-      "〜の前に",
-      "〜以来"
+      "〜する前に",
+      "〜した後で",
+      "〜なので"
     ],
-    "explanation_ja": "while は「〜する間」という意味です。",
+    "explanation_ja": "while は「〜する間」。動作が同時に行われるときの接続詞。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2481,19 +2481,19 @@
     "unit": 5,
     "lemma": "finally",
     "unit_type": "word",
-    "part_of_speech": "preposition",
+    "part_of_speech": "adverb",
     "meaning_ja": "ついに",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "〜の前に",
-      "〜する間",
-      "〜の後に"
+      "すでに",
+      "まもなく",
+      "最初に"
     ],
-    "explanation_ja": "finally は「ついに」という意味です。",
+    "explanation_ja": "finally は「ついに・最後に」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
