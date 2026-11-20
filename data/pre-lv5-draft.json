@@ -11,14 +11,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "かわいい",
-      "勇敢な",
-      "ハンサムな"
+      "地味な",
+      "醜い",
+      "質素な"
     ],
     "explanation_ja": "beautiful は「美しい」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L5-U1-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -36,14 +36,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ハンサムな",
-      "美しい",
-      "勇敢な"
+      "地味な",
+      "怖そうな",
+      "不格好な"
     ],
     "explanation_ja": "pretty は「かわいい」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -61,14 +61,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "かわいらしい",
-      "かわいい",
-      "親切な"
+      "幼い",
+      "平凡な",
+      "不格好な"
     ],
     "explanation_ja": "handsome は「ハンサムな」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -86,14 +86,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "親切な",
-      "ハンサムな",
-      "勇敢な"
+      "怖そうな",
+      "地味な",
+      "大人っぽい"
     ],
     "explanation_ja": "cute は「かわいらしい」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -111,14 +111,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "勇敢な",
-      "かわいらしい",
-      "美しい"
+      "厳しい",
+      "冷たい",
+      "無礼な"
     ],
     "explanation_ja": "kind は「親切な」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L5-U1-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -136,14 +136,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "美しい",
-      "親切な",
-      "かわいい"
+      "臆病な",
+      "慎重な",
+      "無関心な"
     ],
     "explanation_ja": "brave は「勇敢な」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -161,14 +161,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "遅い",
-      "強い",
-      "速い"
+      "不器用な",
+      "うっかりした",
+      "不注意な"
     ],
     "explanation_ja": "smart は「頭のよい」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -186,14 +186,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "強い",
-      "弱い",
-      "遅い"
+      "不器用な",
+      "不注意な",
+      "鈍い"
     ],
     "explanation_ja": "clever は「賢い」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -212,13 +212,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "弱い",
-      "賢い",
-      "重い"
+      "細い",
+      "軽い"
     ],
     "explanation_ja": "strong は「強い」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L5-U1-G2",
     "quality_flags": [
       "editorial_review_pending"
@@ -236,14 +236,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "重い",
-      "強い",
-      "軽い"
+      "丈夫な",
+      "力強い",
+      "重い"
     ],
     "explanation_ja": "weak は「弱い」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -262,13 +262,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "軽い",
-      "弱い",
-      "速い"
+      "薄い",
+      "小さい"
     ],
     "explanation_ja": "heavy は「重い」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L5-U1-G2",
     "quality_flags": [
       "editorial_review_pending"
@@ -286,14 +286,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "速い",
       "重い",
-      "遅い"
+      "厚い",
+      "大きい"
     ],
     "explanation_ja": "light は「軽い」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -311,14 +311,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "遅い",
-      "軽い",
-      "頭のよい"
+      "遅い（速度）",
+      "早い（時刻）",
+      "遠い"
     ],
     "explanation_ja": "fast は「速い」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -336,14 +336,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "頭のよい",
       "速い",
-      "賢い"
+      "早い（時刻）",
+      "短い"
     ],
     "explanation_ja": "slow は「遅い」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -361,14 +361,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "遅れた",
-      "有名な",
-      "若い"
+      "遅い（時刻）",
+      "速い（速度）",
+      "新しい"
     ],
     "explanation_ja": "early は「早い」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L5-U1-G3",
     "quality_flags": [
       "editorial_review_pending"
@@ -386,14 +386,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "若い",
-      "早い",
-      "裕福な"
+      "早い（時刻）",
+      "速い（速度）",
+      "古い"
     ],
     "explanation_ja": "late は「遅れた」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L5-U1-G3",
     "quality_flags": [
       "editorial_review_pending"
@@ -411,14 +411,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "裕福な",
-      "遅れた",
-      "貧しい"
+      "年老いた",
+      "背が高い",
+      "小柄な"
     ],
     "explanation_ja": "young は「若い」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -437,13 +437,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "貧しい",
-      "若い",
-      "有名な"
+      "有名な",
+      "質素な"
     ],
     "explanation_ja": "rich は「裕福な」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -461,14 +461,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "有名な",
       "裕福な",
-      "早い"
+      "有名な",
+      "力強い"
     ],
     "explanation_ja": "poor は「貧しい」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -486,14 +486,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "早い",
-      "貧しい",
-      "遅れた"
+      "無名の",
+      "人気のない",
+      "普通の"
     ],
     "explanation_ja": "famous は「有名な」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
