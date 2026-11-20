@@ -1562,8 +1562,8 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "下へ",
-      "右",
-      "左"
+      "右へ",
+      "左へ"
     ],
     "explanation_ja": "up は「上へ」という意味です。",
     "source_tag": "original-pre-draft",
@@ -1586,9 +1586,9 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "左",
+      "左へ",
       "上へ",
-      "右"
+      "右へ"
     ],
     "explanation_ja": "down は「下へ」という意味です。",
     "source_tag": "original-pre-draft",
@@ -1631,13 +1631,13 @@
     "unit": 4,
     "lemma": "behind",
     "unit_type": "word",
-    "part_of_speech": "preposition",
+    "part_of_speech": "adverb",
     "meaning_ja": "後ろに",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "上方に",
-      "前",
+      "前に",
       "下方に"
     ],
     "explanation_ja": "behind は「後ろに」という意味です。",
@@ -1656,7 +1656,7 @@
     "unit": 4,
     "lemma": "above",
     "unit_type": "word",
-    "part_of_speech": "preposition",
+    "part_of_speech": "adverb",
     "meaning_ja": "上方に",
     "context_en": "",
     "prompt_type": "meaning_4choice",
@@ -1681,7 +1681,7 @@
     "unit": 4,
     "lemma": "below",
     "unit_type": "word",
-    "part_of_speech": "preposition",
+    "part_of_speech": "adverb",
     "meaning_ja": "下方に",
     "context_en": "",
     "prompt_type": "meaning_4choice",
@@ -1706,7 +1706,7 @@
     "unit": 4,
     "lemma": "inside",
     "unit_type": "word",
-    "part_of_speech": "preposition",
+    "part_of_speech": "adverb",
     "meaning_ja": "内側に",
     "context_en": "",
     "prompt_type": "meaning_4choice",
@@ -1731,7 +1731,7 @@
     "unit": 4,
     "lemma": "outside",
     "unit_type": "word",
-    "part_of_speech": "preposition",
+    "part_of_speech": "adverb",
     "meaning_ja": "外側に",
     "context_en": "",
     "prompt_type": "meaning_4choice",
@@ -1756,14 +1756,14 @@
     "unit": 4,
     "lemma": "near",
     "unit_type": "word",
-    "part_of_speech": "preposition",
+    "part_of_speech": "adverb",
     "meaning_ja": "近くに",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "遠くに",
       "外側に",
-      "前"
+      "前に"
     ],
     "explanation_ja": "near は「近くに」という意味です。",
     "source_tag": "original-pre-draft",
@@ -1781,12 +1781,12 @@
     "unit": 4,
     "lemma": "far",
     "unit_type": "word",
-    "part_of_speech": "preposition",
+    "part_of_speech": "adverb",
     "meaning_ja": "遠くに",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "前",
+      "前に",
       "近くに",
       "後ろに"
     ],
@@ -1837,7 +1837,7 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "周りに",
-      "次の",
+      "向かい側の",
       "横切って"
     ],
     "explanation_ja": "between は「〜の間に」という意味です。",
@@ -1963,7 +1963,7 @@
     "distractors_ja": [
       "向かい側の",
       "通り抜けて",
-      "次の"
+      "〜の間に"
     ],
     "explanation_ja": "toward は「〜の方へ」という意味です。",
     "source_tag": "original-pre-draft",
@@ -1986,9 +1986,9 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "次の",
+      "〜の間に",
       "〜の方へ",
-      "〜の間に"
+      "周りに"
     ],
     "explanation_ja": "opposite は「向かい側の」という意味です。",
     "source_tag": "original-pre-draft",
@@ -2337,7 +2337,7 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "〜の後に",
-      "ついに",
+      "〜の間",
       "〜まで"
     ],
     "explanation_ja": "before は「〜の前に」という意味です。",
@@ -2413,7 +2413,7 @@
     "distractors_ja": [
       "〜の間",
       "〜まで",
-      "〜する間"
+      "〜の前に"
     ],
     "explanation_ja": "since は「〜以来」という意味です。",
     "source_tag": "original-pre-draft",
@@ -2436,9 +2436,9 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
+      "〜の前に",
       "〜以来",
-      "ついに",
-      "〜まで"
+      "〜の後に"
     ],
     "explanation_ja": "during は「〜の間」という意味です。",
     "source_tag": "original-pre-draft",
