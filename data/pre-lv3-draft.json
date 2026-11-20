@@ -11,17 +11,18 @@
     "context_en": "I make a birthday card.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "修理する",
-      "見つける",
-      "選ぶ"
+      "行う",
+      "好きである",
+      "持っている"
     ],
     "explanation_ja": "make は物を「作る」。make a card の形で使う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "manual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
-    ]
+    ],
+    "choice_group": "PRE-L3-U1-G1"
   },
   {
     "id": "PRE-L3-002",
@@ -35,17 +36,18 @@
     "context_en": "I do my homework after school.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "描く",
-      "買う",
-      "見つける"
+      "持っている",
+      "作る",
+      "手に入れる"
     ],
     "explanation_ja": "do homework で「宿題をする」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "manual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
-    ]
+    ],
+    "choice_group": "PRE-L3-U1-G1"
   },
   {
     "id": "PRE-L3-003",
@@ -59,17 +61,18 @@
     "context_en": "I have two brothers.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "渡す",
-      "売る",
-      "借りる"
+      "手に入れる",
+      "行う",
+      "与える"
     ],
     "explanation_ja": "have は「持っている・いる」。家族がいる場合にも使う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "manual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
-    ]
+    ],
+    "choice_group": "PRE-L3-U1-G1"
   },
   {
     "id": "PRE-L3-004",
@@ -83,17 +86,18 @@
     "context_en": "I get a present from my friend.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "手放す",
-      "探す",
-      "送る"
+      "与える",
+      "持っている",
+      "写真を撮る"
     ],
     "explanation_ja": "get は「手に入れる・受け取る」。文脈に応じて訳す。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "manual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
-    ]
+    ],
+    "choice_group": "PRE-L3-U1-G1"
   },
   {
     "id": "PRE-L3-005",
@@ -107,17 +111,18 @@
     "context_en": "I give my friend a book.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "借りる",
-      "受け取る",
-      "探す"
+      "写真を撮る",
+      "手に入れる",
+      "持ってくる"
     ],
     "explanation_ja": "give A B で「AにBを与える」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "manual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
-    ]
+    ],
+    "choice_group": "PRE-L3-U1-G1"
   },
   {
     "id": "PRE-L3-006",
@@ -127,21 +132,22 @@
     "lemma": "take",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "写真を撮る",
-    "context_en": "I take a picture of my dog.",
+    "meaning_ja": "取る",
+    "context_en": "I take a book from the shelf.",
     "prompt_type": "meaning_in_context_4choice",
     "distractors_ja": [
-      "捨てる",
-      "返す",
-      "描く"
+      "持ってくる",
+      "与える",
+      "送る"
     ],
-    "explanation_ja": "take a picture で「写真を撮る」。take は使い方によって意味が変わる。",
+    "explanation_ja": "take は「取る」。take a picture など別の用法もある。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "manual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
-    ]
+    ],
+    "choice_group": "PRE-L3-U1-G1"
   },
   {
     "id": "PRE-L3-007",
@@ -155,17 +161,18 @@
     "context_en": "Please bring your notebook tomorrow.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "持ち帰る",
-      "捨てる",
-      "借りる"
+      "送る",
+      "取る",
+      "見せる"
     ],
     "explanation_ja": "bring は相手のいる場所へ物を「持ってくる」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "manual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
-    ]
+    ],
+    "choice_group": "PRE-L3-U1-G1"
   },
   {
     "id": "PRE-L3-008",
@@ -179,17 +186,18 @@
     "context_en": "I send an email to my teacher.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "受け取る",
-      "保存する",
-      "読んでいる"
+      "見せる",
+      "持ってくる",
+      "見つける"
     ],
     "explanation_ja": "send は手紙やメールなどを「送る」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "manual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
-    ]
+    ],
+    "choice_group": "PRE-L3-U1-G1"
   },
   {
     "id": "PRE-L3-009",
@@ -203,17 +211,18 @@
     "context_en": "Please show me your picture.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "隠す",
-      "描く",
-      "借りる"
+      "見つける",
+      "送る",
+      "見る"
     ],
     "explanation_ja": "show A B で「AにBを見せる」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "manual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
-    ]
+    ],
+    "choice_group": "PRE-L3-U1-G1"
   },
   {
     "id": "PRE-L3-010",
@@ -227,17 +236,18 @@
     "context_en": "I find my lost key.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "なくす",
-      "隠す",
-      "直す"
+      "見る",
+      "見せる",
+      "じっと見る"
     ],
     "explanation_ja": "find は探していたものを「見つける」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "manual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
-    ]
+    ],
+    "choice_group": "PRE-L3-U1-G1"
   },
   {
     "id": "PRE-L3-011",
@@ -251,17 +261,18 @@
     "context_en": "Look at the blackboard.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "聞こえる",
-      "話す",
-      "触る"
+      "じっと見る",
+      "見つける",
+      "見える"
     ],
     "explanation_ja": "look at で「～を見る」。意識して視線を向ける。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "manual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
-    ]
+    ],
+    "choice_group": "PRE-L3-U1-G1"
   },
   {
     "id": "PRE-L3-012",
@@ -275,17 +286,18 @@
     "context_en": "We watch a soccer game.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "聞く",
-      "描く",
-      "撮影する"
+      "見える",
+      "見る",
+      "聞こえる"
     ],
     "explanation_ja": "watch はテレビ・試合などの動きを注意して「見る」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "manual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
-    ]
+    ],
+    "choice_group": "PRE-L3-U1-G1"
   },
   {
     "id": "PRE-L3-013",
@@ -300,16 +312,17 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "聞こえる",
-      "においがする",
-      "触れる"
+      "じっと見る",
+      "知っている"
     ],
     "explanation_ja": "see は視界に入って「見える」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "manual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
-    ]
+    ],
+    "choice_group": "PRE-L3-U1-G1"
   },
   {
     "id": "PRE-L3-014",
@@ -323,17 +336,18 @@
     "context_en": "I can hear music.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "見る",
-      "においがする",
-      "話す"
+      "知っている",
+      "見える",
+      "考える"
     ],
     "explanation_ja": "hear は音が耳に入って「聞こえる」。listen は意識して聞く。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "manual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
-    ]
+    ],
+    "choice_group": "PRE-L3-U1-G1"
   },
   {
     "id": "PRE-L3-015",
@@ -347,17 +361,18 @@
     "context_en": "I know the answer.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "忘れる",
-      "尋ねる",
-      "書く"
+      "考える",
+      "聞こえる",
+      "感じる"
     ],
     "explanation_ja": "know は情報や人について「知っている」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "manual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
-    ]
+    ],
+    "choice_group": "PRE-L3-U1-G1"
   },
   {
     "id": "PRE-L3-016",
@@ -371,17 +386,18 @@
     "context_en": "I think this book is interesting.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "知らせる",
-      "記録する",
-      "忘れる"
+      "感じる",
+      "知っている",
+      "欲しい"
     ],
     "explanation_ja": "think は意見や考えを持つときに使う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "manual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
-    ]
+    ],
+    "choice_group": "PRE-L3-U1-G1"
   },
   {
     "id": "PRE-L3-017",
@@ -395,17 +411,18 @@
     "context_en": "I feel happy today.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "運ぶ",
-      "隠す",
-      "見つける"
+      "欲しい",
+      "考える",
+      "必要とする"
     ],
     "explanation_ja": "feel は気持ちや体の感覚を「感じる」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "manual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
-    ]
+    ],
+    "choice_group": "PRE-L3-U1-G1"
   },
   {
     "id": "PRE-L3-018",
@@ -419,17 +436,18 @@
     "context_en": "I want a new pencil.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "借りる",
-      "なくす",
-      "返す"
+      "必要とする",
+      "感じる",
+      "好きである"
     ],
     "explanation_ja": "want は「欲しい」。want to do は「～したい」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "manual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
-    ]
+    ],
+    "choice_group": "PRE-L3-U1-G1"
   },
   {
     "id": "PRE-L3-019",
@@ -443,17 +461,18 @@
     "context_en": "We need water every day.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "捨てる",
-      "借りる",
-      "送る"
+      "好きである",
+      "欲しい",
+      "作る"
     ],
     "explanation_ja": "need は「必要とする」。need to do は「～する必要がある」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "manual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
-    ]
+    ],
+    "choice_group": "PRE-L3-U1-G1"
   },
   {
     "id": "PRE-L3-020",
@@ -467,17 +486,18 @@
     "context_en": "I like English.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "忘れる",
-      "見せる",
-      "持ってくる"
+      "作る",
+      "必要とする",
+      "行う"
     ],
     "explanation_ja": "like は「好きである」。like doing の形もある。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "manual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
-    ]
+    ],
+    "choice_group": "PRE-L3-U1-G1"
   },
   {
     "id": "PRE-L3-021",
@@ -486,22 +506,23 @@
     "unit": 2,
     "lemma": "cook",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "verb",
     "meaning_ja": "料理する",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "洗う",
-      "置く",
-      "止まる"
+      "滞在する",
+      "掃除する"
     ],
     "explanation_ja": "cook は「料理する」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U2-G1"
   },
   {
     "id": "PRE-L3-022",
@@ -510,22 +531,23 @@
     "unit": 2,
     "lemma": "wash",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "verb",
     "meaning_ja": "洗う",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "掃除する",
-      "保つ",
-      "始める"
+      "料理する",
+      "助ける"
     ],
     "explanation_ja": "wash は「洗う」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U2-G1"
   },
   {
     "id": "PRE-L3-023",
@@ -534,22 +556,23 @@
     "unit": 2,
     "lemma": "clean",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "verb",
     "meaning_ja": "掃除する",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "助ける",
-      "切る",
-      "終える"
+      "洗う",
+      "運ぶ"
     ],
     "explanation_ja": "clean は「掃除する」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U2-G1"
   },
   {
     "id": "PRE-L3-024",
@@ -558,22 +581,23 @@
     "unit": 2,
     "lemma": "help",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "verb",
     "meaning_ja": "助ける",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "運ぶ",
-      "描く",
-      "待つ"
+      "掃除する",
+      "使う"
     ],
     "explanation_ja": "help は「助ける」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U2-G1"
   },
   {
     "id": "PRE-L3-025",
@@ -582,22 +606,23 @@
     "unit": 2,
     "lemma": "carry",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "verb",
     "meaning_ja": "運ぶ",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "使う",
-      "色を塗る",
-      "会う"
+      "助ける",
+      "置く"
     ],
     "explanation_ja": "carry は「運ぶ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U2-G1"
   },
   {
     "id": "PRE-L3-026",
@@ -606,22 +631,23 @@
     "unit": 2,
     "lemma": "use",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "verb",
     "meaning_ja": "使う",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "置く",
-      "建てる",
-      "訪れる"
+      "運ぶ",
+      "保つ"
     ],
     "explanation_ja": "use は「使う」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U2-G1"
   },
   {
     "id": "PRE-L3-027",
@@ -630,22 +656,23 @@
     "unit": 2,
     "lemma": "put",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "verb",
     "meaning_ja": "置く",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "保つ",
-      "動く",
-      "滞在する"
+      "使う",
+      "切る"
     ],
     "explanation_ja": "put は「置く」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U2-G1"
   },
   {
     "id": "PRE-L3-028",
@@ -654,22 +681,23 @@
     "unit": 2,
     "lemma": "keep",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "verb",
     "meaning_ja": "保つ",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "切る",
-      "止まる",
-      "料理する"
+      "置く",
+      "描く"
     ],
     "explanation_ja": "keep は「保つ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U2-G1"
   },
   {
     "id": "PRE-L3-029",
@@ -678,22 +706,23 @@
     "unit": 2,
     "lemma": "cut",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "verb",
     "meaning_ja": "切る",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "描く",
-      "始める",
-      "洗う"
+      "保つ",
+      "色を塗る"
     ],
     "explanation_ja": "cut は「切る」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U2-G1"
   },
   {
     "id": "PRE-L3-030",
@@ -702,22 +731,23 @@
     "unit": 2,
     "lemma": "draw",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "verb",
     "meaning_ja": "描く",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "色を塗る",
-      "終える",
-      "掃除する"
+      "切る",
+      "建てる"
     ],
     "explanation_ja": "draw は「描く」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U2-G1"
   },
   {
     "id": "PRE-L3-031",
@@ -726,22 +756,23 @@
     "unit": 2,
     "lemma": "paint",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "verb",
     "meaning_ja": "色を塗る",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "建てる",
-      "待つ",
-      "助ける"
+      "描く",
+      "動く"
     ],
     "explanation_ja": "paint は「色を塗る」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U2-G1"
   },
   {
     "id": "PRE-L3-032",
@@ -750,22 +781,23 @@
     "unit": 2,
     "lemma": "build",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "verb",
     "meaning_ja": "建てる",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "動く",
-      "会う",
-      "運ぶ"
+      "色を塗る",
+      "止まる"
     ],
     "explanation_ja": "build は「建てる」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U2-G1"
   },
   {
     "id": "PRE-L3-033",
@@ -774,22 +806,23 @@
     "unit": 2,
     "lemma": "move",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "verb",
     "meaning_ja": "動く",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "止まる",
-      "訪れる",
-      "使う"
+      "建てる",
+      "始める"
     ],
     "explanation_ja": "move は「動く」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U2-G1"
   },
   {
     "id": "PRE-L3-034",
@@ -798,22 +831,23 @@
     "unit": 2,
     "lemma": "stop",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "verb",
     "meaning_ja": "止まる",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "始める",
-      "滞在する",
-      "置く"
+      "動く",
+      "終える"
     ],
     "explanation_ja": "stop は「止まる」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U2-G1"
   },
   {
     "id": "PRE-L3-035",
@@ -822,22 +856,23 @@
     "unit": 2,
     "lemma": "start",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "verb",
     "meaning_ja": "始める",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "終える",
-      "料理する",
-      "保つ"
+      "止まる",
+      "待つ"
     ],
     "explanation_ja": "start は「始める」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U2-G1"
   },
   {
     "id": "PRE-L3-036",
@@ -846,22 +881,23 @@
     "unit": 2,
     "lemma": "finish",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "verb",
     "meaning_ja": "終える",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "待つ",
-      "洗う",
-      "切る"
+      "始める",
+      "会う"
     ],
     "explanation_ja": "finish は「終える」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U2-G1"
   },
   {
     "id": "PRE-L3-037",
@@ -870,22 +906,23 @@
     "unit": 2,
     "lemma": "wait",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "verb",
     "meaning_ja": "待つ",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "会う",
-      "掃除する",
-      "描く"
+      "終える",
+      "訪れる"
     ],
     "explanation_ja": "wait は「待つ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U2-G1"
   },
   {
     "id": "PRE-L3-038",
@@ -894,22 +931,23 @@
     "unit": 2,
     "lemma": "meet",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "verb",
     "meaning_ja": "会う",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "訪れる",
-      "助ける",
-      "色を塗る"
+      "待つ",
+      "滞在する"
     ],
     "explanation_ja": "meet は「会う」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U2-G1"
   },
   {
     "id": "PRE-L3-039",
@@ -918,22 +956,23 @@
     "unit": 2,
     "lemma": "visit",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "verb",
     "meaning_ja": "訪れる",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "滞在する",
-      "運ぶ",
-      "建てる"
+      "会う",
+      "料理する"
     ],
     "explanation_ja": "visit は「訪れる」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U2-G1"
   },
   {
     "id": "PRE-L3-040",
@@ -942,22 +981,23 @@
     "unit": 2,
     "lemma": "stay",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "verb",
     "meaning_ja": "滞在する",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "料理する",
-      "使う",
-      "動く"
+      "訪れる",
+      "洗う"
     ],
     "explanation_ja": "stay は「滞在する」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U2-G1"
   },
   {
     "id": "PRE-L3-041",
@@ -966,22 +1006,23 @@
     "unit": 3,
     "lemma": "shirt",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "シャツ",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "Tシャツ",
-      "スカート",
-      "手袋"
+      "傘",
+      "コート"
     ],
     "explanation_ja": "shirt は「シャツ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U3-G1"
   },
   {
     "id": "PRE-L3-042",
@@ -990,22 +1031,23 @@
     "unit": 3,
     "lemma": "T-shirt",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "Tシャツ",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "コート",
-      "ズボン",
-      "マフラー"
+      "シャツ",
+      "上着"
     ],
     "explanation_ja": "T-shirt は「Tシャツ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U3-G1"
   },
   {
     "id": "PRE-L3-043",
@@ -1014,22 +1056,23 @@
     "unit": 3,
     "lemma": "coat",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "コート",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "上着",
-      "ジーンズ",
-      "傘"
+      "Tシャツ",
+      "セーター"
     ],
     "explanation_ja": "coat は「コート」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U3-G1"
   },
   {
     "id": "PRE-L3-044",
@@ -1038,22 +1081,23 @@
     "unit": 3,
     "lemma": "jacket",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "上着",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "セーター",
-      "靴",
-      "腕時計"
+      "コート",
+      "ワンピース"
     ],
     "explanation_ja": "jacket は「上着」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U3-G1"
   },
   {
     "id": "PRE-L3-045",
@@ -1062,22 +1106,23 @@
     "unit": 3,
     "lemma": "sweater",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "セーター",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "ワンピース",
-      "靴下",
-      "財布"
+      "上着",
+      "スカート"
     ],
     "explanation_ja": "sweater は「セーター」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U3-G1"
   },
   {
     "id": "PRE-L3-046",
@@ -1086,22 +1131,23 @@
     "unit": 3,
     "lemma": "dress",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "ワンピース",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "スカート",
-      "帽子",
-      "眼鏡"
+      "セーター",
+      "ズボン"
     ],
     "explanation_ja": "dress は「ワンピース」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U3-G1"
   },
   {
     "id": "PRE-L3-047",
@@ -1110,22 +1156,23 @@
     "unit": 3,
     "lemma": "skirt",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "スカート",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "ズボン",
-      "キャップ",
-      "制服"
+      "ワンピース",
+      "ジーンズ"
     ],
     "explanation_ja": "skirt は「スカート」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U3-G1"
   },
   {
     "id": "PRE-L3-048",
@@ -1134,22 +1181,23 @@
     "unit": 3,
     "lemma": "pants",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "ズボン",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "ジーンズ",
-      "手袋",
-      "シャツ"
+      "スカート",
+      "靴"
     ],
     "explanation_ja": "pants は「ズボン」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U3-G1"
   },
   {
     "id": "PRE-L3-049",
@@ -1158,22 +1206,23 @@
     "unit": 3,
     "lemma": "jeans",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "ジーンズ",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "靴",
-      "マフラー",
-      "Tシャツ"
+      "ズボン",
+      "靴下"
     ],
     "explanation_ja": "jeans は「ジーンズ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U3-G1"
   },
   {
     "id": "PRE-L3-050",
@@ -1182,22 +1231,23 @@
     "unit": 3,
     "lemma": "shoes",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "靴",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "靴下",
-      "傘",
-      "コート"
+      "ジーンズ",
+      "帽子"
     ],
     "explanation_ja": "shoes は「靴」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U3-G1"
   },
   {
     "id": "PRE-L3-051",
@@ -1206,22 +1256,23 @@
     "unit": 3,
     "lemma": "socks",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "靴下",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "帽子",
-      "腕時計",
-      "上着"
+      "靴",
+      "キャップ"
     ],
     "explanation_ja": "socks は「靴下」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U3-G1"
   },
   {
     "id": "PRE-L3-052",
@@ -1230,22 +1281,23 @@
     "unit": 3,
     "lemma": "hat",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "帽子",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "キャップ",
-      "財布",
-      "セーター"
+      "靴下",
+      "手袋"
     ],
     "explanation_ja": "hat は「帽子」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U3-G1"
   },
   {
     "id": "PRE-L3-053",
@@ -1254,22 +1306,23 @@
     "unit": 3,
     "lemma": "cap",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "キャップ",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "手袋",
-      "眼鏡",
-      "ワンピース"
+      "帽子",
+      "マフラー"
     ],
     "explanation_ja": "cap は「キャップ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U3-G1"
   },
   {
     "id": "PRE-L3-054",
@@ -1278,22 +1331,23 @@
     "unit": 3,
     "lemma": "gloves",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "手袋",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "マフラー",
-      "制服",
-      "スカート"
+      "キャップ",
+      "傘"
     ],
     "explanation_ja": "gloves は「手袋」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U3-G1"
   },
   {
     "id": "PRE-L3-055",
@@ -1302,22 +1356,23 @@
     "unit": 3,
     "lemma": "scarf",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "マフラー",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "傘",
-      "シャツ",
-      "ズボン"
+      "手袋",
+      "シャツ"
     ],
     "explanation_ja": "scarf は「マフラー」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U3-G1"
   },
   {
     "id": "PRE-L3-056",
@@ -1326,22 +1381,23 @@
     "unit": 3,
     "lemma": "umbrella",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "傘",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "腕時計",
-      "Tシャツ",
-      "ジーンズ"
+      "シャツ",
+      "マフラー",
+      "Tシャツ"
     ],
     "explanation_ja": "umbrella は「傘」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U3-G1"
   },
   {
     "id": "PRE-L3-057",
@@ -1350,22 +1406,23 @@
     "unit": 3,
     "lemma": "wristwatch",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "腕時計",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "財布",
-      "コート",
-      "靴"
+      "制服",
+      "眼鏡"
     ],
     "explanation_ja": "wristwatch は「腕時計」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U3-G2"
   },
   {
     "id": "PRE-L3-058",
@@ -1374,22 +1431,23 @@
     "unit": 3,
     "lemma": "wallet",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "財布",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "眼鏡",
-      "上着",
-      "靴下"
+      "腕時計",
+      "制服"
     ],
     "explanation_ja": "wallet は「財布」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U3-G2"
   },
   {
     "id": "PRE-L3-059",
@@ -1398,22 +1456,23 @@
     "unit": 3,
     "lemma": "glasses",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "眼鏡",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "制服",
-      "セーター",
-      "帽子"
+      "財布",
+      "腕時計"
     ],
     "explanation_ja": "glasses は「眼鏡」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U3-G2"
   },
   {
     "id": "PRE-L3-060",
@@ -1422,22 +1481,23 @@
     "unit": 3,
     "lemma": "uniform",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "制服",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "シャツ",
-      "ワンピース",
-      "キャップ"
+      "腕時計",
+      "眼鏡",
+      "財布"
     ],
     "explanation_ja": "uniform は「制服」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U3-G2"
   },
   {
     "id": "PRE-L3-061",
@@ -1446,22 +1506,23 @@
     "unit": 4,
     "lemma": "breakfast",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "朝食",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "昼食",
-      "牛肉",
-      "ニンジン"
+      "サンドイッチ",
+      "夕食"
     ],
     "explanation_ja": "breakfast は「朝食」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U4-G1"
   },
   {
     "id": "PRE-L3-062",
@@ -1470,22 +1531,23 @@
     "unit": 4,
     "lemma": "lunch",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "昼食",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "夕食",
-      "サラダ",
-      "タマネギ"
+      "朝食",
+      "肉"
     ],
     "explanation_ja": "lunch は「昼食」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U4-G1"
   },
   {
     "id": "PRE-L3-063",
@@ -1494,22 +1556,23 @@
     "unit": 4,
     "lemma": "dinner",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "夕食",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "肉",
-      "スープ",
-      "キャベツ"
+      "昼食",
+      "鶏肉"
     ],
     "explanation_ja": "dinner は「夕食」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U4-G1"
   },
   {
     "id": "PRE-L3-064",
@@ -1518,22 +1581,23 @@
     "unit": 4,
     "lemma": "meat",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "肉",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "鶏肉",
-      "サンドイッチ",
-      "トウモロコシ"
+      "夕食",
+      "豚肉"
     ],
     "explanation_ja": "meat は「肉」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U4-G1"
   },
   {
     "id": "PRE-L3-065",
@@ -1542,22 +1606,23 @@
     "unit": 4,
     "lemma": "chicken",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "鶏肉",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "豚肉",
-      "ピザ",
-      "イチゴ"
+      "肉",
+      "牛肉"
     ],
     "explanation_ja": "chicken は「鶏肉」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U4-G1"
   },
   {
     "id": "PRE-L3-066",
@@ -1566,22 +1631,23 @@
     "unit": 4,
     "lemma": "pork",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "豚肉",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "牛肉",
-      "ジャガイモ",
-      "レモン"
+      "鶏肉",
+      "サラダ"
     ],
     "explanation_ja": "pork は「豚肉」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U4-G1"
   },
   {
     "id": "PRE-L3-067",
@@ -1590,22 +1656,23 @@
     "unit": 4,
     "lemma": "beef",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "牛肉",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "サラダ",
-      "トマト",
-      "ジュース"
+      "豚肉",
+      "スープ"
     ],
     "explanation_ja": "beef は「牛肉」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U4-G1"
   },
   {
     "id": "PRE-L3-068",
@@ -1614,22 +1681,23 @@
     "unit": 4,
     "lemma": "salad",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "サラダ",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "スープ",
-      "ニンジン",
-      "朝食"
+      "牛肉",
+      "サンドイッチ"
     ],
     "explanation_ja": "salad は「サラダ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U4-G1"
   },
   {
     "id": "PRE-L3-069",
@@ -1638,22 +1706,23 @@
     "unit": 4,
     "lemma": "soup",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "スープ",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "サンドイッチ",
-      "タマネギ",
-      "昼食"
+      "サラダ",
+      "朝食"
     ],
     "explanation_ja": "soup は「スープ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U4-G1"
   },
   {
     "id": "PRE-L3-070",
@@ -1662,22 +1731,23 @@
     "unit": 4,
     "lemma": "sandwich",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "サンドイッチ",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ピザ",
-      "キャベツ",
-      "夕食"
+      "朝食",
+      "スープ",
+      "昼食"
     ],
     "explanation_ja": "sandwich は「サンドイッチ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U4-G1"
   },
   {
     "id": "PRE-L3-071",
@@ -1686,22 +1756,23 @@
     "unit": 4,
     "lemma": "pizza",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "ピザ",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "ジャガイモ",
-      "トウモロコシ",
-      "肉"
+      "ジュース",
+      "トマト"
     ],
     "explanation_ja": "pizza は「ピザ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U4-G2"
   },
   {
     "id": "PRE-L3-072",
@@ -1710,22 +1781,23 @@
     "unit": 4,
     "lemma": "potato",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "ジャガイモ",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "トマト",
-      "イチゴ",
-      "鶏肉"
+      "ピザ",
+      "ニンジン"
     ],
     "explanation_ja": "potato は「ジャガイモ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U4-G2"
   },
   {
     "id": "PRE-L3-073",
@@ -1734,22 +1806,23 @@
     "unit": 4,
     "lemma": "tomato",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "トマト",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "ニンジン",
-      "レモン",
-      "豚肉"
+      "ジャガイモ",
+      "タマネギ"
     ],
     "explanation_ja": "tomato は「トマト」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U4-G2"
   },
   {
     "id": "PRE-L3-074",
@@ -1758,22 +1831,23 @@
     "unit": 4,
     "lemma": "carrot",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "ニンジン",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "タマネギ",
-      "ジュース",
-      "牛肉"
+      "トマト",
+      "キャベツ"
     ],
     "explanation_ja": "carrot は「ニンジン」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U4-G2"
   },
   {
     "id": "PRE-L3-075",
@@ -1782,22 +1856,23 @@
     "unit": 4,
     "lemma": "onion",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "タマネギ",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "キャベツ",
-      "朝食",
-      "サラダ"
+      "ニンジン",
+      "トウモロコシ"
     ],
     "explanation_ja": "onion は「タマネギ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U4-G2"
   },
   {
     "id": "PRE-L3-076",
@@ -1806,22 +1881,23 @@
     "unit": 4,
     "lemma": "cabbage",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "キャベツ",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "トウモロコシ",
-      "昼食",
-      "スープ"
+      "タマネギ",
+      "イチゴ"
     ],
     "explanation_ja": "cabbage は「キャベツ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U4-G2"
   },
   {
     "id": "PRE-L3-077",
@@ -1830,22 +1906,23 @@
     "unit": 4,
     "lemma": "corn",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "トウモロコシ",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "イチゴ",
-      "夕食",
-      "サンドイッチ"
+      "キャベツ",
+      "レモン"
     ],
     "explanation_ja": "corn は「トウモロコシ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U4-G2"
   },
   {
     "id": "PRE-L3-078",
@@ -1854,22 +1931,23 @@
     "unit": 4,
     "lemma": "strawberry",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "イチゴ",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "レモン",
-      "肉",
-      "ピザ"
+      "トウモロコシ",
+      "ジュース"
     ],
     "explanation_ja": "strawberry は「イチゴ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U4-G2"
   },
   {
     "id": "PRE-L3-079",
@@ -1878,22 +1956,23 @@
     "unit": 4,
     "lemma": "lemon",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "レモン",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "ジュース",
-      "鶏肉",
-      "ジャガイモ"
+      "イチゴ",
+      "ピザ"
     ],
     "explanation_ja": "lemon は「レモン」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U4-G2"
   },
   {
     "id": "PRE-L3-080",
@@ -1902,22 +1981,23 @@
     "unit": 4,
     "lemma": "juice",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "ジュース",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "朝食",
-      "豚肉",
-      "トマト"
+      "ピザ",
+      "レモン",
+      "ジャガイモ"
     ],
     "explanation_ja": "juice は「ジュース」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U4-G2"
   },
   {
     "id": "PRE-L3-081",
@@ -1926,22 +2006,23 @@
     "unit": 5,
     "lemma": "English",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "英語",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "国語",
-      "美術",
-      "ページ"
+      "体育",
+      "算数・数学"
     ],
     "explanation_ja": "English は「英語」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U5-G1"
   },
   {
     "id": "PRE-L3-082",
@@ -1950,22 +2031,23 @@
     "unit": 5,
     "lemma": "Japanese",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "国語",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "算数・数学",
-      "体育",
-      "授業"
+      "英語",
+      "理科"
     ],
     "explanation_ja": "Japanese は「国語」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U5-G1"
   },
   {
     "id": "PRE-L3-083",
@@ -1974,22 +2056,23 @@
     "unit": 5,
     "lemma": "math",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "算数・数学",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "理科",
-      "教科",
-      "練習"
+      "国語",
+      "歴史"
     ],
     "explanation_ja": "math は「算数・数学」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U5-G1"
   },
   {
     "id": "PRE-L3-084",
@@ -1998,22 +2081,23 @@
     "unit": 5,
     "lemma": "science",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "理科",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "歴史",
-      "宿題",
-      "家"
+      "算数・数学",
+      "地理"
     ],
     "explanation_ja": "science は「理科」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U5-G1"
   },
   {
     "id": "PRE-L3-085",
@@ -2022,22 +2106,23 @@
     "unit": 5,
     "lemma": "history",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "歴史",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "地理",
-      "テスト",
-      "宿題帳"
+      "理科",
+      "美術"
     ],
     "explanation_ja": "history は「歴史」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U5-G1"
   },
   {
     "id": "PRE-L3-086",
@@ -2046,22 +2131,23 @@
     "unit": 5,
     "lemma": "geography",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "地理",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "美術",
-      "質問",
-      "辞書"
+      "歴史",
+      "体育"
     ],
     "explanation_ja": "geography は「地理」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U5-G1"
   },
   {
     "id": "PRE-L3-087",
@@ -2070,22 +2156,23 @@
     "unit": 5,
     "lemma": "art",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "美術",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "体育",
-      "答え",
-      "カレンダー"
+      "地理",
+      "英語"
     ],
     "explanation_ja": "art は「美術」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U5-G1"
   },
   {
     "id": "PRE-L3-088",
@@ -2094,22 +2181,23 @@
     "unit": 5,
     "lemma": "PE",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "体育",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "教科",
-      "ページ",
-      "英語"
+      "英語",
+      "美術",
+      "国語"
     ],
     "explanation_ja": "PE は「体育」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U5-G1"
   },
   {
     "id": "PRE-L3-089",
@@ -2118,22 +2206,23 @@
     "unit": 5,
     "lemma": "subject",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "教科",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "宿題",
-      "授業",
-      "国語"
+      "カレンダー",
+      "テスト"
     ],
     "explanation_ja": "subject は「教科」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U5-G2"
   },
   {
     "id": "PRE-L3-090",
@@ -2142,22 +2231,23 @@
     "unit": 5,
     "lemma": "homework",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "宿題",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "テスト",
-      "練習",
-      "算数・数学"
+      "教科",
+      "質問"
     ],
     "explanation_ja": "homework は「宿題」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U5-G2"
   },
   {
     "id": "PRE-L3-091",
@@ -2166,22 +2256,23 @@
     "unit": 5,
     "lemma": "test",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "テスト",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "質問",
-      "家",
-      "理科"
+      "宿題",
+      "答え"
     ],
     "explanation_ja": "test は「テスト」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U5-G2"
   },
   {
     "id": "PRE-L3-092",
@@ -2190,22 +2281,23 @@
     "unit": 5,
     "lemma": "question",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "質問",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "答え",
-      "宿題帳",
-      "歴史"
+      "テスト",
+      "ページ"
     ],
     "explanation_ja": "question は「質問」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U5-G2"
   },
   {
     "id": "PRE-L3-093",
@@ -2214,22 +2306,23 @@
     "unit": 5,
     "lemma": "answer",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "答え",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "ページ",
-      "辞書",
-      "地理"
+      "質問",
+      "授業"
     ],
     "explanation_ja": "answer は「答え」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U5-G2"
   },
   {
     "id": "PRE-L3-094",
@@ -2238,22 +2331,23 @@
     "unit": 5,
     "lemma": "page",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "ページ",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "授業",
-      "カレンダー",
-      "美術"
+      "答え",
+      "練習"
     ],
     "explanation_ja": "page は「ページ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U5-G2"
   },
   {
     "id": "PRE-L3-095",
@@ -2262,22 +2356,23 @@
     "unit": 5,
     "lemma": "lesson",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "授業",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "練習",
-      "英語",
-      "体育"
+      "ページ",
+      "家"
     ],
     "explanation_ja": "lesson は「授業」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U5-G2"
   },
   {
     "id": "PRE-L3-096",
@@ -2286,22 +2381,23 @@
     "unit": 5,
     "lemma": "practice",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "練習",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "家",
-      "国語",
-      "教科"
+      "授業",
+      "宿題帳"
     ],
     "explanation_ja": "practice は「練習」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U5-G2"
   },
   {
     "id": "PRE-L3-097",
@@ -2310,22 +2406,23 @@
     "unit": 5,
     "lemma": "home",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "家",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "宿題帳",
-      "算数・数学",
-      "宿題"
+      "練習",
+      "辞書"
     ],
     "explanation_ja": "home は「家」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U5-G2"
   },
   {
     "id": "PRE-L3-098",
@@ -2334,22 +2431,23 @@
     "unit": 5,
     "lemma": "homework book",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "宿題帳",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "辞書",
-      "理科",
-      "テスト"
+      "家",
+      "カレンダー"
     ],
     "explanation_ja": "homework book は「宿題帳」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U5-G2"
   },
   {
     "id": "PRE-L3-099",
@@ -2358,22 +2456,23 @@
     "unit": 5,
     "lemma": "dictionary",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "辞書",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "カレンダー",
-      "歴史",
-      "質問"
+      "宿題帳",
+      "教科"
     ],
     "explanation_ja": "dictionary は「辞書」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U5-G2"
   },
   {
     "id": "PRE-L3-100",
@@ -2382,21 +2481,22 @@
     "unit": 5,
     "lemma": "calendar",
     "unit_type": "word",
-    "part_of_speech": "unspecified",
+    "part_of_speech": "noun",
     "meaning_ja": "カレンダー",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "英語",
-      "地理",
-      "答え"
+      "教科",
+      "辞書",
+      "宿題"
     ],
     "explanation_ja": "calendar は「カレンダー」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "automatic-within-unit",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
-      "requires_semantic_distractor_review"
-    ]
+      "editorial_review_pending"
+    ],
+    "choice_group": "PRE-L3-U5-G2"
   }
 ]
