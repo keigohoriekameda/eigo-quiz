@@ -24,13 +24,32 @@ for(const q of all){
    errors.push(`${at}: approved without required contextual review`);
  }
 }
+
+// Option audit: generated candidates must share an editor-assigned semantic group and part of speech.
+// Exceptions are explicitly identified as individual candidates and still need human editorial approval.
+const groups = new Map();
+for(const q of all){const g=groups.get(q.choice_group)||[];g.push(q);groups.set(q.choice_group,g);}
+for(const q of all){
+  if(!q.part_of_speech||q.part_of_speech==='unspecified'||q.part_of_speech==='vocabulary')
+    errors.push(`${q.id}: no specific part of speech`);
+  if(!q.choice_group) errors.push(`${q.id}: missing semantic choice group`);
+  if(q.distractor_method==='semantic-group-candidate'){
+    const peers=groups.get(q.choice_group)||[];
+    for(const option of q.distractors_ja){
+      if(!peers.some(p=>p.id!==q.id&&p.meaning_ja===option&&p.part_of_speech===q.part_of_speech))
+        errors.push(`${q.id}: distractor outside its semantic group / part of speech: ${option}`);
+    }
+  } else if(q.distractor_method!=='individual-semantic-candidate'){
+    errors.push(`${q.id}: unclassified distractor source`);
+  }
+}
 const summary={
  total:all.length,
  with_context:all.filter(q=>Boolean(q.context_en?.trim())).length,
  with_part_of_speech:all.filter(q=>q.part_of_speech!=='unspecified'&&q.part_of_speech!=='vocabulary').length,
- manually_curated_candidates:all.filter(q=>q.distractor_method==='manual-semantic-candidate').length,
+ individual_candidates:all.filter(q=>q.distractor_method==='individual-semantic-candidate').length,
  pending_editorial:all.filter(q=>q.review_status!=='approved').length,
- flagged_auto_choices:all.filter(q=>q.distractor_method==='automatic-within-unit').length,
+ semantic_group_candidates:all.filter(q=>q.distractor_method==='semantic-group-candidate').length,
  errors:errors.length,review_warnings:warnings.length
 };
 console.log(JSON.stringify(summary,null,2));
