@@ -1836,14 +1836,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "驚き",
-      "事故",
-      "ニュース"
+      "電池",
+      "ガス",
+      "磁力"
     ],
-    "explanation_ja": "mistake は「間違い」という意味です。",
+    "explanation_ja": "electricity は「電気」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1856,19 +1856,19 @@
     "unit": 4,
     "lemma": "surprise",
     "unit_type": "word",
-    "part_of_speech": "noun",
+    "part_of_speech": "adjective",
     "meaning_ja": "驚き",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ニュース",
-      "間違い",
-      "報告"
+      "月の",
+      "風の",
+      "地球の"
     ],
-    "explanation_ja": "surprise は「驚き」という意味です。",
+    "explanation_ja": "solar は「太陽の」。solar energy は「太陽エネルギー」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1886,14 +1886,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "報告",
-      "驚き",
-      "演説"
+      "湿度",
+      "気圧",
+      "気温差"
     ],
     "explanation_ja": "news は「ニュース」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1911,14 +1911,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "演説",
-      "ニュース",
-      "面接"
+      "天候",
+      "季節",
+      "地形"
     ],
     "explanation_ja": "report は「報告」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
