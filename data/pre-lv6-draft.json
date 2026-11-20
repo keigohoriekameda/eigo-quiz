@@ -2338,7 +2338,7 @@
     "distractors_ja": [
       "アプリ",
       "ゲーム機",
-      "ダウンロード"
+      "ロボット"
     ],
     "explanation_ja": "password は「パスワード」という意味です。",
     "source_tag": "original-pre-draft",
@@ -2361,9 +2361,9 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ダウンロード",
+      "ロボット",
       "パスワード",
-      "アップロード"
+      "技術"
     ],
     "explanation_ja": "application は「アプリ」という意味です。",
     "source_tag": "original-pre-draft",
@@ -2462,7 +2462,7 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "技術",
-      "オンライン",
+      "アプリ",
       "写真"
     ],
     "explanation_ja": "robot は「ロボット」という意味です。",
