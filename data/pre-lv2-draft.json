@@ -666,13 +666,16 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "話す",
-      "聞こえる",
-      "歌う"
+      "歌う",
+      "読む"
     ],
     "explanation_ja": "listen は「聞く」という意味です。",
     "source_tag": "original-pre-l2",
     "review_status": "draft",
-    "distractor_method": "manual-semantic-candidate"
+    "distractor_method": "manual-semantic-candidate",
+    "quality_flags": [
+      "editorial_review_pending"
+    ]
   },
   {
     "id": "PRE-L2-030",
