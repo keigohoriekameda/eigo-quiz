@@ -1361,14 +1361,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "太陽の",
-      "地震",
-      "温度"
+      "電池",
+      "ガス",
+      "磁力"
     ],
-    "explanation_ja": "electricity は「電気」という意味です。",
+    "explanation_ja": "electricity は「電気」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1381,19 +1381,19 @@
     "unit": 3,
     "lemma": "solar",
     "unit_type": "word",
-    "part_of_speech": "noun",
+    "part_of_speech": "adjective",
     "meaning_ja": "太陽の",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "温度",
-      "電気",
-      "気候"
+      "月の",
+      "風の",
+      "地球の"
     ],
-    "explanation_ja": "solar は「太陽の」という意味です。",
+    "explanation_ja": "solar は「太陽の」。solar energy は「太陽エネルギー」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1411,14 +1411,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "気候",
-      "太陽の",
-      "災害"
+      "湿度",
+      "気圧",
+      "雨量"
     ],
     "explanation_ja": "temperature は「温度」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1436,14 +1436,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "災害",
-      "温度",
-      "地震"
+      "天候",
+      "季節",
+      "地形"
     ],
     "explanation_ja": "climate は「気候」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1836,14 +1836,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "電池",
-      "ガス",
-      "磁力"
+      "驚き",
+      "事故",
+      "ニュース"
     ],
-    "explanation_ja": "electricity は「電気」。",
+    "explanation_ja": "mistake は「間違い」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "individual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1856,19 +1856,19 @@
     "unit": 4,
     "lemma": "surprise",
     "unit_type": "word",
-    "part_of_speech": "adjective",
+    "part_of_speech": "noun",
     "meaning_ja": "驚き",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "月の",
-      "風の",
-      "地球の"
+      "ニュース",
+      "間違い",
+      "報告"
     ],
-    "explanation_ja": "solar は「太陽の」。solar energy は「太陽エネルギー」。",
+    "explanation_ja": "surprise は「驚き」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "individual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1886,14 +1886,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "湿度",
-      "気圧",
-      "気温差"
+      "報告",
+      "驚き",
+      "演説"
     ],
     "explanation_ja": "news は「ニュース」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "individual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1911,14 +1911,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "天候",
-      "季節",
-      "地形"
+      "演説",
+      "ニュース",
+      "面接"
     ],
     "explanation_ja": "report は「報告」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "individual-semantic-candidate",
+    "distractor_method": "semantic-group-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
