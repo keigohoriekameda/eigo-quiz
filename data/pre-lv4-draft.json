@@ -1008,17 +1008,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "自動車",
-    "context_en": "",
+    "context_en": "My family has a small car.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "バス",
-      "ヘリコプター",
-      "列車"
+      "電車",
+      "飛行機"
     ],
     "explanation_ja": "car は「自動車」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L4-U3-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -1033,17 +1033,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "バス",
-    "context_en": "",
+    "context_en": "I go to school by bus.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "列車",
-      "自動車",
-      "地下鉄"
+      "電車",
+      "タクシー",
+      "船"
     ],
     "explanation_ja": "bus は「バス」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1058,17 +1058,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "列車",
-    "context_en": "",
+    "context_en": "I go to Tokyo by train.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "地下鉄",
       "バス",
-      "タクシー"
+      "タクシー",
+      "飛行機"
     ],
     "explanation_ja": "train は「列車」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L4-U3-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -1083,17 +1083,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "地下鉄",
-    "context_en": "",
+    "context_en": "We take the subway downtown.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
+      "路線バス",
       "タクシー",
-      "列車",
-      "自転車"
+      "飛行機"
     ],
     "explanation_ja": "subway は「地下鉄」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1108,17 +1108,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "タクシー",
-    "context_en": "",
+    "context_en": "We take a taxi to the station.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "自転車",
-      "地下鉄",
-      "バイク"
+      "路線バス",
+      "電車",
+      "飛行機"
     ],
     "explanation_ja": "taxi は「タクシー」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1133,17 +1133,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "自転車",
-    "context_en": "",
+    "context_en": "I ride my bicycle to the park.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "タクシー",
-      "飛行機",
-      "地下鉄"
+      "バイク（オートバイ）",
+      "自動車",
+      "バス"
     ],
     "explanation_ja": "bicycle は「自転車」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1154,21 +1154,21 @@
     "stage": "PRE",
     "level": 4,
     "unit": 3,
-    "lemma": "bike",
+    "lemma": "motorcycle",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "バイク",
-    "context_en": "",
+    "meaning_ja": "オートバイ",
+    "context_en": "He rides a motorcycle.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "飛行機",
-      "船",
-      "タクシー"
+      "自転車",
+      "自動車",
+      "バス"
     ],
-    "explanation_ja": "bike は「バイク」という意味です。",
+    "explanation_ja": "motorcycle は「オートバイ」。bike は自転車にもオートバイにも使われるため、ここでは区別する。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1183,17 +1183,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "飛行機",
-    "context_en": "",
+    "context_en": "The airplane flies over the clouds.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
+      "ヘリコプター",
       "船",
-      "バイク",
-      "ボート"
+      "列車"
     ],
     "explanation_ja": "airplane は「飛行機」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1207,18 +1207,18 @@
     "lemma": "ship",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "船",
-    "context_en": "",
+    "meaning_ja": "大型船",
+    "context_en": "The large ship crosses the ocean.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
+      "小型船",
       "飛行機",
-      "トラック",
-      "バイク"
+      "列車"
     ],
-    "explanation_ja": "ship は「船」という意味です。",
+    "explanation_ja": "ship は一般に船。boat より大型の船を指すことが多い。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1232,18 +1232,18 @@
     "lemma": "boat",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "ボート",
-    "context_en": "",
+    "meaning_ja": "小型船",
+    "context_en": "We go across the lake in a small boat.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "トラック",
-      "ヘリコプター",
-      "飛行機"
+      "大型船",
+      "潜水艦",
+      "フェリー"
     ],
-    "explanation_ja": "boat は「ボート」という意味です。",
+    "explanation_ja": "boat は一般に小さな船を指すことが多い。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1258,17 +1258,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "トラック",
-    "context_en": "",
+    "context_en": "A truck carries the boxes.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ヘリコプター",
-      "ボート",
-      "自動車"
+      "タクシー",
+      "バス",
+      "列車"
     ],
     "explanation_ja": "truck は「トラック」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1283,17 +1283,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "ヘリコプター",
-    "context_en": "",
+    "context_en": "The helicopter lands near the hospital.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "自動車",
-      "トラック",
-      "バス"
+      "飛行機",
+      "船",
+      "列車"
     ],
     "explanation_ja": "helicopter は「ヘリコプター」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1308,17 +1308,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "交通",
-    "context_en": "",
+    "context_en": "There is heavy traffic on this road.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "道路",
       "乗客",
-      "空港"
+      "運転手"
     ],
-    "explanation_ja": "traffic は「交通」という意味です。",
+    "explanation_ja": "traffic は「交通・交通量」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1333,17 +1333,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "道路",
-    "context_en": "",
+    "context_en": "This road goes to the station.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "空港",
-      "交通",
+      "線路",
+      "橋",
       "港"
     ],
     "explanation_ja": "road は「道路」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1358,17 +1358,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "空港",
-    "context_en": "",
+    "context_en": "We arrived at the airport.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "港",
-      "道路",
-      "ホーム"
+      "駅",
+      "バス停"
     ],
     "explanation_ja": "airport は「空港」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1383,17 +1383,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "港",
-    "context_en": "",
+    "context_en": "The ship arrived at the port.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ホーム",
       "空港",
-      "切符"
+      "駅",
+      "バス停"
     ],
     "explanation_ja": "port は「港」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1407,18 +1407,18 @@
     "lemma": "platform",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "ホーム",
-    "context_en": "",
+    "meaning_ja": "駅のホーム",
+    "context_en": "Wait on platform two.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "切符",
-      "港",
-      "運転手"
+      "改札口",
+      "待合室",
+      "券売機"
     ],
-    "explanation_ja": "platform は「ホーム」という意味です。",
+    "explanation_ja": "platform は駅で列車を待つ「ホーム」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1433,17 +1433,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "切符",
-    "context_en": "",
+    "context_en": "I bought a train ticket.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "運転手",
-      "ホーム",
-      "乗客"
+      "時刻表",
+      "乗車券売り場",
+      "路線図"
     ],
     "explanation_ja": "ticket は「切符」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1458,17 +1458,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "運転手",
-    "context_en": "",
+    "context_en": "The driver stopped the bus.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "乗客",
-      "切符",
-      "交通"
+      "車掌",
+      "駅員"
     ],
     "explanation_ja": "driver は「運転手」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1483,17 +1483,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "乗客",
-    "context_en": "",
+    "context_en": "The passengers got on the train.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "交通",
       "運転手",
-      "道路"
+      "車掌",
+      "駅員"
     ],
     "explanation_ja": "passenger は「乗客」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
