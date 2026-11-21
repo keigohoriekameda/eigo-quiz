@@ -4,6 +4,7 @@
  * Input: JSON array of items conforming to docs/english-2500-spec.md
  */
 import fs from 'node:fs';
+import { readyForEditorialApproval, validVocabularyContext } from '../src/vocabulary-prompt.mjs';
 const path = process.argv[2];
 if (!path) { console.error('Usage: node scripts/validate-vocabulary.mjs <items.json>'); process.exit(2); }
 const items = JSON.parse(fs.readFileSync(path, 'utf8'));
@@ -12,10 +13,11 @@ const errors = [];
 const ids = new Set();
 const groups = new Set(['G1', 'G2', 'G3', 'EXAM']);
 const norm = x => String(x ?? '').trim().normalize('NFKC').toLowerCase();
-const required = ['id','stage','level','unit','lemma','unit_type','part_of_speech','meaning_ja','context_en','prompt_type','distractors_ja','explanation_ja','source_tag','review_status'];
+const required = ['id','stage','level','unit','lemma','unit_type','part_of_speech','meaning_ja','prompt_type','distractors_ja','explanation_ja','source_tag','review_status'];
 for (const [i, q] of items.entries()) {
   const at = `item[${i}]`;
   for (const field of required) if (q[field] === undefined || q[field] === null || q[field] === '') errors.push(`${at}: missing ${field}`);
+  if (!validVocabularyContext(q)) errors.push(`${at}: missing or invalid context_en for prompt type`);
   if (ids.has(q.id)) errors.push(`${at}: duplicate ID ${q.id}`);
   ids.add(q.id);
   if (!['PRE','MAIN'].includes(q.stage)) errors.push(`${at}: invalid stage`);
@@ -29,6 +31,9 @@ for (const [i, q] of items.entries()) {
     if (choices.some(x => !x) || new Set(choices).size !== 4) errors.push(`${at}: empty/duplicate choices`);
   }
   if (q.review_status !== 'approved') errors.push(`${at}: not editorially approved`);
+  if (q.stage === 'PRE' && q.review_status === 'approved' && !readyForEditorialApproval(q)) {
+    errors.push(`${at}: approved without required editorial review`);
+  }
   if (!String(q.explanation_ja ?? '').trim()) errors.push(`${at}: empty explanation`);
 }
 const count = s => items.filter(x => x.stage === s).length;

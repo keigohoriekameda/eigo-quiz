@@ -1,0 +1,70 @@
+import { readyForEditorialApproval, validVocabularyContext } from './vocabulary-prompt.mjs';
+
+export function checkPreQuality(all) {
+  const ids=new Set(),headwords=new Set(),errors=[],warnings=[];
+  const extraGroupMeanings = new Map();
+  const canonical=s=>String(s??'').normalize('NFKC').trim().toLowerCase();
+  const semGroups=[
+   ['海','大洋'],['家','自宅'],['頭のよい','賢い'],['ごみ','ごみくず'],
+   ['かわいい','かわいらしい'],['見える','見る'],['聞こえる','聞く'],
+   ['遅い','遅れた'],['早い','速い'],['船','ボート'],['絵・写真','写真']
+  ];
+  for(const q of all){
+   const at=q.id||'<missing-id>';
+   const key=canonical(q.lemma);
+   if(ids.has(at))errors.push(`${at}: duplicate ID`);ids.add(at);
+   if(headwords.has(key))warnings.push(`${at}: duplicate spelling ${q.lemma}`);headwords.add(key);
+   const opts=[q.meaning_ja,...(Array.isArray(q.distractors_ja)?q.distractors_ja:[])];
+   if(opts.length!==4||new Set(opts.map(canonical)).size!==4||opts.some(v=>!canonical(v)))errors.push(`${at}: invalid four-choice answers`);
+   // Other valid glosses can still source distractors in the same group.
+   // Only meaning_ja is the correct answer in the question's own context.
+   if (q.choice_group_meanings_ja !== undefined) {
+     const meanings = q.choice_group_meanings_ja;
+     if (!Array.isArray(meanings) || meanings.length === 0 || meanings.some(v => typeof v !== 'string' || !canonical(v))) {
+       errors.push(`${at}: invalid extra choice-group meanings`);
+     } else if (new Set([...opts, ...meanings].map(canonical)).size !== opts.length + meanings.length) {
+       errors.push(`${at}: extra choice-group meaning duplicates an option or another gloss`);
+     } else {
+       extraGroupMeanings.set(q, new Set(meanings));
+     }
+   }
+   for(const group of semGroups){
+     const hits=opts.filter(v=>group.includes(v));
+     if(hits.length>=2)warnings.push(`${at}: possible overlapping meanings: ${hits.join(' / ')}`);
+   }
+   if (!validVocabularyContext(q)) errors.push(`${at}: missing or invalid context_en for prompt type`);
+   if (q.review_status==='approved' && !readyForEditorialApproval(q)) {
+     errors.push(`${at}: approved without required editorial review`);
+   }
+  }
+
+  // Option audit: generated candidates must share an editor-assigned semantic group and part of speech.
+  // Exceptions are explicitly identified as individual candidates and still need human editorial approval.
+  const groups = new Map();
+  for(const q of all){const g=groups.get(q.choice_group)||[];g.push(q);groups.set(q.choice_group,g);}
+  for(const q of all){
+    if(!q.part_of_speech||q.part_of_speech==='unspecified'||q.part_of_speech==='vocabulary')
+      errors.push(`${q.id}: no specific part of speech`);
+    if(!q.choice_group) errors.push(`${q.id}: missing semantic choice group`);
+    if(q.distractor_method==='semantic-group-candidate'){
+      const peers=groups.get(q.choice_group)||[];
+      for(const option of (Array.isArray(q.distractors_ja)?q.distractors_ja:[])){
+        if(!peers.some(p=>p.id!==q.id&&p.part_of_speech===q.part_of_speech&&
+          (p.meaning_ja===option||extraGroupMeanings.get(p)?.has(option))))
+          errors.push(`${q.id}: distractor outside its semantic group / part of speech: ${option}`);
+      }
+    } else if(q.distractor_method!=='individual-semantic-candidate'){
+      errors.push(`${q.id}: unclassified distractor source`);
+    }
+  }
+  const summary={
+   total:all.length,
+   with_context:all.filter(q=>Boolean(q.context_en?.trim())).length,
+   with_part_of_speech:all.filter(q=>q.part_of_speech!=='unspecified'&&q.part_of_speech!=='vocabulary').length,
+   individual_candidates:all.filter(q=>q.distractor_method==='individual-semantic-candidate').length,
+   pending_editorial:all.filter(q=>q.review_status!=='approved').length,
+   semantic_group_candidates:all.filter(q=>q.distractor_method==='semantic-group-candidate').length,
+   errors:errors.length,review_warnings:warnings.length
+  };
+  return { summary, errors, warnings };
+}
