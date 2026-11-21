@@ -486,14 +486,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "1",
       "19",
-      "2"
+      "12",
+      "21"
     ],
     "explanation_ja": "twenty は「20」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -988,7 +988,7 @@
     "distractors_ja": [
       "昨日",
       "明日",
-      "一昨日"
+      "おととい"
     ],
     "explanation_ja": "today は「今日」という意味です。",
     "source_tag": "original-pre-l1",
@@ -1262,13 +1262,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "小さい",
-      "悲しい",
-      "長い"
+      "長い",
+      "広い"
     ],
     "explanation_ja": "big は「大きい」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1286,14 +1286,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "長い",
       "大きい",
-      "短い"
+      "長い",
+      "広い"
     ],
     "explanation_ja": "small は「小さい」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1312,13 +1312,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "短い",
-      "小さい",
-      "新しい"
+      "太い",
+      "細い"
     ],
     "explanation_ja": "long は「長い」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1333,17 +1333,17 @@
     "unit_type": "word",
     "part_of_speech": "adjective",
     "meaning_ja": "短い",
-    "context_en": "",
+    "context_en": "This is a short pencil.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "新しい",
       "長い",
-      "古い"
+      "太い",
+      "細い"
     ],
-    "explanation_ja": "short は「短い」という意味です。",
+    "explanation_ja": "short は「短い」。人の身長の話では「背が低い」という意味にもなる。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1362,13 +1362,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "古い",
-      "短い",
-      "暑い・熱い"
+      "壊れた",
+      "よごれた"
     ],
     "explanation_ja": "new は「新しい」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1383,17 +1383,17 @@
     "unit_type": "word",
     "part_of_speech": "adjective",
     "meaning_ja": "古い",
-    "context_en": "",
+    "context_en": "I have an old bike.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "暑い・熱い",
       "新しい",
-      "寒い・冷たい"
+      "壊れた",
+      "よごれた"
     ],
-    "explanation_ja": "old は「古い」という意味です。",
+    "explanation_ja": "物について old と言うと「古い」。人については年を取っていることを表す。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1407,18 +1407,18 @@
     "lemma": "hot",
     "unit_type": "word",
     "part_of_speech": "adjective",
-    "meaning_ja": "暑い・熱い",
-    "context_en": "",
+    "meaning_ja": "熱い",
+    "context_en": "The tea is hot.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "寒い・冷たい",
-      "古い",
-      "うれしい"
+      "冷たい",
+      "ぬるい",
+      "温かい"
     ],
-    "explanation_ja": "hot は「暑い・熱い」という意味です。",
+    "explanation_ja": "飲み物には「熱い」、天気には「暑い」と訳す。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1432,18 +1432,18 @@
     "lemma": "cold",
     "unit_type": "word",
     "part_of_speech": "adjective",
-    "meaning_ja": "寒い・冷たい",
-    "context_en": "",
+    "meaning_ja": "冷たい",
+    "context_en": "The juice is cold.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "うれしい",
-      "暑い・熱い",
-      "悲しい"
+      "熱い",
+      "ぬるい",
+      "温かい"
     ],
-    "explanation_ja": "cold は「寒い・冷たい」という意味です。",
+    "explanation_ja": "飲み物には「冷たい」、天気には「寒い」と訳す。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1462,13 +1462,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "悲しい",
-      "寒い・冷たい",
-      "大きい"
+      "こわい",
+      "さびしい"
     ],
     "explanation_ja": "happy は「うれしい」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1486,14 +1486,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "大きい",
       "うれしい",
-      "小さい"
+      "こわい",
+      "さびしい"
     ],
     "explanation_ja": "sad は「悲しい」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1507,18 +1507,18 @@
     "lemma": "mother",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "母",
+    "meaning_ja": "お母さん",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "父",
-      "祖父",
-      "兄・弟"
+      "お父さん",
+      "おばさん",
+      "おじさん"
     ],
-    "explanation_ja": "mother は「母」という意味です。",
+    "explanation_ja": "mother は「お母さん」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L1-U4-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -1532,18 +1532,18 @@
     "lemma": "father",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "父",
+    "meaning_ja": "お父さん",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "兄・弟",
-      "母",
-      "姉・妹"
+      "お母さん",
+      "おばさん",
+      "おじさん"
     ],
-    "explanation_ja": "father は「父」という意味です。",
+    "explanation_ja": "father は「お父さん」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L1-U4-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -1562,13 +1562,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "姉・妹",
-      "父",
-      "祖母"
+      "お父さん",
+      "おじいさん"
     ],
     "explanation_ja": "brother は「兄・弟」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L1-U4-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -1586,14 +1586,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "祖母",
       "兄・弟",
-      "祖父"
+      "お母さん",
+      "おばあさん"
     ],
     "explanation_ja": "sister は「姉・妹」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L1-U4-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -1607,18 +1607,18 @@
     "lemma": "grandmother",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "祖母",
+    "meaning_ja": "おばあさん",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "祖父",
-      "姉・妹",
-      "母"
+      "おじいさん",
+      "おばさん",
+      "おじさん"
     ],
-    "explanation_ja": "grandmother は「祖母」という意味です。",
+    "explanation_ja": "家族について grandmother と言うと、自分や相手の「おばあさん（祖母）」のこと。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1632,18 +1632,18 @@
     "lemma": "grandfather",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "祖父",
+    "meaning_ja": "おじいさん",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "母",
-      "祖母",
-      "父"
+      "おばあさん",
+      "おばさん",
+      "おじさん"
     ],
-    "explanation_ja": "grandfather は「祖父」という意味です。",
+    "explanation_ja": "家族について grandfather と言うと、自分や相手の「おじいさん（祖父）」のこと。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1662,13 +1662,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "友達",
-      "生徒",
-      "先生"
+      "近所の人",
+      "クラスメート"
     ],
     "explanation_ja": "family は「家族」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1686,14 +1686,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "先生",
       "家族",
-      "生徒"
+      "先生",
+      "近所の人"
     ],
     "explanation_ja": "friend は「友達」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1761,14 +1761,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "教室",
-      "かばん",
-      "机"
+      "図書館",
+      "公園",
+      "駅"
     ],
     "explanation_ja": "school は「学校」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1786,14 +1786,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "机",
-      "学校",
-      "いす"
+      "職員室",
+      "体育館",
+      "保健室"
     ],
     "explanation_ja": "classroom は「教室」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1812,13 +1812,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "いす",
-      "教室",
-      "本"
+      "本だな",
+      "ロッカー"
     ],
     "explanation_ja": "desk は「机」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1836,14 +1836,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "本",
       "机",
-      "ノート"
+      "本だな",
+      "ロッカー"
     ],
     "explanation_ja": "chair は「いす」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1861,14 +1861,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ノート",
-      "いす",
-      "鉛筆"
+      "プリント",
+      "ファイル",
+      "ポスター"
     ],
     "explanation_ja": "book は「本」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1886,14 +1886,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "鉛筆",
       "本",
-      "消しゴム"
+      "プリント",
+      "ファイル"
     ],
     "explanation_ja": "notebook は「ノート」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1961,14 +1961,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "かばん",
       "消しゴム",
-      "学校"
+      "分度器",
+      "コンパス"
     ],
     "explanation_ja": "ruler は「定規」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1986,14 +1986,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "学校",
-      "定規",
-      "教室"
+      "筆箱",
+      "ポーチ",
+      "箱"
     ],
     "explanation_ja": "bag は「かばん」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2012,13 +2012,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "猫",
-      "象",
-      "鳥"
+      "ウサギ",
+      "ハムスター"
     ],
     "explanation_ja": "dog は「犬」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L1-U5-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -2036,14 +2036,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "鳥",
       "犬",
-      "魚"
+      "ウサギ",
+      "ハムスター"
     ],
     "explanation_ja": "cat は「猫」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L1-U5-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -2062,13 +2062,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "魚",
-      "猫",
-      "ウサギ"
+      "虫",
+      "貝"
     ],
     "explanation_ja": "bird は「鳥」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2086,14 +2086,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ウサギ",
       "鳥",
-      "馬"
+      "虫",
+      "貝"
     ],
     "explanation_ja": "fish は「魚」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2111,14 +2111,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "馬",
-      "魚",
-      "牛"
+      "猫",
+      "ハムスター",
+      "リス"
     ],
     "explanation_ja": "rabbit は「ウサギ」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2137,13 +2137,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "牛",
-      "ウサギ",
-      "豚"
+      "豚",
+      "ヒツジ"
     ],
     "explanation_ja": "horse は「馬」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2163,12 +2163,12 @@
     "distractors_ja": [
       "豚",
       "馬",
-      "ライオン"
+      "ヒツジ"
     ],
     "explanation_ja": "cow は「牛」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2186,14 +2186,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ライオン",
       "牛",
-      "象"
+      "馬",
+      "ヒツジ"
     ],
     "explanation_ja": "pig は「豚」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2211,14 +2211,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "象",
-      "豚",
-      "犬"
+      "トラ",
+      "ヒョウ",
+      "チーター"
     ],
     "explanation_ja": "lion は「ライオン」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2236,14 +2236,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "犬",
-      "ライオン",
-      "猫"
+      "サイ",
+      "カバ",
+      "キリン"
     ],
     "explanation_ja": "elephant は「象」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2262,13 +2262,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "バナナ",
-      "チーズ",
-      "ぶどう"
+      "ぶどう",
+      "ナシ"
     ],
     "explanation_ja": "apple は「りんご」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L1-U5-G2",
     "quality_flags": [
       "editorial_review_pending"
@@ -2313,12 +2313,12 @@
     "distractors_ja": [
       "桃",
       "バナナ",
-      "ご飯・米"
+      "りんご"
     ],
     "explanation_ja": "grape は「ぶどう」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2336,14 +2336,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ご飯・米",
+      "いちご",
       "ぶどう",
-      "パン"
+      "ナシ"
     ],
     "explanation_ja": "peach は「桃」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2357,18 +2357,18 @@
     "lemma": "rice",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "ご飯・米",
+    "meaning_ja": "米・ごはん",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "パン",
-      "桃",
-      "牛乳"
+      "小麦",
+      "とうもろこし",
+      "じゃがいも"
     ],
-    "explanation_ja": "rice は「ご飯・米」という意味です。",
+    "explanation_ja": "rice は、炊く前の「米」にも、炊いた「ごはん」にも使う。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2386,14 +2386,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "牛乳",
-      "ご飯・米",
-      "水"
+      "ごはん",
+      "うどん",
+      "シリアル"
     ],
     "explanation_ja": "bread は「パン」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2412,13 +2412,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "水",
-      "パン",
-      "卵"
+      "ジュース",
+      "お茶"
     ],
     "explanation_ja": "milk は「牛乳」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2436,14 +2436,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "卵",
       "牛乳",
-      "チーズ"
+      "ジュース",
+      "お茶"
     ],
     "explanation_ja": "water は「水」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L1-U5-G2",
     "quality_flags": [
       "editorial_review_pending"
@@ -2461,14 +2461,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "チーズ",
-      "水",
-      "りんご"
+      "ハム",
+      "魚",
+      "豆"
     ],
     "explanation_ja": "egg は「卵」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2486,14 +2486,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "りんご",
-      "卵",
-      "バナナ"
+      "バター",
+      "ヨーグルト",
+      "クリーム"
     ],
     "explanation_ja": "cheese は「チーズ」という意味です。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],

@@ -8,17 +8,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "作る",
-    "context_en": "I make a birthday card.",
+    "context_en": "Let's make a birthday card.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "行う",
-      "好きである",
-      "持っている"
+      "買う",
+      "送る",
+      "えらぶ"
     ],
-    "explanation_ja": "make は物を「作る」。make a card の形で使う。",
+    "explanation_ja": "make a card で「カードを作る」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -32,18 +32,18 @@
     "lemma": "do",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "行う",
+    "meaning_ja": "する",
     "context_en": "I do my homework after school.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "持っている",
-      "作る",
-      "手に入れる"
+      "見せる",
+      "出す",
+      "忘れる"
     ],
     "explanation_ja": "do homework で「宿題をする」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -58,17 +58,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "持っている",
-    "context_en": "I have two brothers.",
+    "context_en": "I have a red bike.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "手に入れる",
-      "行う",
-      "与える"
+      "ほしい",
+      "借りる",
+      "手に入れる"
     ],
-    "explanation_ja": "have は「持っている・いる」。家族がいる場合にも使う。",
+    "explanation_ja": "have は、この文では自転車を「持っている」ことを表す。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -82,15 +82,15 @@
     "lemma": "get",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "手に入れる",
-    "context_en": "I get a present from my friend.",
+    "meaning_ja": "もらう",
+    "context_en": "I get a card from my friend every year.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "持っている",
-      "与える",
-      "送る"
+      "あげる",
+      "えらぶ",
+      "見せる"
     ],
-    "explanation_ja": "get は「手に入れる・受け取る」。文脈に応じて訳す。",
+    "explanation_ja": "get a card from my friend で「友達からカードをもらう」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -107,15 +107,15 @@
     "lemma": "give",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "与える",
+    "meaning_ja": "あげる",
     "context_en": "I give my friend a book.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "手に入れる",
-      "取る",
-      "送る"
+      "借りる",
+      "もらう",
+      "見せる"
     ],
-    "explanation_ja": "give A B で「AにBを与える」。",
+    "explanation_ja": "give A B で「AにBをあげる」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -133,17 +133,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "取る",
-    "context_en": "I take a book from the shelf.",
+    "context_en": "Take a book from the shelf.",
     "prompt_type": "meaning_in_context_4choice",
     "distractors_ja": [
-      "持ってくる",
-      "与える",
-      "送る"
+      "置く",
+      "並べる",
+      "かぞえる"
     ],
-    "explanation_ja": "take は「取る」。take a picture など別の用法もある。",
+    "explanation_ja": "take A from B で「BからAを取る」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -162,13 +162,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "送る",
-      "取る",
-      "見せる"
+      "返す",
+      "貸す"
     ],
-    "explanation_ja": "bring は相手のいる場所へ物を「持ってくる」。",
+    "explanation_ja": "bring は、話し手や聞き手のいる所などに「持ってくる」こと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -183,17 +183,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "送る",
-    "context_en": "I send an email to my teacher.",
+    "context_en": "Can you send this email?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "見せる",
-      "持ってくる",
-      "見つける"
+      "読む",
+      "受け取る",
+      "消す"
     ],
     "explanation_ja": "send は手紙やメールなどを「送る」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -211,14 +211,14 @@
     "context_en": "Please show me your picture.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "見つける",
       "送る",
-      "見る"
+      "しまう",
+      "わたす"
     ],
     "explanation_ja": "show A B で「AにBを見せる」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -233,17 +233,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "見つける",
-    "context_en": "I find my lost key.",
+    "context_en": "Can you find my key?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "見る",
-      "見せる",
-      "じっと見る"
+      "探す",
+      "なくす",
+      "かくす"
     ],
-    "explanation_ja": "find は探していたものを「見つける」。",
+    "explanation_ja": "find は「見つける」。look for は「探す」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -258,17 +258,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "見る",
-    "context_en": "Look at the blackboard.",
+    "context_en": "Look at the board.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "じっと見る",
-      "見つける",
-      "見える"
+      "指さす",
+      "見せる",
+      "見つける"
     ],
-    "explanation_ja": "look at で「～を見る」。意識して視線を向ける。",
+    "explanation_ja": "look at は、自分から目を向けて「～を見る」こと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -282,18 +282,18 @@
     "lemma": "watch",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "じっと見る",
-    "context_en": "We watch a soccer game.",
+    "meaning_ja": "見る",
+    "context_en": "We watch soccer on TV.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "見える",
-      "見る",
-      "聞こえる"
+      "撮る",
+      "聞く",
+      "見せる"
     ],
-    "explanation_ja": "watch はテレビ・試合などの動きを注意して「見る」。",
+    "explanation_ja": "watch は、試合やテレビなど、動くものをしばらく「見る」ときによく使う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -308,17 +308,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "見える",
-    "context_en": "I can see a mountain from here.",
+    "context_en": "I can see something.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "聞こえる",
-      "じっと見る",
-      "知っている"
+      "においがする",
+      "さわれる"
     ],
     "explanation_ja": "see は視界に入って「見える」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -333,17 +333,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "聞こえる",
-    "context_en": "I can hear music.",
+    "context_en": "I can hear something.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "知っている",
       "見える",
-      "考える"
+      "においがする",
+      "さわれる"
     ],
     "explanation_ja": "hear は音が耳に入って「聞こえる」。listen は意識して聞く。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -358,17 +358,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "知っている",
-    "context_en": "I know the answer.",
+    "context_en": "I know her name.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "考える",
-      "聞こえる",
-      "感じる"
+      "調べる",
+      "忘れる",
+      "たずねる"
     ],
-    "explanation_ja": "know は情報や人について「知っている」。",
+    "explanation_ja": "know は名前などを「知っている」こと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -382,18 +382,18 @@
     "lemma": "think",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "考える",
+    "meaning_ja": "思う",
     "context_en": "I think this book is interesting.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "感じる",
-      "知っている",
-      "欲しい"
+      "聞く",
+      "決める",
+      "思い出す"
     ],
-    "explanation_ja": "think は意見や考えを持つときに使う。",
+    "explanation_ja": "この文の I think ... は「…だと思う」。think には「考える」という意味もある。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -411,14 +411,14 @@
     "context_en": "I feel happy today.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "欲しい",
-      "考える",
-      "必要とする"
+      "思い出す",
+      "想像する",
+      "忘れる"
     ],
     "explanation_ja": "feel は気持ちや体の感覚を「感じる」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -436,14 +436,14 @@
     "context_en": "I want a new pencil.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "必要とする",
-      "感じる",
-      "好きである"
+      "持っている",
+      "えらぶ",
+      "さがす"
     ],
     "explanation_ja": "want は「欲しい」。want to do は「～したい」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -458,17 +458,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "必要とする",
-    "context_en": "We need water every day.",
+    "context_en": "We need more paper.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "好きである",
-      "欲しい",
-      "作る"
+      "持っている",
+      "使い切る",
+      "買う"
     ],
-    "explanation_ja": "need は「必要とする」。need to do は「～する必要がある」。",
+    "explanation_ja": "need は「必要とする」。この文は「もっと紙が必要だ」です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -482,18 +482,18 @@
     "lemma": "like",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "好きである",
+    "meaning_ja": "好きだ",
     "context_en": "I like English.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "作る",
-      "必要とする",
-      "行う"
+      "きらいだ",
+      "得意だ",
+      "苦手だ"
     ],
-    "explanation_ja": "like は「好きである」。like doing の形もある。",
+    "explanation_ja": "like は「好きだ」という気持ちを表す。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -508,17 +508,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "料理する",
-    "context_en": "",
+    "context_en": "I cook dinner on Sundays.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
+      "切る",
       "洗う",
-      "滞在する",
-      "掃除する"
+      "温める"
     ],
-    "explanation_ja": "cook は「料理する」という意味です。",
+    "explanation_ja": "cook dinner で「夕食を作る」。cook は料理を作ること。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -536,14 +536,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "掃除する",
-      "料理する",
-      "助ける"
+      "かわかす",
+      "しぼる",
+      "たたむ"
     ],
     "explanation_ja": "wash は「洗う」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -558,17 +558,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "掃除する",
-    "context_en": "",
+    "context_en": "I clean my room every week.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "助ける",
-      "洗う",
-      "運ぶ"
+      "直す",
+      "ぬる",
+      "かざる"
     ],
-    "explanation_ja": "clean は「掃除する」という意味です。",
+    "explanation_ja": "場所について clean と言うと「掃除する」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -582,18 +582,18 @@
     "lemma": "help",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "助ける",
-    "context_en": "",
+    "meaning_ja": "手伝う",
+    "context_en": "Can you help me with this?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "運ぶ",
-      "掃除する",
-      "使う"
+      "教える",
+      "見守る",
+      "じゃまする"
     ],
-    "explanation_ja": "help は「助ける」という意味です。",
+    "explanation_ja": "この文の help は「手伝う」。困っている人を「助ける」と訳すこともある。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -611,14 +611,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "使う",
-      "助ける",
+      "引く",
+      "押す",
       "置く"
     ],
     "explanation_ja": "carry は「運ぶ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -636,14 +636,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "置く",
-      "運ぶ",
-      "保つ"
+      "しまう",
+      "借りる",
+      "直す"
     ],
     "explanation_ja": "use は「使う」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -658,17 +658,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "置く",
-    "context_en": "",
+    "context_en": "Put your books over there.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "保つ",
-      "使う",
-      "切る"
+      "取る",
+      "集める",
+      "運ぶ"
     ],
-    "explanation_ja": "put は「置く」という意味です。",
+    "explanation_ja": "この文の put は「置く」。どこに置くかを一緒に示すことが多い。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -682,18 +682,18 @@
     "lemma": "keep",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "保つ",
-    "context_en": "",
+    "meaning_ja": "そのままにする",
+    "context_en": "Keep the door open.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "切る",
-      "置く",
-      "描く"
+      "開ける",
+      "閉める",
+      "取りかえる"
     ],
-    "explanation_ja": "keep は「保つ」という意味です。",
+    "explanation_ja": "keep A open は「Aを開けたままにする」。この文の keep は、状態を変えずに保つこと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -711,14 +711,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "描く",
-      "保つ",
-      "色を塗る"
+      "折る",
+      "はる",
+      "ぬる"
     ],
     "explanation_ja": "cut は「切る」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -733,17 +733,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "描く",
-    "context_en": "",
+    "context_en": "I draw in my notebook.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "色を塗る",
       "切る",
-      "建てる"
+      "消す",
+      "写す"
     ],
-    "explanation_ja": "draw は「描く」という意味です。",
+    "explanation_ja": "draw は、えんぴつなどで絵や線を「描く」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -758,17 +758,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "色を塗る",
-    "context_en": "",
+    "context_en": "Let's paint this wall.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "建てる",
-      "描く",
-      "動く"
+      "切る",
+      "はる",
+      "消す"
     ],
-    "explanation_ja": "paint は「色を塗る」という意味です。",
+    "explanation_ja": "壁などを paint するときは「色を塗る」。絵の具で絵を「描く」という意味もある。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -786,14 +786,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "動く",
-      "色を塗る",
-      "止まる"
+      "こわす",
+      "買う",
+      "ぬる"
     ],
     "explanation_ja": "build は「建てる」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -812,13 +812,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "止まる",
-      "建てる",
-      "始める"
+      "もどる",
+      "くり返す"
     ],
     "explanation_ja": "move は「動く」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -833,17 +833,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "止まる",
-    "context_en": "",
+    "context_en": "The bus will stop here.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "始める",
       "動く",
-      "終える"
+      "進む",
+      "もどる"
     ],
-    "explanation_ja": "stop は「止まる」という意味です。",
+    "explanation_ja": "乗り物などが stop すると「止まる」。動いているものが動かなくなること。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -862,13 +862,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "終える",
-      "止まる",
-      "待つ"
+      "止める",
+      "くり返す"
     ],
     "explanation_ja": "start は「始める」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -883,17 +883,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "終える",
-    "context_en": "",
+    "context_en": "I finish my work at five.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "待つ",
       "始める",
-      "会う"
+      "続ける",
+      "やり直す"
     ],
-    "explanation_ja": "finish は「終える」という意味です。",
+    "explanation_ja": "finish は最後までやって「終える」こと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -911,14 +911,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "会う",
-      "終える",
-      "訪れる"
+      "出かける",
+      "追いかける",
+      "通りすぎる"
     ],
     "explanation_ja": "wait は「待つ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -936,14 +936,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "訪れる",
-      "待つ",
-      "滞在する"
+      "電話する",
+      "手紙を書く",
+      "見送る"
     ],
     "explanation_ja": "meet は「会う」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -957,18 +957,18 @@
     "lemma": "visit",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "訪れる",
-    "context_en": "",
+    "meaning_ja": "たずねる",
+    "context_en": "Can we visit your school?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "滞在する",
-      "会う",
-      "料理する"
+      "通りすぎる",
+      "立ち去る",
+      "案内する"
     ],
-    "explanation_ja": "visit は「訪れる」という意味です。",
+    "explanation_ja": "人や場所を visit するとは、そこへ行って「たずねる」こと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -982,18 +982,18 @@
     "lemma": "stay",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "滞在する",
-    "context_en": "",
+    "meaning_ja": "とまる",
+    "context_en": "Can I stay here tonight?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "料理する",
-      "訪れる",
-      "洗う"
+      "引っこす",
+      "立ち寄る",
+      "出かける"
     ],
-    "explanation_ja": "stay は「滞在する」という意味です。",
+    "explanation_ja": "今夜ここに「とまる」ことをたずねる文。stay は、ある場所にとどまること。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1011,14 +1011,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "Tシャツ",
-      "傘",
-      "コート"
+      "セーター",
+      "コート",
+      "ベスト"
     ],
     "explanation_ja": "shirt は「シャツ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1036,14 +1036,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
+      "セーター",
       "コート",
-      "シャツ",
-      "上着"
+      "ブラウス"
     ],
     "explanation_ja": "T-shirt は「Tシャツ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1061,14 +1061,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "上着",
-      "Tシャツ",
-      "セーター"
+      "セーター",
+      "シャツ",
+      "ベスト"
     ],
     "explanation_ja": "coat は「コート」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1083,17 +1083,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "上着",
-    "context_en": "",
+    "context_en": "I put on my jacket.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "セーター",
-      "コート",
+      "ズボン",
+      "シャツ",
       "ワンピース"
     ],
-    "explanation_ja": "jacket は「上着」という意味です。",
+    "explanation_ja": "jacket は、服の上に着る「上着」。ジャケットとも言う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1111,14 +1111,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ワンピース",
-      "上着",
-      "スカート"
+      "シャツ",
+      "ベスト",
+      "コート"
     ],
     "explanation_ja": "sweater は「セーター」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1136,14 +1136,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "スカート",
-      "セーター",
-      "ズボン"
+      "ズボン",
+      "シャツ",
+      "スカート"
     ],
     "explanation_ja": "dress は「ワンピース」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1163,12 +1163,12 @@
     "distractors_ja": [
       "ズボン",
       "ワンピース",
-      "ジーンズ"
+      "シャツ"
     ],
     "explanation_ja": "skirt は「スカート」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1186,14 +1186,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ジーンズ",
       "スカート",
-      "靴"
+      "ワンピース",
+      "くつ"
     ],
     "explanation_ja": "pants は「ズボン」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1211,14 +1211,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "靴",
-      "ズボン",
-      "靴下"
+      "スカート",
+      "ショートパンツ",
+      "レギンス"
     ],
     "explanation_ja": "jeans は「ジーンズ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1232,18 +1232,18 @@
     "lemma": "shoes",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "靴",
+    "meaning_ja": "くつ",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "靴下",
-      "ジーンズ",
-      "帽子"
+      "くつ下",
+      "手ぶくろ",
+      "ベルト"
     ],
-    "explanation_ja": "shoes は「靴」という意味です。",
+    "explanation_ja": "shoes は「くつ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1257,18 +1257,18 @@
     "lemma": "socks",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "靴下",
+    "meaning_ja": "くつ下",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "帽子",
-      "靴",
-      "キャップ"
+      "くつ",
+      "手ぶくろ",
+      "マフラー"
     ],
-    "explanation_ja": "socks は「靴下」という意味です。",
+    "explanation_ja": "socks は「くつ下」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1286,14 +1286,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "キャップ",
-      "靴下",
-      "手袋"
+      "手ぶくろ",
+      "マフラー",
+      "ベルト"
     ],
     "explanation_ja": "hat は「帽子」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1307,18 +1307,18 @@
     "lemma": "cap",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "キャップ",
-    "context_en": "",
+    "meaning_ja": "つばのある帽子",
+    "context_en": "He wore a baseball cap.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "手袋",
-      "帽子",
-      "マフラー"
+      "ヘルメット",
+      "ニット帽",
+      "ヘアバンド"
     ],
-    "explanation_ja": "cap は「キャップ」という意味です。",
+    "explanation_ja": "baseball cap は、前につばがある帽子です。cap には「ふた」という意味もある。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1332,18 +1332,18 @@
     "lemma": "gloves",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "手袋",
+    "meaning_ja": "手ぶくろ",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "マフラー",
-      "キャップ",
-      "傘"
+      "くつ下",
+      "ベルト"
     ],
-    "explanation_ja": "gloves は「手袋」という意味です。",
+    "explanation_ja": "gloves は「手ぶくろ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1357,18 +1357,18 @@
     "lemma": "scarf",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "マフラー",
+    "meaning_ja": "首に巻く布",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "傘",
-      "手袋",
-      "シャツ"
+      "ベルト",
+      "手ぶくろ",
+      "帽子"
     ],
-    "explanation_ja": "scarf は「マフラー」という意味です。",
+    "explanation_ja": "scarf は首などに巻く布。冬に首に巻くものは「マフラー」とも訳せる。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1386,14 +1386,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "シャツ",
-      "マフラー",
-      "Tシャツ"
+      "レインコート",
+      "手ぶくろ",
+      "長ぐつ"
     ],
     "explanation_ja": "umbrella は「傘」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1407,18 +1407,18 @@
     "lemma": "wristwatch",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "腕時計",
+    "meaning_ja": "うで時計",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "財布",
-      "制服",
-      "眼鏡"
+      "目ざまし時計",
+      "かけ時計",
+      "砂時計"
     ],
-    "explanation_ja": "wristwatch は「腕時計」という意味です。",
+    "explanation_ja": "wristwatch は「うで時計」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1436,14 +1436,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "眼鏡",
-      "腕時計",
-      "制服"
+      "かばん",
+      "筆箱",
+      "手帳"
     ],
     "explanation_ja": "wallet は「財布」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1457,18 +1457,18 @@
     "lemma": "glasses",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "眼鏡",
-    "context_en": "",
+    "meaning_ja": "めがね",
+    "context_en": "I can't find my glasses.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "制服",
-      "財布",
-      "腕時計"
+      "虫めがね",
+      "ゴーグル",
+      "ぼう遠鏡"
     ],
-    "explanation_ja": "glasses は「眼鏡」という意味です。",
+    "explanation_ja": "glasses は、見るために顔にかける「めがね」。glass はコップやガラスのこともある。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1486,14 +1486,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "腕時計",
-      "眼鏡",
-      "財布"
+      "体そう着",
+      "普段着",
+      "雨具"
     ],
     "explanation_ja": "uniform は「制服」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1507,18 +1507,18 @@
     "lemma": "breakfast",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "朝食",
+    "meaning_ja": "朝ごはん",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "昼食",
-      "サンドイッチ",
-      "夕食"
+      "昼ごはん",
+      "晩ごはん",
+      "おやつ"
     ],
-    "explanation_ja": "breakfast は「朝食」という意味です。",
+    "explanation_ja": "breakfast は「朝ごはん」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1532,18 +1532,18 @@
     "lemma": "lunch",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "昼食",
+    "meaning_ja": "昼ごはん",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "夕食",
-      "朝食",
-      "肉"
+      "朝ごはん",
+      "晩ごはん",
+      "おやつ"
     ],
-    "explanation_ja": "lunch は「昼食」という意味です。",
+    "explanation_ja": "lunch は「昼ごはん」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1557,18 +1557,18 @@
     "lemma": "dinner",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "夕食",
-    "context_en": "",
+    "meaning_ja": "晩ごはん",
+    "context_en": "Will you be home for dinner?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "肉",
-      "昼食",
-      "鶏肉"
+      "朝ごはん",
+      "おやつ",
+      "夜食"
     ],
-    "explanation_ja": "dinner は「夕食」という意味です。",
+    "explanation_ja": "dinner は一日の中心になる食事。この問題ではよく使われる「晩ごはん」の意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1586,14 +1586,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "鶏肉",
-      "夕食",
-      "豚肉"
+      "豆腐",
+      "野菜",
+      "くだもの"
     ],
     "explanation_ja": "meat は「肉」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1607,18 +1607,18 @@
     "lemma": "chicken",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "鶏肉",
-    "context_en": "",
+    "meaning_ja": "とり肉",
+    "context_en": "We had chicken for dinner.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "豚肉",
-      "肉",
-      "牛肉"
+      "牛肉",
+      "羊の肉"
     ],
-    "explanation_ja": "chicken は「鶏肉」という意味です。",
+    "explanation_ja": "食べ物としての chicken は「とり肉」。動物の「ニワトリ」も chicken と言う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1636,14 +1636,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
+      "とり肉",
       "牛肉",
-      "鶏肉",
-      "サラダ"
+      "羊の肉"
     ],
     "explanation_ja": "pork は「豚肉」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1661,14 +1661,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "サラダ",
+      "とり肉",
       "豚肉",
-      "スープ"
+      "羊の肉"
     ],
     "explanation_ja": "beef は「牛肉」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1687,13 +1687,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "スープ",
-      "牛肉",
-      "サンドイッチ"
+      "サンドイッチ",
+      "おにぎり"
     ],
     "explanation_ja": "salad は「サラダ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1711,14 +1711,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "サンドイッチ",
       "サラダ",
-      "朝食"
+      "グラタン",
+      "ハンバーグ"
     ],
     "explanation_ja": "soup は「スープ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1736,14 +1736,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "朝食",
-      "スープ",
-      "昼食"
+      "おにぎり",
+      "ピザ",
+      "ハンバーガー"
     ],
     "explanation_ja": "sandwich は「サンドイッチ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1761,14 +1761,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ジャガイモ",
-      "ジュース",
-      "トマト"
+      "サンドイッチ",
+      "ハンバーガー",
+      "グラタン"
     ],
     "explanation_ja": "pizza は「ピザ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1786,14 +1786,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "トマト",
-      "ピザ",
-      "ニンジン"
+      "さつまいも",
+      "にんじん",
+      "かぼちゃ"
     ],
     "explanation_ja": "potato は「ジャガイモ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1886,14 +1886,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "トウモロコシ",
-      "タマネギ",
-      "イチゴ"
+      "レタス",
+      "たまねぎ",
+      "はくさい"
     ],
     "explanation_ja": "cabbage は「キャベツ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1911,14 +1911,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "イチゴ",
-      "キャベツ",
-      "レモン"
+      "大豆",
+      "えんどう豆",
+      "キャベツ"
     ],
     "explanation_ja": "corn は「トウモロコシ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1937,13 +1937,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "レモン",
-      "トウモロコシ",
-      "ジュース"
+      "さくらんぼ",
+      "ブルーベリー"
     ],
     "explanation_ja": "strawberry は「イチゴ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1961,14 +1961,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ジュース",
-      "イチゴ",
-      "ピザ"
+      "みかん",
+      "グレープフルーツ",
+      "いちご"
     ],
     "explanation_ja": "lemon は「レモン」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1986,14 +1986,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ピザ",
-      "レモン",
-      "ジャガイモ"
+      "牛乳",
+      "お茶",
+      "水"
     ],
     "explanation_ja": "juice は「ジュース」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2032,7 +2032,7 @@
     "lemma": "Japanese",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "国語（教科）",
+    "meaning_ja": "日本語・国語（教科）",
     "context_en": "Japanese is my favorite subject.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
@@ -2040,7 +2040,7 @@
       "理科",
       "算数・数学"
     ],
-    "explanation_ja": "Japanese は「日本語」。学校の教科としては「国語」の意味で使う。",
+    "explanation_ja": "Japanese はことばの名前として「日本語」。日本の学校で教科名に使うと「国語」と訳せる。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -2133,7 +2133,7 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "地理",
-    "context_en": "We study maps in geography.",
+    "context_en": "I have geography on Fridays.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "歴史",
@@ -2158,7 +2158,7 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "美術",
-    "context_en": "We paint pictures in art class.",
+    "context_en": "We have art class today.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "体育",
@@ -2183,7 +2183,7 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "体育",
-    "context_en": "We play basketball in PE class.",
+    "context_en": "We have PE on Tuesdays.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "美術",
@@ -2287,8 +2287,8 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "答え",
-      "教科",
-      "授業"
+      "意見",
+      "説明"
     ],
     "explanation_ja": "question は「質問・問題」。",
     "source_tag": "original-pre-draft",
@@ -2312,8 +2312,8 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "質問",
-      "問題集",
-      "練習"
+      "例",
+      "ヒント"
     ],
     "explanation_ja": "answer は「答え」。",
     "source_tag": "original-pre-draft",
@@ -2336,9 +2336,9 @@
     "context_en": "Open your book to page ten.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "教科",
-      "授業",
-      "宿題"
+      "表紙",
+      "見出し",
+      "目次"
     ],
     "explanation_ja": "page は本などの「ページ」。",
     "source_tag": "original-pre-draft",
@@ -2390,7 +2390,7 @@
       "質問",
       "授業"
     ],
-    "explanation_ja": "practice は「練習」。",
+    "explanation_ja": "この文の practice は「練習」。同じことをくり返しやって、上手になるために行う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -2408,12 +2408,12 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "黒板",
-    "context_en": "The teacher writes on the blackboard.",
+    "context_en": "The blackboard is at the front of the room.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ノート",
-      "教科書",
-      "辞書"
+      "ホワイトボード",
+      "けいじ板",
+      "スクリーン"
     ],
     "explanation_ja": "blackboard は「黒板」。",
     "source_tag": "original-pre-draft",
@@ -2458,7 +2458,7 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "辞書",
-    "context_en": "I look up words in a dictionary.",
+    "context_en": "Please bring your dictionary.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "教科書",
@@ -2483,7 +2483,7 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "カレンダー",
-    "context_en": "I marked the date on my calendar.",
+    "context_en": "Where is my calendar?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "時間割",

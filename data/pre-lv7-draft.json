@@ -8,17 +8,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "考え",
-    "context_en": "",
+    "context_en": "I have an idea for our project.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "理由",
-      "現在",
-      "問題"
+      "問題",
+      "結果"
     ],
-    "explanation_ja": "idea は「考え」という意味です。",
+    "explanation_ja": "ここでの idea は、やり方などについての「考え」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L7-U1-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -36,14 +36,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "問題",
-      "考え",
-      "解決策"
+      "結果",
+      "目的",
+      "方法"
     ],
     "explanation_ja": "reason は「理由」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L7-U1-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -61,14 +61,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "解決策",
+      "解決の手がかり",
       "理由",
       "例"
     ],
     "explanation_ja": "problem は「問題」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L7-U1-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -82,18 +82,18 @@
     "lemma": "solution",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "解決策",
+    "meaning_ja": "解決する方法",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "例",
-      "問題",
-      "情報"
+      "問題が起きた理由",
+      "問題の例",
+      "問題が起きた場所"
     ],
-    "explanation_ja": "solution は「解決策」という意味です。",
+    "explanation_ja": "solution は「解決する方法」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L7-U1-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -111,14 +111,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "情報",
-      "解決策",
-      "知識"
+      "説明",
+      "理由",
+      "答え"
     ],
     "explanation_ja": "example は「例」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -136,14 +136,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "知識",
-      "例",
-      "経験"
+      "意見",
+      "感想",
+      "質問"
     ],
     "explanation_ja": "information は「情報」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -157,18 +157,18 @@
     "lemma": "knowledge",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "知識",
-    "context_en": "",
+    "meaning_ja": "知っていること",
+    "context_en": "She has a lot of knowledge about birds.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "経験",
-      "情報",
-      "意見"
+      "感じたこと",
+      "決めたこと",
+      "忘れたこと"
     ],
-    "explanation_ja": "knowledge は「知識」という意味です。",
+    "explanation_ja": "knowledge は、学んだり体験したりして「知っていること（知識）」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -183,17 +183,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "経験",
-    "context_en": "",
+    "context_en": "It was a new experience for me.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "意見",
+      "計画",
       "知識",
-      "助言"
+      "想像"
     ],
-    "explanation_ja": "experience は「経験」という意味です。",
+    "explanation_ja": "ここでの experience は、自分で実際にやったり見たりした「経験」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L7-U1-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -211,14 +211,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "助言",
-      "経験",
-      "選択"
+      "質問",
+      "命令",
+      "事実"
     ],
     "explanation_ja": "opinion は「意見」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L7-U1-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -232,18 +232,18 @@
     "lemma": "advice",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "助言",
-    "context_en": "",
+    "meaning_ja": "アドバイス",
+    "context_en": "Can you give me some advice?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "選択",
-      "意見",
-      "決定"
+      "命令",
+      "質問",
+      "感想"
     ],
-    "explanation_ja": "advice は「助言」という意味です。",
+    "explanation_ja": "advice は、やり方などについて人からもらう「アドバイス（助言）」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -257,18 +257,18 @@
     "lemma": "choice",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "選択",
-    "context_en": "",
+    "meaning_ja": "選べるもの",
+    "context_en": "You have three choices.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "決定",
-      "助言",
-      "機会"
+      "決めた理由",
+      "決める人",
+      "決める日"
     ],
-    "explanation_ja": "choice は「選択」という意味です。",
+    "explanation_ja": "この文の choice は「選べるもの」。選ぶこと自体も choice と言う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -282,18 +282,18 @@
     "lemma": "decision",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "決定",
-    "context_en": "",
+    "meaning_ja": "決めたこと",
+    "context_en": "That was a hard decision.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "機会",
-      "選択",
-      "挑戦"
+      "迷っていること",
+      "聞かれたこと",
+      "忘れたこと"
     ],
-    "explanation_ja": "decision は「決定」という意味です。",
+    "explanation_ja": "decision は何かを「決めたこと」や「決めること」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -307,18 +307,18 @@
     "lemma": "chance",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "機会",
-    "context_en": "",
+    "meaning_ja": "機会（チャンス）",
+    "context_en": "I got a chance to play.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "挑戦",
-      "決定",
-      "目標"
+      "目標",
+      "しめ切り",
+      "きまり"
     ],
-    "explanation_ja": "chance は「機会」という意味です。",
+    "explanation_ja": "a chance to play は「プレーできる機会」。chance は物事が起きる可能性を表すこともある。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -332,18 +332,18 @@
     "lemma": "challenge",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "挑戦",
+    "meaning_ja": "むずかしいことへの挑戦",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "目標",
-      "機会",
-      "夢"
+      "練習のくり返し",
+      "やり方の説明",
+      "結果の発表"
     ],
-    "explanation_ja": "challenge は「挑戦」という意味です。",
+    "explanation_ja": "challenge は「むずかしいことへの挑戦」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -358,17 +358,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "目標",
-    "context_en": "",
+    "context_en": "My goal is to run ten kilometers.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "夢",
-      "挑戦",
-      "希望"
+      "方法",
+      "結果",
+      "しめ切り"
     ],
-    "explanation_ja": "goal は「目標」という意味です。",
+    "explanation_ja": "ここでの goal は「目標」。スポーツでは得点やゴールを表すこともある。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -383,17 +383,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "夢",
-    "context_en": "",
+    "context_en": "I had a strange dream last night.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "希望",
-      "目標",
-      "未来"
+      "悩み",
+      "思い出",
+      "計画"
     ],
-    "explanation_ja": "dream は「夢」という意味です。",
+    "explanation_ja": "この文の dream は、ねている間に見る「夢」。将来したいことにも使う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -411,14 +411,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "未来",
-      "夢",
-      "過去"
+      "不安",
+      "悲しみ",
+      "怒り"
     ],
     "explanation_ja": "hope は「希望」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -437,13 +437,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "過去",
-      "希望",
-      "現在"
+      "現在",
+      "思い出"
     ],
     "explanation_ja": "future は「未来」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -463,12 +463,12 @@
     "distractors_ja": [
       "現在",
       "未来",
-      "考え"
+      "予定"
     ],
     "explanation_ja": "past は「過去」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -482,18 +482,18 @@
     "lemma": "present",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "現在",
-    "context_en": "",
+    "meaning_ja": "今",
+    "context_en": "Let's focus on the present.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "考え",
-      "過去",
-      "理由"
+      "昔",
+      "これから",
+      "明日"
     ],
-    "explanation_ja": "present は「現在」という意味です。",
+    "explanation_ja": "the present は「今」や「現在」。a present は「プレゼント」の意味になる。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -512,13 +512,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "友情",
-      "関係",
-      "信頼"
+      "信頼",
+      "尊敬"
     ],
     "explanation_ja": "love は「愛」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -536,14 +536,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "信頼",
-      "愛",
-      "尊敬"
+      "家族",
+      "チーム",
+      "仲間"
     ],
     "explanation_ja": "friendship は「友情」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -561,14 +561,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "尊敬",
-      "友情",
-      "平和"
+      "疑い",
+      "用心",
+      "自信"
     ],
     "explanation_ja": "trust は「信頼」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -582,18 +582,18 @@
     "lemma": "respect",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "尊敬",
+    "meaning_ja": "相手を大切に思うこと",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "平和",
-      "信頼",
-      "自由"
+      "相手をこわがること",
+      "相手を疑うこと",
+      "相手に腹を立てること"
     ],
-    "explanation_ja": "respect は「尊敬」という意味です。",
+    "explanation_ja": "respect は相手のよいところを認めて敬ったり、大切にしたりする気持ち。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -611,14 +611,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "自由",
-      "尊敬",
-      "勇気"
+      "戦争",
+      "協力",
+      "自由"
     ],
     "explanation_ja": "peace は「平和」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -636,14 +636,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "勇気",
-      "平和",
-      "努力"
+      "きまり",
+      "義務",
+      "平等"
     ],
     "explanation_ja": "freedom は「自由」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -661,14 +661,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "努力",
-      "自由",
-      "成功"
+      "不安",
+      "自信",
+      "やる気"
     ],
     "explanation_ja": "courage は「勇気」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -686,14 +686,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "成功",
-      "勇気",
-      "失敗"
+      "休けい",
+      "なまけ",
+      "あきらめ"
     ],
     "explanation_ja": "effort は「努力」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -712,13 +712,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "失敗",
-      "努力",
-      "幸福"
+      "途中経過",
+      "目標"
     ],
     "explanation_ja": "success は「成功」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -736,14 +736,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "幸福",
       "成功",
-      "悲しみ"
+      "途中経過",
+      "目標"
     ],
     "explanation_ja": "failure は「失敗」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -757,18 +757,18 @@
     "lemma": "happiness",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "幸福",
+    "meaning_ja": "幸せ",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "悲しみ",
-      "失敗",
-      "怒り"
+      "怒り",
+      "さびしさ"
     ],
-    "explanation_ja": "happiness は「幸福」という意味です。",
+    "explanation_ja": "happiness は「幸せ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -787,13 +787,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "怒り",
-      "幸福",
-      "恐れ"
+      "幸せ",
+      "こわい気持ち"
     ],
     "explanation_ja": "sadness は「悲しみ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -811,14 +811,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "恐れ",
       "悲しみ",
-      "親切"
+      "安心",
+      "さびしさ"
     ],
     "explanation_ja": "anger は「怒り」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -832,18 +832,18 @@
     "lemma": "fear",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "恐れ",
+    "meaning_ja": "こわい気持ち",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "親切",
-      "怒り",
-      "正直さ"
+      "うれしい気持ち",
+      "さびしい気持ち",
+      "ほっとした気持ち"
     ],
-    "explanation_ja": "fear は「恐れ」という意味です。",
+    "explanation_ja": "fear は「こわい気持ち」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -862,13 +862,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "正直さ",
-      "恐れ",
-      "忍耐"
+      "勇気",
+      "がまん強さ"
     ],
     "explanation_ja": "kindness は「親切」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -886,14 +886,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "忍耐",
-      "親切",
-      "自信"
+      "親切さ",
+      "勇気",
+      "がまん強さ"
     ],
     "explanation_ja": "honesty は「正直さ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -907,18 +907,18 @@
     "lemma": "patience",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "忍耐",
+    "meaning_ja": "がまん強さ",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "自信",
       "正直さ",
-      "協力"
+      "親切さ",
+      "勇気"
     ],
-    "explanation_ja": "patience は「忍耐」という意味です。",
+    "explanation_ja": "patience は「がまん強さ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -936,14 +936,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "協力",
-      "忍耐",
-      "関係"
+      "不安",
+      "疑い",
+      "あきらめ"
     ],
     "explanation_ja": "confidence は「自信」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -957,18 +957,18 @@
     "lemma": "teamwork",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "協力",
+    "meaning_ja": "チームで力を合わせること",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "関係",
-      "自信",
-      "愛"
+      "一人で取り組むこと",
+      "仲間と競争すること",
+      "仲間の仕事を見ていること"
     ],
-    "explanation_ja": "teamwork は「協力」という意味です。",
+    "explanation_ja": "teamwork は「チームで力を合わせること」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -983,17 +983,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "関係",
-    "context_en": "",
+    "context_en": "They have a good relationship.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "愛",
-      "協力",
-      "友情"
+      "約束",
+      "話し合い",
+      "思い出"
     ],
-    "explanation_ja": "relationship は「関係」という意味です。",
+    "explanation_ja": "relationship は、人と人との「関係」。この文では、二人の関係がよいという意味。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1008,17 +1008,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "地球",
-    "context_en": "",
+    "context_en": "We live on Earth.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "環境",
-      "ごみくず",
-      "自然"
+      "月",
+      "太陽",
+      "火星"
     ],
-    "explanation_ja": "earth は「地球」という意味です。",
+    "explanation_ja": "惑星を表す Earth は「地球」。earth は「土」という意味でも使う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1036,14 +1036,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "自然",
-      "地球",
-      "資源"
+      "気候",
+      "天気",
+      "季節"
     ],
     "explanation_ja": "environment は「環境」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1058,17 +1058,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "自然",
-    "context_en": "",
+    "context_en": "I love being out in nature.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "資源",
-      "環境",
-      "汚染"
+      "農業",
+      "工業",
+      "交通"
     ],
-    "explanation_ja": "nature は「自然」という意味です。",
+    "explanation_ja": "木々や川などがある「自然」の中にいるのが好きだ、という文です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1082,18 +1082,18 @@
     "lemma": "resource",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "資源",
-    "context_en": "",
+    "meaning_ja": "役に立つ材料やもの",
+    "context_en": "Clean water is an important resource.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "汚染",
-      "自然",
-      "ごみ"
+      "使った後に出たごみ",
+      "ものを作る手順",
+      "ものを運ぶ仕組み"
     ],
-    "explanation_ja": "resource は「資源」という意味です。",
+    "explanation_ja": "resource は、水など、人が暮らしや仕事に利用できる「資源」を表す。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1107,18 +1107,18 @@
     "lemma": "pollution",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "汚染",
+    "meaning_ja": "空気や水などがよごれること",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ごみ",
-      "資源",
-      "ごみくず"
+      "空気が暖まること",
+      "水がへること",
+      "土がかわくこと"
     ],
-    "explanation_ja": "pollution は「汚染」という意味です。",
+    "explanation_ja": "pollution は、よくない物が空気や水などに混ざって「よごれること（汚染）」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1133,17 +1133,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "ごみ",
-    "context_en": "",
+    "context_en": "Can you take out the garbage?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "汚染",
-      "地球",
-      "資源"
+      "荷物",
+      "道具",
+      "家具"
     ],
-    "explanation_ja": "garbage は「ごみ」という意味です。",
+    "explanation_ja": "garbage は「ごみ」。trash も「ごみ」で、どちらもアメリカ英語でよく使う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1157,18 +1157,18 @@
     "lemma": "trash",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "ごみくず",
-    "context_en": "",
+    "meaning_ja": "ごみ",
+    "context_en": "Please pick up your trash.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "地球",
-      "環境",
-      "汚染"
+      "荷物",
+      "道具",
+      "家具"
     ],
-    "explanation_ja": "trash は「ごみくず」という意味です。",
+    "explanation_ja": "trash は「ごみ」。garbage と意味が重なる。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1182,18 +1182,18 @@
     "lemma": "recycling",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "再利用",
-    "context_en": "",
+    "meaning_ja": "リサイクル",
+    "context_en": "We learned about recycling today.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "無駄",
-      "ガラス",
-      "プラスチック"
+      "分別",
+      "修理",
+      "ごみの回収"
     ],
-    "explanation_ja": "recycling は「再利用」という意味です。",
+    "explanation_ja": "recycling は、いらなくなった物を材料にして、また使えるようにすること。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1208,17 +1208,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "無駄",
-    "context_en": "",
+    "context_en": "That's a waste of money.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "プラスチック",
-      "再利用",
-      "紙"
+      "節約",
+      "貯金",
+      "借金"
     ],
-    "explanation_ja": "waste は「無駄」という意味です。",
+    "explanation_ja": "a waste of money は「お金の無駄づかい」。waste には「ごみ・廃棄物」の意味もある。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1237,13 +1237,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "紙",
-      "無駄",
+      "木材",
       "金属"
     ],
     "explanation_ja": "plastic は「プラスチック」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1313,12 +1313,12 @@
     "distractors_ja": [
       "ガラス",
       "金属",
-      "再利用"
+      "石"
     ],
     "explanation_ja": "wood は「木材」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1333,17 +1333,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "ガラス",
-    "context_en": "",
+    "context_en": "This bowl is made of glass.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "再利用",
+      "金属",
       "木材",
-      "無駄"
+      "プラスチック"
     ],
-    "explanation_ja": "glass は「ガラス」という意味です。",
+    "explanation_ja": "材料を表す glass は「ガラス」。a glass で「コップ」の意味にもなる。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1361,11 +1361,11 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "電池",
-      "ガス",
-      "磁力"
+      "熱",
+      "磁力",
+      "音"
     ],
-    "explanation_ja": "electricity は「電気」。",
+    "explanation_ja": "electricity は「電気」。家では照明や家電などを動かすために使う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1412,8 +1412,8 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "湿度",
-      "気圧",
-      "雨量"
+      "風の強さ",
+      "雨の量"
     ],
     "explanation_ja": "temperature は「温度」という意味です。",
     "source_tag": "original-pre-draft",
@@ -1436,11 +1436,11 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "天候",
+      "天気",
       "季節",
       "地形"
     ],
-    "explanation_ja": "climate は「気候」という意味です。",
+    "explanation_ja": "climate は、長い期間で見た、ある場所の「気候」。その日や短い期間の天気は weather。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1458,17 +1458,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "災害",
-    "context_en": "",
+    "context_en": "The class read about the disaster.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "地震",
-      "気候",
-      "電気"
+      "工事",
+      "避難訓練",
+      "点検"
     ],
-    "explanation_ja": "disaster は「災害」という意味です。",
+    "explanation_ja": "disaster は人や町に大きな被害をもたらす「災害」。大失敗の意味でも使う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1486,14 +1486,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "電気",
-      "災害",
-      "温度"
+      "洪水",
+      "台風",
+      "山火事"
     ],
     "explanation_ja": "earthquake は「地震」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1508,17 +1508,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "行事",
-    "context_en": "",
+    "context_en": "The school is planning a special event.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "会議",
-      "企画",
-      "パーティー"
+      "日程",
+      "会場",
+      "参加者"
     ],
-    "explanation_ja": "event は「行事」という意味です。",
+    "explanation_ja": "event は、ここでは学校が開く「行事」の意味。出来事という意味もある。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1533,17 +1533,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "会議",
-    "context_en": "",
+    "context_en": "We have a meeting at three.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "パーティー",
-      "行事",
-      "演奏会"
+      "発表会",
+      "練習会",
+      "表しょう式"
     ],
-    "explanation_ja": "meeting は「会議」という意味です。",
+    "explanation_ja": "meeting は、人が集まって話し合う「会議」。人と会うことも表す。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1561,14 +1561,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "演奏会",
       "会議",
-      "競争"
+      "表しょう式",
+      "練習試合"
     ],
     "explanation_ja": "party は「パーティー」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1586,14 +1586,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "競争",
-      "パーティー",
-      "試合"
+      "絵の展覧会",
+      "スポーツ大会",
+      "映画の上映"
     ],
     "explanation_ja": "concert は「演奏会」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1607,18 +1607,18 @@
     "lemma": "competition",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "競争",
-    "context_en": "",
+    "meaning_ja": "競技会",
+    "context_en": "There is a dance competition next week.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "試合",
-      "演奏会",
-      "式"
+      "練習",
+      "発表会",
+      "説明会"
     ],
-    "explanation_ja": "competition は「競争」という意味です。",
+    "explanation_ja": "この文では、来週ダンスの「競技会」があると言っている。順位や勝ち負けを競う大会。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1633,17 +1633,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "試合",
-    "context_en": "",
+    "context_en": "We watched a tennis match.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "式",
-      "競争",
-      "招待"
+      "練習",
+      "作戦会議",
+      "表しょう式"
     ],
-    "explanation_ja": "match は「試合」という意味です。",
+    "explanation_ja": "スポーツでの match は「試合」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1658,17 +1658,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "式",
-    "context_en": "",
+    "context_en": "The ceremony started at ten.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "招待",
-      "試合",
-      "お祝い"
+      "練習",
+      "準備",
+      "会議"
     ],
-    "explanation_ja": "ceremony は「式」という意味です。",
+    "explanation_ja": "ceremony は、入学式のように、決まった進め方で行う「式」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1682,18 +1682,18 @@
     "lemma": "invitation",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "招待",
-    "context_en": "",
+    "meaning_ja": "おさそい",
+    "context_en": "Thanks for the invitation.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "お祝い",
-      "式",
-      "旅行"
+      "おわび",
+      "お礼",
+      "お祝い"
     ],
-    "explanation_ja": "invitation は「招待」という意味です。",
+    "explanation_ja": "invitation は来てほしいと伝える「おさそい（招待）」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1711,14 +1711,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "旅行",
-      "招待",
-      "旅"
+      "練習",
+      "会議",
+      "見学"
     ],
     "explanation_ja": "celebration は「お祝い」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1733,17 +1733,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "旅行",
-    "context_en": "",
+    "context_en": "We talked about travel.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "旅",
-      "お祝い",
-      "冒険"
+      "通勤",
+      "引っこし",
+      "買い物"
     ],
-    "explanation_ja": "travel は「旅行」という意味です。",
+    "explanation_ja": "名詞の travel は、場所を移動して「旅行すること」。動詞でも使う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1758,17 +1758,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "旅",
-    "context_en": "",
+    "context_en": "It was a long journey.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "冒険",
-      "旅行",
-      "事故"
+      "見送り",
+      "出迎え",
+      "休けい"
     ],
-    "explanation_ja": "journey は「旅」という意味です。",
+    "explanation_ja": "journey は、ある場所から別の場所への「旅」や移動の道のり。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1786,14 +1786,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
+      "約束",
       "事故",
-      "旅",
-      "間違い"
+      "見学"
     ],
     "explanation_ja": "adventure は「冒険」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1808,17 +1808,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "事故",
-    "context_en": "",
+    "context_en": "I saw an accident on my way home.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "間違い",
-      "冒険",
-      "驚き"
+      "出来事の予告",
+      "安全の点検",
+      "工事"
     ],
-    "explanation_ja": "accident は「事故」という意味です。",
+    "explanation_ja": "この文の accident は、思いがけず起きた「事故」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1836,14 +1836,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "驚き",
-      "事故",
-      "ニュース"
+      "正解",
+      "やり直し",
+      "お手本"
     ],
     "explanation_ja": "mistake は「間違い」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1861,14 +1861,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ニュース",
-      "間違い",
-      "報告"
+      "悲しみ",
+      "安心",
+      "怒り"
     ],
     "explanation_ja": "surprise は「驚き」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1886,14 +1886,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "報告",
-      "驚き",
-      "演説"
+      "感想",
+      "約束",
+      "質問"
     ],
     "explanation_ja": "news は「ニュース」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1908,17 +1908,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "報告",
-    "context_en": "",
+    "context_en": "I wrote a report about the trip.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "演説",
-      "ニュース",
-      "面接"
+      "感想",
+      "命令",
+      "計画"
     ],
-    "explanation_ja": "report は「報告」という意味です。",
+    "explanation_ja": "report は、調べたことや見聞きしたことをまとめた「報告」。書いたものを「報告書」とも訳す。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1932,18 +1932,18 @@
     "lemma": "speech",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "演説",
-    "context_en": "",
+    "meaning_ja": "スピーチ",
+    "context_en": "She gave a short speech.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "面接",
-      "報告",
-      "企画"
+      "話し合い",
+      "インタビュー",
+      "歌"
     ],
-    "explanation_ja": "speech は「演説」という意味です。",
+    "explanation_ja": "a speech は、人前で話す「スピーチ」や「演説」。give a speech で「スピーチをする」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1958,17 +1958,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "面接",
-    "context_en": "",
+    "context_en": "I have a job interview on Friday.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "企画",
-      "演説",
-      "行事"
+      "発表",
+      "作文",
+      "筆記試験"
     ],
-    "explanation_ja": "interview は「面接」という意味です。",
+    "explanation_ja": "仕事につくための job interview は「面接」。新聞などのインタビューも interview と言う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1982,18 +1982,18 @@
     "lemma": "project",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "企画",
-    "context_en": "",
+    "meaning_ja": "計画して取り組む活動",
+    "context_en": "We're working on a school project.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "行事",
-      "面接",
-      "会議"
+      "休み時間",
+      "使う道具",
+      "活動した場所"
     ],
-    "explanation_ja": "project は「企画」という意味です。",
+    "explanation_ja": "project は学校などで、計画を立てて取り組む学習や活動。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2007,18 +2007,18 @@
     "lemma": "improve",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "改善する",
-    "context_en": "",
+    "meaning_ja": "よくする",
+    "context_en": "I want to improve my English.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "守る",
-      "発見する",
-      "節約する"
+      "こわす",
+      "元にもどす",
+      "やめる"
     ],
-    "explanation_ja": "improve は「改善する」という意味です。",
+    "explanation_ja": "improve は今より「よくする」。英語については「上達させる」とも訳せる。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L7-U5-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -2033,17 +2033,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "守る",
-    "context_en": "",
+    "context_en": "We must protect these birds.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "節約する",
-      "改善する",
-      "減らす"
+      "調べる",
+      "育てる",
+      "傷つける"
     ],
-    "explanation_ja": "protect は「守る」という意味です。",
+    "explanation_ja": "protect は危険や害から「守る」こと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L7-U5-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -2058,17 +2058,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "節約する",
-    "context_en": "",
+    "context_en": "We try to save water.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "減らす",
-      "守る",
-      "増やす"
+      "使い切る",
+      "むだづかいする",
+      "買い足す"
     ],
-    "explanation_ja": "save は「節約する」という意味です。",
+    "explanation_ja": "save water は水をむだに使わず「節約する」こと。save は「救う」「保存する」などの意味もある。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2083,17 +2083,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "減らす",
-    "context_en": "",
+    "context_en": "We can reduce the amount of waste.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "増やす",
-      "節約する",
-      "集める"
+      "そのままにする",
+      "数える"
     ],
-    "explanation_ja": "reduce は「減らす」という意味です。",
+    "explanation_ja": "reduce は量などを「減らす」こと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L7-U5-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -2108,17 +2108,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "増やす",
-    "context_en": "",
+    "context_en": "We want to increase the number of books.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "集める",
       "減らす",
-      "共有する"
+      "同じ量を保つ",
+      "数える"
     ],
-    "explanation_ja": "increase は「増やす」という意味です。",
+    "explanation_ja": "increase はこの文では「増やす」。主語が数や量なら「増える」と訳すこともある。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L7-U5-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -2133,17 +2133,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "集める",
-    "context_en": "",
+    "context_en": "Can you collect the papers?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "共有する",
-      "増やす",
-      "参加する"
+      "配る",
+      "数える",
+      "調べる"
     ],
-    "explanation_ja": "collect は「集める」という意味です。",
+    "explanation_ja": "collect は、ちらばっているものなどを「集める」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L7-U5-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -2157,18 +2157,18 @@
     "lemma": "share",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "共有する",
-    "context_en": "",
+    "meaning_ja": "いっしょに使う",
+    "context_en": "We share a large room.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "参加する",
-      "集める",
-      "賛成する"
+      "一人で使う",
+      "まとめてかたづける",
+      "新しく借りる"
     ],
-    "explanation_ja": "share は「共有する」という意味です。",
+    "explanation_ja": "ここでの share は、部屋を「いっしょに使う」という意味。物を「分け合う」ときにも使う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L7-U5-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -2183,17 +2183,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "参加する",
-    "context_en": "",
+    "context_en": "Will you join our group?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "賛成する",
-      "共有する",
-      "反対する"
+      "案内する",
+      "見学する",
+      "とちゅうでぬける"
     ],
-    "explanation_ja": "join は「参加する」という意味です。",
+    "explanation_ja": "join は、グループなどに「加わる・参加する」こと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2208,17 +2208,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "賛成する",
-    "context_en": "",
+    "context_en": "I agree with you.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "反対する",
-      "参加する",
-      "信じる"
+      "聞き返す",
+      "説明する"
     ],
-    "explanation_ja": "agree は「賛成する」という意味です。",
+    "explanation_ja": "agree with は、相手と同じ考えで「賛成する」こと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L7-U5-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -2233,17 +2233,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "反対する",
-    "context_en": "",
+    "context_en": "I disagree with you.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "信じる",
       "賛成する",
-      "予期する"
+      "聞き返す",
+      "説明する"
     ],
-    "explanation_ja": "disagree は「反対する」という意味です。",
+    "explanation_ja": "disagree with は、相手の考えに「反対する」こと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2258,17 +2258,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "信じる",
-    "context_en": "",
+    "context_en": "Do you believe her?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "予期する",
-      "反対する",
-      "提案する"
+      "疑う",
+      "たずねる",
+      "確かめる"
     ],
-    "explanation_ja": "believe は「信じる」という意味です。",
+    "explanation_ja": "believe は、人が言ったことなどを「信じる」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2282,18 +2282,18 @@
     "lemma": "expect",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "予期する",
-    "context_en": "",
+    "meaning_ja": "〜だろうと思う",
+    "context_en": "We expect rain today.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "提案する",
-      "信じる",
-      "支援する"
+      "必ず起きると約束する",
+      "起きないようにする",
+      "前に起きたことを思い出す"
     ],
-    "explanation_ja": "expect は「予期する」という意味です。",
+    "explanation_ja": "この文は「今日は雨がふるだろうと思っている」。expect は、起きそうなことを考えている時に使う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2307,18 +2307,18 @@
     "lemma": "suggest",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "提案する",
-    "context_en": "",
+    "meaning_ja": "案を出す",
+    "context_en": "Can you suggest a new plan?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "支援する",
-      "予期する",
-      "比較する"
+      "質問する",
+      "説明する",
+      "取り消す"
     ],
-    "explanation_ja": "suggest は「提案する」という意味です。",
+    "explanation_ja": "suggest は、よさそうな考えややり方を「案として出す」こと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L7-U5-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -2332,18 +2332,18 @@
     "lemma": "support",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "支援する",
-    "context_en": "",
+    "meaning_ja": "応えんする",
+    "context_en": "We support our team.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "比較する",
-      "提案する",
-      "創造する"
+      "じゃまする",
+      "見送る",
+      "たずねる"
     ],
-    "explanation_ja": "support は「支援する」という意味です。",
+    "explanation_ja": "チームについては「応えんする」という意味。物を下から支えることも表す。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2357,18 +2357,18 @@
     "lemma": "compare",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "比較する",
-    "context_en": "",
+    "meaning_ja": "くらべる",
+    "context_en": "Let's compare these two pictures.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "創造する",
-      "支援する",
-      "発展させる"
+      "組み合わせる",
+      "しるしをつける",
+      "ならべかえる"
     ],
-    "explanation_ja": "compare は「比較する」という意味です。",
+    "explanation_ja": "compare は、似ているところや違うところを見て「くらべる」こと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L7-U5-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -2382,18 +2382,18 @@
     "lemma": "create",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "創造する",
-    "context_en": "",
+    "meaning_ja": "新しく作る",
+    "context_en": "We can create a new game.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "発展させる",
-      "比較する",
-      "続ける"
+      "修理する",
+      "とりかえる",
+      "取っておく"
     ],
-    "explanation_ja": "create は「創造する」という意味です。",
+    "explanation_ja": "create は、今までなかったものを「新しく作る」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2407,18 +2407,18 @@
     "lemma": "develop",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "発展させる",
-    "context_en": "",
+    "meaning_ja": "開発する",
+    "context_en": "They develop new games.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "続ける",
-      "創造する",
-      "準備する"
+      "買い集める",
+      "注文する",
+      "修理する"
     ],
-    "explanation_ja": "develop は「発展させる」という意味です。",
+    "explanation_ja": "ここでの develop は、計画して作り上げる「開発する」。成長や変化についても使う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L7-U5-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -2433,17 +2433,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "続ける",
-    "context_en": "",
+    "context_en": "Let's continue the game.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "準備する",
-      "発展させる",
-      "発見する"
+      "中断する",
+      "元にもどす",
+      "初めからやり直す"
     ],
-    "explanation_ja": "continue は「続ける」という意味です。",
+    "explanation_ja": "continue は途中だったことを「続ける」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2458,17 +2458,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "準備する",
-    "context_en": "",
+    "context_en": "We need to prepare for the test.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "発見する",
-      "続ける",
-      "改善する"
+      "始める",
+      "中止する",
+      "とちゅうで休む"
     ],
-    "explanation_ja": "prepare は「準備する」という意味です。",
+    "explanation_ja": "prepare for は「〜に向けて準備する」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2482,18 +2482,18 @@
     "lemma": "discover",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "発見する",
-    "context_en": "",
+    "meaning_ja": "見つける",
+    "context_en": "They hope to discover a new star.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "改善する",
-      "準備する",
-      "守る"
+      "かくす",
+      "調べる",
+      "忘れる"
     ],
-    "explanation_ja": "discover は「発見する」という意味です。",
+    "explanation_ja": "discover は今まで知られていなかったことやものを「見つける」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L7-U5-G1",
     "quality_flags": [
       "editorial_review_pending"

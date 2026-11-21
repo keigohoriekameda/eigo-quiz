@@ -11,14 +11,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "森林",
       "湖",
-      "島"
+      "川",
+      "池"
     ],
     "explanation_ja": "sea は「海」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L4-U1-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -32,18 +32,18 @@
     "lemma": "ocean",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "大洋",
+    "meaning_ja": "大洋（広い海）",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "湖",
-      "池",
-      "森林"
+      "川",
+      "池"
     ],
-    "explanation_ja": "ocean は「大洋」という意味です。",
+    "explanation_ja": "ocean は、太平洋や大西洋のような広い海を指すときに使う。ふつうに「海」と訳すこともある。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L4-U1-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -62,13 +62,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "池",
-      "大洋",
-      "浜辺"
+      "川",
+      "海"
     ],
     "explanation_ja": "lake は「湖」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -86,14 +86,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "浜辺",
       "湖",
-      "島"
+      "川",
+      "海"
     ],
     "explanation_ja": "pond は「池」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -107,18 +107,18 @@
     "lemma": "beach",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "浜辺",
-    "context_en": "",
+    "meaning_ja": "砂浜",
+    "context_en": "We went to the beach yesterday.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "島",
-      "池",
-      "森林"
+      "がけ",
+      "入り江",
+      "干がた"
     ],
-    "explanation_ja": "beach は「浜辺」という意味です。",
+    "explanation_ja": "beach は、水ぎわに砂や小石がある場所。この問題では「砂浜」です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -136,14 +136,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "森林",
-      "浜辺",
-      "海"
+      "半島",
+      "岬",
+      "湾"
     ],
     "explanation_ja": "island は「島」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -157,18 +157,18 @@
     "lemma": "forest",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "森林",
+    "meaning_ja": "森",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "海",
-      "島",
-      "大洋"
+      "草原",
+      "砂ばく",
+      "湿地"
     ],
-    "explanation_ja": "forest は「森林」という意味です。",
+    "explanation_ja": "forest は「森」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -186,14 +186,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "花",
-      "枝",
-      "草"
+      "草",
+      "こけ",
+      "つる"
     ],
     "explanation_ja": "tree は「木」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -211,14 +211,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "草",
-      "木",
-      "葉"
+      "葉",
+      "つぼみ",
+      "実"
     ],
     "explanation_ja": "flower は「花」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -236,14 +236,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "葉",
+      "木",
       "花",
-      "根"
+      "こけ"
     ],
     "explanation_ja": "grass は「草」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -262,13 +262,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "根",
-      "草",
-      "枝"
+      "枝",
+      "花"
     ],
     "explanation_ja": "leaf は「葉」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -288,12 +288,12 @@
     "distractors_ja": [
       "枝",
       "葉",
-      "木"
+      "くき"
     ],
     "explanation_ja": "root は「根」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -311,14 +311,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "木",
       "根",
-      "花"
+      "葉",
+      "くき"
     ],
     "explanation_ja": "branch は「枝」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -337,13 +337,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "雲",
-      "天気",
-      "雨"
+      "太陽",
+      "月"
     ],
     "explanation_ja": "sky は「空」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -387,13 +387,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "雪",
-      "雲",
-      "風"
+      "ひょう",
+      "霧"
     ],
     "explanation_ja": "rain は「雨」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -411,14 +411,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "風",
       "雨",
-      "嵐"
+      "ひょう",
+      "霧"
     ],
     "explanation_ja": "snow は「雪」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -436,14 +436,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "嵐",
+      "雨",
       "雪",
-      "天気"
+      "霧"
     ],
     "explanation_ja": "wind は「風」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -461,14 +461,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "天気",
-      "風",
-      "空"
+      "にわか雨",
+      "霧",
+      "そよ風"
     ],
     "explanation_ja": "storm は「嵐」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -486,14 +486,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "空",
-      "嵐",
-      "雲"
+      "気温",
+      "季節",
+      "気候"
     ],
     "explanation_ja": "weather は「天気」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -512,13 +512,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "トラ",
-      "ヘビ",
+      "ライオン",
       "サル"
     ],
     "explanation_ja": "bear は「クマ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -536,14 +536,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "サル",
-      "クマ",
-      "キリン"
+      "ライオン",
+      "ヒョウ",
+      "クマ"
     ],
     "explanation_ja": "tiger は「トラ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -561,14 +561,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "キリン",
-      "トラ",
-      "パンダ"
+      "キツネ",
+      "クマ",
+      "リス"
     ],
     "explanation_ja": "monkey は「サル」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -587,13 +587,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "パンダ",
-      "サル",
-      "羊"
+      "ゾウ",
+      "シマウマ"
     ],
     "explanation_ja": "giraffe は「キリン」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -611,14 +611,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "羊",
-      "キリン",
-      "ヤギ"
+      "クマ",
+      "サル",
+      "コアラ"
     ],
     "explanation_ja": "panda は「パンダ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -637,13 +637,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "ヤギ",
-      "パンダ",
-      "ひよこ"
+      "牛",
+      "ウマ"
     ],
     "explanation_ja": "sheep は「羊」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -661,14 +661,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ひよこ",
-      "羊",
-      "アヒル"
+      "ヒツジ",
+      "牛",
+      "ウマ"
     ],
     "explanation_ja": "goat は「ヤギ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -683,17 +683,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "ひよこ",
-    "context_en": "",
+    "context_en": "The chicks stayed close to the hen.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "アヒル",
-      "ヤギ",
-      "クジラ"
+      "子ガモ",
+      "スズメ",
+      "ヒヨドリ"
     ],
-    "explanation_ja": "chick は「ひよこ」という意味です。",
+    "explanation_ja": "chick は鳥のひなのこと。この文ではニワトリの子の「ひよこ」です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -711,14 +711,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "クジラ",
-      "ひよこ",
-      "イルカ"
+      "ガチョウ",
+      "ハクチョウ",
+      "ペンギン"
     ],
     "explanation_ja": "duck は「アヒル」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -737,13 +737,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "イルカ",
-      "アヒル",
-      "サメ"
+      "サメ",
+      "アザラシ"
     ],
     "explanation_ja": "whale は「クジラ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -761,14 +761,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "サメ",
       "クジラ",
-      "ペンギン"
+      "サメ",
+      "アザラシ"
     ],
     "explanation_ja": "dolphin は「イルカ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -786,14 +786,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ペンギン",
       "イルカ",
-      "チョウ"
+      "エイ",
+      "マグロ"
     ],
     "explanation_ja": "shark は「サメ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -811,14 +811,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "チョウ",
-      "サメ",
-      "ハチ"
+      "アヒル",
+      "カモメ",
+      "ハクチョウ"
     ],
     "explanation_ja": "penguin は「ペンギン」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -836,14 +836,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
+      "ガ",
       "ハチ",
-      "ペンギン",
-      "アリ"
+      "トンボ"
     ],
     "explanation_ja": "butterfly は「チョウ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -863,12 +863,12 @@
     "distractors_ja": [
       "アリ",
       "チョウ",
-      "クモ"
+      "トンボ"
     ],
     "explanation_ja": "bee は「ハチ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -886,14 +886,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "クモ",
       "ハチ",
-      "カエル"
+      "クモ",
+      "カブトムシ"
     ],
     "explanation_ja": "ant は「アリ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -911,14 +911,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "カエル",
       "アリ",
-      "カメ"
+      "ムカデ",
+      "ダンゴムシ"
     ],
     "explanation_ja": "spider は「クモ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -936,14 +936,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
+      "イモリ",
       "カメ",
-      "クモ",
-      "ヘビ"
+      "トカゲ"
     ],
     "explanation_ja": "frog は「カエル」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -961,14 +961,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ヘビ",
+      "トカゲ",
       "カエル",
-      "クマ"
+      "ワニ"
     ],
     "explanation_ja": "turtle は「カメ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -986,14 +986,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "クマ",
+      "トカゲ",
       "カメ",
-      "トラ"
+      "ワニ"
     ],
     "explanation_ja": "snake は「ヘビ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1007,15 +1007,15 @@
     "lemma": "car",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "自動車",
+    "meaning_ja": "車",
     "context_en": "My family has a small car.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "バス",
       "電車",
-      "飛行機"
+      "トラック"
     ],
-    "explanation_ja": "car は「自動車」という意味です。",
+    "explanation_ja": "car は「車」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1038,7 +1038,7 @@
     "distractors_ja": [
       "電車",
       "タクシー",
-      "船"
+      "トラック"
     ],
     "explanation_ja": "bus は「バス」という意味です。",
     "source_tag": "original-pre-draft",
@@ -1057,7 +1057,7 @@
     "lemma": "train",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "列車",
+    "meaning_ja": "電車・列車",
     "context_en": "I go to Tokyo by train.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
@@ -1065,7 +1065,7 @@
       "タクシー",
       "飛行機"
     ],
-    "explanation_ja": "train は「列車」という意味です。",
+    "explanation_ja": "train は線路を走る「電車・列車」。電気で動くものには「電車」とも言う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1087,8 +1087,8 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "路線バス",
-      "タクシー",
-      "飛行機"
+      "モノレール",
+      "路面電車"
     ],
     "explanation_ja": "subway は「地下鉄」という意味です。",
     "source_tag": "original-pre-draft",
@@ -1113,7 +1113,7 @@
     "distractors_ja": [
       "路線バス",
       "電車",
-      "飛行機"
+      "レンタカー"
     ],
     "explanation_ja": "taxi は「タクシー」という意味です。",
     "source_tag": "original-pre-draft",
@@ -1183,12 +1183,12 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "飛行機",
-    "context_en": "The airplane flies over the clouds.",
+    "context_en": "My brother saw an airplane.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "ヘリコプター",
-      "船",
-      "列車"
+      "グライダー",
+      "気球"
     ],
     "explanation_ja": "airplane は「飛行機」という意味です。",
     "source_tag": "original-pre-draft",
@@ -1207,15 +1207,15 @@
     "lemma": "ship",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "大型船",
-    "context_en": "The large ship crosses the ocean.",
+    "meaning_ja": "船",
+    "context_en": "We saw a ship from the beach.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "小型船",
-      "飛行機",
-      "列車"
+      "カヌー",
+      "いかだ",
+      "水上バイク"
     ],
-    "explanation_ja": "ship は一般に船。boat より大型の船を指すことが多い。",
+    "explanation_ja": "ship は「船」。とくに、大きな船に使うことが多い。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1232,15 +1232,15 @@
     "lemma": "boat",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "小型船",
-    "context_en": "We go across the lake in a small boat.",
+    "meaning_ja": "ボート",
+    "context_en": "We rented a boat for the day.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "大型船",
-      "潜水艦",
-      "フェリー"
+      "いかだ",
+      "水上バイク",
+      "潜水艦"
     ],
-    "explanation_ja": "boat は一般に小さな船を指すことが多い。",
+    "explanation_ja": "boat は「船」や「ボート」。小さな船に使うことが多い。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1258,7 +1258,7 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "トラック",
-    "context_en": "A truck carries the boxes.",
+    "context_en": "I saw a truck on my way home.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "タクシー",
@@ -1287,8 +1287,8 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "飛行機",
-      "船",
-      "列車"
+      "グライダー",
+      "気球"
     ],
     "explanation_ja": "helicopter は「ヘリコプター」という意味です。",
     "source_tag": "original-pre-draft",
@@ -1307,15 +1307,15 @@
     "lemma": "traffic",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "交通",
+    "meaning_ja": "車の行き来",
     "context_en": "There is heavy traffic on this road.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "道路",
-      "乗客",
-      "運転手"
+      "道の工事",
+      "車の故障",
+      "車の点検"
     ],
-    "explanation_ja": "traffic は「交通・交通量」。",
+    "explanation_ja": "この文の traffic は「車の行き来」。heavy traffic で「車が多くて道がこんでいる」状態を表す。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1383,7 +1383,7 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "港",
-    "context_en": "The ship arrived at the port.",
+    "context_en": "We arrived at the port before noon.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "空港",
@@ -1408,14 +1408,14 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "駅のホーム",
-    "context_en": "Wait on platform two.",
+    "context_en": "Let's meet on platform two.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "改札口",
       "待合室",
-      "券売機"
+      "駅の入り口"
     ],
-    "explanation_ja": "platform は駅で列車を待つ「ホーム」。",
+    "explanation_ja": "駅では platform は「ホーム」。on platform two は「2番ホームで」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1437,7 +1437,7 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "時刻表",
-      "乗車券売り場",
+      "定期券",
       "路線図"
     ],
     "explanation_ja": "ticket は「切符」という意味です。",
@@ -1458,7 +1458,7 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "運転手",
-    "context_en": "The driver stopped the bus.",
+    "context_en": "The driver looked at the clock.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "乗客",
@@ -1482,15 +1482,15 @@
     "lemma": "passenger",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "乗客",
-    "context_en": "The passengers got on the train.",
+    "meaning_ja": "乗っている人",
+    "context_en": "The passenger waved to me.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "運転手",
       "車掌",
       "駅員"
     ],
-    "explanation_ja": "passenger は「乗客」という意味です。",
+    "explanation_ja": "passenger は運転せずに乗り物に「乗っている人」です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1558,17 +1558,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "韓国",
-    "context_en": "",
+    "context_en": "Mina lives in Seoul, Korea.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "インド",
       "中国",
-      "オーストラリア"
+      "ベトナム"
     ],
-    "explanation_ja": "Korea は「韓国」という意味です。",
+    "explanation_ja": "この文では、ソウルがある「韓国」の意味。国名をはっきり示すには South Korea と言います。Korea は朝鮮半島全体を指すこともあります。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1618,7 +1618,7 @@
     "explanation_ja": "Australia は「オーストラリア」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1643,7 +1643,7 @@
     "explanation_ja": "Canada は「カナダ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1657,18 +1657,18 @@
     "lemma": "America",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "アメリカ",
-    "context_en": "",
+    "meaning_ja": "アメリカ合衆国",
+    "context_en": "My aunt lives in Boston, America.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "イングランド",
       "カナダ",
-      "フランス"
+      "メキシコ",
+      "ブラジル"
     ],
-    "explanation_ja": "America は「アメリカ」という意味です。",
+    "explanation_ja": "この文では、ボストンがある「アメリカ合衆国」の意味。America は南北アメリカを含む地域を指すこともある。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1693,7 +1693,7 @@
     "explanation_ja": "England は「イングランド」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1858,17 +1858,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "国",
-    "context_en": "",
+    "context_en": "Which country are you from?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "言語",
-      "世界",
-      "文化"
+      "州",
+      "町",
+      "大陸"
     ],
-    "explanation_ja": "country は「国」という意味です。",
+    "explanation_ja": "country は、この文では「国」。the country で「いなか」の意味になることもある。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1882,18 +1882,18 @@
     "lemma": "language",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "言語",
-    "context_en": "",
+    "meaning_ja": "ことば",
+    "context_en": "I want to learn a new language.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "文化",
-      "国",
-      "祭り"
+      "文字",
+      "方言",
+      "発音"
     ],
-    "explanation_ja": "language は「言語」という意味です。",
+    "explanation_ja": "language は「ことば・言語」。英語や日本語などを指す。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1911,14 +1911,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "祭り",
-      "言語",
-      "伝統"
+      "法律",
+      "政治",
+      "産業"
     ],
     "explanation_ja": "culture は「文化」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1936,14 +1936,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "伝統",
-      "文化",
-      "世界"
+      "集会",
+      "大会",
+      "展覧会"
     ],
     "explanation_ja": "festival は「祭り」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1961,14 +1961,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "世界",
-      "祭り",
-      "国"
+      "法律",
+      "流行",
+      "きまり"
     ],
     "explanation_ja": "tradition は「伝統」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1986,14 +1986,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "国",
-      "伝統",
-      "言語"
+      "宇宙",
+      "大陸",
+      "国"
     ],
     "explanation_ja": "world は「世界」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2088,12 +2088,12 @@
     "distractors_ja": [
       "市役所",
       "警察署",
-      "書店"
+      "郵便局"
     ],
     "explanation_ja": "fire station は「消防署」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2111,14 +2111,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "書店",
+      "図書館",
       "消防署",
-      "スーパーマーケット"
+      "郵便局"
     ],
     "explanation_ja": "city hall は「市役所」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2132,18 +2132,18 @@
     "lemma": "bookstore",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "書店",
+    "meaning_ja": "本屋",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "スーパーマーケット",
-      "市役所",
-      "百貨店"
+      "文房具店",
+      "花屋",
+      "パン屋"
     ],
-    "explanation_ja": "bookstore は「書店」という意味です。",
+    "explanation_ja": "bookstore は「本屋」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2161,14 +2161,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "百貨店",
-      "書店",
-      "ショッピングモール"
+      "デパート",
+      "本屋",
+      "コンビニ"
     ],
     "explanation_ja": "supermarket は「スーパーマーケット」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2182,18 +2182,18 @@
     "lemma": "department store",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "百貨店",
+    "meaning_ja": "デパート",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "ショッピングモール",
       "スーパーマーケット",
-      "パン屋"
+      "コンビニ"
     ],
-    "explanation_ja": "department store は「百貨店」という意味です。",
+    "explanation_ja": "department store は「デパート」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2211,14 +2211,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "パン屋",
-      "百貨店",
-      "薬局"
+      "デパート",
+      "スーパーマーケット",
+      "商店街"
     ],
     "explanation_ja": "shopping mall は「ショッピングモール」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2236,14 +2236,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "薬局",
-      "ショッピングモール",
-      "診療所"
+      "肉屋",
+      "魚屋",
+      "八百屋"
     ],
     "explanation_ja": "bakery は「パン屋」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2261,14 +2261,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
+      "保健室",
       "診療所",
-      "パン屋",
-      "ホテル"
+      "歯医者"
     ],
     "explanation_ja": "pharmacy は「薬局」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2282,18 +2282,18 @@
     "lemma": "clinic",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "診療所",
+    "meaning_ja": "診療所（しんりょうじょ）",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ホテル",
       "薬局",
-      "寺"
+      "保健室",
+      "保健所"
     ],
-    "explanation_ja": "clinic は「診療所」という意味です。",
+    "explanation_ja": "clinic は、医者に病気やけがをみてもらう「診療所」などを指す。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2311,14 +2311,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "寺",
-      "診療所",
-      "神社"
+      "キャンプ場",
+      "空港",
+      "駅"
     ],
     "explanation_ja": "hotel は「ホテル」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2336,14 +2336,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "神社",
-      "ホテル",
-      "教会"
+      "教会",
+      "城",
+      "宮殿"
     ],
     "explanation_ja": "temple は「寺」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2362,13 +2362,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "教会",
-      "寺",
-      "城"
+      "城",
+      "宮殿"
     ],
     "explanation_ja": "shrine は「神社」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2386,14 +2386,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
+      "寺",
       "城",
-      "神社",
-      "農場"
+      "宮殿"
     ],
     "explanation_ja": "church は「教会」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2411,14 +2411,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "農場",
+      "寺",
       "教会",
-      "工場"
+      "灯台"
     ],
     "explanation_ja": "castle は「城」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2437,13 +2437,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "工場",
-      "城",
-      "事務所"
+      "倉庫",
+      "港"
     ],
     "explanation_ja": "farm は「農場」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2461,14 +2461,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "事務所",
-      "農場",
-      "銀行"
+      "倉庫",
+      "発電所",
+      "港"
     ],
     "explanation_ja": "factory は「工場」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2483,17 +2483,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "事務所",
-    "context_en": "",
+    "context_en": "Please come to my office.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "銀行",
+      "店",
       "工場",
-      "郵便局"
+      "学校"
     ],
-    "explanation_ja": "office は「事務所」という意味です。",
+    "explanation_ja": "office は事務などの仕事をする「事務所」や「仕事部屋」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],

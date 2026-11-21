@@ -8,17 +8,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "学ぶ",
-    "context_en": "",
+    "context_en": "I want to learn French.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "教える",
-      "発音する",
-      "勉強する"
+      "忘れる",
+      "思い出す"
     ],
-    "explanation_ja": "learn は「学ぶ」という意味です。",
+    "explanation_ja": "learn は新しいことを「学ぶ」こと。身につけることにも使う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L6-U1-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -36,14 +36,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "勉強する",
       "学ぶ",
-      "覚えている"
+      "たずねる",
+      "調べる"
     ],
     "explanation_ja": "teach は「教える」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L6-U1-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -61,14 +61,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "覚えている",
       "教える",
-      "忘れる"
+      "暗記したことを忘れる",
+      "質問する"
     ],
     "explanation_ja": "study は「勉強する」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -83,17 +83,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "覚えている",
-    "context_en": "",
+    "context_en": "I remember your name.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "忘れる",
-      "勉強する",
-      "理解する"
+      "書きとめる",
+      "聞き返す"
     ],
-    "explanation_ja": "remember は「覚えている」という意味です。",
+    "explanation_ja": "この文の remember は「覚えている」。remember には「思い出す」の意味もある。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L6-U1-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -111,14 +111,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "理解する",
       "覚えている",
-      "説明する"
+      "書きとめる",
+      "くり返す"
     ],
     "explanation_ja": "forget は「忘れる」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -132,18 +132,18 @@
     "lemma": "understand",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "理解する",
-    "context_en": "",
+    "meaning_ja": "わかる",
+    "context_en": "I understand the question.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "説明する",
       "忘れる",
-      "描写する"
+      "教える",
+      "聞き返す"
     ],
-    "explanation_ja": "understand は「理解する」という意味です。",
+    "explanation_ja": "understand は、言われたことなどの意味が「わかる」こと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -161,14 +161,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "描写する",
-      "理解する",
-      "話し合う"
+      "質問する",
+      "聞き返す",
+      "言い争う"
     ],
     "explanation_ja": "explain は「説明する」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L6-U1-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -182,18 +182,18 @@
     "lemma": "describe",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "描写する",
-    "context_en": "",
+    "meaning_ja": "ようすを伝える",
+    "context_en": "Can you describe your room?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "話し合う",
-      "説明する",
-      "尋ねる"
+      "質問する",
+      "提案する",
+      "言い争う"
     ],
-    "explanation_ja": "describe は「描写する」という意味です。",
+    "explanation_ja": "describe は、物の形や人の見た目などの「ようすを伝える」こと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -211,14 +211,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "尋ねる",
-      "描写する",
-      "返事する"
+      "たずねる",
+      "発表する",
+      "読み上げる"
     ],
     "explanation_ja": "discuss は「話し合う」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -233,17 +233,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "尋ねる",
-    "context_en": "",
+    "context_en": "Can I ask you a question?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "返事する",
-      "話し合う",
-      "繰り返す"
+      "返事をする",
+      "伝える",
+      "ほめる"
     ],
-    "explanation_ja": "ask は「尋ねる」という意味です。",
+    "explanation_ja": "この文の ask は「たずねる」。お願いする時にも ask を使う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -257,18 +257,18 @@
     "lemma": "reply",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "返事する",
+    "meaning_ja": "返事をする",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "繰り返す",
-      "尋ねる",
-      "選ぶ"
+      "たずねる",
+      "聞き返す",
+      "話題を変える"
     ],
-    "explanation_ja": "reply は「返事する」という意味です。",
+    "explanation_ja": "reply は「返事をする」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -286,14 +286,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "選ぶ",
-      "返事する",
-      "決める"
+      "書きとめる",
+      "省く",
+      "言いかえる"
     ],
     "explanation_ja": "repeat は「繰り返す」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -311,14 +311,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "決める",
-      "繰り返す",
-      "計画する"
+      "残す",
+      "混ぜる",
+      "はずす"
     ],
     "explanation_ja": "choose は「選ぶ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -336,14 +336,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "計画する",
-      "選ぶ",
-      "試す"
+      "取り消す",
+      "迷う",
+      "話し合う"
     ],
     "explanation_ja": "decide は「決める」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "choice_group": "PRE-L6-U1-G1",
     "quality_flags": [
       "editorial_review_pending"
@@ -357,18 +357,18 @@
     "lemma": "plan",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "計画する",
+    "meaning_ja": "計画を立てる",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "試す",
-      "決める",
-      "確認する"
+      "取り消す",
+      "実行する",
+      "後回しにする"
     ],
-    "explanation_ja": "plan は「計画する」という意味です。",
+    "explanation_ja": "plan は「計画を立てる」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -383,17 +383,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "試す",
-    "context_en": "",
+    "context_en": "Let's try a new game.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "確認する",
-      "計画する",
-      "訂正する"
+      "やめる",
+      "くり返す",
+      "直す"
     ],
-    "explanation_ja": "try は「試す」という意味です。",
+    "explanation_ja": "この文の try は、やったことのないものを「試す」こと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -408,17 +408,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "確認する",
-    "context_en": "",
+    "context_en": "Please check your answers.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "訂正する",
-      "試す",
-      "つづる"
+      "直す",
+      "書く",
+      "消す"
     ],
-    "explanation_ja": "check は「確認する」という意味です。",
+    "explanation_ja": "この文の check は、答えが正しいかどうか「確認する」こと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -432,18 +432,18 @@
     "lemma": "correct",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "訂正する",
-    "context_en": "",
+    "meaning_ja": "まちがいを直す",
+    "context_en": "Please correct this sentence.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "つづる",
-      "確認する",
-      "発音する"
+      "まちがいに気づく",
+      "書き写す",
+      "読み上げる"
     ],
-    "explanation_ja": "correct は「訂正する」という意味です。",
+    "explanation_ja": "動詞の correct は「まちがいを直す」。形容詞としては「正しい」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -457,18 +457,18 @@
     "lemma": "spell",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "つづる",
-    "context_en": "",
+    "meaning_ja": "つづりを言う",
+    "context_en": "Can you spell your name for me?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "発音する",
-      "訂正する",
-      "学ぶ"
+      "声に出して読む",
+      "意味を伝える",
+      "別のことばで言う"
     ],
-    "explanation_ja": "spell は「つづる」という意味です。",
+    "explanation_ja": "ここでは、名前の文字を順番に「言う」こと。文字を正しく書くことにも spell を使う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -483,17 +483,17 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "発音する",
-    "context_en": "",
+    "context_en": "How do you pronounce your name?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "学ぶ",
-      "つづる",
-      "教える"
+      "つづりを言う",
+      "意味を伝える",
+      "別のことばで言う"
     ],
-    "explanation_ja": "pronounce は「発音する」という意味です。",
+    "explanation_ja": "pronounce は声に出して「発音する」こと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -508,17 +508,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "仕事",
-    "context_en": "",
+    "context_en": "She has a new job.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "労働",
-      "指導者",
-      "働く人"
+      "趣味",
+      "休み",
+      "宿題"
     ],
-    "explanation_ja": "job は「仕事」という意味です。",
+    "explanation_ja": "この文の job は、会社や店などで働く「仕事」のこと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -532,18 +532,18 @@
     "lemma": "work",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "労働",
-    "context_en": "",
+    "meaning_ja": "仕事",
+    "context_en": "I have a lot of work today.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "働く人",
-      "仕事",
-      "医師"
+      "遊び",
+      "休み",
+      "通勤"
     ],
-    "explanation_ja": "work は「労働」という意味です。",
+    "explanation_ja": "名詞の work は「仕事」「作業」。job は一つの職や一件の仕事をさすことが多い。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -558,17 +558,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "働く人",
-    "context_en": "",
+    "context_en": "Workers can eat lunch here.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "医師",
-      "労働",
-      "看護師"
+      "仕事を探す人",
+      "仕事を見学する人",
+      "仕事をたのむ人"
     ],
-    "explanation_ja": "worker は「働く人」という意味です。",
+    "explanation_ja": "worker は仕事をする「働く人」。この文の workers はその複数形。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -582,18 +582,18 @@
     "lemma": "doctor",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "医師",
+    "meaning_ja": "お医者さん",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "看護師",
-      "働く人",
-      "歯科医"
+      "薬剤師",
+      "救急隊員"
     ],
-    "explanation_ja": "doctor は「医師」という意味です。",
+    "explanation_ja": "doctor は「お医者さん」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -611,14 +611,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "歯科医",
-      "医師",
-      "警察官"
+      "お医者さん",
+      "薬剤師",
+      "救急隊員"
     ],
     "explanation_ja": "nurse は「看護師」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -632,18 +632,18 @@
     "lemma": "dentist",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "歯科医",
+    "meaning_ja": "歯医者さん",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "警察官",
       "看護師",
-      "消防士"
+      "薬剤師",
+      "救急隊員"
     ],
-    "explanation_ja": "dentist は「歯科医」という意味です。",
+    "explanation_ja": "dentist は「歯医者さん」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -662,13 +662,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "消防士",
-      "歯科医",
-      "農家"
+      "警備員",
+      "救急隊員"
     ],
     "explanation_ja": "police officer は「警察官」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -686,14 +686,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "農家",
       "警察官",
-      "料理人"
+      "警備員",
+      "救急隊員"
     ],
     "explanation_ja": "firefighter は「消防士」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -718,7 +718,7 @@
     "explanation_ja": "farmer は「農家」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -736,14 +736,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "操縦士",
+      "店員",
       "農家",
-      "芸術家"
+      "配達員"
     ],
     "explanation_ja": "chef は「料理人」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -757,18 +757,18 @@
     "lemma": "pilot",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "操縦士",
+    "meaning_ja": "飛行機などの操縦士",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "芸術家",
-      "料理人",
-      "科学者"
+      "車の運転手",
+      "駅員",
+      "車掌"
     ],
-    "explanation_ja": "pilot は「操縦士」という意味です。",
+    "explanation_ja": "pilot は「飛行機などの操縦士」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -787,13 +787,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "科学者",
-      "操縦士",
-      "技術者"
+      "作家",
+      "俳優"
     ],
     "explanation_ja": "artist は「芸術家」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -813,12 +813,12 @@
     "distractors_ja": [
       "技術者",
       "芸術家",
-      "俳優"
+      "作家"
     ],
     "explanation_ja": "scientist は「科学者」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -836,14 +836,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "俳優",
-      "科学者",
-      "歌手"
+      "建築家",
+      "デザイナー",
+      "科学者"
     ],
     "explanation_ja": "engineer は「技術者」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -862,13 +862,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "歌手",
-      "技術者",
-      "作家"
+      "ダンサー",
+      "司会者"
     ],
     "explanation_ja": "actor は「俳優」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -886,14 +886,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "作家",
       "俳優",
-      "研究者"
+      "ダンサー",
+      "司会者"
     ],
     "explanation_ja": "singer は「歌手」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -911,14 +911,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "研究者",
       "歌手",
-      "ボランティア"
+      "俳優",
+      "画家"
     ],
     "explanation_ja": "writer は「作家」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -936,14 +936,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ボランティア",
       "作家",
-      "指導者"
+      "技術者",
+      "記者"
     ],
     "explanation_ja": "researcher は「研究者」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -958,17 +958,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "ボランティア",
-    "context_en": "",
+    "context_en": "She is a volunteer at the library.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "指導者",
-      "研究者",
-      "仕事"
+      "お客さん",
+      "見学者",
+      "係の先生"
     ],
-    "explanation_ja": "volunteer は「ボランティア」という意味です。",
+    "explanation_ja": "volunteer は、ここでは進んで人の役に立つ活動をする人。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -982,18 +982,18 @@
     "lemma": "leader",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "指導者",
+    "meaning_ja": "リーダー",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "仕事",
-      "ボランティア",
-      "労働"
+      "新人",
+      "お客さん",
+      "見学者"
     ],
-    "explanation_ja": "leader は「指導者」という意味です。",
+    "explanation_ja": "leader は「リーダー」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1011,14 +1011,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "硬貨",
-      "予算",
-      "紙幣"
+      "切符",
+      "ポイント",
+      "商品券"
     ],
     "explanation_ja": "money は「お金」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1032,18 +1032,18 @@
     "lemma": "coin",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "硬貨",
+    "meaning_ja": "コイン（硬貨）",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "紙幣",
-      "お金",
-      "価格"
+      "お札",
+      "切手",
+      "商品券"
     ],
-    "explanation_ja": "coin は「硬貨」という意味です。",
+    "explanation_ja": "coin は「コイン（硬貨）」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1057,18 +1057,18 @@
     "lemma": "bill",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "紙幣",
-    "context_en": "",
+    "meaning_ja": "お札",
+    "context_en": "She paid with a ten-dollar bill.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "価格",
-      "硬貨",
-      "費用"
+      "コイン",
+      "小切手",
+      "商品券"
     ],
-    "explanation_ja": "bill は「紙幣」という意味です。",
+    "explanation_ja": "お金について a ten-dollar bill は「10ドル札」。bill は「請求書」にも使う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1082,18 +1082,18 @@
     "lemma": "price",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "価格",
-    "context_en": "",
+    "meaning_ja": "値段",
+    "context_en": "What's the price of this hat?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "費用",
-      "紙幣",
-      "お釣り"
+      "予算",
+      "おつり",
+      "領収書"
     ],
-    "explanation_ja": "price は「価格」という意味です。",
+    "explanation_ja": "price は売っている物などについた「値段」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1107,18 +1107,18 @@
     "lemma": "cost",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "費用",
-    "context_en": "",
+    "meaning_ja": "かかるお金",
+    "context_en": "The cost of the trip went up.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "お釣り",
-      "価格",
-      "領収書"
+      "おつり",
+      "予算",
+      "残りのお金"
     ],
-    "explanation_ja": "cost は「費用」という意味です。",
+    "explanation_ja": "cost は旅行などに「かかるお金」のこと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1132,18 +1132,18 @@
     "lemma": "change",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "お釣り",
-    "context_en": "",
+    "meaning_ja": "おつり",
+    "context_en": "Keep the change.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "領収書",
-      "費用",
-      "販売"
+      "代金",
+      "手数料",
+      "前金"
     ],
-    "explanation_ja": "change は「お釣り」という意味です。",
+    "explanation_ja": "change は支払いの後に返る「おつり」。小銭を表すこともある。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1157,18 +1157,18 @@
     "lemma": "receipt",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "領収書",
-    "context_en": "",
+    "meaning_ja": "レシート",
+    "context_en": "Can I have a receipt?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "販売",
-      "お釣り",
-      "割引"
+      "値札",
+      "商品券",
+      "割引券"
     ],
-    "explanation_ja": "receipt は「領収書」という意味です。",
+    "explanation_ja": "買い物の receipt は、代金を受け取ったことを示す「レシート」や「領収書」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1182,18 +1182,18 @@
     "lemma": "sale",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "販売",
-    "context_en": "",
+    "meaning_ja": "特売",
+    "context_en": "That store is having a sale.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "割引",
-      "領収書",
-      "買い物"
+      "返品",
+      "予約",
+      "注文"
     ],
-    "explanation_ja": "sale は「販売」という意味です。",
+    "explanation_ja": "店が値段を下げて売る「特売」。sale は「販売」の意味でも使う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1208,17 +1208,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "割引",
-    "context_en": "",
+    "context_en": "Can I get a discount?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "買い物",
-      "販売",
-      "客"
+      "値上げ",
+      "手数料",
+      "送料"
     ],
-    "explanation_ja": "discount は「割引」という意味です。",
+    "explanation_ja": "discount は代金を下げる「割引」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1236,14 +1236,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "客",
-      "割引",
-      "商品"
+      "返品",
+      "配達",
+      "入荷"
     ],
     "explanation_ja": "shopping は「買い物」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1257,18 +1257,18 @@
     "lemma": "customer",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "客",
+    "meaning_ja": "お客さん",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "商品",
-      "買い物",
-      "市場"
+      "店員",
+      "配達員",
+      "店長"
     ],
-    "explanation_ja": "customer は「客」という意味です。",
+    "explanation_ja": "customer は「お客さん」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1286,14 +1286,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "市場",
-      "客",
-      "サービス"
+      "値札",
+      "おつり",
+      "買い物かご"
     ],
     "explanation_ja": "product は「商品」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1307,18 +1307,18 @@
     "lemma": "market",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "市場",
-    "context_en": "",
+    "meaning_ja": "市場（いちば）",
+    "context_en": "We went to the market.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "サービス",
-      "商品",
-      "贈り物"
+      "工場",
+      "農場",
+      "港"
     ],
-    "explanation_ja": "market は「市場」という意味です。",
+    "explanation_ja": "この文の market は物を売り買いする「市場（いちば）」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1333,17 +1333,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "サービス",
-    "context_en": "",
+    "context_en": "I like the service at this restaurant.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "贈り物",
-      "市場",
-      "カード"
+      "商品",
+      "値札",
+      "領収書"
     ],
-    "explanation_ja": "service は「サービス」という意味です。",
+    "explanation_ja": "この文の service は店の人の「対応・サービス」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1361,14 +1361,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "カード",
-      "サービス",
-      "口座"
+      "おつり",
+      "貸し出し品",
+      "返した品"
     ],
     "explanation_ja": "gift は「贈り物」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1383,17 +1383,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "カード",
-    "context_en": "",
+    "context_en": "Can I pay by card?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "口座",
-      "贈り物",
-      "支払い"
+      "小切手",
+      "コイン",
+      "お札"
     ],
-    "explanation_ja": "card は「カード」という意味です。",
+    "explanation_ja": "この文の card は、支払いに使うカードのこと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1408,17 +1408,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "口座",
-    "context_en": "",
+    "context_en": "She opened a bank account.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "支払い",
-      "カード",
-      "現金"
+      "おつり",
+      "代金",
+      "手数料"
     ],
-    "explanation_ja": "account は「口座」という意味です。",
+    "explanation_ja": "bank account は、銀行にお金をあずけたり出したりするための「口座」。ネットのアカウントなどにも使う語。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1436,14 +1436,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "現金",
-      "口座",
-      "予算"
+      "取り消し",
+      "割引",
+      "返金"
     ],
     "explanation_ja": "payment は「支払い」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1458,17 +1458,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "現金",
-    "context_en": "",
+    "context_en": "Can I pay in cash?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "予算",
-      "支払い",
-      "お金"
+      "商品券",
+      "ポイント",
+      "銀行カード"
     ],
-    "explanation_ja": "cash は「現金」という意味です。",
+    "explanation_ja": "pay in cash は、お札やコインなどの「現金」で払うこと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1482,18 +1482,18 @@
     "lemma": "budget",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "予算",
-    "context_en": "",
+    "meaning_ja": "使えるお金の計画",
+    "context_en": "We have a budget for the school trip.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "お金",
-      "現金",
-      "硬貨"
+      "かかったお金の記録",
+      "借りたお金の額",
+      "残ったお金の額"
     ],
-    "explanation_ja": "budget は「予算」という意味です。",
+    "explanation_ja": "budget は、何にいくらまで使えるかを決めた「予算」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1511,14 +1511,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "病気",
-      "涙",
-      "熱"
+      "体力",
+      "熱",
+      "体温"
     ],
     "explanation_ja": "health は「健康」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1536,14 +1536,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "熱",
-      "健康",
-      "せき"
+      "けが",
+      "疲れ",
+      "ねぶそく"
     ],
     "explanation_ja": "illness は「病気」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1557,18 +1557,18 @@
     "lemma": "fever",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "熱",
-    "context_en": "",
+    "meaning_ja": "発熱",
+    "context_en": "I have a fever.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "せき",
-      "病気",
-      "風邪"
+      "頭痛",
+      "めまい"
     ],
-    "explanation_ja": "fever は「熱」という意味です。",
+    "explanation_ja": "have a fever は、ふだんより体温が高くなって「熱がある」こと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1586,14 +1586,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "風邪",
-      "熱",
-      "痛み"
+      "発熱",
+      "鼻水",
+      "くしゃみ"
     ],
     "explanation_ja": "cough は「せき」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1607,18 +1607,18 @@
     "lemma": "common cold",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "風邪",
+    "meaning_ja": "かぜ",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "痛み",
-      "せき",
-      "薬"
+      "花粉症",
+      "ぜんそく",
+      "ねっちゅうしょう"
     ],
-    "explanation_ja": "common cold は「風邪」という意味です。",
+    "explanation_ja": "common cold は「かぜ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1636,14 +1636,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "薬",
-      "風邪",
-      "マスク"
+      "かゆみ",
+      "しびれ",
+      "寒気"
     ],
     "explanation_ja": "pain は「痛み」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1658,17 +1658,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "薬",
-    "context_en": "",
+    "context_en": "Did you take your medicine?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "マスク",
-      "痛み",
-      "運動"
+      "体温計",
+      "ばんそうこう"
     ],
-    "explanation_ja": "medicine は「薬」という意味です。",
+    "explanation_ja": "take medicine は「薬を飲む」。medicine は、病気を治す学問を表すこともある。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1686,14 +1686,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "運動",
-      "薬",
-      "休息"
+      "めがね",
+      "手ぶくろ",
+      "ぼうし"
     ],
     "explanation_ja": "mask は「マスク」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1708,17 +1708,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "運動",
-    "context_en": "",
+    "context_en": "I need more exercise.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "休息",
-      "マスク",
-      "エネルギー"
+      "休けい",
+      "深呼吸",
+      "食事"
     ],
-    "explanation_ja": "exercise は「運動」という意味です。",
+    "explanation_ja": "この文の exercise は、体を動かす「運動」。勉強の「練習問題」という意味にもなる。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1732,18 +1732,18 @@
     "lemma": "rest",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "休息",
-    "context_en": "",
+    "meaning_ja": "休み",
+    "context_en": "Let's take a rest.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "エネルギー",
       "運動",
-      "ビタミン"
+      "深呼吸",
+      "食事"
     ],
-    "explanation_ja": "rest は「休息」という意味です。",
+    "explanation_ja": "take a rest で「休む」。the rest なら、ふつう「残り」の意味になる。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1761,14 +1761,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ビタミン",
-      "休息",
-      "骨"
+      "筋力",
+      "スピード",
+      "体温"
     ],
     "explanation_ja": "energy は「エネルギー」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1786,14 +1786,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "骨",
-      "エネルギー",
-      "筋肉"
+      "たんぱく質",
+      "脂肪",
+      "炭水化物"
     ],
     "explanation_ja": "vitamin は「ビタミン」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1812,13 +1812,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "筋肉",
-      "ビタミン",
-      "血液"
+      "皮ふ",
+      "血"
     ],
     "explanation_ja": "bone は「骨」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1836,14 +1836,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "血液",
+      "血",
       "骨",
-      "皮膚"
+      "皮ふ"
     ],
     "explanation_ja": "muscle は「筋肉」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1857,18 +1857,18 @@
     "lemma": "blood",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "血液",
+    "meaning_ja": "血",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "皮膚",
-      "筋肉",
-      "脳"
+      "なみだ",
+      "あせ",
+      "つば"
     ],
-    "explanation_ja": "blood は「血液」という意味です。",
+    "explanation_ja": "blood は「血」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1882,18 +1882,18 @@
     "lemma": "skin",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "皮膚",
+    "meaning_ja": "はだ",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "脳",
-      "血液",
-      "呼吸"
+      "髪",
+      "つめ",
+      "肉"
     ],
-    "explanation_ja": "skin は「皮膚」という意味です。",
+    "explanation_ja": "skin は「はだ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1911,14 +1911,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "呼吸",
-      "皮膚",
-      "ほほえみ"
+      "心臓",
+      "肺",
+      "胃"
     ],
     "explanation_ja": "brain は「脳」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1932,18 +1932,18 @@
     "lemma": "breath",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "呼吸",
-    "context_en": "",
+    "meaning_ja": "息",
+    "context_en": "Take a deep breath.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ほほえみ",
-      "脳",
-      "涙"
+      "声",
+      "せき",
+      "くしゃみ"
     ],
-    "explanation_ja": "breath は「呼吸」という意味です。",
+    "explanation_ja": "a breath は「ひと息」。take a deep breath で「深く息をすう」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1961,14 +1961,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "涙",
-      "呼吸",
-      "健康"
+      "しかめっつら",
+      "なき顔",
+      "あくび"
     ],
     "explanation_ja": "smile は「ほほえみ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -1982,18 +1982,18 @@
     "lemma": "tear",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "涙",
-    "context_en": "",
+    "meaning_ja": "なみだ",
+    "context_en": "A tear ran down her cheek.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "健康",
-      "ほほえみ",
-      "病気"
+      "あせ",
+      "鼻水",
+      "つば"
     ],
-    "explanation_ja": "tear は「涙」という意味です。",
+    "explanation_ja": "ここでの tear は、目から出る「なみだ」。動詞で「さく」と言うときは発音が変わる。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2012,13 +2012,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "ウェブサイト",
-      "プリンター",
-      "電子メール"
+      "ブラウザー",
+      "メール"
     ],
     "explanation_ja": "internet は「インターネット」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2036,14 +2036,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "電子メール",
-      "インターネット",
-      "メッセージ"
+      "メール",
+      "音声ファイル",
+      "パスワード"
     ],
     "explanation_ja": "website は「ウェブサイト」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2057,18 +2057,18 @@
     "lemma": "email",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "電子メール",
+    "meaning_ja": "メール",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "メッセージ",
-      "ウェブサイト",
-      "電話"
+      "電話",
+      "手紙",
+      "掲示板への書きこみ"
     ],
-    "explanation_ja": "email は「電子メール」という意味です。",
+    "explanation_ja": "email は「メール」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2086,14 +2086,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "電話",
-      "電子メール",
-      "スマートフォン"
+      "ファイル",
+      "パスワード",
+      "連絡先"
     ],
     "explanation_ja": "message は「メッセージ」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2108,17 +2108,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "電話",
-    "context_en": "",
+    "context_en": "My phone rang.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "スマートフォン",
-      "メッセージ",
-      "画面"
+      "テレビ",
+      "ラジオ",
+      "カメラ"
     ],
-    "explanation_ja": "phone は「電話」という意味です。",
+    "explanation_ja": "この文の phone は電話機の「電話」。電話をかけるという動詞にもなる。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2136,14 +2136,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "画面",
-      "電話",
-      "キーボード"
+      "パソコン",
+      "ゲーム機",
+      "デジタルカメラ"
     ],
     "explanation_ja": "smartphone は「スマートフォン」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2162,13 +2162,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "キーボード",
-      "スマートフォン",
-      "マウス"
+      "スピーカー",
+      "マイク"
     ],
     "explanation_ja": "screen は「画面」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2208,17 +2208,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "マウス",
-    "context_en": "",
+    "context_en": "Click here with your mouse.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "プリンター",
       "キーボード",
-      "インターネット"
+      "マイク",
+      "スキャナー"
     ],
-    "explanation_ja": "mouse は「マウス」という意味です。",
+    "explanation_ja": "パソコンで使う mouse は「マウス」。動物の「ネズミ」にも使う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2236,14 +2236,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "インターネット",
+      "スピーカー",
       "マウス",
-      "ウェブサイト"
+      "スキャナー"
     ],
     "explanation_ja": "printer は「プリンター」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2262,13 +2262,13 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "動画",
-      "技術",
-      "ゲーム機"
+      "音声",
+      "文章"
     ],
     "explanation_ja": "photo は「写真」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2286,14 +2286,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ゲーム機",
       "写真",
-      "パスワード"
+      "音声",
+      "文章"
     ],
     "explanation_ja": "video は「動画」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2311,14 +2311,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "パスワード",
-      "動画",
-      "アプリ"
+      "スマートフォン",
+      "テレビ",
+      "デジタルカメラ"
     ],
     "explanation_ja": "game console は「ゲーム機」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2336,14 +2336,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "アプリ",
-      "ゲーム機",
-      "ロボット"
+      "ユーザー名",
+      "メールアドレス",
+      "電話番号"
     ],
     "explanation_ja": "password は「パスワード」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2358,17 +2358,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "アプリ",
-    "context_en": "",
+    "context_en": "This application runs on my phone.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ロボット",
-      "パスワード",
-      "技術"
+      "フォルダー",
+      "ウェブサイト",
+      "音声ファイル"
     ],
-    "explanation_ja": "application は「アプリ」という意味です。",
+    "explanation_ja": "この文の application はスマホなどで動く「アプリ」。申しこみや申請を指すこともある。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2383,14 +2383,14 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "ダウンロードする",
-    "context_en": "",
+    "context_en": "Tap here to download the file.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "アップロードする",
       "削除する",
-      "保存する"
+      "共有する"
     ],
-    "explanation_ja": "download は「ダウンロードする」。",
+    "explanation_ja": "download は、ネットなどから自分の機器へファイルをうつすこと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -2408,14 +2408,14 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "アップロードする",
-    "context_en": "",
+    "context_en": "I need to upload my homework.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "ダウンロードする",
       "削除する",
-      "保存する"
+      "開く"
     ],
-    "explanation_ja": "upload は「アップロードする」。",
+    "explanation_ja": "upload は、自分の機器からネットなどへファイルをうつすこと。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -2432,15 +2432,15 @@
     "lemma": "online",
     "unit_type": "word",
     "part_of_speech": "adjective",
-    "meaning_ja": "オンライン",
-    "context_en": "",
+    "meaning_ja": "オンラインの",
+    "context_en": "I have an online lesson today.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "オフラインの",
       "対面の",
-      "紙の"
+      "紙での",
+      "電話での"
     ],
-    "explanation_ja": "online は「オンライン」という意味です。",
+    "explanation_ja": "online は「インターネットにつながった」。online lesson はネットを使う授業。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -2461,14 +2461,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "技術",
-      "アプリ",
-      "写真"
+      "ドローン",
+      "カメラ",
+      "パソコン"
     ],
     "explanation_ja": "robot は「ロボット」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2486,14 +2486,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "写真",
-      "ロボット",
-      "動画"
+      "知識",
+      "経験",
+      "情報"
     ],
     "explanation_ja": "technology は「技術」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
