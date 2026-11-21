@@ -836,11 +836,11 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "建築家",
-      "デザイナー",
-      "科学者"
+      "通訳者",
+      "編集者",
+      "研究者"
     ],
-    "explanation_ja": "engineer は「技術者」という意味です。",
+    "explanation_ja": "engineer は「技術者」。たとえば、機械や橋を設計したり、機械のしくみを改良したりする人です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",

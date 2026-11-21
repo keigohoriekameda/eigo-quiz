@@ -42,9 +42,12 @@ function home(){view("home");const p=read();const ms=milestoneStatus(p);
  for(let u=1;u<=5;u++){const key=lv+"-"+u;const b=document.createElement("button"),title=document.createElement("span");title.textContent="単元"+u+"："+TITLES[lv-1][u-1];const detail=document.createElement("small");detail.textContent=(p.passed.includes(key)?"練習合格済み ✓":"未合格")+" ／ "+(p.attempts[key]===undefined?"未受験":"前回 "+p.attempts[key]+"％")+" ／ 復習 "+(Array.isArray(p.reviewQueue[key])?p.reviewQueue[key].length:0)+"語";b.append(title,detail);b.onclick=()=>start(lv,u);wrap.append(b);}}
 }
 function start(lv,u,review=false){level=lv;unit=u;reviewMode=review;const all=bank.filter(x=>x.level===lv&&x.unit===u);const ids=read().reviewQueue[lv+"-"+u]||[];questions=shuffle(review?all.filter(x=>ids.includes(x.id)):all);if((!review&&questions.length!==20)||(review&&questions.length===0)){el("loadStatus").textContent=review?"復習する単語はありません。":"この単元は20問揃っていません。";home();return}idx=0;correct=0;misses=[];view("quiz");render();}
-function render(){if(idx===questions.length)return finish();locked=false;const q=questions[idx];el("position").textContent="Pre Lv."+level+" 単元"+unit+(reviewMode?"・復習":"・通常")+" "+(idx+1)+"/"+questions.length+"　正解 "+correct+"問";el("fill").style.width=(idx*100/questions.length)+"%";el("word").textContent=q.lemma;
- const example=q.context_en?.trim()||"";el("example").textContent=example;el("example").classList.toggle("hidden",!example);
- el("prompt").textContent=example?"例文中の「"+q.lemma+"」の意味を選んでください。":"日本語の意味を選んでください。";
+function promptPhrase(q){
+ return q.prompt_type==="phrase_meaning_4choice" ? q.context_en?.trim()||"" : "";
+}
+function render(){if(idx===questions.length)return finish();locked=false;const q=questions[idx];el("position").textContent="Pre Lv."+level+" 単元"+unit+(reviewMode?"・復習":"・通常")+" "+(idx+1)+"/"+questions.length+"　正解 "+correct+"問";el("fill").style.width=(idx*100/questions.length)+"%";const phrase=promptPhrase(q);el("word").textContent=phrase||q.lemma;
+ const example=phrase?"":q.context_en?.trim()||"";el("example").textContent=example;el("example").classList.toggle("hidden",!example);
+ el("prompt").textContent=phrase?"語句全体の日本語の意味を選んでください。":example?"例文中の「"+q.lemma+"」の意味を選んでください。":"日本語の意味を選んでください。";
  el("feedback").textContent="";el("next").classList.add("hidden");const wrap=el("choices");wrap.replaceChildren();
  for(const v of shuffle([q.meaning_ja,...q.distractors_ja])){const b=document.createElement("button");b.textContent=v;b.onclick=()=>answer(b,v,q);wrap.append(b)}}
 function answer(b,value,q){if(locked)return;locked=true;const ok=value===q.meaning_ja;if(ok)correct++;else misses.push(q);
@@ -52,7 +55,7 @@ function answer(b,value,q){if(locked)return;locked=true;const ok=value===q.meani
  if(!ok)b.classList.add("wrong");el("feedback").textContent=(ok?"正解！ ":"正解は「"+q.meaning_ja+"」。")+q.explanation_ja;el("next").textContent=idx===questions.length-1?"結果を見る":"次の問題へ";el("next").classList.remove("hidden");}
 function finish(){view("result");const pct=Math.round(100*correct/questions.length);const passed=correct>=18&&!reviewMode;el("score").textContent=pct+"%（"+correct+"/"+questions.length+"）";el("outcome").textContent=reviewMode?"復習完了。復習だけでは単元合格になりません。":passed?"練習合格（90％以上）。正式なガチャ権は発生しません。":"不合格。18問以上の正解で練習合格です。";
 const p=read();const key=level+"-"+unit;const prior=Array.isArray(p.reviewQueue[key])?p.reviewQueue[key]:[];const missedIds=misses.map(q=>q.id);p.reviewQueue[key]=reviewMode?[...new Set([...prior.filter(id=>!questions.some(q=>q.id===id)),...missedIds])]:missedIds;if(!reviewMode){p.attempts[key]=pct;if(passed&&!p.passed.includes(key))p.passed.push(key);}write(p);el("review").classList.toggle("hidden",p.reviewQueue[key].length===0);const m=milestoneStatus(p);if(passed&&(m.half||m.all))el("outcome").textContent+=" 達成条件プレビュー："+(m.all?"700語完了":"350語以上到達")+"（報酬未付与）。";
-const wrap=el("missed");wrap.replaceChildren();if(misses.length){const heading=document.createElement("h3");heading.textContent="復習する単語";wrap.append(heading);for(const q of misses){const row=document.createElement("p");row.textContent=q.lemma+" → "+q.meaning_ja;wrap.append(row)}}}
+const wrap=el("missed");wrap.replaceChildren();if(misses.length){const heading=document.createElement("h3");heading.textContent="復習する単語";wrap.append(heading);for(const q of misses){const row=document.createElement("p");row.textContent=(promptPhrase(q)||q.lemma)+" → "+q.meaning_ja;wrap.append(row)}}}
 async function load(){try{
 const files=Array.from({length:7},(_,i)=>"./data/pre-lv"+(i+1)+"-draft.json");
 const chunks=await Promise.all(files.map(async path=>{const r=await fetch(path,{cache:"no-store"});if(!r.ok)throw Error("HTTP "+r.status+" "+path);return r.json()}));
