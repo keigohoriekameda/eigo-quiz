@@ -2008,17 +2008,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "英語",
-    "context_en": "",
+    "context_en": "I study English every day.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "国語",
-      "体育",
-      "算数・数学"
+      "数学",
+      "理科"
     ],
-    "explanation_ja": "English は「英語」という意味です。",
+    "explanation_ja": "English は学校の教科では「英語」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2032,18 +2032,18 @@
     "lemma": "Japanese",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "国語",
-    "context_en": "",
+    "meaning_ja": "国語（教科）",
+    "context_en": "Japanese is my favorite subject.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "算数・数学",
       "英語",
-      "理科"
+      "理科",
+      "算数・数学"
     ],
-    "explanation_ja": "Japanese は「国語」という意味です。",
+    "explanation_ja": "Japanese は「日本語」。学校の教科としては「国語」の意味で使う。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2058,17 +2058,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "算数・数学",
-    "context_en": "",
+    "context_en": "We study math at school.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "理科",
-      "国語",
-      "歴史"
+      "英語",
+      "美術"
     ],
-    "explanation_ja": "math は「算数・数学」という意味です。",
+    "explanation_ja": "math は「算数・数学」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2083,17 +2083,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "理科",
-    "context_en": "",
+    "context_en": "I like science class.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
+      "地理",
       "歴史",
-      "算数・数学",
-      "地理"
+      "算数・数学"
     ],
-    "explanation_ja": "science は「理科」という意味です。",
+    "explanation_ja": "science は「理科・科学」。学校の教科では「理科」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2108,17 +2108,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "歴史",
-    "context_en": "",
+    "context_en": "We learn Japanese history.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "地理",
       "理科",
-      "美術"
+      "英語"
     ],
-    "explanation_ja": "history は「歴史」という意味です。",
+    "explanation_ja": "history は「歴史」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2133,17 +2133,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "地理",
-    "context_en": "",
+    "context_en": "We study maps in geography.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "美術",
       "歴史",
-      "体育"
+      "理科",
+      "美術"
     ],
-    "explanation_ja": "geography は「地理」という意味です。",
+    "explanation_ja": "geography は「地理」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2158,17 +2158,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "美術",
-    "context_en": "",
+    "context_en": "We paint pictures in art class.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "体育",
-      "地理",
-      "英語"
+      "歴史",
+      "理科"
     ],
-    "explanation_ja": "art は「美術」という意味です。",
+    "explanation_ja": "art は「美術・芸術」。学校の教科では「美術」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2183,17 +2183,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "体育",
-    "context_en": "",
+    "context_en": "We play basketball in PE class.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "英語",
       "美術",
-      "国語"
+      "英語",
+      "理科"
     ],
-    "explanation_ja": "PE は「体育」という意味です。",
+    "explanation_ja": "PE は physical education の略で、教科の「体育」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2208,17 +2208,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "教科",
-    "context_en": "",
+    "context_en": "Math is my favorite subject.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
+      "授業",
       "宿題",
-      "カレンダー",
       "テスト"
     ],
-    "explanation_ja": "subject は「教科」という意味です。",
+    "explanation_ja": "subject は「教科・科目」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2233,17 +2233,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "宿題",
-    "context_en": "",
+    "context_en": "I finish my homework.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "テスト",
-      "教科",
-      "質問"
+      "授業",
+      "練習"
     ],
-    "explanation_ja": "homework は「宿題」という意味です。",
+    "explanation_ja": "homework は「宿題」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2258,17 +2258,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "テスト",
-    "context_en": "",
+    "context_en": "We have an English test tomorrow.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "質問",
       "宿題",
-      "答え"
+      "授業",
+      "質問"
     ],
-    "explanation_ja": "test は「テスト」という意味です。",
+    "explanation_ja": "test は「試験・テスト」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2283,17 +2283,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "質問",
-    "context_en": "",
+    "context_en": "I have a question.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "答え",
-      "テスト",
-      "ページ"
+      "教科",
+      "授業"
     ],
-    "explanation_ja": "question は「質問」という意味です。",
+    "explanation_ja": "question は「質問・問題」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2308,17 +2308,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "答え",
-    "context_en": "",
+    "context_en": "Please write the answer.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ページ",
       "質問",
-      "授業"
+      "問題集",
+      "練習"
     ],
-    "explanation_ja": "answer は「答え」という意味です。",
+    "explanation_ja": "answer は「答え」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2333,17 +2333,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "ページ",
-    "context_en": "",
+    "context_en": "Open your book to page ten.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
+      "教科",
       "授業",
-      "答え",
-      "練習"
+      "宿題"
     ],
-    "explanation_ja": "page は「ページ」という意味です。",
+    "explanation_ja": "page は本などの「ページ」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2358,17 +2358,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "授業",
-    "context_en": "",
+    "context_en": "Our next lesson starts at ten.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "練習",
-      "ページ",
-      "家"
+      "テスト",
+      "宿題",
+      "練習"
     ],
-    "explanation_ja": "lesson は「授業」という意味です。",
+    "explanation_ja": "lesson は「授業・レッスン」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2383,17 +2383,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "練習",
-    "context_en": "",
+    "context_en": "We need more practice.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "家",
-      "授業",
-      "宿題帳"
+      "テスト",
+      "質問",
+      "授業"
     ],
-    "explanation_ja": "practice は「練習」という意味です。",
+    "explanation_ja": "practice は「練習」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2404,21 +2404,21 @@
     "stage": "PRE",
     "level": 3,
     "unit": 5,
-    "lemma": "home",
+    "lemma": "blackboard",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "家",
-    "context_en": "",
+    "meaning_ja": "黒板",
+    "context_en": "The teacher writes on the blackboard.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "宿題帳",
-      "練習",
+      "ノート",
+      "教科書",
       "辞書"
     ],
-    "explanation_ja": "home は「家」という意味です。",
+    "explanation_ja": "blackboard は「黒板」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2429,21 +2429,21 @@
     "stage": "PRE",
     "level": 3,
     "unit": 5,
-    "lemma": "homework book",
+    "lemma": "worksheet",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "宿題帳",
-    "context_en": "",
+    "meaning_ja": "学習プリント",
+    "context_en": "Please finish this worksheet.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
+      "教科書",
       "辞書",
-      "家",
-      "カレンダー"
+      "時間割"
     ],
-    "explanation_ja": "homework book は「宿題帳」という意味です。",
+    "explanation_ja": "worksheet は「学習プリント」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2458,17 +2458,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "辞書",
-    "context_en": "",
+    "context_en": "I look up words in a dictionary.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "カレンダー",
-      "宿題帳",
-      "教科"
+      "教科書",
+      "ノート",
+      "時間割"
     ],
-    "explanation_ja": "dictionary は「辞書」という意味です。",
+    "explanation_ja": "dictionary は「辞書」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2483,17 +2483,17 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "カレンダー",
-    "context_en": "",
+    "context_en": "I marked the date on my calendar.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "教科",
-      "辞書",
-      "宿題"
+      "時間割",
+      "教科書",
+      "ノート"
     ],
-    "explanation_ja": "calendar は「カレンダー」という意味です。",
+    "explanation_ja": "calendar は日付を確認する「カレンダー」。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
