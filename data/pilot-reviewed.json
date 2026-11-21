@@ -1,0 +1,422 @@
+[
+  {
+    "id": "pilot-001",
+    "stage": "MAIN",
+    "level": 8,
+    "grade_group": "EXAM",
+    "unit": 1,
+    "lemma": "avoid",
+    "unit_type": "word",
+    "part_of_speech": "verb",
+    "meaning_ja": "避ける",
+    "context_en": "We should avoid wasting food.",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "防ぐ",
+      "許可する",
+      "達成する"
+    ],
+    "explanation_ja": "avoid + -ing で「〜することを避ける」。",
+    "source_tag": "original-pilot",
+    "review_status": "approved"
+  },
+  {
+    "id": "pilot-002",
+    "stage": "MAIN",
+    "level": 8,
+    "grade_group": "EXAM",
+    "unit": 1,
+    "lemma": "prevent",
+    "unit_type": "word",
+    "part_of_speech": "verb",
+    "meaning_ja": "防ぐ",
+    "context_en": "A helmet can prevent injuries.",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "避ける",
+      "許可する",
+      "改善する"
+    ],
+    "explanation_ja": "prevent は望ましくない出来事が起こるのを防ぐ。",
+    "source_tag": "original-pilot",
+    "review_status": "approved"
+  },
+  {
+    "id": "pilot-003",
+    "stage": "MAIN",
+    "level": 8,
+    "grade_group": "EXAM",
+    "unit": 1,
+    "lemma": "improve",
+    "unit_type": "word",
+    "part_of_speech": "verb",
+    "meaning_ja": "改善する",
+    "context_en": "We need to improve our English.",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "増加する",
+      "維持する",
+      "説明する"
+    ],
+    "explanation_ja": "能力や状況をより良くすること。",
+    "source_tag": "original-pilot",
+    "review_status": "approved"
+  },
+  {
+    "id": "pilot-004",
+    "stage": "MAIN",
+    "level": 8,
+    "grade_group": "EXAM",
+    "unit": 1,
+    "lemma": "increase",
+    "unit_type": "word",
+    "part_of_speech": "verb",
+    "meaning_ja": "増加する",
+    "context_en": "The number of visitors increased.",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "減少する",
+      "維持する",
+      "比較する"
+    ],
+    "explanation_ja": "数・量が増えること。",
+    "source_tag": "original-pilot",
+    "review_status": "approved"
+  },
+  {
+    "id": "pilot-005",
+    "stage": "MAIN",
+    "level": 8,
+    "grade_group": "EXAM",
+    "unit": 1,
+    "lemma": "reduce",
+    "unit_type": "word",
+    "part_of_speech": "verb",
+    "meaning_ja": "減らす",
+    "context_en": "We must reduce plastic waste.",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "増やす",
+      "保つ",
+      "交換する"
+    ],
+    "explanation_ja": "数量を減らすこと。",
+    "source_tag": "original-pilot",
+    "review_status": "approved"
+  },
+  {
+    "id": "pilot-006",
+    "stage": "MAIN",
+    "level": 8,
+    "grade_group": "EXAM",
+    "unit": 1,
+    "lemma": "provide",
+    "unit_type": "word",
+    "part_of_speech": "verb",
+    "meaning_ja": "提供する",
+    "context_en": "The school provides free lunches.",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "要求する",
+      "借りる",
+      "受け取る"
+    ],
+    "explanation_ja": "必要なものを供給すること。",
+    "source_tag": "original-pilot",
+    "review_status": "approved"
+  },
+  {
+    "id": "pilot-007",
+    "stage": "MAIN",
+    "level": 8,
+    "grade_group": "EXAM",
+    "unit": 1,
+    "lemma": "require",
+    "unit_type": "word",
+    "part_of_speech": "verb",
+    "meaning_ja": "必要とする",
+    "context_en": "This job requires special skills.",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "提供する",
+      "許可する",
+      "拒否する"
+    ],
+    "explanation_ja": "require は条件として必要とすること。",
+    "source_tag": "original-pilot",
+    "review_status": "approved"
+  },
+  {
+    "id": "pilot-008",
+    "stage": "MAIN",
+    "level": 8,
+    "grade_group": "EXAM",
+    "unit": 1,
+    "lemma": "allow",
+    "unit_type": "word",
+    "part_of_speech": "verb",
+    "meaning_ja": "許可する",
+    "context_en": "My parents allow me to go out.",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "禁止する",
+      "依頼する",
+      "提案する"
+    ],
+    "explanation_ja": "allow + 人 + to do に注意。",
+    "source_tag": "original-pilot",
+    "review_status": "approved"
+  },
+  {
+    "id": "pilot-009",
+    "stage": "MAIN",
+    "level": 8,
+    "grade_group": "EXAM",
+    "unit": 1,
+    "lemma": "suggest",
+    "unit_type": "word",
+    "part_of_speech": "verb",
+    "meaning_ja": "提案する",
+    "context_en": "She suggested a new idea.",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "命令する",
+      "拒否する",
+      "約束する"
+    ],
+    "explanation_ja": "考えや案を提示すること。",
+    "source_tag": "original-pilot",
+    "review_status": "approved"
+  },
+  {
+    "id": "pilot-010",
+    "stage": "MAIN",
+    "level": 8,
+    "grade_group": "EXAM",
+    "unit": 1,
+    "lemma": "compare",
+    "unit_type": "word",
+    "part_of_speech": "verb",
+    "meaning_ja": "比較する",
+    "context_en": "Compare these two pictures.",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "結論づける",
+      "説明する",
+      "区別する"
+    ],
+    "explanation_ja": "複数のものを比べること。",
+    "source_tag": "original-pilot",
+    "review_status": "approved"
+  },
+  {
+    "id": "pilot-011",
+    "stage": "MAIN",
+    "level": 8,
+    "grade_group": "EXAM",
+    "unit": 1,
+    "lemma": "explain",
+    "unit_type": "word",
+    "part_of_speech": "verb",
+    "meaning_ja": "説明する",
+    "context_en": "Please explain your answer.",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "予測する",
+      "主張する",
+      "比較する"
+    ],
+    "explanation_ja": "内容や理由を分かるように述べること。",
+    "source_tag": "original-pilot",
+    "review_status": "approved"
+  },
+  {
+    "id": "pilot-012",
+    "stage": "MAIN",
+    "level": 8,
+    "grade_group": "EXAM",
+    "unit": 1,
+    "lemma": "discover",
+    "unit_type": "word",
+    "part_of_speech": "verb",
+    "meaning_ja": "発見する",
+    "context_en": "They discovered a new species.",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "発明する",
+      "調査する",
+      "確認する"
+    ],
+    "explanation_ja": "既に存在したものを見つけること。",
+    "source_tag": "original-pilot",
+    "review_status": "approved"
+  },
+  {
+    "id": "pilot-013",
+    "stage": "MAIN",
+    "level": 8,
+    "grade_group": "EXAM",
+    "unit": 1,
+    "lemma": "develop",
+    "unit_type": "word",
+    "part_of_speech": "verb",
+    "meaning_ja": "発展させる",
+    "context_en": "They developed a new system.",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "維持する",
+      "制限する",
+      "交換する"
+    ],
+    "explanation_ja": "技術・能力などを発展させること。",
+    "source_tag": "original-pilot",
+    "review_status": "approved"
+  },
+  {
+    "id": "pilot-014",
+    "stage": "MAIN",
+    "level": 8,
+    "grade_group": "EXAM",
+    "unit": 1,
+    "lemma": "protect",
+    "unit_type": "word",
+    "part_of_speech": "verb",
+    "meaning_ja": "守る",
+    "context_en": "We must protect the environment.",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "攻撃する",
+      "交換する",
+      "捕まえる"
+    ],
+    "explanation_ja": "危害や損傷から守ること。",
+    "source_tag": "original-pilot",
+    "review_status": "approved"
+  },
+  {
+    "id": "pilot-015",
+    "stage": "MAIN",
+    "level": 8,
+    "grade_group": "EXAM",
+    "unit": 1,
+    "lemma": "support",
+    "unit_type": "word",
+    "part_of_speech": "verb",
+    "meaning_ja": "支援する",
+    "context_en": "Many people support the project.",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "反対する",
+      "依存する",
+      "要求する"
+    ],
+    "explanation_ja": "助ける・支援すること。",
+    "source_tag": "original-pilot",
+    "review_status": "approved"
+  },
+  {
+    "id": "pilot-016",
+    "stage": "MAIN",
+    "level": 8,
+    "grade_group": "EXAM",
+    "unit": 1,
+    "lemma": "prepare",
+    "unit_type": "word",
+    "part_of_speech": "verb",
+    "meaning_ja": "準備する",
+    "context_en": "We must prepare for the test.",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "片づける",
+      "確認する",
+      "整理する"
+    ],
+    "explanation_ja": "prepare for で「〜に備える」。",
+    "source_tag": "original-pilot",
+    "review_status": "approved"
+  },
+  {
+    "id": "pilot-017",
+    "stage": "MAIN",
+    "level": 8,
+    "grade_group": "EXAM",
+    "unit": 1,
+    "lemma": "continue",
+    "unit_type": "word",
+    "part_of_speech": "verb",
+    "meaning_ja": "続ける",
+    "context_en": "Please continue reading.",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "中断する",
+      "始める",
+      "繰り返す"
+    ],
+    "explanation_ja": "動作を続けること。",
+    "source_tag": "original-pilot",
+    "review_status": "approved"
+  },
+  {
+    "id": "pilot-018",
+    "stage": "MAIN",
+    "level": 8,
+    "grade_group": "EXAM",
+    "unit": 1,
+    "lemma": "consider",
+    "unit_type": "word",
+    "part_of_speech": "verb",
+    "meaning_ja": "よく考える",
+    "context_en": "Consider all the options.",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "決定する",
+      "推測する",
+      "記憶する"
+    ],
+    "explanation_ja": "判断前に慎重に考えること。",
+    "source_tag": "original-pilot",
+    "review_status": "approved"
+  },
+  {
+    "id": "pilot-019",
+    "stage": "MAIN",
+    "level": 8,
+    "grade_group": "EXAM",
+    "unit": 1,
+    "lemma": "recognize",
+    "unit_type": "word",
+    "part_of_speech": "verb",
+    "meaning_ja": "認識する",
+    "context_en": "I recognized his voice.",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "思い出す",
+      "紹介する",
+      "誤解する"
+    ],
+    "explanation_ja": "見たり聞いたりして分かること。",
+    "source_tag": "original-pilot",
+    "review_status": "approved"
+  },
+  {
+    "id": "pilot-020",
+    "stage": "MAIN",
+    "level": 8,
+    "grade_group": "EXAM",
+    "unit": 1,
+    "lemma": "expect",
+    "unit_type": "word",
+    "part_of_speech": "verb",
+    "meaning_ja": "予期する",
+    "context_en": "We expect rain tomorrow.",
+    "prompt_type": "meaning_4choice",
+    "distractors_ja": [
+      "希望する",
+      "疑う",
+      "説明する"
+    ],
+    "explanation_ja": "起こると予想すること。",
+    "source_tag": "original-pilot",
+    "review_status": "approved"
+  }
+]
