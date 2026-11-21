@@ -2108,14 +2108,14 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "電話",
-    "context_en": "My phone rang.",
+    "context_en": "My phone is new.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "テレビ",
       "ラジオ",
       "カメラ"
     ],
-    "explanation_ja": "この文の phone は電話機の「電話」。電話をかけるという動詞にもなる。",
+    "explanation_ja": "この文の phone は、電話をかけたり受けたりする機器の「電話」。My phone is new. は「私の電話は新しいです」です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -2208,14 +2208,14 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "マウス",
-    "context_en": "Click here with your mouse.",
+    "context_en": "I use this mouse with my computer.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "キーボード",
       "マイク",
       "スキャナー"
     ],
-    "explanation_ja": "パソコンで使う mouse は「マウス」。動物の「ネズミ」にも使う。",
+    "explanation_ja": "この文の mouse は、パソコンで使う「マウス」。動物の「ネズミ」にも mouse を使います。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",

@@ -408,14 +408,14 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "感じる",
-    "context_en": "I feel happy today.",
+    "context_en": "I can feel it.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "思い出す",
       "想像する",
       "忘れる"
     ],
-    "explanation_ja": "feel は気持ちや体の感覚を「感じる」。",
+    "explanation_ja": "feel は、気持ちや体の感覚を「感じる」。I can feel it. は「それを感じられます」です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -2283,14 +2283,14 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "質問",
-    "context_en": "I have a question.",
+    "context_en": "This is my question.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "答え",
       "意見",
       "説明"
     ],
-    "explanation_ja": "question は「質問・問題」。",
+    "explanation_ja": "この文の question は「質問」。This is my question. は「これが私の質問です」です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
