@@ -32,15 +32,15 @@
     "lemma": "ocean",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "大洋（広い海）",
+    "meaning_ja": "海",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "湖",
       "川",
+      "湖",
       "池"
     ],
-    "explanation_ja": "ocean は、太平洋や大西洋のような広い海を指すときに使う。ふつうに「海」と訳すこともある。",
+    "explanation_ja": "ocean は「海」。太平洋や大西洋のような広い海を指すときによく使います。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -682,15 +682,15 @@
     "lemma": "chick",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "ひよこ",
-    "context_en": "The chicks stayed close to the hen.",
+    "meaning_ja": "鳥のひな",
+    "context_en": "Look at the chick.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "子ガモ",
-      "スズメ",
-      "ヒヨドリ"
+      "親鳥",
+      "鳥の卵",
+      "鳥の巣"
     ],
-    "explanation_ja": "chick は鳥のひなのこと。この文ではニワトリの子の「ひよこ」です。",
+    "explanation_ja": "chick は鳥のひな、とくにニワトリの「ひよこ」を指すときによく使います。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1208,14 +1208,14 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "船",
-    "context_en": "We saw a ship from the beach.",
+    "context_en": "They went by ship.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "カヌー",
-      "いかだ",
-      "水上バイク"
+      "飛行機",
+      "列車",
+      "バス"
     ],
-    "explanation_ja": "ship は「船」。とくに、大きな船に使うことが多い。",
+    "explanation_ja": "by ship は「船で」。ship は、大きな船を指すときによく使います。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1233,14 +1233,14 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "ボート",
-    "context_en": "We rented a boat for the day.",
+    "context_en": "We saw a boat.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "いかだ",
       "水上バイク",
-      "潜水艦"
+      "うき輪",
+      "サーフボード"
     ],
-    "explanation_ja": "boat は「船」や「ボート」。小さな船に使うことが多い。",
+    "explanation_ja": "boat は「ボート」や「船」。小型の船を指すときによく使いますが、大きな船にも使うことがあります。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1308,14 +1308,14 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "車の行き来",
-    "context_en": "There is heavy traffic on this road.",
+    "context_en": "I could hear the traffic outside.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "道の工事",
-      "車の故障",
+      "道路の工事",
+      "車の事故",
       "車の点検"
     ],
-    "explanation_ja": "この文の traffic は「車の行き来」。heavy traffic で「車が多くて道がこんでいる」状態を表す。",
+    "explanation_ja": "ここでの traffic は「車の行き来」。heavy traffic と言うと、車が多く、道路がこんでいる状態を表します。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1407,15 +1407,15 @@
     "lemma": "platform",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "駅のホーム",
+    "meaning_ja": "ホーム",
     "context_en": "Let's meet on platform two.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "改札口",
       "待合室",
-      "駅の入り口"
+      "出口"
     ],
-    "explanation_ja": "駅では platform は「ホーム」。on platform two は「2番ホームで」。",
+    "explanation_ja": "駅の platform は「ホーム」。on platform two は「2番ホームで」です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1433,14 +1433,14 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "切符",
-    "context_en": "I bought a train ticket.",
+    "context_en": "I can't find my train ticket.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "時刻表",
-      "定期券",
-      "路線図"
+      "路線図",
+      "領収書"
     ],
-    "explanation_ja": "ticket は「切符」という意味です。",
+    "explanation_ja": "train ticket は列車に乗るための「切符」や「乗車券」です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1482,7 +1482,7 @@
     "lemma": "passenger",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "乗っている人",
+    "meaning_ja": "乗客",
     "context_en": "The passenger waved to me.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
@@ -1490,7 +1490,7 @@
       "車掌",
       "駅員"
     ],
-    "explanation_ja": "passenger は運転せずに乗り物に「乗っている人」です。",
+    "explanation_ja": "passenger は、移動するために乗り物に乗っている客です。運転手や、仕事で乗っている乗務員はふくみません。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1557,22 +1557,25 @@
     "lemma": "Korea",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "韓国",
-    "context_en": "Mina lives in Seoul, Korea.",
+    "meaning_ja": "朝鮮半島一帯",
+    "context_en": "Korea is in East Asia.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "インド",
-      "中国",
-      "ベトナム"
+      "日本列島一帯",
+      "台湾と周辺の島々",
+      "中国の東部"
     ],
-    "explanation_ja": "この文では、ソウルがある「韓国」の意味。国名をはっきり示すには South Korea と言います。Korea は朝鮮半島全体を指すこともあります。",
+    "explanation_ja": "この文の Korea は、韓国と北朝鮮がある朝鮮半島一帯を指します。韓国という国名をはっきり示すときは South Korea と言います。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
-    "choice_group": "PRE-L4-U4-G1"
+    "choice_group": "PRE-L4-U4-G1",
+    "choice_group_meanings_ja": [
+      "韓国"
+    ]
   },
   {
     "id": "PRE-L4-064",
@@ -1658,14 +1661,14 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "アメリカ合衆国",
-    "context_en": "My aunt lives in Boston, America.",
+    "context_en": "My aunt lives in America.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "カナダ",
-      "メキシコ",
-      "ブラジル"
+      "イギリス",
+      "フランス",
+      "オーストラリア"
     ],
-    "explanation_ja": "この文では、ボストンがある「アメリカ合衆国」の意味。America は南北アメリカを含む地域を指すこともある。",
+    "explanation_ja": "この文の America は「アメリカ合衆国」。国名をはっきり示すときは the United States を使います。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -2286,11 +2289,11 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "薬局",
-      "保健室",
-      "保健所"
+      "薬局（やっきょく）",
+      "保健室（ほけんしつ）",
+      "保健所（ほけんじょ）"
     ],
-    "explanation_ja": "clinic は、医者に病気やけがをみてもらう「診療所」などを指す。",
+    "explanation_ja": "clinic は「診療所」など、医者に病気やけがをみてもらう場所です。薬局は薬を受け取ったり買ったりする場所です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",

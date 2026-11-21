@@ -3,6 +3,7 @@
 import fs from 'node:fs';
 const all=Array.from({length:7},(_,i)=>JSON.parse(fs.readFileSync(`data/pre-lv${i+1}-draft.json`,'utf8'))).flat();
 const ids=new Set(),headwords=new Set(),errors=[],warnings=[];
+const extraGroupMeanings = new Map();
 const canonical=s=>String(s??'').normalize('NFKC').trim().toLowerCase();
 const semGroups=[
  ['海','大洋'],['家','自宅'],['頭のよい','賢い'],['ごみ','ごみくず'],
@@ -16,6 +17,18 @@ for(const q of all){
  if(headwords.has(key))warnings.push(`${at}: duplicate spelling ${q.lemma}`);headwords.add(key);
  const opts=[q.meaning_ja,...(Array.isArray(q.distractors_ja)?q.distractors_ja:[])];
  if(opts.length!==4||new Set(opts.map(canonical)).size!==4||opts.some(v=>!canonical(v)))errors.push(`${at}: invalid four-choice answers`);
+ // Other valid glosses can still source distractors in the same group.
+ // Only meaning_ja is the correct answer in the question's own context.
+ if (q.choice_group_meanings_ja !== undefined) {
+   const meanings = q.choice_group_meanings_ja;
+   if (!Array.isArray(meanings) || meanings.length === 0 || meanings.some(v => typeof v !== 'string' || !canonical(v))) {
+     errors.push(`${at}: invalid extra choice-group meanings`);
+   } else if (new Set([...opts, ...meanings].map(canonical)).size !== opts.length + meanings.length) {
+     errors.push(`${at}: extra choice-group meaning duplicates an option or another gloss`);
+   } else {
+     extraGroupMeanings.set(q, new Set(meanings));
+   }
+ }
  for(const group of semGroups){
    const hits=opts.filter(v=>group.includes(v));
    if(hits.length>=2)warnings.push(`${at}: possible overlapping meanings: ${hits.join(' / ')}`);
@@ -36,7 +49,8 @@ for(const q of all){
   if(q.distractor_method==='semantic-group-candidate'){
     const peers=groups.get(q.choice_group)||[];
     for(const option of q.distractors_ja){
-      if(!peers.some(p=>p.id!==q.id&&p.meaning_ja===option&&p.part_of_speech===q.part_of_speech))
+      if(!peers.some(p=>p.id!==q.id&&p.part_of_speech===q.part_of_speech&&
+        (p.meaning_ja===option||extraGroupMeanings.get(p)?.has(option))))
         errors.push(`${q.id}: distractor outside its semantic group / part of speech: ${option}`);
     }
   } else if(q.distractor_method!=='individual-semantic-candidate'){

@@ -1207,22 +1207,25 @@
     "lemma": "orange",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "オレンジ色",
+    "meaning_ja": "だいだい色",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "紫",
-      "ピンク",
-      "赤"
+      "むらさき色",
+      "水色",
+      "黄緑色"
     ],
-    "explanation_ja": "orange は「オレンジ色」という意味です。",
+    "explanation_ja": "色の名前としての orange は「だいだい色（オレンジ色）」。果物の「オレンジ」を指すこともあります。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
-    "choice_group": "PRE-L1-U3-G1"
+    "choice_group": "PRE-L1-U3-G1",
+    "choice_group_meanings_ja": [
+      "オレンジ色"
+    ]
   },
   {
     "id": "PRE-L1-050",
@@ -1408,14 +1411,14 @@
     "unit_type": "word",
     "part_of_speech": "adjective",
     "meaning_ja": "熱い",
-    "context_en": "The tea is hot.",
+    "context_en": "The water is hot.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "冷たい",
       "ぬるい",
       "温かい"
     ],
-    "explanation_ja": "飲み物には「熱い」、天気には「暑い」と訳す。",
+    "explanation_ja": "水などの温度を表す hot は「熱い」。天気については「暑い」と訳します。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1433,14 +1436,14 @@
     "unit_type": "word",
     "part_of_speech": "adjective",
     "meaning_ja": "冷たい",
-    "context_en": "The juice is cold.",
+    "context_en": "The water is cold.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "熱い",
       "ぬるい",
       "温かい"
     ],
-    "explanation_ja": "飲み物には「冷たい」、天気には「寒い」と訳す。",
+    "explanation_ja": "水などの温度を表す cold は「冷たい」。天気については「寒い」と訳します。",
     "source_tag": "original-pre-l1",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",

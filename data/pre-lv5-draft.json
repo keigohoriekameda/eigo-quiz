@@ -57,15 +57,15 @@
     "lemma": "handsome",
     "unit_type": "word",
     "part_of_speech": "adjective",
-    "meaning_ja": "顔立ちのよい",
-    "context_en": "",
+    "meaning_ja": "顔立ちが整った",
+    "context_en": "He's a handsome man.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "幼い",
       "こわそうな",
-      "大人っぽい"
+      "幼く見える",
+      "疲れて見える"
     ],
-    "explanation_ja": "人について handsome と言うと、顔立ちがよいことを表す。",
+    "explanation_ja": "人について handsome と言うと、顔立ちが整っているという意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -157,15 +157,15 @@
     "lemma": "smart",
     "unit_type": "word",
     "part_of_speech": "adjective",
-    "meaning_ja": "頭のよい",
+    "meaning_ja": "頭がよい",
     "context_en": "She's a smart kid.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "不器用な",
-      "うっかりした",
-      "せっかちな"
+      "ねばり強い",
+      "足が速い",
+      "気が長い"
     ],
-    "explanation_ja": "この文の smart は「頭のよい」。服などでは「きちんとした」という意味にもなる。",
+    "explanation_ja": "この文の smart は「頭がよい」。服については「きちんとした」という意味にもなります。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -182,15 +182,15 @@
     "lemma": "clever",
     "unit_type": "word",
     "part_of_speech": "adjective",
-    "meaning_ja": "賢い",
+    "meaning_ja": "頭の回転が速い",
     "context_en": "He's a clever kid.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "不器用な",
-      "ぼんやりした",
-      "うっかりした"
+      "ねばり強い",
+      "聞き上手だ",
+      "気が長い"
     ],
-    "explanation_ja": "この文の clever は「賢い」。考えややり方については「よく工夫した」と訳せる。",
+    "explanation_ja": "この文の clever は「頭の回転が速い」「頭がよい」。smart と訳が重なることもあります。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -357,15 +357,15 @@
     "lemma": "early",
     "unit_type": "word",
     "part_of_speech": "adjective",
-    "meaning_ja": "早い",
-    "context_en": "That's an early start.",
+    "meaning_ja": "早めの",
+    "context_en": "That was an early start.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "遅い",
-      "同じ時刻の",
-      "ちょうどの時刻の"
+      "遅めの",
+      "予定どおりの",
+      "急に決まった"
     ],
-    "explanation_ja": "時刻が前の方にずれていたり、朝早かったりする時の「早い」。",
+    "explanation_ja": "この文の early は、始まる時刻がふつうより前で「早めの」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -382,15 +382,15 @@
     "lemma": "late",
     "unit_type": "word",
     "part_of_speech": "adjective",
-    "meaning_ja": "遅い",
-    "context_en": "That's a late start.",
+    "meaning_ja": "遅めの",
+    "context_en": "That was a late start.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "早い",
-      "同じ時刻の",
-      "ちょうどの時刻の"
+      "早めの",
+      "予定どおりの",
+      "急に決まった"
     ],
-    "explanation_ja": "開始時刻が普通より後なので「遅い」。人などが時刻に間に合わず「遅れた」という意味でも使う。",
+    "explanation_ja": "この文の late は、始まる時刻がふつうよりあとで「遅めの」という意味です。人が間に合わないときは「遅れた」とも訳せます。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1011,11 +1011,11 @@
     "context_en": "Many students walk to school.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "少しだけの",
+      "わずかな",
       "すべての",
-      "一つだけの"
+      "半分ほどの"
     ],
-    "explanation_ja": "many は数えられるものが「たくさん」あることを表す。",
+    "explanation_ja": "many は、数えられるものが「たくさん」あることを表します。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1033,14 +1033,14 @@
     "unit_type": "word",
     "part_of_speech": "determiner",
     "meaning_ja": "たくさんの",
-    "context_en": "We have so much time before lunch.",
+    "context_en": "Do we have much time?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "少しだけの",
-      "半分の",
-      "ちょうど必要な量の"
+      "少しの",
+      "半分ほどの",
+      "残り全部の"
     ],
-    "explanation_ja": "much は time のように、個数で数えないものの量を表す。",
+    "explanation_ja": "much は、time のように個数で数えないものの量を表します。この文は「時間はたくさんある？」です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1057,15 +1057,15 @@
     "lemma": "few",
     "unit_type": "word",
     "part_of_speech": "determiner",
-    "meaning_ja": "ごく少数の",
-    "context_en": "Few students chose that book.",
+    "meaning_ja": "ごく少ない数の",
+    "context_en": "Few people came.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "たくさんの",
       "半分ほどの",
       "すべての"
     ],
-    "explanation_ja": "few は、数えられるものの数が、ごく少ないことを表す。a few なら「少しはある」。",
+    "explanation_ja": "この文は「来た人はごく少なかった」。few は、数えられるものが思ったより少ないと伝えるときに使います。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1082,15 +1082,15 @@
     "lemma": "little",
     "unit_type": "word",
     "part_of_speech": "determiner",
-    "meaning_ja": "ごく少ない量の",
-    "context_en": "We have little time left.",
+    "meaning_ja": "ほんの少しの",
+    "context_en": "We have little time.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "たっぷりの",
-      "全部の",
-      "半分の"
+      "半分ほどの",
+      "決まった量の"
     ],
-    "explanation_ja": "量について little と言うと「ごく少ない」。a little なら「少しはある」。",
+    "explanation_ja": "この文は「時間がほんの少ししかない」。量を表す little には、少なくて心もとないという感じがあります。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1136,11 +1136,11 @@
     "context_en": "I bought some apples.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
+      "たくさんの",
       "すべての",
-      "一つだけの",
-      "半分の"
+      "半分ほどの"
     ],
-    "explanation_ja": "some apples は数をはっきり言わずに「いくつかのりんご」と伝える言い方。",
+    "explanation_ja": "some apples は「いくつかのりんご」。個数をはっきり言わない言い方です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1157,15 +1157,15 @@
     "lemma": "any",
     "unit_type": "word",
     "part_of_speech": "determiner",
-    "meaning_ja": "どれでも",
+    "meaning_ja": "どれでもよい",
     "context_en": "You can choose any card.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "一つもない",
-      "全部",
-      "半分だけ"
+      "一番上のものだけ",
+      "一番下のものだけ",
+      "決められた色だけ"
     ],
-    "explanation_ja": "ここでの any は「どれでも」。疑問文や否定文でも、別の訳し方でよく使う。",
+    "explanation_ja": "この文の any は、どのカードを選んでもよいことを表します。否定文や疑問文では、別の訳し方もあります。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1182,15 +1182,15 @@
     "lemma": "each",
     "unit_type": "word",
     "part_of_speech": "determiner",
-    "meaning_ja": "それぞれの",
-    "context_en": "Each child has a bag.",
+    "meaning_ja": "一人ひとりの",
+    "context_en": "I gave each child a card.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "二つだけの",
-      "半分の",
-      "ほかの"
+      "何人かの",
+      "半分ほどの",
+      "大部分の"
     ],
-    "explanation_ja": "each は一つ一つ、一人一人に目を向ける語。この文では、子ども「それぞれ」がかばんを持っている。",
+    "explanation_ja": "each child は「子ども一人ひとり」。この文では、子ども全員に一枚ずつカードを渡しました。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1208,14 +1208,14 @@
     "unit_type": "word",
     "part_of_speech": "determiner",
     "meaning_ja": "どの〜も",
-    "context_en": "Every room has a window.",
+    "context_en": "I looked in every room.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "二つだけの",
-      "半分の",
-      "ほかの"
+      "いくつかの",
+      "半分ほどの",
+      "大部分の"
     ],
-    "explanation_ja": "every は、一つ一つに当てはまり、抜けがないことを表す。every room は「どの部屋にも」。",
+    "explanation_ja": "every room は「どの部屋も」。ここでは、部屋を一つも残さず、全部の部屋の中を見ました。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1236,11 +1236,11 @@
     "context_en": "Can I have another pencil?",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "半分の",
-      "全部の",
-      "最初の"
+      "最初の",
+      "最後の",
+      "同じ"
     ],
-    "explanation_ja": "ここでの another は「もう一つの」。取りかえを求める場面では「別の」とも訳せる。",
+    "explanation_ja": "another は「もう一つの」。another pencil は「もう一本のえんぴつ」です。別のものに替えてほしいときにも使います。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1262,10 +1262,10 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "同じ",
-      "両方の",
-      "手前の"
+      "手前の",
+      "最初に選んだ"
     ],
-    "explanation_ja": "この文では、二つあるうちの「もう一方の本」のこと。other には広く「ほかの」という意味もある。",
+    "explanation_ja": "この文の the other book は、話に出ているものと対になる、もう一方の本を指します。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1358,14 +1358,14 @@
     "unit_type": "word",
     "part_of_speech": "determiner",
     "meaning_ja": "より多くの",
-    "context_en": "I need more water.",
+    "context_en": "We used more water today.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "より少ない",
       "同じ量の",
-      "半分の"
+      "決められた量の"
     ],
-    "explanation_ja": "more water は「もっと多くの水」。前より量が多いことを表す。",
+    "explanation_ja": "more water は「より多くの水」。この文では、比べているときより今日の方が水を多く使いました。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1408,14 +1408,14 @@
     "unit_type": "word",
     "part_of_speech": "determiner",
     "meaning_ja": "より少ない",
-    "context_en": "Let's use less water.",
+    "context_en": "We used less water today.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "より多くの",
       "同じ量の",
-      "最も少ない"
+      "決められた量の"
     ],
-    "explanation_ja": "less water は「より少ない水」。",
+    "explanation_ja": "less water は「より少ない水」。この文では、比べているときより今日の方が水を少なく使いました。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1658,14 +1658,14 @@
     "unit_type": "word",
     "part_of_speech": "preposition",
     "meaning_ja": "〜の上に",
-    "context_en": "The shelf is above the desk.",
+    "context_en": "The blue shelf is above the red shelf.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "〜の下に",
       "〜の横に",
       "〜の後ろに"
     ],
-    "explanation_ja": "above は「〜より上に」。物にふれていなくても使える。",
+    "explanation_ja": "above は「〜より上に」。この文では、青い棚が赤い棚より上にあります。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1683,14 +1683,14 @@
     "unit_type": "word",
     "part_of_speech": "preposition",
     "meaning_ja": "〜の下に",
-    "context_en": "The shelf is below the window.",
+    "context_en": "The blue shelf is below the red shelf.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "〜の上に",
       "〜の横に",
       "〜の後ろに"
     ],
-    "explanation_ja": "below は「〜より下に」。",
+    "explanation_ja": "below は「〜より下に」。この文では、青い棚が赤い棚より下にあります。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1833,14 +1833,14 @@
     "unit_type": "word",
     "part_of_speech": "preposition",
     "meaning_ja": "〜の間に",
-    "context_en": "Sam sat between Mia and Ben.",
+    "context_en": "Sam sat between his friends.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "〜の後ろに",
       "〜の向かいに",
-      "〜のまわりに"
+      "〜の右に"
     ],
-    "explanation_ja": "between A and B は「AとBの間に」。",
+    "explanation_ja": "between は「〜の間に」。この文では、サムは友達と友達の間に座りました。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1857,15 +1857,15 @@
     "lemma": "around",
     "unit_type": "word",
     "part_of_speech": "preposition",
-    "meaning_ja": "〜のまわりに",
-    "context_en": "We sat around the table.",
+    "meaning_ja": "〜のまわりを",
+    "context_en": "We walked around the bench.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "〜を横切って",
-      "〜の真ん中に",
-      "〜から離れて"
+      "〜の後ろを",
+      "〜の前を",
+      "〜から離れる方へ"
     ],
-    "explanation_ja": "around the table は「テーブルのまわりに」。",
+    "explanation_ja": "around the bench は「ベンチのまわりを」。あるものを取り囲むような位置や動きを表せます。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1908,14 +1908,14 @@
     "unit_type": "word",
     "part_of_speech": "preposition",
     "meaning_ja": "〜に沿って",
-    "context_en": "We walked along the river.",
+    "context_en": "We walked along the road.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "〜を横切って",
-      "〜の真ん中を",
-      "〜から離れて"
+      "〜から離れて",
+      "〜を目指して"
     ],
-    "explanation_ja": "along the river は「川に沿って」。川の流れと同じ方向やその反対へ、川ぞいに進むこと。",
+    "explanation_ja": "along the road は「道に沿って」。道と同じ向きに進むことを表します。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1987,7 +1987,7 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "〜の後ろに",
-      "〜の真上に",
+      "〜の手前に",
       "〜の横に"
     ],
     "explanation_ja": "場所を表す opposite は「〜の向かいに」。",
@@ -2032,15 +2032,15 @@
     "lemma": "usually",
     "unit_type": "word",
     "part_of_speech": "adverb",
-    "meaning_ja": "ふつう",
-    "context_en": "",
+    "meaning_ja": "ふだんは",
+    "context_en": "I usually walk to school.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "いつも",
       "ときどき",
-      "ほとんど〜ない"
+      "めったに〜ない",
+      "一度も〜ない"
     ],
-    "explanation_ja": "usually は「ふつう」という意味です。",
+    "explanation_ja": "usually は「ふだんは」。例外もありますが、歩いて学校に行くのがいつものやり方だと伝えています。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -2107,15 +2107,15 @@
     "lemma": "never",
     "unit_type": "word",
     "part_of_speech": "adverb",
-    "meaning_ja": "一度も〜ない",
+    "meaning_ja": "一度も〜しない",
     "context_en": "I never ride the bus to school.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "いつも",
-      "ときどき",
-      "よく"
+      "めったに〜しない",
+      "ときどき〜する",
+      "いつも〜する"
     ],
-    "explanation_ja": "never は「一度も〜ない」「決して〜しない」。never 自体が否定を表す。",
+    "explanation_ja": "never 自体が否定を表します。この文では「通学にバスは一度も使わない」ということです。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -2333,14 +2333,14 @@
     "unit_type": "word",
     "part_of_speech": "preposition",
     "meaning_ja": "〜の前に",
-    "context_en": "Wash your hands before lunch.",
+    "context_en": "I saw Ken before lunch.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "〜の後に",
-      "〜の間に",
-      "〜の終わりごろに"
+      "〜の最中に",
+      "〜のたびに"
     ],
-    "explanation_ja": "before lunch は「昼ごはんの前に」。",
+    "explanation_ja": "before lunch は「昼ごはんの前に」。ケンに会ったのは、昼ごはんより前です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -2358,14 +2358,14 @@
     "unit_type": "word",
     "part_of_speech": "preposition",
     "meaning_ja": "〜の後に",
-    "context_en": "Let's talk after class.",
+    "context_en": "I saw Ken after class.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "〜の前に",
-      "〜の間に",
-      "〜の始まるころに"
+      "〜の最中に",
+      "〜のたびに"
     ],
-    "explanation_ja": "after class は「授業の後に」。",
+    "explanation_ja": "after class は「授業の後に」。ケンに会ったのは、授業が終わってからです。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -2383,14 +2383,14 @@
     "unit_type": "word",
     "part_of_speech": "preposition",
     "meaning_ja": "〜まで",
-    "context_en": "I'll wait until five.",
+    "context_en": "We can stay until five.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "〜から",
       "〜の前に",
       "〜を過ぎても"
     ],
-    "explanation_ja": "until five は「5時まで」。待つことが5時まで続く。",
+    "explanation_ja": "until five は「5時まで」。ここにいられる時間は5時までです。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -2438,9 +2438,9 @@
     "distractors_ja": [
       "〜の前に",
       "〜の後に",
-      "〜の直前に"
+      "〜のたびに"
     ],
-    "explanation_ja": "during class は「授業の間に」。during の後ろには時間や出来事を表す名詞がくる。",
+    "explanation_ja": "during class は「授業の間に」。during の後ろには、時間や出来事を表す名詞を置きます。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",

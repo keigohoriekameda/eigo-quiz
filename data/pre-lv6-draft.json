@@ -62,10 +62,10 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "教える",
-      "暗記したことを忘れる",
-      "質問する"
+      "説明する",
+      "メモを取る"
     ],
-    "explanation_ja": "study は「勉強する」という意味です。",
+    "explanation_ja": "study は、自分で何かを「勉強する」という意味です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -512,10 +512,10 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "趣味",
-      "休み",
-      "宿題"
+      "日課",
+      "持ち物"
     ],
-    "explanation_ja": "この文の job は、会社や店などで働く「仕事」のこと。",
+    "explanation_ja": "この文の job は、働く場所や職を持つときの「仕事」です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -533,14 +533,14 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "仕事",
-    "context_en": "I have a lot of work today.",
+    "context_en": "I have work this afternoon.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "遊び",
-      "休み",
-      "通勤"
+      "授業",
+      "休けい",
+      "買い物"
     ],
-    "explanation_ja": "名詞の work は「仕事」「作業」。job は一つの職や一件の仕事をさすことが多い。",
+    "explanation_ja": "この文は「今日の午後は仕事がある」。名詞の work は、仕事や作業全般を指せます。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -757,15 +757,15 @@
     "lemma": "pilot",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "飛行機などの操縦士",
+    "meaning_ja": "操縦士（そうじゅうし）",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "車の運転手",
-      "駅員",
-      "車掌"
+      "運転手（うんてんしゅ）",
+      "車掌（しゃしょう）",
+      "整備士（せいびし）"
     ],
-    "explanation_ja": "pilot は「飛行機などの操縦士」という意味です。",
+    "explanation_ja": "pilot は、飛行機などを操縦する人のことです。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -783,14 +783,14 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "芸術家",
-    "context_en": "",
+    "context_en": "The artist signed her work.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "科学者",
-      "作家",
-      "俳優"
+      "研究者",
+      "編集者",
+      "通訳者"
     ],
-    "explanation_ja": "artist は「芸術家」という意味です。",
+    "explanation_ja": "この文の artist は作品を作った「芸術家」です。俳優や音楽家などの実演家を指すこともあります。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1058,14 +1058,14 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "お札",
-    "context_en": "She paid with a ten-dollar bill.",
+    "context_en": "He took a bill out of his wallet.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "コイン",
-      "小切手",
-      "商品券"
+      "商品券",
+      "レシート"
     ],
-    "explanation_ja": "お金について a ten-dollar bill は「10ドル札」。bill は「請求書」にも使う。",
+    "explanation_ja": "この文の bill は、紙のお金である「お札」。bill は「請求書」という意味でも使います。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1083,14 +1083,14 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "値段",
-    "context_en": "What's the price of this hat?",
+    "context_en": "The price went up.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "予算",
-      "おつり",
-      "領収書"
+      "送料",
+      "手数料",
+      "予算"
     ],
-    "explanation_ja": "price は売っている物などについた「値段」。",
+    "explanation_ja": "price は売っている物などの「値段」。went up は「上がった」です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1107,15 +1107,15 @@
     "lemma": "cost",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "かかるお金",
+    "meaning_ja": "必要なお金",
     "context_en": "The cost of the trip went up.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "おつり",
-      "予算",
-      "残りのお金"
+      "用意したお金",
+      "借りたお金",
+      "残っているお金"
     ],
-    "explanation_ja": "cost は旅行などに「かかるお金」のこと。",
+    "explanation_ja": "cost は何かに「かかるお金」。the cost of the trip は「旅行に必要なお金」です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1133,14 +1133,14 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "おつり",
-    "context_en": "Keep the change.",
+    "context_en": "He put the change in his pocket.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "代金",
-      "手数料",
-      "前金"
+      "チップ",
+      "小づかい"
     ],
-    "explanation_ja": "change は支払いの後に返る「おつり」。小銭を表すこともある。",
+    "explanation_ja": "買い物での change は、多く払ったときに返ってくる「おつり」。Keep the change. は「おつりは要りません」です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1183,14 +1183,14 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "特売",
-    "context_en": "That store is having a sale.",
+    "context_en": "The store has a sale today.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "返品",
-      "予約",
-      "注文"
+      "展示会",
+      "説明会",
+      "抽選会"
     ],
-    "explanation_ja": "店が値段を下げて売る「特売」。sale は「販売」の意味でも使う。",
+    "explanation_ja": "店での sale は、ここでは品物の値段を下げて売る「特売」。sale は「販売」の意味でも使います。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1408,14 +1408,14 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "口座",
-    "context_en": "She opened a bank account.",
+    "context_en": "He put money into his account.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "おつり",
-      "代金",
-      "手数料"
+      "貯金箱",
+      "財布",
+      "封とう"
     ],
-    "explanation_ja": "bank account は、銀行にお金をあずけたり出したりするための「口座」。ネットのアカウントなどにも使う語。",
+    "explanation_ja": "この文の account は、銀行にお金をあずけたり、引き出したりするための「口座」です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1458,14 +1458,14 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "現金",
-    "context_en": "Can I pay in cash?",
+    "context_en": "I have some cash.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "商品券",
-      "ポイント",
+      "クーポン",
       "銀行カード"
     ],
-    "explanation_ja": "pay in cash は、お札やコインなどの「現金」で払うこと。",
+    "explanation_ja": "cash は、お札やコインなどの「現金」。pay in cash は「現金で払う」です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1482,15 +1482,15 @@
     "lemma": "budget",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "使えるお金の計画",
+    "meaning_ja": "使えるお金の上限",
     "context_en": "We have a budget for the school trip.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "かかったお金の記録",
-      "借りたお金の額",
-      "残ったお金の額"
+      "使ったお金の合計",
+      "借りたお金の合計",
+      "残っているお金の額"
     ],
-    "explanation_ja": "budget は、何にいくらまで使えるかを決めた「予算」。",
+    "explanation_ja": "この文の budget は使えるお金を決めた「予算」。旅行にいくらまで使えるかを表しています。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1557,7 +1557,7 @@
     "lemma": "fever",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "発熱",
+    "meaning_ja": "熱",
     "context_en": "I have a fever.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
@@ -1565,7 +1565,7 @@
       "頭痛",
       "めまい"
     ],
-    "explanation_ja": "have a fever は、ふだんより体温が高くなって「熱がある」こと。",
+    "explanation_ja": "have a fever は「熱がある」。この文の fever は、ふだんより体温が高いことを表します。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1933,14 +1933,14 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "息",
-    "context_en": "Take a deep breath.",
+    "context_en": "I could hear her breath.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "声",
       "せき",
       "くしゃみ"
     ],
-    "explanation_ja": "a breath は「ひと息」。take a deep breath で「深く息をすう」。",
+    "explanation_ja": "breath は「息」。この文は「彼女の息が聞こえた」です。take a deep breath は「深く息をすう」です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1983,14 +1983,14 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "なみだ",
-    "context_en": "A tear ran down her cheek.",
+    "context_en": "A tear fell on his shirt.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "あせ",
       "鼻水",
       "つば"
     ],
-    "explanation_ja": "ここでの tear は、目から出る「なみだ」。動詞で「さく」と言うときは発音が変わる。",
+    "explanation_ja": "この文の tear は「なみだ」で、シャツに落ちた一滴を指します。「さく」という意味の動詞 tear とは、発音が違います。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -2358,14 +2358,14 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "アプリ",
-    "context_en": "This application runs on my phone.",
+    "context_en": "I opened the application on my phone.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "フォルダー",
       "ウェブサイト",
       "音声ファイル"
     ],
-    "explanation_ja": "この文の application はスマホなどで動く「アプリ」。申しこみや申請を指すこともある。",
+    "explanation_ja": "この文の application はスマホなどで使う「アプリ」。申しこみや申請も application と言います。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -2382,15 +2382,15 @@
     "lemma": "download",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "ダウンロードする",
+    "meaning_ja": "ファイルを自分の機器に取りこむ",
     "context_en": "Tap here to download the file.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "アップロードする",
-      "削除する",
-      "共有する"
+      "ファイルをネット上に送る",
+      "ファイルをほかの人に見せる",
+      "ファイルを消す"
     ],
-    "explanation_ja": "download は、ネットなどから自分の機器へファイルをうつすこと。",
+    "explanation_ja": "download は、ネットなどから自分の機器へファイルをうつすことです。日本語では「ダウンロードする」とも言います。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -2407,15 +2407,15 @@
     "lemma": "upload",
     "unit_type": "word",
     "part_of_speech": "verb",
-    "meaning_ja": "アップロードする",
-    "context_en": "I need to upload my homework.",
+    "meaning_ja": "ファイルをネット上に送る",
+    "context_en": "Tap here to upload the file.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ダウンロードする",
-      "削除する",
-      "開く"
+      "ファイルを自分の機器に取りこむ",
+      "ファイルをほかの人に見せる",
+      "ファイルを消す"
     ],
-    "explanation_ja": "upload は、自分の機器からネットなどへファイルをうつすこと。",
+    "explanation_ja": "upload は、自分の機器からネットなどへファイルをうつすことです。日本語では「アップロードする」とも言います。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -2432,15 +2432,15 @@
     "lemma": "online",
     "unit_type": "word",
     "part_of_speech": "adjective",
-    "meaning_ja": "オンラインの",
+    "meaning_ja": "インターネットを使った",
     "context_en": "I have an online lesson today.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "対面の",
-      "紙での",
-      "電話での"
+      "教室で行う",
+      "郵便でやりとりする",
+      "電話だけで行う"
     ],
-    "explanation_ja": "online は「インターネットにつながった」。online lesson はネットを使う授業。",
+    "explanation_ja": "online lesson は「インターネットを使った授業」。online は、ネットにつながっていたり、ネットを使って行ったりすることを表します。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",

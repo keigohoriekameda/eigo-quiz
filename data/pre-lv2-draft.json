@@ -261,11 +261,11 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "腕",
-      "肩",
-      "腰"
+      "腕（うで）",
+      "肩（かた）",
+      "腰（こし）"
     ],
-    "explanation_ja": "leg は腰から下の「脚」。ひざも脚の一部です。",
+    "explanation_ja": "leg は、太ももやひざをふくむ「脚」。足首から先だけを指すときは foot を使います。",
     "source_tag": "original-pre-l2",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -282,15 +282,15 @@
     "lemma": "foot",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "足（くるぶしから先）",
-    "context_en": "",
+    "meaning_ja": "足",
+    "context_en": "My foot hurts.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "手（手首から先）",
+      "手",
       "ひざ",
-      "腰"
+      "ひじ"
     ],
-    "explanation_ja": "foot は足のうち、くるぶしから先の部分。ひざもふくめた脚は leg と言います。",
+    "explanation_ja": "foot は、くるぶしから先の「足」。ひざもふくめた脚は leg と言います。",
     "source_tag": "original-pre-l2",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -708,14 +708,14 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "聞く",
-    "context_en": "I listen to the radio at night.",
+    "context_en": "Please listen carefully.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "話す",
       "読む",
       "歌う"
     ],
-    "explanation_ja": "listen は音や声に耳を向けて「聞く」。listen to の後ろに聞くものを置く。",
+    "explanation_ja": "listen は、音や声に耳を向けて「聞く」。何を聞くかを言うときは listen to the radio（ラジオを聞く）のように to を使います。",
     "source_tag": "original-pre-l2",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -833,14 +833,14 @@
     "unit_type": "word",
     "part_of_speech": "verb",
     "meaning_ja": "目を覚ます",
-    "context_en": "I wake up early on Sundays.",
+    "context_en": "I often wake at night.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "眠る",
       "横になる",
       "立ち上がる"
     ],
-    "explanation_ja": "wake up は、眠っている状態から「目を覚ます」こと。",
+    "explanation_ja": "wake は「目を覚ます」。wake up とも言います。この文は「私は夜によく目を覚ます」です。",
     "source_tag": "original-pre-l2",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1232,15 +1232,15 @@
     "lemma": "hour",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "時間（60分）",
+    "meaning_ja": "1時間",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "日",
-      "分（60秒）",
-      "週"
+      "1分",
+      "1日",
+      "1週間"
     ],
-    "explanation_ja": "時間の単位の hour は60分です。",
+    "explanation_ja": "1時間は60分です。英語で「1時間」は one hour や an hour と言います。",
     "source_tag": "original-pre-l2",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1257,15 +1257,15 @@
     "lemma": "minute",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "分（60秒）",
+    "meaning_ja": "1分",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "秒",
-      "時間（60分）",
-      "日"
+      "1秒",
+      "1時間",
+      "1日"
     ],
-    "explanation_ja": "時間の単位の minute は60秒です。",
+    "explanation_ja": "1分は60秒です。英語で「1分」は one minute や a minute と言います。",
     "source_tag": "original-pre-l2",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1282,15 +1282,15 @@
     "lemma": "second",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "秒",
-    "context_en": "Wait a second.",
+    "meaning_ja": "1秒",
+    "context_en": "It took one second.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "分（60秒）",
-      "時間（60分）",
-      "日"
+      "1分",
+      "1時間",
+      "1日"
     ],
-    "explanation_ja": "second は時間の単位では「秒」。Wait a second. で「ちょっと待って」です。",
+    "explanation_ja": "one second は「1秒」。会話の Wait a second. は「ちょっと待って」という意味で使います。",
     "source_tag": "original-pre-l2",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1582,15 +1582,15 @@
     "lemma": "bathroom",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "おふろ場",
-    "context_en": "There is a tub in the bathroom.",
+    "meaning_ja": "おふろやトイレのある部屋",
+    "context_en": "The bathroom is over there.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "台所",
-      "ねる部屋",
-      "居間"
+      "食事を作る部屋",
+      "家族がくつろぐ部屋",
+      "寝るための部屋"
     ],
-    "explanation_ja": "この文の bathroom は「おふろ場」。トイレを指すこともある。",
+    "explanation_ja": "bathroom は、ふろやシャワーがある部屋を指します。特にアメリカでは、トイレを指すときにも使います。",
     "source_tag": "original-pre-l2",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -1857,15 +1857,15 @@
     "lemma": "city",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "大きな町",
+    "meaning_ja": "市",
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "村",
-      "島",
+      "州",
       "国"
     ],
-    "explanation_ja": "city はふつう「市」や「大きな町」。市と町の分け方は国によって違う。",
+    "explanation_ja": "city は「市」や「都市」。市の大きさや、city と呼ぶ条件は場所によって違います。",
     "source_tag": "original-pre-l2",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
@@ -2161,14 +2161,14 @@
     "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "ゴルフ",
+      "テニス",
       "バドミントン",
-      "スキー"
+      "バレーボール"
     ],
-    "explanation_ja": "table tennis は「卓球」という意味です。",
+    "explanation_ja": "table tennis で「卓球」。tennis だけなら、テニスのことです。",
     "source_tag": "original-pre-l2",
     "review_status": "draft",
-    "distractor_method": "semantic-group-candidate",
+    "distractor_method": "individual-semantic-candidate",
     "quality_flags": [
       "editorial_review_pending"
     ],
@@ -2432,15 +2432,15 @@
     "lemma": "picture",
     "unit_type": "word",
     "part_of_speech": "noun",
-    "meaning_ja": "絵・写真",
-    "context_en": "Look at this picture.",
+    "meaning_ja": "絵や写真",
+    "context_en": "I like this picture.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "動画",
-      "音楽",
-      "物語"
+      "文字や数字",
+      "音や声",
+      "身ぶりや表情"
     ],
-    "explanation_ja": "picture は目で見る「絵」や「写真」のこと。",
+    "explanation_ja": "この文の picture は、目で見る「絵」や「写真」です。",
     "source_tag": "original-pre-l2",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
