@@ -2333,14 +2333,14 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "ページ",
-    "context_en": "Open your book to page ten.",
+    "context_en": "",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "表紙",
       "見出し",
       "目次"
     ],
-    "explanation_ja": "page は本などの「ページ」。",
+    "explanation_ja": "page は本やノートなどの「ページ」。page ten は「10ページ」です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",

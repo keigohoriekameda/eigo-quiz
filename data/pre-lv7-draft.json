@@ -1008,14 +1008,14 @@
     "unit_type": "word",
     "part_of_speech": "noun",
     "meaning_ja": "地球",
-    "context_en": "We live on Earth.",
+    "context_en": "This picture shows Earth.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
-      "月",
-      "太陽",
-      "火星"
+      "火星",
+      "金星",
+      "木星"
     ],
-    "explanation_ja": "惑星を表す Earth は「地球」。earth は「土」という意味でも使う。",
+    "explanation_ja": "惑星の名前としての Earth は「地球」。earth は「土」という意味でも使います。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",

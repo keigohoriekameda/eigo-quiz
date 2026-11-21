@@ -2133,14 +2133,14 @@
     "unit_type": "word",
     "part_of_speech": "adverb",
     "meaning_ja": "すでに",
-    "context_en": "I've already seen that movie.",
+    "context_en": "I am already here.",
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "まだ",
-      "まもなく",
-      "後で"
+      "いつも",
+      "ときどき"
     ],
-    "explanation_ja": "already は「すでに」。この文では、映画をもう見たことを伝えている。",
+    "explanation_ja": "already は「すでに」「もう」。I am already here. は「もうここにいます」です。",
     "source_tag": "original-pre-draft",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",

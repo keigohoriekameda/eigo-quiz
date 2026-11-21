@@ -1062,10 +1062,10 @@
     "prompt_type": "meaning_4choice",
     "distractors_ja": [
       "朝",
-      "昼",
-      "夜"
+      "正午",
+      "真夜中"
     ],
-    "explanation_ja": "evening は「夕方」という意味です。",
+    "explanation_ja": "evening は「夕方」や「晩」。昼と夜の間の時間を表します。",
     "source_tag": "original-pre-l2",
     "review_status": "draft",
     "distractor_method": "individual-semantic-candidate",
