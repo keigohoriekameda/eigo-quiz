@@ -1,6 +1,7 @@
 'use strict';
 
 const role = location.pathname === '/teacher' ? 'teacher' : 'student';
+const skyline = document.getElementById('page-title').getAttribute('data-auth') === 'skyline';
 const app = document.getElementById('app');
 const status = document.getElementById('status');
 const account = document.getElementById('account');
@@ -81,27 +82,44 @@ function showLogin() {
 
   const form = node('form', undefined, 'panel login');
   form.autocomplete = 'off';
-  const heading = node('h2', '利用コードで入る');
-  const label = node('label', '利用コード');
+  const heading = node('h2', skyline ? 'Project Skylineでログイン' : '利用コードで入る');
+  const label = node('label', skyline ? 'パスワード' : '利用コード');
   label.htmlFor = 'access-code';
   const input = node('input');
   input.id = 'access-code';
   input.type = 'password';
   input.autocomplete = 'off';
   input.required = true;
-  input.maxLength = 128;
+  input.maxLength = skyline ? 1024 : 128;
   input.spellcheck = false;
   const submit = node('button', role === 'teacher' ? '教員承認画面を開く' : '単元一覧を開く');
   submit.type = 'submit';
   const actions = node('div', undefined, 'actions');
   actions.append(submit);
-  form.append(heading, label, input, actions);
+  form.append(heading);
+  const identity = node('input');
+  if (skyline) {
+    const loginLabel = node('label', role === 'teacher' ? '管理者メールアドレス' : '共通ID');
+    identity.id = 'skyline-id';
+    loginLabel.htmlFor = identity.id;
+    identity.type = role === 'teacher' ? 'email' : 'text';
+    identity.required = true;
+    identity.maxLength = 254;
+    identity.autocapitalize = 'none';
+    identity.spellcheck = false;
+    identity.autocomplete = 'off';
+    form.append(loginLabel, identity);
+  }
+  form.append(label, input, actions);
   app.replaceChildren(form);
   form.addEventListener('submit', event => {
     event.preventDefault();
     run(async () => {
-      const signedIn = await request('/login', { role, code: input.value.trim() });
+      const payload = skyline
+        ? { role, loginId: identity.value.trim(), password: input.value }
+        : { role, code: input.value.trim() };
       input.value = '';
+      const signedIn = await request('/login', payload);
       session = signedIn;
       try {
         if (role === 'teacher') await showTeacher();
@@ -141,7 +159,7 @@ async function showTeacher(selected) {
   const data = await request('/teacher/units');
   const picker = node('select');
   picker.id = 'teacher-unit';
-  for (let level = 1; level <= 7; level++) {
+  for (const level of new Set(data.units.map(unit => unit.level))) {
     const group = node('optgroup');
     group.label = 'Pre Lv.' + level;
     for (const unit of data.units.filter(item => item.level === level)) {
@@ -220,9 +238,9 @@ function renderTeacherUnit(unit, target) {
 async function showStudent() {
   const data = await request('/student/units');
   const top = node('section', undefined, 'panel');
-  top.append(node('h2', '単元を選ぶ'), node('p', '試用できる単元 ' + data.units.filter(u => u.available).length + ' / 35'));
+  top.append(node('h2', '単元を選ぶ'), node('p', '試用できる単元 ' + data.units.filter(u => u.available).length + ' / ' + data.units.length));
   app.replaceChildren(top);
-  for (let level = 1; level <= 7; level++) {
+  for (const level of new Set(data.units.map(unit => unit.level))) {
     const heading = node('h2', 'Pre Lv.' + level);
     const grid = node('div', undefined, 'unit-grid');
     for (const unit of data.units.filter(item => item.level === level)) {

@@ -7,7 +7,7 @@ import { basename, dirname, join, resolve } from 'node:path';
 import { test } from 'node:test';
 import vm from 'node:vm';
 import { fileURLToPath } from 'node:url';
-import { loadCatalog } from '../pre-trial/catalog.mjs';
+import { loadCatalog, makeCatalog, pilotCatalog } from '../pre-trial/catalog.mjs';
 import { createTrialServer } from '../pre-trial/server.mjs';
 import { openTrialStore } from '../pre-trial/store.mjs';
 import { readyForEditorialApproval, validVocabularyContext } from '../src/vocabulary-prompt.mjs';
@@ -367,4 +367,77 @@ test('the trial service rejects production mode', async () => {
     if (saved === undefined) delete process.env.NODE_ENV;
     else process.env.NODE_ENV = saved;
   }
+});
+
+test('the first 40 allow only teacher-approved units, pass at 18, review mistakes and resume by student', async t => {
+  const folder = await mkdtemp(join(temp, 'pre-trial-pilot-'));
+  t.after(() => rm(folder, { recursive: true, force: true }));
+  const stateFile = join(folder, 'state.json');
+  const levels = await Promise.all(Array.from({ length: 7 }, async (_, i) =>
+    JSON.parse(await readFile(join(root, 'data', 'pre-lv' + (i + 1) + '-draft.json'), 'utf8'))));
+  const commit = 'a'.repeat(40);
+  const full = makeCatalog({ commit, levels });
+  assert.equal(full.units.size, 35);
+  const catalog = pilotCatalog(full);
+  let app = await start(catalog, stateFile);
+  const teacher = await logIn(app, 0);
+  let student = await logIn(app, 1);
+  const units = ['/api/teacher/units', '/api/student/units'];
+  assert.deepEqual((await app.send(units[0], teacher)).units.map(unit => unit.id), ['1-1','1-2']);
+  for (const [unit, offset] of [['1-1',0], ['1-2',20]]) {
+    const detail = await app.send(units[0] + '/' + unit, teacher);
+    assert.deepEqual(detail.questions.map(q => q.id), levels[0].slice(offset, offset + 20).map(q => q.id));
+    assert.equal(detail.questions.length, 20);
+    assert.deepEqual(detail.blockers, []);
+    await app.send(studentPath(unit, 'start'), student, { mode: 'normal' }, 403);
+  }
+  await app.send(units[0] + '/1-3/approve', teacher, { commit, reviewed: true }, 404);
+  await app.send(studentPath('1-3','start'), student, { mode: 'normal' }, 404);
+  await app.send(units[0] + '/1-1/approve', teacher, { commit, reviewed: true });
+  assert.deepEqual((await app.send(units[1], student)).units.map(u => u.available), [true, false]);
+  await app.send(studentPath('1-2', 'start'), student, { mode: 'normal' }, 403);
+  await app.send(units[0] + '/1-2/approve', teacher, { commit, reviewed: true });
+  assert.deepEqual((await app.send(units[1], student)).units.map(u => u.available), [true, true]);
+
+  const right = (unit, question) => catalog.units.get(unit).byId.get(question.id).meaning_ja;
+  let quiz = await app.send(studentPath('1-1','start'), student, { mode: 'normal' });
+  const missed = [];
+  for (let i = 0; i < 20; i++) {
+    const answer = right('1-1', quiz.question);
+    const choice = i < 2 ? quiz.question.choices.find(value => value !== answer) : answer;
+    if (i < 2) missed.push(quiz.question.id);
+    quiz = (await submit(app, student, '1-1', quiz, choice)).next;
+  }
+  assert.equal(quiz.result.correct, 18);
+  assert.equal(quiz.result.passed, true);
+  assert.deepEqual(new Set(quiz.result.misses.map(miss => miss.id)), new Set(missed));
+  quiz = await app.send(studentPath('1-1','start'), student, { mode: 'review' });
+  assert.equal(quiz.total, 2);
+  const reviewed = [];
+  for (let i = 0; i < 2; i++) {
+    reviewed.push(quiz.question.id);
+    quiz = (await submit(app, student, '1-1', quiz, right('1-1', quiz.question))).next;
+  }
+  assert.deepEqual(new Set(reviewed), new Set(missed));
+  quiz = await app.send(studentPath('1-2','start'), student, { mode: 'normal' });
+  const resume = (await submit(app, student, '1-2', quiz, right('1-2', quiz.question))).next;
+  await app.send('/api/logout', student, {});
+  await app.send(units[1], student, undefined, 401);
+  app = await start(catalog, stateFile);
+  const other = await logIn(app, 2);
+  assert.deepEqual((await app.send(units[1], other)).units.map(u => [u.score, u.misses, u.activeMode]),
+    [[null, 0, null], [null, 0, null]]);
+  await submit(app, other, '1-2', resume, resume.question.choices[0], 409);
+  student = await logIn(app, 1);
+  assert.deepEqual((await app.send(units[1], student)).units.map(u => [u.score, u.misses, u.activeMode]),
+    [[18, 0, null], [null, 0, 'normal']]);
+  assert.deepEqual(await app.send(studentPath('1-2','start'), student, { mode: 'normal' }), resume);
+  quiz = resume;
+  for (let i = 1; i < 20; i++) {
+    const answer = right('1-2', quiz.question);
+    const choice = i <= 3 ? quiz.question.choices.find(value => value !== answer) : answer;
+    quiz = (await submit(app, student, '1-2', quiz, choice)).next;
+  }
+  assert.equal(quiz.result.correct, 17);
+  assert.equal(quiz.result.passed, false);
 });

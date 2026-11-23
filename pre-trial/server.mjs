@@ -31,7 +31,6 @@ function requireRequest(condition, status, message) {
 }
 
 const digest = code => createHash('sha256').update(code).digest('hex');
-const credentialsError = 'この画面で使える利用コードを入力してください。';
 
 function accountIndex(accounts) {
   if (!Array.isArray(accounts)) throw new Error('アカウント設定は配列で指定してください。');
@@ -83,23 +82,66 @@ const teacherQuestion = q => ({
   choices: [q.meaning_ja, ...q.distractors_ja], answer: q.meaning_ja, explanation: q.explanation_ja,
 });
 
+function localAuth(accounts) {
+  const byCode = accountIndex(accounts);
+  const sessions = new Map();
+  return {
+    login(input) {
+      const actor = typeof input.code === 'string' && byCode.get(digest(input.code));
+      return actor?.role === input.role ? actor : null;
+    },
+    issue(actor) {
+      const now = Date.now();
+      for (const [key, value] of sessions) if (value.expires <= now) sessions.delete(key);
+      const token = randomBytes(32).toString('base64url');
+      sessions.set(token, { actor, expires: now + 4 * 60 * 60 * 1000 });
+      return token;
+    },
+    inspect(token) {
+      const entry = sessions.get(token);
+      if (!entry) return null;
+      if (entry.expires > Date.now()) return entry.actor;
+      sessions.delete(token);
+      return null;
+    },
+    revoke: token => sessions.delete(token),
+  };
+}
+
+function localRepository(store, commit) {
+  const current = () => edition(store.read(), commit);
+  return {
+    approvals: () => current().approvals,
+    approve(unitId, record) {
+      return store.update(state => (writableEdition(state, commit).approvals[unitId] ??= record));
+    },
+    progress(student, unitId) {
+      return studentUnit(current(), student, unitId);
+    },
+    editProgress(student, unitId, mutate) {
+      return store.update(state => mutate(writableStudentUnit(writableEdition(state, commit), student, unitId)));
+    },
+  };
+}
+
 export async function createTrialServer({ catalog, accounts, store, tls }) {
   if (process.env.NODE_ENV === 'production') throw new Error('試用サーバーは本番モードで起動できません。');
+  const handler = await createTrialHandler({ catalog, auth: localAuth(accounts), repository: localRepository(store, catalog.commit) });
+  return tls ? createSecureServer(tls, handler) : createServer(handler);
+}
 
-  const accountByCode = accountIndex(accounts);
-  const sessions = new Map();
+export async function createTrialHandler({ catalog, auth, repository }) {
   const { commit, units } = catalog;
+  const credentialsError = auth.skyline ? 'ログイン情報と利用権限を確認してください。' : 'この画面で使える利用コードを入力してください。';
   const staticFiles = new Map(await Promise.all([...assets].map(async ([url, [file, type]]) =>
-    [url, [await readFile(new URL('./web/' + file, import.meta.url)), type]]
+    [url, [await readFile(new URL('./web/' + file, import.meta.url), 'utf8'), type]]
   )));
-  const currentEdition = () => edition(store.read(), commit);
 
-  function session(token, role) {
-    const entry = sessions.get(token);
-    if (entry && entry.expires <= Date.now()) sessions.delete(token);
-    requireRequest(entry && entry.expires > Date.now(), 401, '利用コードを入力してください。');
-    requireRequest(!role || entry.actor.role === role, 403, 'この画面を利用する権限がありません。');
-    return entry.actor;
+  async function session(token, role) {
+    const actor = token && await auth.inspect(token);
+    requireRequest(actor, 401, 'ログインしてください。');
+    requireRequest(actor.role === role, 403, 'この画面を利用する権限がありません。');
+    return actor;
   }
 
   function unitById(id) {
@@ -108,8 +150,8 @@ export async function createTrialServer({ catalog, accounts, store, tls }) {
     return unit;
   }
 
-  function requireApproved(data, id) {
-    const approval = data.approvals[id];
+  async function requireApproved(id) {
+    const approval = (await repository.approvals())[id];
     requireRequest(approval?.commit === commit, 403, 'この単元は教員の承認待ちです。');
   }
 
@@ -119,42 +161,41 @@ export async function createTrialServer({ catalog, accounts, store, tls }) {
     if (method === 'GET' && staticFiles.has(pathname)) {
       const [data, type] = staticFiles.get(pathname);
       res.writeHead(200, { 'content-type': type + '; charset=utf-8', ...headers });
-      res.end(data);
+      res.end(auth.skyline && type === 'text/html'
+        ? data.replace('id="page-title"', 'id="page-title" data-auth="skyline"') : data);
       return;
     }
 
     if (method === 'POST' && pathname === '/api/login') {
-      const { role, code } = await body(req);
-      const actor = typeof code === 'string' && accountByCode.get(digest(code));
-      requireRequest(actor && actor.role === role, 401, credentialsError);
-      const now = Date.now();
-      for (const [key, value] of sessions) if (value.expires <= now) sessions.delete(key);
-      const token = randomBytes(32).toString('base64url');
-      sessions.set(token, { actor, expires: now + 4 * 60 * 60 * 1000 });
+      const input = await body(req);
+      requireRequest(['teacher', 'student'].includes(input.role), 400, 'ログイン先を確認してください。');
+      const actor = await auth.login(input);
+      requireRequest(actor && actor.role === input.role, 401, credentialsError);
+      const token = await auth.issue(actor);
       return json(res, { token, name: actor.name, commit });
     }
 
-    const token = req.headers.authorization?.match(/^Bearer ([A-Za-z0-9_-]+)$/)?.[1];
+    const token = req.headers.authorization?.match(/^Bearer ([A-Za-z0-9_-]{43})$/)?.[1];
     if (method === 'POST' && pathname === '/api/logout') {
-      sessions.delete(token);
+      if (token) await auth.revoke(token);
       return json(res, { ok: true });
     }
 
     if (method === 'GET' && pathname === '/api/teacher/units') {
-      session(token, 'teacher');
-      const data = currentEdition();
+      await session(token, 'teacher');
+      const approvals = await repository.approvals();
       return json(res, {
-        commit, units: [...units.values()].map(unit => ({ ...card(unit), approval: data.approvals[unit.id] ?? null })),
+        commit, units: [...units.values()].map(unit => ({ ...card(unit), approval: approvals[unit.id] ?? null })),
       });
     }
 
     const teacherRoute = pathname.match(/^\/api\/teacher\/units\/([^/]+)(\/approve)?$/);
     if (teacherRoute) {
-      const teacher = session(token, 'teacher');
+      const teacher = await session(token, 'teacher');
       const unit = unitById(teacherRoute[1]);
       if (method === 'GET' && !teacherRoute[2]) {
         return json(res, {
-          ...card(unit), commit, approval: currentEdition().approvals[unit.id] ?? null,
+          ...card(unit), commit, approval: (await repository.approvals())[unit.id] ?? null,
           blockers: unit.blockers, questions: unit.questions.map(teacherQuestion),
         });
       }
@@ -163,39 +204,34 @@ export async function createTrialServer({ catalog, accounts, store, tls }) {
         requireRequest(input.commit === commit, 409, '対象コミットが変わりました。画面を開き直してください。');
         requireRequest(input.reviewed === true, 400, '20問の確認を記録してください。');
         requireRequest(unit.blockers.length === 0, 409, '要確認フラグのある問題を解消してください。');
-        const approval = await store.update(state => {
-          const data = writableEdition(state, commit);
-          return data.approvals[unit.id] ??= { commit, by: teacher.name, byId: teacher.id, at: new Date().toISOString() };
+        const approval = await repository.approve(unit.id, {
+          commit, by: teacher.name, byId: teacher.id, at: new Date().toISOString(),
         });
         return json(res, { approval });
       }
     }
 
     if (method === 'GET' && pathname === '/api/student/units') {
-      const student = session(token, 'student');
-      const data = currentEdition();
-      return json(res, {
-        commit, units: [...units.values()].map(unit => {
-          const progress = studentUnit(data, student.id, unit.id);
-          return {
-            ...card(unit), available: data.approvals[unit.id]?.commit === commit,
-            passed: progress.passed, score: progress.score, misses: progress.misses.length,
-            activeMode: progress.attempt && !isFinished(progress.attempt) ? progress.attempt.mode : null,
-          };
-        }),
-      });
+      const student = await session(token, 'student');
+      const approvals = await repository.approvals();
+      const cards = await Promise.all([...units.values()].map(async unit => {
+        const progress = await repository.progress(student.id, unit.id);
+        return {
+          ...card(unit), available: approvals[unit.id]?.commit === commit,
+          passed: progress.passed, score: progress.score, misses: progress.misses.length,
+          activeMode: progress.attempt && !isFinished(progress.attempt) ? progress.attempt.mode : null,
+        };
+      }));
+      return json(res, { commit, units: cards });
     }
 
     const studentRoute = pathname.match(/^\/api\/student\/units\/([^/]+)\/(start|answer)$/);
     if (method === 'POST' && studentRoute) {
-      const student = session(token, 'student');
+      const student = await session(token, 'student');
       const unit = unitById(studentRoute[1]);
-      requireApproved(currentEdition(), unit.id);
+      await requireApproved(unit.id);
       const input = await body(req);
-      const response = await store.update(state => {
-        const data = writableEdition(state, commit);
-        requireApproved(data, unit.id);
-        const progress = writableStudentUnit(data, student.id, unit.id);
+      const response = await repository.editProgress(student.id, unit.id, progress => {
         if (studentRoute[2] === 'start') {
           requireRequest(['normal', 'review'].includes(input.mode), 400, '出題形式を確認してください。');
           if (progress.attempt && !isFinished(progress.attempt)) {
@@ -230,10 +266,9 @@ export async function createTrialServer({ catalog, accounts, store, tls }) {
     throw new RequestError(404, 'ページが見つかりません。');
   }
 
-  const handler = (req, res) => router(req, res).catch(error => {
+  return (req, res) => router(req, res).catch(error => {
     if (error instanceof RequestError) return json(res, { error: error.message }, error.status);
-    console.error(error.message);
+    console.error('Pre試用の要求を処理できませんでした。');
     return json(res, { error: '処理に失敗しました。時間をおいてやり直してください。' }, 500);
   });
-  return tls ? createSecureServer(tls, handler) : createServer(handler);
 }

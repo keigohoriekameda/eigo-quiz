@@ -46,11 +46,15 @@ export function writableEdition(state, commit) {
   return state.editions[commit] ??= { approvals: {}, students: {} };
 }
 
+export function emptyProgress() {
+  return { passed: false, score: null, misses: [], attempt: null };
+}
+
 export function studentUnit(currentEdition, student, unit) {
-  return currentEdition.students['student:' + student]?.[unit] ?? { passed: false, score: null, misses: [], attempt: null };
+  return currentEdition.students['student:' + student]?.[unit] ?? emptyProgress();
 }
 
 export function writableStudentUnit(currentEdition, student, unit) {
   const units = currentEdition.students['student:' + student] ??= {};
-  return units[unit] ??= { passed: false, score: null, misses: [], attempt: null };
+  return units[unit] ??= emptyProgress();
 }

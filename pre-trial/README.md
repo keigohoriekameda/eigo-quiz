@@ -1,57 +1,46 @@
 # Pre 教員承認・生徒試用
 
-このサーバーは開発ブランチを手元で実行します。GitのコミットからPre教材を読み込み、教員が承認した単元を同じコミットの生徒試用画面に提供します。教材JSONと既存のプレビューは従来どおりです。`NODE_ENV=production` では起動できません。
+通常の起動では Pre Lv.1 の最初の2単元（数、曜日・月・日付）を扱います。単元の20問を教員が確認・承認した後に、生徒がその単元を解けます。20問中18問以上で合格し、間違えた問題だけを復習できます。
 
-## Windowsで起動する
+## ローカル試用
 
-Git と Node.js 20 以上を用意します。`feature/vocab-2500-foundation` を取得し、作業ディレクトリをリポジトリのルートにします。教材コミット `3229a52335b0480a6dc2fc76f7c610cdbc57ca2f` が手元に無い場合は、浅いクローンを解除するなどしてそのコミットを取得してください。
+Node.js 22 以降と Git が必要です。開発ブランチを取得済みのリポジトリで、Windows PowerShell から実行します。
 
-リポジトリの外に `accounts.json` を作り、教員と生徒に別々のコードを発行します。コードは一人ずつ次のコマンドで生成し、同じ生徒には継続して同じIDを割り当てます。生徒名の欄には試用用の呼称を入れられます。
-
-```powershell
-node -e "console.log(require('node:crypto').randomBytes(18).toString('base64url'))"
-```
-
-```json
-[
-  { "id": "teacher-1", "name": "担当教員", "role": "teacher", "code": "教員用の生成結果" },
-  { "id": "student-1", "name": "試用01", "role": "student", "code": "生徒用の生成結果" }
-]
-```
-
-PowerShellで実際のファイルの絶対パスを指定して起動します。`PRE_TRIAL_STATE` には進捗と承認記録が保存されます。
-
-```powershell
-$env:PRE_TRIAL_COMMIT = '3229a52335b0480a6dc2fc76f7c610cdbc57ca2f'
-$env:PRE_TRIAL_ACCOUNTS = 'C:\PreTrial-Private\accounts.json'
-$env:PRE_TRIAL_STATE = 'C:\PreTrial-Private\state.json'
+~~~powershell
+git fetch origin feature/vocab-2500-foundation
+git switch feature/vocab-2500-foundation
+git merge --ff-only origin/feature/vocab-2500-foundation
+git log -1 --oneline
+$env:PRE_TRIAL_ACCOUNTS = 'C:\pre-pilot-private\accounts.json'
+$env:PRE_TRIAL_STATE = 'C:\pre-pilot-private\state.json'
+Remove-Item Env:PRE_TRIAL_COMMIT,Env:PRE_TRIAL_SCOPE -ErrorAction SilentlyContinue
 node pre-trial/start.mjs
-```
+~~~
 
-- Windowsでの教員承認は `http://127.0.0.1:4170/teacher` をChromeで開きます。
-- Windowsでの生徒試用は `http://127.0.0.1:4170/student` をChromeで開きます。
-- iPadでは、塾内で配信するHTTPSのホスト名で `/student` をSafariで開きます。直接配信する場合は `PRE_TRIAL_HOST` に校内の待ち受けアドレス、`PRE_TRIAL_TLS_CERT` と `PRE_TRIAL_TLS_KEY` に端末が信頼する証明書と鍵のパスを指定します。既存の校内HTTPSプロキシを使う場合は、上のループバック起動を使い、専用のホスト名から転送します。
+教材は起動時に Git の HEAD から読み込みます。PowerShell の fast-forward は開発ブランチのローカルコピーを更新する操作です。承認と進捗は教材コミット別なので、試用期間中は同じ版で運用してください。塾長が700問を確認する場合は `$env:PRE_TRIAL_SCOPE = 'all'` を指定できます。
 
-塾内の試用対象端末に配信先を限定し、同じ状態ファイルを使うサーバーは1プロセスで運用します。状態ファイルと利用コードは担当教員の管理下に置きます。
+アカウントファイルはリポジトリ外に作り、教員1人・生徒2人以上に個別のコードを発行できます。各アカウントの `code` には20〜128文字のランダムな英数字、ハイフン、アンダースコアを使います。PowerShell では `node -p "require('node:crypto').randomBytes(24).toString('base64url')"` でコードを1件生成できます。次の例の `code` は各自別々に生成して差し替えてください。
 
-## 承認と試用
+~~~json
+[
+  {"id":"teacher-a","name":"試用教員","role":"teacher","code":"REPLACE_WITH_RANDOM_VALUE_1"},
+  {"id":"student-a","name":"試用生徒A","role":"student","code":"REPLACE_WITH_RANDOM_VALUE_2"},
+  {"id":"student-b","name":"試用生徒B","role":"student","code":"REPLACE_WITH_RANDOM_VALUE_3"}
+]
+~~~
 
-1. 教員コードでログインし、教材コミットと単元を選びます。各単元で問題ID、見出し語、例文・語句、四択、正答と解説を20問分確認します。例文なしの直接出題も画面で区別できます。
-2. 確認欄にチェックして単元を承認します。教員ID・表示名・承認日時・コミットが単元に記録されます。別のコミットでは、その版の承認を行います。要確認フラグが残る単元は承認操作の対象外です。
-3. 生徒コードでログインし、承認済みの単元を選びます。通常練習では20問中18問の正解で合格です。誤答は復習に入り、復習で正答すると外れます。
-4. 進捗は生徒IDと教材コミットごとにサーバーの状態ファイルに保存されます。途中で再読み込みした場合は、同じ利用コードを入力し直して再開します。共用端末では終了時にログアウトし、利用者を交代します。利用コードやログイントークンはアプリのブラウザーストレージに保存しません。
+- [教員画面](http://127.0.0.1:4170/teacher) でログインし、単元を選びます。ID・見出し語・例文・四択・正答・解説を確認し、画面下部の確認欄にチェックを入れて承認します。
+- [生徒画面](http://127.0.0.1:4170/student) でログインし、承認した単元を開きます。ユニット1だけ承認すると、ユニット2は承認待ちです。18問正解・2問誤答で合格と誤答2問の復習を確認できます。
+- 別の単元の途中でログアウトし、別の生徒で同じ端末にログインして履歴の分離を確認します。元の生徒でログインし直すと「途中から再開」が表示されます。ブラウザの再読み込み後も、再ログインすれば続きから開けます。
+- ローカルの保存先は `PRE_TRIAL_STATE` です。同じ状態ファイルを使うサーバーは1プロセスで運用してください。このファイルとアカウントファイルは端末の権限で管理します。別端末へ配信する場合は `PRE_TRIAL_HOST` と、その端末から信頼される証明書の `PRE_TRIAL_TLS_CERT`・`PRE_TRIAL_TLS_KEY` が必要です。自宅やスマートフォンからの試用には下記の Web 版を使います。
 
-教員の単元承認は試用版に適用されます。教材の `review_status` を変更したり、本番への公開操作を行ったりするものではありません。
-
-## 検査
-
-直接出題のPre単語（`unit_type: word`、`prompt_type: meaning_4choice`）は、`context_en: ""` を使えます。例文中の意味を問う `meaning_in_context_4choice` と、語句全体の意味を問う `phrase_meaning_4choice` は空でない英文が必須です。品詞、四択の重複、意味グループ、未解決フラグの検査は維持します。
-
-```powershell
-node scripts/audit-pre.mjs
-node scripts/audit-pre-quality.mjs
-node scripts/validate-vocabulary.mjs data/pilot-reviewed.json
+~~~powershell
 node --test
-```
+node scripts/audit-pre.mjs
+node scripts/validate-vocabulary.mjs data/pilot-reviewed.json
+node scripts/audit-pre-quality.mjs
+~~~
 
-実機では教員承認と生徒試用の2画面を開き、承認前の出題制限、採点、誤答復習、再ログイン後の途中再開、生徒コードの切り替えを確認します。
+下書き700問は品質検査の対象です。正式承認用の検査は承認済みデータに対して実行します。試用画面の承認記録は保存先に記録され、教材JSONの承認状態とは別です。
+
+Web 版の準備は [Vercel Preview・Supabase 試用手順](./WEB-PREVIEW.md) を参照してください。

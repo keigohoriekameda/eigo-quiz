@@ -5,21 +5,31 @@ import { readyForEditorialApproval } from '../src/vocabulary-prompt.mjs';
 const titles = [["数（1～20）","曜日・月・日付","色・大きさ・気持ち","家族・学校","動物・食べ物"],["体の部分","動作・行動","時間・季節・天気","家・町・自然","スポーツ・音楽・趣味"],["日常の動詞","家事と生活","衣服と持ち物","食事と食材","教科と学用品"],["自然と地形","生き物と昆虫","乗り物と交通","国と文化","場所と施設"],["形容詞・性質","状態と感情","比較と数量","方向と位置","時間・頻度"],["学びとコミュニケーション","社会と仕事","暮らしとお金","身体と健康","デジタル生活"],["抽象名詞・考え","気持ちと人間関係","環境と地球","出来事と行動","入試につながる動詞"]];
 const promptTypes = new Set(['meaning_4choice', 'meaning_in_context_4choice', 'phrase_meaning_4choice']);
 
-export function loadCatalog(root, commit) {
-  if (typeof commit !== 'string' || !/^[0-9a-f]{40}$/.test(commit)) {
-    throw new Error('PRE_TRIAL_COMMIT に Git の完全なコミットSHAを指定してください。');
+export function readEdition(root, revision = 'HEAD') {
+  if (revision !== 'HEAD' && !/^[0-9a-f]{40}$/.test(revision)) {
+    throw new Error('教材の版には Git の完全なコミットSHAを指定してください。');
   }
   const git = args => execFileSync('git', ['--no-replace-objects', ...args], {
     cwd: root, encoding: 'utf8', windowsHide: true, stdio: ['ignore', 'pipe', 'pipe'],
   });
-  if (git(['rev-parse', '--verify', commit + '^{commit}']).trim() !== commit) {
-    throw new Error('指定されたGitコミットを確認できません。');
-  }
+  const commit = git(['rev-parse', '--verify', revision + '^{commit}']).trim();
+  const levels = Array.from({ length: 7 }, (_, i) =>
+    JSON.parse(git(['show', commit + ':data/pre-lv' + (i + 1) + '-draft.json'])));
+  return { commit, levels };
+}
 
+export function loadCatalog(root, revision) {
+  return makeCatalog(readEdition(root, revision));
+}
+
+export function makeCatalog({ commit, levels }) {
+  if (!/^[0-9a-f]{40}$/.test(commit) || !Array.isArray(levels) || levels.length !== 7) {
+    throw new Error('教材のコミットまたはレベル数が不正です。');
+  }
   const items = [];
   const units = new Map();
   for (let level = 1; level <= 7; level++) {
-    const rows = JSON.parse(git(['show', commit + ':data/pre-lv' + level + '-draft.json']));
+    const rows = levels[level - 1];
     if (!Array.isArray(rows) || rows.length !== 100) throw new Error('Pre Lv.' + level + ' の問題数が不正です。');
     for (const q of rows) {
       if (!q || !Array.isArray(q.distractors_ja)) throw new Error('Pre Lv.' + level + ' に無効な問題があります。');
@@ -53,4 +63,8 @@ export function loadCatalog(root, commit) {
     }).map(q => q.id);
   }
   return { commit, units };
+}
+
+export function pilotCatalog(catalog) {
+  return { ...catalog, units: new Map(['1-1', '1-2'].map(id => [id, catalog.units.get(id)])) };
 }

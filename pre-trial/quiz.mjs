@@ -56,8 +56,13 @@ export function quizView(unit, attempt) {
 export function completeAttempt(progress, attempt) {
   if (!isFinished(attempt)) return;
   const wrong = attempt.answers.filter(a => !a.correct).map(a => a.question);
+  const score = attempt.answers.length - wrong.length;
+  (progress.history ??= []).push({
+    attemptId: attempt.id, mode: attempt.mode, score, total: attempt.questions.length,
+    completedAt: new Date().toISOString(),
+  });
   if (attempt.mode === 'normal') {
-    progress.score = attempt.answers.length - wrong.length;
+    progress.score = score;
     progress.passed ||= progress.score >= 18;
     progress.misses = wrong;
   } else {
