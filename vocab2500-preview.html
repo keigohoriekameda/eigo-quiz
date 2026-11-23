@@ -1,0 +1,45 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>英単語2500マスター｜開発プレビュー</title><style>
+:root{font-family:system-ui,"Noto Sans JP",sans-serif;color-scheme:dark;background:#101827;color:#f3f6ff}
+*{box-sizing:border-box}body{margin:0}main{max-width:720px;margin:auto;padding:20px 16px 48px}h1{font-size:1.65rem;margin-bottom:5px}.muted{color:#b9c7df}.small{font-size:.88rem}.panel{background:#1d2b43;border:1px solid #375074;border-radius:16px;padding:20px;margin:16px 0}.tag{background:#294f91;padding:6px 10px;border-radius:18px;font-size:.8rem}.row{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}.buttons{display:grid;grid-template-columns:1fr 1fr;gap:10px}button,select{font:inherit;border-radius:12px;border:1px solid #5a7194;padding:14px;background:#233b60;color:#fff;cursor:pointer}button:hover{background:#355684}button:disabled{cursor:default;opacity:.72}button.correct{background:#166d53;border-color:#39ca97}button.wrong{background:#8b3650;border-color:#ef6483}.primary{background:#1765bd;border-color:#5d9dec}.full{width:100%;margin-top:14px}.bar{height:10px;background:#36445c;border-radius:12px;overflow:hidden}.fill{background:#6ac0b8;height:100%;width:0}.word{font-size:2.15rem;font-weight:750;margin:20px 0 4px}.example{font-size:.95rem;color:#d4e2f7;margin-bottom:20px}.hidden{display:none}.result{font-size:1.4rem;font-weight:750}.tiny{font-size:.8rem}.note{background:#332a35;border-left:4px solid #f5ad62;padding:12px;border-radius:8px}.choice-feedback{min-height:60px;padding:12px}.stage{display:grid;grid-template-columns:1fr 1fr;gap:10px}.stage div{background:#26364e;border-radius:9px;padding:12px}.stage strong{display:block}.stage span{color:#9bb7da;font-size:.82rem}@media(max-width:440px){.buttons,.stage{grid-template-columns:1fr}}
+</style></head><body><main>
+<header><div class="row"><h1>英単語2500マスター</h1><span class="tag">開発プレビュー</span></div><p class="muted">神奈川県公立高校入試対策｜小学生Pre 700 ＋ 中学・受験 1800</p></header>
+<div class="note small">現在は出題品質を確認するための<strong>校正用20問</strong>を収録しています。正式な2500語、共通ID、ガチャ、Discord通知は未接続です。ここでの合格は正式なレベルクリアやガチャ付与にはなりません。</div>
+<section class="panel" id="home"><h2>学習ステージ</h2><div class="stage"><div><strong>Pre 小学生編</strong><span>700語・7段階（準備中）</span></div><div><strong>Main 中学・受験編</strong><span>1800語・10段階（準備中）</span></div></div>
+<h3>先行テスト：入試重要動詞20問</h3><p id="dataStatus" class="small muted">問題データを読み込み中…</p><p class="muted small">4択の誤答は各問題に個別設定。20問中18問以上で90％合格です。順番は毎回変わります。</p><div class="row"><span id="last"></span><span class="small muted">保存先：この端末のブラウザのみ</span></div><button class="primary full" id="start" disabled>20問に挑戦</button><button class="full" id="review" disabled>前回の間違いを復習</button></section>
+<section class="panel hidden" id="quiz"><div class="row"><span id="counter">1/20</span><span id="correctCount">0問正解</span></div><div class="bar"><div id="fill" class="fill"></div></div><div class="word" id="word"></div><div class="example" id="example"></div><p>最も適切な日本語の意味を選んでください。</p><div id="choices" class="buttons"></div><div id="feedback" class="choice-feedback" aria-live="polite"></div><button id="next" class="primary full hidden">次の問題へ</button></section>
+<section class="panel hidden" id="results"><h2>学習結果</h2><p id="outcome" class="result"></p><p id="summary"></p><div id="misses"></div><button id="retry" class="primary full">もう一度挑戦</button><button id="tohome" class="full">ホームに戻る</button></section>
+</main><script>
+let BANK=[];
+async function loadBank(){
+  const response=await fetch('./data/pilot-reviewed.json',{cache:'no-store'});
+  if(!response.ok)throw new Error('問題データを取得できません ('+response.status+')');
+  const items=await response.json();
+  if(!Array.isArray(items)||items.length===0)throw new Error('問題データが空です');
+  const ids=new Set();
+  for(const item of items){
+    if(!item.id||ids.has(item.id)||item.review_status!=='approved'||!Array.isArray(item.distractors_ja)||item.distractors_ja.length!==3)
+      throw new Error('問題データの整合性エラー: '+(item.id||'IDなし'));
+    const options=[item.meaning_ja,...item.distractors_ja].map(v=>String(v).trim());
+    if(new Set(options).size!==4||options.some(v=>!v))throw new Error('選択肢エラー: '+item.id);
+    ids.add(item.id);
+  }
+  BANK=items.map(item=>({id:item.id,word:item.lemma,answer:item.meaning_ja,wrong:item.distractors_ja,example:item.context_en,explanation:item.explanation_ja}));
+  el('start').disabled=false;
+  el('dataStatus').textContent='校正用 '+BANK.length+'問を読み込みました';
+  showHome();
+}
+const KEY="eigo2500-pilot-v2";let items=[],index=0,correct=0,missed=[],locked=false,reviewMode=false;
+const el=id=>document.getElementById(id);
+function shuffle(input){let a=[...input];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function screen(id){for(let x of ["home","quiz","results"])el(x).classList.toggle("hidden",x!==id);}
+function load(){try{return JSON.parse(localStorage.getItem(KEY))||null}catch{return null}}
+function showHome(){screen("home");const p=load();el("last").textContent=p?"前回 "+p.score+"/"+p.total+"問正解":"まだ学習履歴はありません";el("review").disabled=!(p&&p.missed.length);}
+function start(mode=false){const p=load();reviewMode=mode;items=shuffle(mode&&p?BANK.filter(x=>p.missed.includes(x.id)):BANK);if(!items.length)return showHome();index=0;correct=0;missed=[];screen("quiz");render();}
+function render(){if(index>=items.length)return finish();locked=false;const q=items[index];el("counter").textContent=(index+1)+"/"+items.length;el("correctCount").textContent=correct+"問正解";el("fill").style.width=(100*index/items.length)+"%";el("word").textContent=q.word;el("example").textContent=q.example;el("feedback").textContent="";el("next").classList.add("hidden");el("choices").innerHTML="";
+const opts=shuffle([q.answer,...q.wrong]);for(const o of opts){const b=document.createElement("button");b.textContent=o;b.onclick=()=>answer(o,b,q);el("choices").append(b);}}
+function answer(o,b,q){if(locked)return;locked=true;const ok=o===q.answer;if(ok)correct++;else missed.push(q.id);for(const c of el("choices").children){c.disabled=true;if(c.textContent===q.answer)c.classList.add("correct");}if(!ok)b.classList.add("wrong");el("correctCount").textContent=correct+"問正解";el("feedback").textContent=(ok?"正解。":"正解は「"+q.answer+"」。")+q.explanation;el("next").classList.remove("hidden");el("next").textContent=index+1===items.length?"結果を見る":"次の問題へ";}
+function finish(){screen("results");const score=Math.round(100*correct/items.length);const pass=score>=90;el("outcome").textContent=score+"％ — "+(pass?"90％達成":"再挑戦");el("summary").textContent=correct+"/"+items.length+"問正解。"+(reviewMode?"復習テストです。":"20問中18問以上で合格。")+" ※正式なレベル進捗・ガチャには反映されません。";
+el("misses").replaceChildren();if(missed.length){const t=document.createElement("h3");t.textContent="間違えた単語";el("misses").append(t);for(const id of missed){const q=BANK.find(x=>x.id===id),p=document.createElement("p");p.textContent=q.word+" — "+q.answer;el("misses").append(p);}}
+try{localStorage.setItem(KEY,JSON.stringify({score:correct,total:items.length,missed,date:new Date().toISOString()}));}catch{}}
+el("start").onclick=()=>start(false);el("review").onclick=()=>start(true);el("next").onclick=()=>{index++;render()};el("retry").onclick=()=>start(reviewMode);el("tohome").onclick=showHome;loadBank().catch(error=>{el("dataStatus").textContent="読み込みに失敗しました: "+error.message+"。GitHub Pages等のWebサーバーから開いてください。";el("start").disabled=true;});
+</script></body></html>

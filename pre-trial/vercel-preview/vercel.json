@@ -1,0 +1,32 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "functions": {
+    "api/pre.mjs": {
+      "includeFiles": "pre-trial/web/**"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/teacher",
+      "destination": "/api/pre?__pre_path=/teacher"
+    },
+    {
+      "source": "/student",
+      "destination": "/api/pre?__pre_path=/student"
+    },
+    {
+      "source": "/trial.js",
+      "destination": "/api/pre?__pre_path=/trial.js"
+    },
+    {
+      "source": "/trial.css",
+      "destination": "/api/pre?__pre_path=/trial.css"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "/api/pre?__pre_path=/api/:path*"
+    }
+  ],
+  "outputDirectory": "public"
+}

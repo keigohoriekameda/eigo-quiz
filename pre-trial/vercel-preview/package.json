@@ -1,0 +1,8 @@
+{
+  "name": "eigo-pre-pilot-preview",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  }
+}
